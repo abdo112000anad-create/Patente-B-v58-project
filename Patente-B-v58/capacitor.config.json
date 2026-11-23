@@ -1,0 +1,12 @@
+{
+  "appId": "it.patenteb.sideload.v29",
+  "appName": "Patente B بالعربي",
+  "webDir": "dist",
+  "android": { "allowMixedContent": false },
+  "plugins": {
+    "FirebaseAuthentication": {
+      "skipNativeAuth": true,
+      "providers": ["google.com"]
+    }
+  }
+}

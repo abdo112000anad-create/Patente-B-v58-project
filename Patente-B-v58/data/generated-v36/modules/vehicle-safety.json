@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "module_id": "vehicle-safety",
+  "lessons": [
+    {
+      "lesson_order": 1,
+      "heading_it": "Controlli del veicolo: efficienza e sicurezza",
+      "heading_ar": "فحص المركبة: الكفاءة والسلامة",
+      "body_it": "Durante la circolazione, i veicoli a motore e i loro rimorchi devono essere mantenuti in condizioni di efficienza tali da garantire la sicurezza e contenere rumore e inquinamento entro i limiti previsti. Le prescrizioni tecniche riguardano, tra l’altro, pneumatici, frenatura, segnalazione visiva e illuminazione (articolo 79, commi 1 e 2). Prima di partire è utile controllare che questi elementi non presentino danni evidenti e funzionino. La tenuta di strada dipende anche dalle condizioni del veicolo e della strada; il conducente deve regolare la velocità considerando veicolo, carico, strada e traffico (articolo 141). Il controllo pratico aiuta a riconoscere problemi, ma non sostituisce manutenzione e verifiche previste.",
+      "body_ar": "أثناء السير، يجب إبقاء المركبات ذات المحرك ومقطوراتها في حالة كفاءة تضمن السلامة وتحصر الضوضاء والتلوث ضمن الحدود المقررة. وتشمل المتطلبات الفنية، من بين أمور أخرى، الإطارات والفرملة والإشارات المرئية والإضاءة (المادة 79، الفقرتان 1 و2). قبل الانطلاق، من المفيد التأكد من عدم وجود تلف ظاهر وأن هذه العناصر تعمل. ويتأثر تماسك المركبة بحالتها وبحالة الطريق؛ وعلى السائق ضبط السرعة مع مراعاة المركبة والحمولة والطريق وحركة المرور (المادة 141). يساعد الفحص العملي على ملاحظة المشكلات، لكنه لا يحل محل الصيانة والفحوص المطلوبة.",
+      "core_it": "Controlla pneumatici, freni e luci: sono elementi rilevanti per la sicurezza.\nAdatta la velocità alle condizioni del veicolo, del carico e della strada.",
+      "core_ar": "افحص الإطارات والفرامل والأضواء؛ فهي عناصر مؤثرة في السلامة.\nاضبط السرعة وفق حالة المركبة والحمولة والطريق.",
+      "key_points": [
+        {"title_it":"Efficienza","title_ar":"الكفاءة","it":"In marcia, veicoli a motore e rimorchi devono mantenere efficienza idonea alla sicurezza.","ar":"أثناء السير، يجب أن تحافظ المركبات ذات المحرك ومقطوراتها على كفاءة مناسبة للسلامة."},
+        {"title_it":"Pneumatici","title_ar":"الإطارات","it":"Gli pneumatici rientrano tra gli elementi con requisiti tecnici specifici.","ar":"تخضع الإطارات لمتطلبات فنية محددة."},
+        {"title_it":"Freni","title_ar":"الفرامل","it":"La frenatura è indicata tra gli aspetti regolati per la sicurezza del veicolo.","ar":"الفرملة من الجوانب المنظمة لضمان سلامة المركبة."},
+        {"title_it":"Velocità","title_ar":"السرعة","it":"La velocità va adeguata anche alle condizioni del veicolo e della strada.","ar":"ينبغي ملاءمة السرعة أيضًا لحالة المركبة والطريق."}
+      ],
+      "trap_words": [],
+      "numbers": [{"value":"79","context_it":"Articolo del Codice della strada sui requisiti di efficienza dei veicoli a motore e dei rimorchi in circolazione.","context_ar":"مادة قانون الطرق بشأن كفاءة المركبات ذات المحرك ومقطوراتها أثناء السير."}],
+      "common_mistakes": [
+        {"mistake_it":"Pensare che basti avviare il motore per considerare il veicolo efficiente.","mistake_ar":"الاعتقاد أن تشغيل المحرك وحده يعني أن المركبة كفؤة للسير.","why_it":"La sicurezza dipende anche da pneumatici, frenatura e dispositivi luminosi e visivi.","why_ar":"تعتمد السلامة أيضًا على الإطارات والفرامل وأجهزة الإضاءة والإشارات المرئية."},
+        {"mistake_it":"Ritenere che la velocità dipenda soltanto dal limite indicato.","mistake_ar":"الاعتقاد أن السرعة تتحدد فقط بالحد المكتوب على الإشارة.","why_it":"Il conducente deve considerare anche condizioni del veicolo, carico, strada e traffico.","why_ar":"على السائق مراعاة حالة المركبة والحمولة والطريق والمرور أيضًا."}
+      ],
+      "quick_check": [
+        {"statement_it":"L’articolo 79 riguarda anche l’efficienza dei rimorchi durante la circolazione.","statement_ar":"تتناول المادة 79 كفاءة المقطورات أثناء السير أيضًا.","answer":"VERO","explanation_it":"Il comma 1 menziona i veicoli a motore e i loro rimorchi.","explanation_ar":"تذكر الفقرة الأولى المركبات ذات المحرك ومقطوراتها."},
+        {"statement_it":"I requisiti tecnici possono riguardare pneumatici e frenatura.","statement_ar":"قد تشمل المتطلبات الفنية الإطارات والفرملة.","answer":"VERO","explanation_it":"Sono due degli ambiti espressamente indicati nell’articolo 79, comma 2.","explanation_ar":"هذان مجالان مذكوران صراحةً في المادة 79، الفقرة 2."},
+        {"statement_it":"La velocità si sceglie senza considerare le condizioni del veicolo.","statement_ar":"تُختار السرعة من دون مراعاة حالة المركبة.","answer":"FALSO","explanation_it":"L’articolo 141 richiede di tener conto delle condizioni del veicolo.","explanation_ar":"توجب المادة 141 مراعاة حالة المركبة عند ضبط السرعة."}
+      ],
+      "example_it":"Prima di un viaggio, una conducente nota un pneumatico danneggiato e una luce che non funziona: verifica il problema prima di partire.",
+      "example_ar":"قبل رحلة، تلاحظ سائقة إطارًا تالفًا وضوءًا لا يعمل؛ فتتحقق من المشكلة قبل الانطلاق.",
+      "pitfall_it":"La capacità del motore di avviarsi non dimostra che tutti gli elementi importanti per la sicurezza siano efficienti.",
+      "pitfall_ar":"قدرة المحرك على العمل لا تثبت أن جميع العناصر المهمة للسلامة سليمة.",
+      "legal_sources":[{"article":"79","title_it":"Efficienza dei veicoli a motore e loro rimorchi in circolazione","title_ar":"كفاءة المركبات ذات المحرك ومقطوراتها أثناء السير","url":"https://aci.gov.it/codice-della-strada/art-79/"},{"article":"141","title_it":"Velocità","title_ar":"السرعة","url":"https://aci.gov.it/codice-della-strada/art-141/"}]
+    },
+    {
+      "lesson_order": 2,
+      "heading_it":"Cinture e sistemi di ritenuta: proteggere gli occupanti",
+      "heading_ar":"الأحزمة وأنظمة التثبيت: حماية الركاب",
+      "body_it":"L’obbligo di usare le cinture previsto dall’articolo 172, comma 1, riguarda i veicoli L6e con carrozzeria chiusa e quelli delle categorie M1, N1, N2 e N3 muniti di cinture; per M2 e M3 valgono disposizioni specifiche per gli occupanti seduti. I bambini di statura inferiore a 1,50 m devono essere assicurati con un sistema omologato e adeguato al loro peso. Il conducente deve verificare l’efficienza dei dispositivi. Un seggiolino rivolto all’indietro non va collocato davanti a un airbag frontale attivo, salvo disattivazione adeguata. Le esenzioni elencate dalla legge riguardano categorie e situazioni determinate: non costituiscono un’esenzione generale. Per il casco si applicano le disposizioni specifiche dell’articolo 171.",
+      "body_ar":"ينطبق واجب استخدام الأحزمة الوارد في المادة 172، الفقرة 1، على مركبات L6e ذات الهيكل المغلق، وعلى مركبات الفئات M1 وN1 وN2 وN3 المجهزة بأحزمة؛ أما M2 وM3 فتسري على ركابها الجالسين أحكام محددة. يجب تثبيت الأطفال الذين يقل طولهم عن 1.50 متر بنظام معتمد ومناسب لوزنهم. وعلى السائق التحقق من كفاءة أجهزة التثبيت. لا يوضع مقعد الطفل المواجه للخلف أمام وسادة هوائية أمامية فعالة، إلا إذا عُطلت بطريقة مناسبة. وتتعلق الإعفاءات التي يسردها القانون بفئات وحالات محددة، وليست إعفاءً عامًا. أما الخوذة فتخضع للأحكام الخاصة في المادة 171.",
+      "core_it":"Bambini sotto 1,50 m: sistema omologato adatto al peso.\nLe deroghe sono specifiche; non presumere un’esenzione generale.",
+      "core_ar":"الأطفال دون 1.50 متر: نظام تثبيت معتمد وملائم للوزن.\nالإعفاءات محددة؛ فلا تفترض وجود إعفاء عام.",
+      "key_points":[
+        {"title_it":"Ambito","title_ar":"النطاق","it":"L’obbligo di cintura del comma 1 si applica alle categorie indicate e munite di cinture.","ar":"ينطبق واجب الحزام في الفقرة 1 على الفئات المحددة والمجهزة بأحزمة."},
+        {"title_it":"Bambini","title_ar":"الأطفال","it":"Sotto 1,50 m occorre un sistema omologato adeguato al peso.","ar":"لمن يقل طولهم عن 1.50 متر يلزم نظام معتمد مناسب للوزن."},
+        {"title_it":"Efficienza","title_ar":"الكفاءة","it":"Il conducente verifica che i dispositivi di ritenuta restino efficienti.","ar":"يتحقق السائق من استمرار كفاءة أجهزة التثبيت."},
+        {"title_it":"Airbag","title_ar":"الوسادة الهوائية","it":"Il seggiolino rivolto all’indietro non va davanti a un airbag frontale attivo.","ar":"لا يوضع المقعد المواجه للخلف أمام وسادة هوائية أمامية فعالة."}
+      ],
+      "trap_words":[],
+      "numbers":[{"value":"1,50 m","context_it":"Soglia di statura sotto la quale è richiesto un sistema di ritenuta per bambini adeguato al peso.","context_ar":"حد الطول الذي يلزم دونه نظام تثبيت للأطفال مناسب للوزن."}],
+      "common_mistakes":[
+        {"mistake_it":"Estendere il comma 1 indistintamente a ogni veicolo.","mistake_ar":"تعميم الفقرة الأولى على كل المركبات بلا تمييز.","why_it":"Il testo delimita l’obbligo alle categorie e alle condizioni indicate.","why_ar":"يحدد النص الواجب بالفئات والشروط المذكورة."},
+        {"mistake_it":"Pensare che ogni eccezione sia valida per qualunque conducente o passeggero.","mistake_ar":"الاعتقاد أن كل استثناء يسري على أي سائق أو راكب.","why_it":"Le esenzioni del comma 8 sono riferite a casi e categorie specifici.","why_ar":"تتعلق إعفاءات الفقرة 8 بحالات وفئات بعينها."}
+      ],
+      "quick_check":[
+        {"statement_it":"Per i bambini sotto 1,50 m è previsto un sistema omologato adeguato al peso.","statement_ar":"يُشترط للأطفال دون 1.50 متر نظام معتمد مناسب للوزن.","answer":"VERO","explanation_it":"È quanto dispone l’articolo 172, comma 1.","explanation_ar":"هذا ما تقرره المادة 172، الفقرة 1."},
+        {"statement_it":"Il comma 1 impone la cintura in modo indistinto su qualunque veicolo.","statement_ar":"تفرض الفقرة 1 الحزام بلا تمييز في جميع المركبات.","answer":"FALSO","explanation_it":"La disposizione enumera categorie e condizioni specifiche.","explanation_ar":"تعدد الأحكام فئات وشروطًا محددة."},
+        {"statement_it":"Un seggiolino rivolto all’indietro può essere posto davanti a un airbag frontale attivo senza condizioni.","statement_ar":"يمكن وضع مقعد مواجه للخلف أمام وسادة هوائية أمامية فعالة بلا شروط.","answer":"FALSO","explanation_it":"L’articolo 172, comma 5, lo vieta salvo disattivazione adeguata dell’airbag.","explanation_ar":"تحظر المادة 172، الفقرة 5، ذلك إلا عند تعطيل الوسادة بطريقة مناسبة."}
+      ],
+      "example_it":"In auto viaggia un bambino alto meno di 1,50 m: si usa un sistema omologato adatto al suo peso e si controlla il corretto posizionamento rispetto all’airbag.",
+      "example_ar":"يسافر طفل يقل طوله عن 1.50 متر في سيارة؛ فيُستخدم نظام معتمد مناسب لوزنه، ويُتحقق من موضعه بالنسبة إلى الوسادة الهوائية.",
+      "pitfall_it":"Non trasformare le categorie previste per le cinture o le esenzioni specifiche in regole universali.",
+      "pitfall_ar":"لا تحوّل فئات الأحزمة أو الإعفاءات المحددة إلى قواعد عامة تشمل الجميع.",
+      "legal_sources":[{"article":"172","title_it":"Uso delle cinture di sicurezza e dei sistemi di ritenuta e sicurezza per bambini","title_ar":"استخدام أحزمة الأمان وأنظمة تثبيت الأطفال وسلامتهم","url":"https://aci.gov.it/codice-della-strada/art-172/"},{"article":"171","title_it":"Uso del casco protettivo","title_ar":"استخدام الخوذة الواقية","url":"https://aci.gov.it/codice-della-strada/art-171/"}]
+    },
+    {
+      "lesson_order":3,
+      "heading_it":"Luci del veicolo: scegliere e usare quelle corrette",
+      "heading_ar":"أضواء المركبة: اختيار الإضاءة المناسبة واستخدامها",
+      "body_it":"Durante la marcia, da mezz’ora dopo il tramonto a mezz’ora prima dell’alba, e anche di giorno in galleria o con nebbia, neve, forte pioggia o altra scarsa visibilità, si usano le luci indicate dall’articolo 153, comma 1; sui veicoli a motore si aggiungono gli anabbaglianti. Fuori dai centri abitati gli abbaglianti si possono usare quando l’illuminazione esterna manca o è insufficiente. Si passa agli anabbaglianti quando si incrocia un veicolo, quando si segue un altro veicolo a breve distanza o quando si rischia di abbagliare altri utenti. Nel seguire a breve distanza è ammesso il lampeggio breve e intermittente per segnalare l’intenzione di sorpassare. La luce posteriore per nebbia, se presente, è richiesta nei casi specificati dal comma 8.",
+      "body_ar":"أثناء السير، من نصف ساعة بعد الغروب إلى نصف ساعة قبل الشروق، وكذلك نهارًا داخل الأنفاق أو عند الضباب أو الثلج أو المطر الغزير أو ضعف الرؤية، تُستخدم الأضواء المحددة في المادة 153، الفقرة 1؛ وتضاف الأضواء المنخفضة للمركبات ذات المحرك. خارج المناطق المأهولة يمكن استخدام الضوء العالي عندما تكون الإضاءة الخارجية غائبة أو غير كافية. ويجب التحويل إلى الضوء المنخفض عند مقابلة مركبة، أو متابعة مركبة أخرى عن قرب، أو احتمال إبهار مستخدمي الطريق. وعند متابعة مركبة عن قرب، يُسمح بوميض قصير ومتقطع للتنبيه إلى نية التجاوز. ويُطلب تشغيل الضوء الخلفي للضباب، إن وُجد، في الحالات المحددة بالفقرة 8.",
+      "core_it":"Usa le luci richieste da orario e visibilità.\nAbbassa gli abbaglianti quando puoi abbagliare altri utenti.",
+      "core_ar":"استخدم الأضواء التي يقتضيها الوقت ومدى الرؤية.\nحوّل من العالي إلى المنخفض لتجنب إبهار الآخرين.",
+      "key_points":[
+        {"title_it":"Buio e visibilità","title_ar":"الظلام والرؤية","it":"L’articolo 153 indica condizioni notturne e di scarsa visibilità in cui usare le luci prescritte.","ar":"تحدد المادة 153 ظروف الليل وضعف الرؤية التي يلزم فيها استعمال الأضواء المقررة."},
+        {"title_it":"Abbaglianti","title_ar":"الضوء العالي","it":"Fuori dai centri abitati sono ammessi se l’illuminazione esterna manca o è insufficiente.","ar":"يُسمح به خارج المناطق المأهولة إذا غابت الإضاءة الخارجية أو لم تكفِ."},
+        {"title_it":"Incontro","title_ar":"مقابلة مركبة","it":"Passa agli anabbaglianti per non abbagliare chi proviene in senso opposto.","ar":"حوّل إلى الضوء المنخفض كي لا تبهر القادم من الاتجاه المقابل."},
+        {"title_it":"Seguito ravvicinato","title_ar":"المتابعة عن قرب","it":"Il lampeggio breve per segnalare l’intenzione di sorpassare è l’eccezione specifica.","ar":"الوميض القصير للتنبيه إلى نية التجاوز هو الاستثناء المحدد."}
+      ],
+      "trap_words":[{"term_it":"a breve distanza","meaning_ar":"على مسافة قصيرة","why_it":"La regola sul passaggio agli anabbaglianti parla di seguire un veicolo a breve distanza; non è un generico invito a lampeggiare.","why_ar":"تتعلق قاعدة التحويل إلى الضوء المنخفض بمتابعة مركبة عن قرب؛ وليست إذنًا عامًا باستخدام الوميض.","example_it":"Se segue da vicino un veicolo, usa gli anabbaglianti; il lampeggio breve è ammesso per segnalare l’intenzione di sorpassare.","example_ar":"إذا تابع مركبة عن قرب، يستخدم الضوء المنخفض؛ ويُسمح بوميض قصير للتنبيه إلى نية التجاوز."}],
+      "numbers":[],
+      "common_mistakes":[
+        {"mistake_it":"Credere che gli abbaglianti siano sempre adatti fuori città.","mistake_ar":"الاعتقاد أن الضوء العالي مناسب دائمًا خارج المدينة.","why_it":"Il loro uso dipende dall’illuminazione e non deve abbagliare altri utenti.","why_ar":"يعتمد استعماله على الإضاءة، ويجب ألا يبهر مستخدمي الطريق الآخرين."},
+        {"mistake_it":"Trattare il lampeggio durante il seguito ravvicinato come uso libero e prolungato.","mistake_ar":"اعتبار الوميض أثناء المتابعة عن قرب استعمالًا حرًا ومتواصلًا.","why_it":"La disposizione menziona solo un uso breve e intermittente per segnalare l’intenzione di sorpassare.","why_ar":"لا تذكر الأحكام إلا استعمالًا قصيرًا ومتقطعًا للتنبيه إلى نية التجاوز."}
+      ],
+      "quick_check":[
+        {"statement_it":"Fuori dai centri abitati si possono usare gli abbaglianti se l’illuminazione esterna manca o è insufficiente.","statement_ar":"يمكن استخدام الضوء العالي خارج المناطق المأهولة إذا غابت الإضاءة الخارجية أو لم تكفِ.","answer":"VERO","explanation_it":"È la condizione indicata dall’articolo 153, comma 1.","explanation_ar":"هذا هو الشرط الوارد في المادة 153، الفقرة 1."},
+        {"statement_it":"Seguendo un veicolo a breve distanza, si possono mantenere gli abbaglianti senza eccezioni.","statement_ar":"عند متابعة مركبة عن قرب يمكن إبقاء الضوء العالي بلا استثناءات.","answer":"FALSO","explanation_it":"Si passa agli anabbaglianti; è ammesso soltanto il breve lampeggio previsto per segnalare l’intenzione di sorpassare.","explanation_ar":"يجب التحويل إلى الضوء المنخفض؛ ولا يُسمح إلا بالوميض القصير المحدد للتنبيه إلى نية التجاوز."},
+        {"statement_it":"La luce posteriore per nebbia è richiesta nei casi previsti se il veicolo ne è dotato.","statement_ar":"يُطلب الضوء الخلفي للضباب في الحالات المحددة إذا كانت المركبة مجهزة به.","answer":"VERO","explanation_it":"Lo stabilisce l’articolo 153, comma 8.","explanation_ar":"تقرر ذلك المادة 153، الفقرة 8."}
+      ],
+      "example_it":"Di notte incontra un’auto mentre usa gli abbaglianti: passa agli anabbaglianti per consentire all’altro conducente di proseguire senza abbagliamento.",
+      "example_ar":"ليلًا، تقابل سيارةً وهي تستخدم الضوء العالي؛ فتحوّل إلى الضوء المنخفض كي يتمكن السائق الآخر من مواصلة السير دون إبهار.",
+      "pitfall_it":"Non descrivere l’uso degli abbaglianti come sempre consentito: contano le condizioni e il rischio di abbagliare.",
+      "pitfall_ar":"لا تصف استعمال الضوء العالي بأنه مسموح دائمًا؛ فالحكم يعتمد على الظروف وخطر إبهار الآخرين.",
+      "legal_sources":[{"article":"153","title_it":"Uso dei dispositivi di segnalazione visiva e di illuminazione","title_ar":"استخدام أجهزة الإشارات المرئية والإضاءة","url":"https://aci.gov.it/codice-della-strada/art-153/"},{"article":"152","title_it":"Segnalazione visiva e illuminazione dei veicoli","title_ar":"الإشارات المرئية وإضاءة المركبات","url":"https://aci.gov.it/codice-della-strada/art-152/"}]
+    },
+    {
+      "lesson_order":4,
+      "heading_it":"Clacson, luci di emergenza e spie del cruscotto",
+      "heading_ar":"البوق وأضواء التحذير ومؤشرات لوحة القيادة",
+      "body_it":"Il segnale acustico va usato con la massima moderazione e soltanto per motivi di sicurezza; la segnalazione deve essere il più breve possibile. Fuori dai centri abitati è consentito quando le condizioni ambientali o del traffico lo richiedono per evitare un incidente. Nei centri abitati è consentito soltanto in caso di pericolo effettivo e immediato (articolo 156). L’articolo 153, comma 7, richiede le luci di emergenza in situazioni specifiche, tra cui un ingombro della carreggiata, un rallentamento improvviso o una fermata di emergenza pericolosa. Le spie del cruscotto non hanno qui un significato unico verificato per ogni modello: occorre consultare il manuale del proprio veicolo e non indovinare il messaggio.",
+      "body_ar":"يُستخدم التنبيه الصوتي بأقصى قدر من الاعتدال ولأسباب تتعلق بالسلامة فقط، وينبغي أن يكون أقصر ما يمكن. خارج المناطق المأهولة يُسمح به عندما تستدعي الظروف البيئية أو حركة المرور ذلك لتجنب حادث. وداخل المناطق المأهولة لا يُسمح به إلا عند وجود خطر فعلي وفوري (المادة 156). وتوجب المادة 153، الفقرة 7، تشغيل أضواء التحذير في حالات محددة، منها وجود عائق يشغل مسار السير، أو تباطؤ مفاجئ، أو توقف اضطراري يشكل خطرًا. ولا يوجد هنا معنى موحد متحقق منه لمؤشرات لوحة القيادة يصلح لكل طراز؛ لذا ينبغي الرجوع إلى دليل المركبة وعدم تخمين معنى الرمز.",
+      "core_it":"Il clacson serve alla sicurezza, non a esprimere impazienza.\nPer interpretare una spia, consulta il manuale del veicolo.",
+      "core_ar":"البوق للسلامة، وليس للتعبير عن الاستعجال أو الضيق.\nلفهم أي مؤشر، راجع دليل المركبة.",
+      "key_points":[
+        {"title_it":"Uso moderato","title_ar":"استعمال معتدل","it":"Il segnale acustico va usato con moderazione e per sicurezza.","ar":"يُستخدم التنبيه الصوتي باعتدال ولأغراض السلامة."},
+        {"title_it":"Centri abitati","title_ar":"المناطق المأهولة","it":"Qui il clacson è consentito solo per pericolo effettivo e immediato.","ar":"يُسمح بالبوق فيها عند خطر فعلي وفوري فقط."},
+        {"title_it":"Emergenza","title_ar":"الطوارئ","it":"Le luci di emergenza sono previste nelle situazioni specifiche dell’articolo 153.","ar":"تُستخدم أضواء التحذير في الحالات المحددة بالمادة 153."},
+        {"title_it":"Spie","title_ar":"المؤشرات","it":"Il significato operativo dipende dal veicolo: controlla il relativo manuale.","ar":"يعتمد معنى المؤشر العملي على المركبة؛ راجع دليلها."}
+      ],
+      "trap_words":[],
+      "numbers":[],
+      "common_mistakes":[
+        {"mistake_it":"Suonare per salutare o manifestare impazienza in un centro abitato.","mistake_ar":"إطلاق البوق للتحية أو لإظهار الضيق داخل منطقة مأهولة.","why_it":"In centro abitato il segnale acustico è consentito solo in caso di pericolo effettivo e immediato.","why_ar":"داخل المنطقة المأهولة لا يُسمح بالتنبيه الصوتي إلا عند خطر فعلي وفوري."},
+        {"mistake_it":"Attribuire a ogni spia lo stesso significato su tutti i veicoli.","mistake_ar":"افتراض أن كل مؤشر له المعنى نفسه في جميع المركبات.","why_it":"I simboli e le indicazioni dipendono dal modello; va consultato il manuale.","why_ar":"تختلف الرموز والدلالات باختلاف الطراز؛ لذا يجب الرجوع إلى الدليل."}
+      ],
+      "quick_check":[
+        {"statement_it":"Nei centri abitati il clacson è consentito solo in caso di pericolo effettivo e immediato.","statement_ar":"داخل المناطق المأهولة لا يُسمح بالبوق إلا عند خطر فعلي وفوري.","answer":"VERO","explanation_it":"È la condizione prevista dall’articolo 156, comma 3.","explanation_ar":"هذا هو الشرط الوارد في المادة 156، الفقرة 3."},
+        {"statement_it":"Il segnale acustico può essere prolungato per esprimere impazienza.","statement_ar":"يمكن إطالة التنبيه الصوتي للتعبير عن الضيق.","answer":"FALSO","explanation_it":"La legge richiede moderazione e una segnalazione il più breve possibile.","explanation_ar":"يشترط القانون الاعتدال وأن يكون التنبيه أقصر ما يمكن."},
+        {"statement_it":"Il significato di ogni spia è identico per tutti i modelli di veicolo.","statement_ar":"معنى كل مؤشر واحد في جميع طرازات المركبات.","answer":"FALSO","explanation_it":"Non è stato verificato un repertorio universale; si consulta il manuale del veicolo.","explanation_ar":"لم يُتحقق من وجود مرجع شامل موحد؛ ويُرجع إلى دليل المركبة."}
+      ],
+      "example_it":"In città un conducente suona soltanto per avvertire di un pericolo immediato; se compare una spia che non riconosce, consulta il manuale del veicolo.",
+      "example_ar":"في المدينة، يستخدم سائق البوق فقط للتنبيه إلى خطر فوري؛ وإذا ظهر مؤشر لا يعرفه، يرجع إلى دليل المركبة.",
+      "pitfall_it":"Non usare il clacson per impazienza e non dedurre il significato di una spia senza verificare il manuale specifico.",
+      "pitfall_ar":"لا تستخدم البوق بسبب الضيق، ولا تستنتج معنى المؤشر دون مراجعة دليل الطراز المحدد.",
+      "legal_sources":[{"article":"156","title_it":"Uso dei dispositivi di segnalazione acustica","title_ar":"استخدام أجهزة التنبيه الصوتي","url":"https://aci.gov.it/codice-della-strada/art-156/"},{"article":"153","title_it":"Uso dei dispositivi di segnalazione visiva e di illuminazione","title_ar":"استخدام أجهزة الإشارات المرئية والإضاءة","url":"https://aci.gov.it/codice-della-strada/art-153/"}]
+    }
+  ]
+}

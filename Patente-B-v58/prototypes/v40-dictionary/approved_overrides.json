@@ -1,0 +1,18 @@
+{
+  "_about": "Only explicit project-approved entries belong here. These entries override machine drafts.",
+  "corsia": {
+    "arabic": "حارة سير",
+    "source": "user-approved project terminology",
+    "note": "مصطلح مروري؛ لا يُترجم إلى ممر."
+  },
+  "carreggiata": {
+    "arabic": "الطريق المخصص للمركبات",
+    "source": "user-approved project terminology",
+    "note": "مصطلح مروري محدد للسياق."
+  },
+  "prudenza": {
+    "arabic": "حذر",
+    "source": "user-approved project terminology",
+    "note": "المقصود في سياق السلامة: الحذر والانتباه للمخاطر."
+  }
+}

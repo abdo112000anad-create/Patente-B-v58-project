@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "module_id": "priority-intersections",
+  "lessons": [
+    {
+      "lesson_order": 1,
+      "heading_it": "Chi arriva da destra? La precedenza negli incroci non regolati",
+      "heading_ar": "مين جاي من اليمين؟ الأولوية عند التقاطع غير المنظَّم",
+      "body_it": "Avvicinandoti a un'intersezione, procedi con prudenza e osserva le traiettorie degli altri veicoli. Se due veicoli stanno per impegnare l'incrocio, o i loro percorsi stanno comunque per intersecarsi, in assenza di una segnalazione diversa devi dare precedenza a quello che proviene da destra. La regola riguarda quindi anche traiettorie che si incrociano fuori dal punto centrale dell'intersezione. «Controlla prima a destra» è un promemoria didattico, non una formula assoluta: verifica sempre segnali, semafori, agenti e condizioni del traffico. Anche quando hai precedenza, avvicinarti con prudenza aiuta a evitare incidenti.",
+      "body_ar": "وأنت بتقرب من تقاطع، خليك حذر وراقب مسارات المركبات التانية. لو مركبتين داخلين على التقاطع، أو مساراتهم هتتقاطع بأي شكل، لازم تدي الأولوية للمركبة اللي جاية من يمينك، إلا لو فيه إشارة مختلفة. القاعدة ممكن تنطبق كمان لما المسارات تتقاطع خارج نقطة وسط التقاطع نفسها. عبارة «بصّ على اليمين الأول» وسيلة تعليمية للتذكّر، مش قاعدة مطلقة؛ افحص الإشارات وإشارة المرور وتوجيهات الشرطي وحالة الحركة. وحتى لو الأولوية ليك، قرّب بحذر عشان تتجنب الحوادث.",
+      "core_it": "Senza indicazioni diverse, precedenza al veicolo da destra quando le traiettorie si intersecano.\nAvvicinati con prudenza e controlla sempre le prescrizioni presenti.",
+      "core_ar": "لو مفيش توجيه مختلف، الأولوية للمركبة القادمة من اليمين عند تقاطع المسارات.\nقرّب بحذر وافحص التعليمات والإشارات الموجودة.",
+      "key_points": [
+        {"title_it":"Regola generale","title_ar":"القاعدة العامة","it":"Quando i percorsi di due veicoli stanno per intersecarsi, in assenza di diversa segnalazione si dà precedenza a chi proviene da destra.","ar":"لما مساري مركبتين يكونوا هيتقاطعوا، ومن غير إشارة مختلفة، تدي الأولوية للي جاي من اليمين."},
+        {"title_it":"Prudenza","title_ar":"الحذر","it":"Il conducente deve usare prudenza nell'avvicinarsi all'intersezione.","ar":"السائق لازم يقرب من التقاطع بحذر."},
+        {"title_it":"Traiettorie","title_ar":"المسارات","it":"La regola riguarda anche percorsi che si intersecano, non soltanto veicoli già al centro dell'incrocio.","ar":"القاعدة تشمل المسارات اللي هتتقاطع، مش بس العربيات الموجودة بالفعل في وسط التقاطع."},
+        {"title_it":"Promemoria","title_ar":"وسيلة تذكّر","it":"Guardare prima a destra è un aiuto didattico; non sostituisce il controllo dei segnali e delle altre condizioni.","ar":"البص لليمين الأول وسيلة تعليمية؛ ما يغنيش عن فحص الإشارات وباقي الظروف."}
+      ],
+      "trap_words": [
+        {"term_it":"salvo diversa segnalazione","meaning_ar":"إلا لو فيه إشارة مختلفة","why_it":"Indica che la regola della destra non prevale su una prescrizione diversa applicabile.","why_ar":"معناها إن قاعدة اليمين ما تتقدّمش على تعليمات مختلفة واجبة التطبيق.","example_it":"La precedenza a destra vale salvo diversa segnalazione.","example_ar":"أولوية اليمين تسري إلا لو فيه إشارة مختلفة."}
+      ],
+      "numbers": [
+        {"value":"145(1–2)","context_it":"Riferimento ai commi sulla prudenza all'intersezione e sulla precedenza a destra.","context_ar":"إحالة للفقرتين الخاصتين بالحذر عند التقاطع وأولوية القادم من اليمين."}
+      ],
+      "common_mistakes": [
+        {"mistake_it":"Pensare che la strada più larga dia automaticamente precedenza.","mistake_ar":"الاعتقاد إن الطريق الأوسع بيدي أولوية تلقائيًا.","why_it":"La larghezza, da sola, non sostituisce le segnalazioni né la regola applicabile.","why_ar":"عرض الطريق لوحده ما بيحلش محل الإشارات ولا القاعدة المنطبقة."},
+        {"mistake_it":"Applicare la regola della destra senza controllare eventuali segnali o indicazioni dell'agente.","mistake_ar":"تطبيق قاعدة اليمين من غير فحص الإشارات أو توجيهات الشرطي.","why_it":"Una diversa prescrizione può modificare l'ordine di passaggio.","why_ar":"تعليمات مختلفة ممكن تغيّر ترتيب المرور."}
+      ],
+      "quick_check": [
+        {"statement_it":"In assenza di diversa segnalazione, si dà precedenza al veicolo proveniente da destra quando le traiettorie stanno per intersecarsi.","statement_ar":"لو مفيش إشارة مختلفة، تدي الأولوية للمركبة الجاية من اليمين لما المسارات تكون هتتقاطع.","answer":"VERO","explanation_it":"È la regola indicata dall'articolo 145, comma 2.","explanation_ar":"دي القاعدة الواردة في المادة 145، الفقرة 2."},
+        {"statement_it":"La regola della destra vale soltanto quando entrambi i veicoli sono già al centro dell'incrocio.","statement_ar":"قاعدة اليمين ما تسريش غير لما المركبتين يكونوا بالفعل في وسط التقاطع.","answer":"FALSO","explanation_it":"La norma considera i veicoli che stanno per impegnare l'intersezione e le traiettorie che stanno per intersecarsi.","explanation_ar":"النص يشمل المركبات اللي على وشك دخول التقاطع والمسارات اللي على وشك التقاطع."},
+        {"statement_it":"Anche chi ha precedenza deve avvicinarsi all'intersezione con prudenza.","statement_ar":"حتى اللي له أولوية لازم يقرب من التقاطع بحذر.","answer":"VERO","explanation_it":"L'articolo 145 richiede prudenza nell'avvicinarsi all'intersezione.","explanation_ar":"المادة 145 بتطلب الحذر عند الاقتراب من التقاطع."}
+      ],
+      "example_it":"A un incrocio senza segnali, un'auto si avvicina da destra e il suo percorso incrocia il tuo: attendi che passi, poi procedi con prudenza.",
+      "example_ar":"عند تقاطع من غير إشارات، عربية جاية من يمينك ومسارها هيتقاطع معاك: استنى تعدّي، وبعدها اتحرك بحذر.",
+      "pitfall_it":"Non dedurre la precedenza dalla larghezza della strada o dalla fretta degli altri; verifica le prescrizioni e le traiettorie.",
+      "pitfall_ar":"ما تستنتجش الأولوية من عرض الطريق أو استعجال غيرك؛ افحص التعليمات ومسارات الحركة.",
+      "legal_sources": [
+        {"article":"Art. 145, commi 1–2","title_it":"ACI — Precedenza","title_ar":"ACI — أولوية المرور","url":"https://aci.gov.it/codice-della-strada/art-145/"},
+        {"article":"Art. 145, testo vigente","title_it":"Normattiva — Codice della strada","title_ar":"Normattiva — قانون الطرق","url":"https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art145!vig="}
+      ]
+    },
+    {
+      "lesson_order": 2,
+      "heading_it": "Agenti, semafori e segnali: quale indicazione seguire",
+      "heading_ar": "الشرطي وإشارة المرور واللافتات: أنهي توجيه نتبع؟",
+      "body_it": "Per capire chi passa per primo, considera le prescrizioni effettivamente presenti. Le indicazioni degli agenti devono essere seguite senza indugio e prevalgono sulle altre prescrizioni della segnaletica e sulle norme di circolazione. Tra i segnali, le prescrizioni luminose prevalgono su quelle verticali e orizzontali, con la specifica eccezione del giallo lampeggiante che segnala pericolo; il segnale verticale prevale sulla segnaletica orizzontale. I segnali di precedenza sono una sottocategoria dei segnali di prescrizione. Se nessuna prescrizione modifica la situazione, si applica la regola generale della precedenza a destra. Questa gerarchia non elimina il dovere di prudenza.",
+      "body_ar": "عشان تعرف مين يعدّي الأول، راجع التعليمات الموجودة فعلًا. لازم تتبع توجيهات شرطي المرور فورًا، وهي بتتقدّم على باقي تعليمات اللافتات وقواعد السير. وبين الإشارات، تعليمات الإشارات الضوئية بتتقدّم على الإشارات العمودية والأرضية، مع استثناء محدد: الأصفر الوامض اللي بيحذّر من خطر؛ واللافتة العمودية بتتقدّم على العلامة الأرضية. إشارات الأولوية فئة فرعية من إشارات التنظيم. لو مفيش تعليمات تغيّر الموقف، تطبّق قاعدة أولوية القادم من اليمين. ترتيب التعليمات ده ما بيلغيش واجب الحذر.",
+      "core_it": "Le indicazioni dell'agente prevalgono; tra i segnali valgono le priorità previste dalla legge.\nSenza prescrizioni diverse, torna la regola generale della precedenza a destra.",
+      "core_ar": "توجيهات الشرطي لها الأولوية؛ وبين الإشارات نتبع ترتيب الأولوية المقرر قانونًا.\nلو مفيش تعليمات مختلفة، نرجع لقاعدة أولوية اليمين العامة.",
+      "key_points": [
+        {"title_it":"Agente","title_ar":"شرطي المرور","it":"Le sue segnalazioni vanno seguite senza indugio e prevalgono sulle altre prescrizioni.","ar":"لازم تتبع إشاراته فورًا، وهي بتتقدّم على باقي التعليمات."},
+        {"title_it":"Segnali luminosi","title_ar":"الإشارات الضوئية","it":"Le prescrizioni luminose prevalgono su quelle verticali e orizzontali, salvo la specifica eccezione del giallo lampeggiante di pericolo.","ar":"تعليمات الإشارة الضوئية تتقدّم على العمودية والأرضية، مع الاستثناء المحدد للأصفر الوامض التحذيري."},
+        {"title_it":"Segnali verticali","title_ar":"اللافتات العمودية","it":"Prevalgono sulla segnaletica orizzontale nel rapporto previsto dall'articolo 38.","ar":"تتقدّم على العلامات الأرضية وفق الترتيب الوارد في المادة 38."},
+        {"title_it":"Categoria","title_ar":"التصنيف","it":"I segnali di precedenza appartengono alla categoria dei segnali di prescrizione.","ar":"إشارات الأولوية تنتمي لفئة إشارات التنظيم."}
+      ],
+      "trap_words": [
+        {"term_it":"sottocategoria","meaning_ar":"فئة فرعية","why_it":"Evita di presentare i segnali di precedenza come categoria autonoma distinta dai segnali di prescrizione.","why_ar":"بتمنع عرض إشارات الأولوية كفئة مستقلة عن إشارات التنظيم.","example_it":"I segnali di precedenza sono una sottocategoria dei segnali di prescrizione.","example_ar":"إشارات الأولوية فئة فرعية من إشارات التنظيم."}
+      ],
+      "numbers": [
+        {"value":"38(2)","context_it":"Riferimento al rapporto di priorità tra segnalazioni e prescrizioni stradali.","context_ar":"إحالة لترتيب الأولوية بين توجيهات المرور والإشارات."}
+      ],
+      "common_mistakes": [
+        {"mistake_it":"Seguire il semaforo ignorando un'indicazione dell'agente.","mistake_ar":"اتباع إشارة المرور وتجاهل توجيه الشرطي.","why_it":"Le indicazioni dell'agente prevalgono sulle altre prescrizioni.","why_ar":"توجيهات الشرطي بتتقدّم على باقي التعليمات."},
+        {"mistake_it":"Descrivere i segnali di precedenza come una categoria indipendente dai segnali di prescrizione.","mistake_ar":"وصف إشارات الأولوية كفئة مستقلة عن إشارات التنظيم.","why_it":"L'articolo 39 colloca i segnali di precedenza tra le sottocategorie dei segnali di prescrizione.","why_ar":"المادة 39 بتصنف إشارات الأولوية كفئة فرعية من إشارات التنظيم."}
+      ],
+      "quick_check": [
+        {"statement_it":"Le indicazioni dell'agente prevalgono sulle altre prescrizioni della segnaletica e sulle norme di circolazione.","statement_ar":"توجيهات الشرطي تتقدّم على باقي تعليمات اللافتات وقواعد السير.","answer":"VERO","explanation_it":"È quanto stabilisce l'articolo 43, comma 2.","explanation_ar":"ده ما تقرره المادة 43، الفقرة 2."},
+        {"statement_it":"I segnali di precedenza sono una categoria autonoma, separata dai segnali di prescrizione.","statement_ar":"إشارات الأولوية فئة مستقلة ومنفصلة عن إشارات التنظيم.","answer":"FALSO","explanation_it":"L'articolo 39 li elenca come sottocategoria dei segnali di prescrizione.","explanation_ar":"المادة 39 بتدرجها كفئة فرعية من إشارات التنظيم."},
+        {"statement_it":"L'articolo 38 prevede che il segnale verticale prevalga sulla segnaletica orizzontale.","statement_ar":"المادة 38 بتقرر إن اللافتة العمودية تتقدّم على العلامة الأرضية.","answer":"VERO","explanation_it":"È il rapporto di priorità previsto dal comma 2.","explanation_ar":"ده ترتيب الأولوية الوارد في الفقرة 2."}
+      ],
+      "example_it":"A un incrocio il semaforo funziona e un agente ti dà un'indicazione: segui l'agente; in assenza di sue indicazioni, considera il semaforo secondo le prescrizioni applicabili.",
+      "example_ar":"عند تقاطع الإشارة شغالة وشرطي المرور بيوجهك: اتبع الشرطي؛ ولو مفيش توجيه منه، اتبع إشارة المرور حسب التعليمات المنطبقة.",
+      "pitfall_it":"Non applicare la regola della destra ignorando un agente o una prescrizione segnaletica in vigore.",
+      "pitfall_ar":"ما تطبقش قاعدة اليمين وتتجاهل شرطي المرور أو تعليمات إشارة سارية.",
+      "legal_sources": [
+        {"article":"Art. 38, comma 2","title_it":"ACI — Segnaletica stradale","title_ar":"ACI — إشارات الطريق","url":"https://aci.gov.it/codice-della-strada/art-38/"},
+        {"article":"Art. 39, comma 1, lettera B","title_it":"ACI — Segnali verticali","title_ar":"ACI — الإشارات العمودية","url":"https://aci.gov.it/codice-della-strada/art-39/"},
+        {"article":"Art. 43, commi 1–2","title_it":"ACI — Segnalazioni degli agenti del traffico","title_ar":"ACI — إشارات شرطي المرور","url":"https://aci.gov.it/codice-della-strada/art-43/"}
+      ]
+    },
+    {
+      "lesson_order": 3,
+      "heading_it": "Dare precedenza o fermarsi? Capire i due segnali",
+      "heading_ar": "أدي الأولوية ولا أقف؟ افهم الفرق بين الإشارتين",
+      "body_it": "Il segnale Dare precedenza richiede di lasciar passare i veicoli che hanno precedenza; da solo non impone sempre un arresto completo se puoi proseguire senza ostacolarli. Il segnale Fermarsi e dare precedenza, comunemente chiamato STOP, richiede invece di fermarsi alla linea di arresto indicata e poi dare precedenza prima di entrare. La distinzione riguarda questi due segnali, non tutte le situazioni previste dalla legge. L'articolo 145 contempla anche specifici casi in cui occorre arrestarsi e dare precedenza, per esempio a determinate uscite su strada. Avvicinati con prudenza e non confondere l'obbligo di cedere il passaggio con quello di fermarti.",
+      "body_ar": "إشارة «أعطِ الأولوية» معناها تسيب المركبات اللي لها أولوية تعدّي؛ والإشارة وحدها مش دايمًا بتلزمك بوقوف كامل لو تقدر تكمل من غير ما تعطلهم. أما إشارة «قف وأعطِ الأولوية»، المعروفة باسم STOP، فبتطلب منك الوقوف عند خط التوقف المشار إليه، وبعدها تدي الأولوية قبل الدخول. المقارنة هنا بين الإشارتين دول، مش بين كل الحالات اللي القانون بيتناولها. المادة 145 بتحدد كمان حالات معينة لازم فيها تقف وتدي الأولوية، زي بعض المخارج إلى الطريق. قرّب بحذر وما تخلطش بين واجب ترك المرور وواجب الوقوف.",
+      "core_it": "Dare precedenza e fermarsi sono obblighi distinti; lo STOP richiede l'arresto.\nIl confronto non esclude gli altri casi specifici di arresto e precedenza previsti dalla legge.",
+      "core_ar": "إعطاء الأولوية والوقوف واجبان مختلفان؛ إشارة STOP بتلزمك بالوقوف.\nالمقارنة ما بتنفيش وجود حالات تانية محددة للوقوف والأولوية في القانون.",
+      "key_points": [
+        {"title_it":"Dare precedenza","title_ar":"إعطاء الأولوية","it":"Lascia passare chi ha precedenza; il segnale, da solo, non comporta sempre un arresto completo.","ar":"سيب أصحاب الأولوية يعدّوا؛ الإشارة لوحدها مش معناها دايمًا وقوف كامل."},
+        {"title_it":"STOP","title_ar":"إشارة قف","it":"Fermati alla linea di arresto indicata e poi dai precedenza prima di entrare.","ar":"قف عند خط التوقف المشار إليه، وبعدها أدي الأولوية قبل الدخول."},
+        {"title_it":"Non generalizzare","title_ar":"ما تعممش","it":"La differenza tra i due segnali non esaurisce tutti gli obblighi di arresto previsti dall'articolo 145.","ar":"الفرق بين الإشارتين ما بيغطيش كل واجبات الوقوف المذكورة في المادة 145."},
+        {"title_it":"Prudenza","title_ar":"الحذر","it":"Avvicinati in modo prudente e valuta chi ha precedenza prima di immetterti.","ar":"قرّب بحذر وحدد مين له الأولوية قبل ما تدخل."}
+      ],
+      "trap_words": [
+        {"term_it":"non impone sempre","meaning_ar":"مش بتفرض دايمًا","why_it":"La frase è limitata al segnale Dare precedenza preso da solo; non cancella gli altri obblighi legali di arresto.","why_ar":"العبارة مقصورة على إشارة إعطاء الأولوية وحدها؛ وما بتلغيّش واجبات الوقوف القانونية التانية.","example_it":"Il segnale Dare precedenza non impone sempre, da solo, un arresto completo.","example_ar":"إشارة إعطاء الأولوية وحدها مش بتفرض دايمًا وقوف كامل."}
+      ],
+      "numbers": [
+        {"value":"145(5–6, 8)","context_it":"Il comma 5 tratta l'arresto alla linea quando prescritto con segnale; i commi 6 e 8 prevedono altri casi specifici di arresto e precedenza.","context_ar":"الفقرة 5 تتناول الوقوف عند الخط لما يكون مطلوبًا بإشارة؛ والفقرتان 6 و8 تذكران حالات محددة أخرى للوقوف وإعطاء الأولوية."}
+      ],
+      "common_mistakes": [
+        {"mistake_it":"Pensare che Dare precedenza significhi sempre fermarsi completamente.","mistake_ar":"الاعتقاد إن إشارة إعطاء الأولوية معناها الوقوف الكامل في كل مرة.","why_it":"La prescrizione è cedere il passaggio; l'arresto completo non è automatico per il solo segnale.","why_ar":"المطلوب هو ترك المرور؛ الوقوف الكامل مش تلقائي بسبب الإشارة وحدها."},
+        {"mistake_it":"Dire che lo STOP è l'unico caso in cui la legge richiede di arrestarsi.","mistake_ar":"القول إن STOP هي الحالة الوحيدة اللي القانون بيلزم فيها بالوقوف.","why_it":"L'articolo 145, commi 6 e 8, contempla anche altri specifici obblighi di arresto e precedenza.","why_ar":"المادة 145، الفقرتان 6 و8، بتذكر كمان واجبات محددة تانية للوقوف وإعطاء الأولوية."}
+      ],
+      "quick_check": [
+        {"statement_it":"Il segnale Dare precedenza impone sempre un arresto completo anche quando non ostacoli nessuno.","statement_ar":"إشارة إعطاء الأولوية بتفرض الوقوف الكامل دايمًا حتى لو مش هتعطل حد.","answer":"FALSO","explanation_it":"Il segnale, da solo, richiede di cedere il passaggio ma non sempre un arresto completo.","explanation_ar":"الإشارة وحدها بتطلب ترك المرور، لكن مش دايمًا وقوف كامل."},
+        {"statement_it":"Il segnale STOP richiede di fermarsi e poi dare precedenza prima di entrare.","statement_ar":"إشارة STOP بتطلب الوقوف وبعدها إعطاء الأولوية قبل الدخول.","answer":"VERO","explanation_it":"È la distinzione didattica tra il segnale di arresto e quello di Dare precedenza.","explanation_ar":"ده الفرق التعليمي بين إشارة الوقوف وإشارة إعطاء الأولوية."},
+        {"statement_it":"La legge prevede specifici casi di arresto e precedenza anche oltre al confronto con lo STOP.","statement_ar":"القانون بيحدد حالات معينة للوقوف وإعطاء الأولوية غير المقارنة مع STOP.","answer":"VERO","explanation_it":"L'articolo 145, commi 6 e 8, ne contempla altre situazioni specifiche.","explanation_ar":"المادة 145، الفقرتان 6 و8، بتذكر حالات محددة تانية."}
+      ],
+      "example_it":"Davanti al segnale Dare precedenza rallenti e lasci passare chi ha diritto; davanti allo STOP ti arresti alla linea indicata e poi procedi solo dopo aver dato precedenza.",
+      "example_ar":"قدام إشارة إعطاء الأولوية تهدي وتسيب أصحاب الحق يعدّوا؛ وقدام STOP تقف عند الخط المشار إليه، وبعدها تتحرك بعد ما تدي الأولوية.",
+      "pitfall_it":"Nel confronto tra i due segnali, non suggerire che l'obbligo di arresto esista soltanto con lo STOP: la legge prevede anche altri casi specifici.",
+      "pitfall_ar":"في المقارنة بين الإشارتين، ما توحيش إن الوقوف الإلزامي بيكون مع STOP بس؛ القانون بيحدد حالات معينة تانية.",
+      "legal_sources": [
+        {"article":"Art. 145, commi 5–6 e 8","title_it":"ACI — Precedenza","title_ar":"ACI — أولوية المرور","url":"https://aci.gov.it/codice-della-strada/art-145/"},
+        {"article":"D.P.R. 495/1992, artt. 105–107 (riferimento; testo dettagliato non verificato nella pagina aperta)","title_it":"Gazzetta Ufficiale — Regolamento di esecuzione del Codice della strada","title_ar":"الجريدة الرسمية — اللائحة التنفيذية لقانون الطرق","url":"https://www.gazzettaufficiale.it/eli/id/1992/12/28/092G0531/sg"}
+      ]
+    },
+    {
+      "lesson_order": 4,
+      "heading_it": "Binari, uscite e incroci da non bloccare",
+      "heading_ar": "السكك والمخارج والتقاطعات اللي ما ينفعش تسدّها",
+      "body_it": "In prossimità di binari ferroviari o tranviari, dai precedenza ai veicoli su rotaia, salvo una segnalazione diversa. Uscendo su strada da un luogo non aperto al passaggio pubblico, devi fermarti e dare precedenza a chi circola sulla strada; l'articolo 145 prevede un obbligo analogo agli sbocchi di sentieri, tratturi, mulattiere e piste ciclabili. Non impegnare un'intersezione se non puoi proseguire e liberare in breve tempo l'area, lasciando passare i veicoli provenienti da altre direzioni. La legge contiene inoltre disposizioni specifiche per i ciclisti in particolari corsie e zone: applicale nel loro ambito, senza trasformarle in una regola generale diversa.",
+      "body_ar": "بالقرب من قضبان القطار أو الترام، ادي الأولوية للمركبات اللي ماشية على القضبان، إلا لو فيه إشارة مختلفة. لما تطلع على الطريق من مكان مش مفتوح لمرور الجمهور، لازم تقف وتدي الأولوية للي ماشي على الطريق؛ والمادة 145 بتقرر واجبًا مشابهًا عند مخارج الممرات والدروب والمسالك الجبلية ومسارات الدراجات. ما تدخلش التقاطع لو مش هتقدر تكمل وتفضّي منطقة الحركة بسرعة، عشان تسمح للمركبات الجاية من الاتجاهات التانية تعدّي. القانون كمان فيه أحكام محددة للدراجات في مسارات ومناطق معينة؛ طبّقها في نطاقها، من غير ما تحوّلها لقاعدة عامة مختلفة.",
+      "core_it": "In casi specifici la legge richiede di fermarsi e dare precedenza.\nNon entrare nell'intersezione se non puoi liberarla in breve tempo.",
+      "core_ar": "في حالات محددة القانون بيطلب الوقوف وإعطاء الأولوية.\nما تدخلش التقاطع لو مش هتقدر تفضّيه بسرعة.",
+      "key_points": [
+        {"title_it":"Veicoli su rotaia","title_ar":"مركبات على قضبان","it":"Dai precedenza ai veicoli ferroviari e tranviari, salvo diversa segnalazione.","ar":"ادي الأولوية لمركبات القطار والترام، إلا لو فيه إشارة مختلفة."},
+        {"title_it":"Uscita da luogo privato","title_ar":"الخروج من مكان غير مفتوح للجمهور","it":"Arrestati e dai precedenza quando ti immetti da un luogo non soggetto a pubblico passaggio.","ar":"قف وادي الأولوية لما تطلع من مكان مش مفتوح لمرور الجمهور."},
+        {"title_it":"Altri sbocchi indicati","title_ar":"مخارج أخرى محددة","it":"La legge prevede l'obbligo anche agli sbocchi di sentieri, tratturi, mulattiere e piste ciclabili.","ar":"القانون بيقرر الواجب كمان عند مخارج الممرات والدروب والمسالك الجبلية ومسارات الدراجات."},
+        {"title_it":"Non bloccare l'incrocio","title_ar":"ما تسدّش التقاطع","it":"Non impegnarlo se non puoi proseguire e liberare l'area in breve tempo.","ar":"ما تدخلش التقاطع لو مش هتقدر تكمل وتفضّي المنطقة بسرعة."},
+        {"title_it":"Disposizioni per i ciclisti","title_ar":"أحكام الدراجات","it":"Le disposizioni specifiche per alcune corsie e zone ciclabili si applicano nel loro ambito.","ar":"الأحكام الخاصة ببعض مسارات ومناطق الدراجات تسري في نطاقها المحدد."}
+      ],
+      "trap_words": [
+        {"term_it":"in breve tempo","meaning_ar":"في وقت قصير","why_it":"Descrive la condizione legale per non bloccare l'area di manovra; non significa entrare e sperare di liberarla più tardi.","why_ar":"بتوصف الشرط القانوني لتجنب سد منطقة الحركة؛ مش معناها تدخل وتأمل تفضّيها بعدين.","example_it":"Non impegnare l'incrocio se non puoi liberarlo in breve tempo.","example_ar":"ما تدخلش التقاطع لو مش هتقدر تفضّيه في وقت قصير."}
+      ],
+      "numbers": [
+        {"value":"145(3–8; 4-bis–4-ter)","context_it":"Commi su veicoli su rotaia, specifici sbocchi, divieto di bloccare l'intersezione e disposizioni per ciclisti.","context_ar":"فقرات عن المركبات على القضبان ومخارج محددة ومنع سد التقاطع وأحكام الدراجات."}
+      ],
+      "common_mistakes": [
+        {"mistake_it":"Entrare nell'incrocio anche quando la coda impedisce di liberarlo rapidamente.","mistake_ar":"دخول التقاطع حتى لو الزحام هيمنعك تفضّيه بسرعة.","why_it":"La legge vieta di impegnare l'intersezione quando non puoi proseguire e sgomberare in breve tempo l'area.","why_ar":"القانون بيمنع دخول التقاطع لما ما تقدرش تكمل وتفضّي منطقة الحركة بسرعة."},
+        {"mistake_it":"Trasformare una regola specifica per alcune corsie ciclabili in un obbligo generale identico in ogni situazione.","mistake_ar":"تحويل حكم خاص ببعض مسارات الدراجات لواجب عام واحد في كل الحالات.","why_it":"Le disposizioni sui ciclisti hanno un ambito specifico da rispettare senza ampliarlo.","why_ar":"أحكام الدراجات ليها نطاق محدد لازم يتراعى من غير توسيعه."}
+      ],
+      "quick_check": [
+        {"statement_it":"In un attraversamento ferroviario o tranviario, si dà precedenza ai veicoli su rotaia salvo diversa segnalazione.","statement_ar":"عند عبور سكة القطار أو الترام، تدي الأولوية للمركبات على القضبان إلا لو فيه إشارة مختلفة.","answer":"VERO","explanation_it":"È la regola dell'articolo 145, comma 3.","explanation_ar":"دي قاعدة المادة 145، الفقرة 3."},
+        {"statement_it":"È consentito impegnare un'intersezione anche se non si può liberarla in breve tempo.","statement_ar":"مسموح تدخل التقاطع حتى لو مش هتقدر تفضّيه في وقت قصير.","answer":"FALSO","explanation_it":"L'articolo 145, comma 7, vieta di impegnarla in tale situazione.","explanation_ar":"المادة 145، الفقرة 7، بتحظر الدخول في الحالة دي."},
+        {"statement_it":"La legge prevede specifici obblighi di arresto e precedenza all'uscita da luoghi non aperti al passaggio pubblico.","statement_ar":"القانون بيقرر واجبات محددة للوقوف وإعطاء الأولوية عند الخروج من أماكن مش مفتوحة لمرور الجمهور.","answer":"VERO","explanation_it":"Lo stabilisce l'articolo 145, comma 6.","explanation_ar":"ده ما تقرره المادة 145، الفقرة 6."}
+      ],
+      "example_it":"La fila davanti a te è ferma e rischieresti di restare al centro dell'incrocio: aspetta prima della linea d'ingresso finché puoi attraversare e liberare l'area.",
+      "example_ar":"الطابور قدامك واقف وممكن تفضل في نص التقاطع: استنى قبل مدخل التقاطع لحد ما تقدر تعدّي وتفضّي المنطقة.",
+      "pitfall_it":"Non ridurre i casi di arresto obbligatorio al solo STOP e non entrare in un'intersezione che non puoi liberare in breve tempo.",
+      "pitfall_ar":"ما تحصرش حالات الوقوف الإلزامي في STOP بس، وما تدخلش تقاطع مش هتقدر تفضّيه بسرعة.",
+      "legal_sources": [
+        {"article":"Art. 145, commi 3–8 e 4-bis–4-ter","title_it":"ACI — Precedenza","title_ar":"ACI — أولوية المرور","url":"https://aci.gov.it/codice-della-strada/art-145/"},
+        {"article":"Art. 145, testo vigente al 16/10/2026","title_it":"Normattiva — Codice della strada","title_ar":"Normattiva — قانون الطرق","url":"https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art145!vig="}
+      ]
+    }
+  ]
+}

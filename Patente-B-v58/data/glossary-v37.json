@@ -1,0 +1,1640 @@
+{
+  "schema_version": 1,
+  "categories": [
+    {
+      "id": "signs",
+      "name_it": "Segnaletica",
+      "name_ar": "الإشارات"
+    },
+    {
+      "id": "driving",
+      "name_it": "Guida e circolazione",
+      "name_ar": "القيادة وحركة المرور"
+    },
+    {
+      "id": "vehicle",
+      "name_it": "Veicolo",
+      "name_ar": "المركبة"
+    },
+    {
+      "id": "procedures",
+      "name_it": "Procedure e documenti",
+      "name_ar": "الإجراءات والوثائق"
+    },
+    {
+      "id": "safety",
+      "name_it": "Sicurezza",
+      "name_ar": "السلامة"
+    }
+  ],
+  "entries": [
+    {
+      "italian": "segnale stradale",
+      "arabic": "إشارة مرورية",
+      "category": "signs",
+      "note_it": "Segnale che avverte, prescrive una condotta o fornisce indicazioni, secondo la categoria.",
+      "note_ar": "إشارة تحذّر أو تفرض سلوكًا أو تقدم معلومات، حسب فئتها.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "segnale verticale",
+      "arabic": "إشارة رأسية",
+      "category": "signs",
+      "note_it": "Segnale installato verticalmente; forma, colore e significato dipendono dalla disciplina applicabile.",
+      "note_ar": "إشارة تُركّب رأسيًا؛ ويعتمد شكلها ولونها ومعناها على القواعد المنظمة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "segnale orizzontale",
+      "arabic": "علامة أرضية",
+      "category": "signs",
+      "note_it": "Segno tracciato sulla superficie stradale per regolare, guidare o informare gli utenti.",
+      "note_ar": "علامة مرسومة على سطح الطريق لتنظيم المستخدمين أو توجيههم أو إعلامهم.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "segnale di pericolo",
+      "arabic": "إشارة تحذير",
+      "category": "signs",
+      "note_it": "Avverte del pericolo e della sua natura, richiamando prudenza.",
+      "note_ar": "تحذّر من الخطر وطبيعته وتدعو إلى الحذر.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "segnale di prescrizione",
+      "arabic": "إشارة إلزام أو منع",
+      "category": "signs",
+      "note_it": "Comprende segnali di precedenza, divieto e obbligo; non è una singola forma grafica.",
+      "note_ar": "تشمل إشارات الأولوية والمنع والإلزام، وليست شكلًا واحدًا.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "segnale di precedenza",
+      "arabic": "إشارة أولوية",
+      "category": "signs",
+      "note_it": "Termine pratico di signs; il significato va letto nel contesto.",
+      "note_ar": "فئة فرعية من إشارات الوصفة، وليست مستقلة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "segnale di divieto",
+      "arabic": "إشارة منع",
+      "category": "signs",
+      "note_it": "Termine pratico di signs; il significato va letto nel contesto.",
+      "note_ar": "تدل على منع أو تقييد محدد.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "segnale di obbligo",
+      "arabic": "إشارة إلزام",
+      "category": "signs",
+      "note_it": "Termine pratico di signs; il significato va letto nel contesto.",
+      "note_ar": "تطلب اتباع سلوك أو اتجاه محدد.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "segnale di indicazione",
+      "arabic": "إشارة إرشادية",
+      "category": "signs",
+      "note_it": "Termine pratico di signs; il significato va letto nel contesto.",
+      "note_ar": "تقدم معلومات مفيدة للسير.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "pannello integrativo",
+      "arabic": "لوحة تكميلية",
+      "category": "signs",
+      "note_it": "Termine pratico di signs; il significato va letto nel contesto.",
+      "note_ar": "توضح أو تحدد معنى الإشارة الرئيسية.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "dare precedenza",
+      "arabic": "أعطِ الأولوية",
+      "category": "signs",
+      "note_it": "Termine pratico di signs; il significato va letto nel contesto.",
+      "note_ar": "تطلب إفساح المجال وفق الإشارة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "fermarsi e dare precedenza",
+      "arabic": "قف وأعطِ الأولوية",
+      "category": "signs",
+      "note_it": "Termine pratico di signs; il significato va letto nel contesto.",
+      "note_ar": "تتضمن التوقف ثم إعطاء الأولوية.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "divieto di accesso",
+      "arabic": "ممنوع الدخول",
+      "category": "signs",
+      "note_it": "Termine pratico di signs; il significato va letto nel contesto.",
+      "note_ar": "منع دخول المركبات من هذا الاتجاه.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "senso vietato",
+      "arabic": "اتجاه ممنوع",
+      "category": "signs",
+      "note_it": "Termine pratico di signs; il significato va letto nel contesto.",
+      "note_ar": "يحظر السير في الاتجاه المشار إليه.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "limite massimo di velocità",
+      "arabic": "الحد الأقصى للسرعة",
+      "category": "signs",
+      "note_it": "Termine pratico di signs; il significato va letto nel contesto.",
+      "note_ar": "حد أقصى، وليس سرعة مناسبة دائمًا.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "divieto di sorpasso",
+      "arabic": "ممنوع التجاوز",
+      "category": "signs",
+      "note_it": "Termine pratico di signs; il significato va letto nel contesto.",
+      "note_ar": "إشارة منع التجاوز في نطاقها.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "divieto di sosta",
+      "arabic": "ممنوع الوقوف",
+      "category": "signs",
+      "note_it": "Termine pratico di signs; il significato va letto nel contesto.",
+      "note_ar": "sosta وقوف ممتد وليست fermata.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "divieto di fermata",
+      "arabic": "ممنوع التوقف",
+      "category": "signs",
+      "note_it": "Termine pratico di signs; il significato va letto nel contesto.",
+      "note_ar": "يمنع التوقف المؤقت أيضًا في الموضع المحدد.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "parcheggio",
+      "arabic": "موقف سيارات",
+      "category": "signs",
+      "note_it": "Termine pratico di signs; il significato va letto nel contesto.",
+      "note_ar": "مكان مخصص لركن المركبات.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "attraversamento pedonale",
+      "arabic": "ممر مشاة",
+      "category": "signs",
+      "note_it": "Termine pratico di signs; il significato va letto nel contesto.",
+      "note_ar": "موضع عبور المشاة المحدد.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "attraversamento ciclabile",
+      "arabic": "ممر عبور دراجات",
+      "category": "signs",
+      "note_it": "Termine pratico di signs; il significato va letto nel contesto.",
+      "note_ar": "موضع عبور راكبي الدراجات.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "passaggio a livello",
+      "arabic": "ممر سكة حديد",
+      "category": "signs",
+      "note_it": "Termine pratico di signs; il significato va letto nel contesto.",
+      "note_ar": "تقاطع الطريق مع خط سكة حديد.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "semaforo",
+      "arabic": "إشارة ضوئية",
+      "category": "signs",
+      "note_it": "Termine pratico di signs; il significato va letto nel contesto.",
+      "note_ar": "جهاز ينظم الحركة بأضواء.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "luce rossa",
+      "arabic": "الضوء الأحمر",
+      "category": "signs",
+      "note_it": "Termine pratico di signs; il significato va letto nel contesto.",
+      "note_ar": "اتبع قواعد الإشارة بحسب موضعك.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "luce gialla",
+      "arabic": "الضوء الأصفر",
+      "category": "signs",
+      "note_it": "Termine pratico di signs; il significato va letto nel contesto.",
+      "note_ar": "تنبيه ضوئي والاستجابة تعتمد على الوضع.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "luce verde",
+      "arabic": "الضوء الأخضر",
+      "category": "signs",
+      "note_it": "Termine pratico di signs; il significato va letto nel contesto.",
+      "note_ar": "يسمح بالمرور مع استمرار واجب الحذر.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "freccia direzionale",
+      "arabic": "سهم اتجاهي",
+      "category": "signs",
+      "note_it": "Termine pratico di signs; il significato va letto nel contesto.",
+      "note_ar": "يبين الاتجاه المسموح أو المطلوب.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "striscia continua",
+      "arabic": "خط متصل",
+      "category": "signs",
+      "note_it": "Termine pratico di signs; il significato va letto nel contesto.",
+      "note_ar": "لا يجتاز إلا في الاستثناءات المحددة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "striscia discontinua",
+      "arabic": "خط متقطع",
+      "category": "signs",
+      "note_it": "Termine pratico di signs; il significato va letto nel contesto.",
+      "note_ar": "يمكن اجتيازه مع احترام سائر القواعد.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "linea di arresto",
+      "arabic": "خط توقف",
+      "category": "signs",
+      "note_it": "Termine pratico di signs; il significato va letto nel contesto.",
+      "note_ar": "يحدد موضع الوقوف عند اللزوم.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "isola di traffico",
+      "arabic": "جزيرة مرورية",
+      "category": "signs",
+      "note_it": "Termine pratico di signs; il significato va letto nel contesto.",
+      "note_ar": "منطقة محددة لتنظيم مسارات المركبات.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "corsia riservata",
+      "arabic": "حارة مخصصة",
+      "category": "signs",
+      "note_it": "Termine pratico di signs; il significato va letto nel contesto.",
+      "note_ar": "محجوزة لفئات أو خدمات معينة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "corsia di emergenza",
+      "arabic": "حارة طوارئ",
+      "category": "signs",
+      "note_it": "Termine pratico di signs; il significato va letto nel contesto.",
+      "note_ar": "مخصصة لحالات الطوارئ وفق القواعد.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "segnale di direzione",
+      "arabic": "إشارة اتجاه",
+      "category": "signs",
+      "note_it": "Termine pratico di signs; il significato va letto nel contesto.",
+      "note_ar": "توجه إلى وجهة أو مسار.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "segnale di preavviso",
+      "arabic": "إشارة مسبقة",
+      "category": "signs",
+      "note_it": "Termine pratico di signs; il significato va letto nel contesto.",
+      "note_ar": "تنبه قبل نقطة أو مناورة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "segnale di conferma",
+      "arabic": "إشارة تأكيد",
+      "category": "signs",
+      "note_it": "Termine pratico di signs; il significato va letto nel contesto.",
+      "note_ar": "تؤكد الوجهة أو المسار.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "segnale di località",
+      "arabic": "إشارة مكان",
+      "category": "signs",
+      "note_it": "Termine pratico di signs; il significato va letto nel contesto.",
+      "note_ar": "تعرض اسم منطقة أو مكان.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "segnalazione dell’agente",
+      "arabic": "إشارة رجل المرور المنظّم للسير",
+      "category": "signs",
+      "note_it": "Va rispettata senza indugio; se contrasta con segnali o regole generali, la prescrizione dell’agente prevale.",
+      "note_ar": "يجب اتباعها فورًا؛ وعند التعارض مع إشارات الطريق أو القواعد العامة، تكون لتوجيه رجل المرور الأولوية.",
+      "article": "Art. 43",
+      "source_url": "https://aci.gov.it/codice-della-strada/art-43/"
+    },
+    {
+      "italian": "segnale temporaneo",
+      "arabic": "إشارة مؤقتة",
+      "category": "signs",
+      "note_it": "Termine pratico di signs; il significato va letto nel contesto.",
+      "note_ar": "تستخدم لحالة مؤقتة مثل الأشغال.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "segnale manuale dell’agente",
+      "arabic": "إشارة يدوية من شرطي المرور",
+      "category": "signs",
+      "note_it": "Termine pratico di signs; il significato va letto nel contesto.",
+      "note_ar": "تعليمات الشرطي لها أولوية حسب القانون.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "conducente",
+      "arabic": "سائق",
+      "category": "driving",
+      "note_it": "Termine pratico di driving; il significato va letto nel contesto.",
+      "note_ar": "الشخص الذي يقود المركبة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "utente della strada",
+      "arabic": "مستخدم الطريق",
+      "category": "driving",
+      "note_it": "Termine pratico di driving; il significato va letto nel contesto.",
+      "note_ar": "يشمل السائقين والمشاة وغيرهم.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "circolazione",
+      "arabic": "حركة المرور",
+      "category": "driving",
+      "note_it": "Termine pratico di driving; il significato va letto nel contesto.",
+      "note_ar": "حركة مستخدمي الطريق ومركباتهم.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "marcia",
+      "arabic": "السير",
+      "category": "driving",
+      "note_it": "Termine pratico di driving; il significato va letto nel contesto.",
+      "note_ar": "حركة المركبة على الطريق.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "corsia",
+      "arabic": "حارة سير",
+      "category": "driving",
+      "note_it": "Termine pratico di driving; il significato va letto nel contesto.",
+      "note_ar": "حارة سير مخصصة لمرور صف من المركبات.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "carreggiata",
+      "arabic": "الطريق المخصص للمركبات",
+      "category": "driving",
+      "note_it": "Termine pratico di driving; il significato va letto nel contesto.",
+      "note_ar": "جزء الطريق المخصص لسير المركبات وقد يضم أكثر من حارة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "banchina",
+      "arabic": "كتف الطريق",
+      "category": "driving",
+      "note_it": "Termine pratico di driving; il significato va letto nel contesto.",
+      "note_ar": "جزء جانبي واستعماله مقيد.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "marciapiede",
+      "arabic": "رصيف",
+      "category": "driving",
+      "note_it": "Termine pratico di driving; il significato va letto nel contesto.",
+      "note_ar": "جزء مخصص للمشاة خارج carreggiata.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "incrocio",
+      "arabic": "تقاطع",
+      "category": "driving",
+      "note_it": "Termine pratico di driving; il significato va letto nel contesto.",
+      "note_ar": "موضع التقاء أو تقاطع طرق.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "intersezione",
+      "arabic": "ملتقى طرق",
+      "category": "driving",
+      "note_it": "Termine pratico di driving; il significato va letto nel contesto.",
+      "note_ar": "موضع التقاء طرق؛ ليس دائمًا مطابقًا لكل استعمال لـincrocio.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "precedenza",
+      "arabic": "أولوية المرور",
+      "category": "driving",
+      "note_it": "Termine pratico di driving; il significato va letto nel contesto.",
+      "note_ar": "أولوية ينظمها القانون أو الإشارات.",
+      "tts_locale": "it-IT",
+      "search_terms_ar": [
+        "الأسبقية المرورية"
+      ]
+    },
+    {
+      "italian": "dare la precedenza",
+      "arabic": "إفساح الطريق",
+      "category": "driving",
+      "note_it": "Termine pratico di driving; il significato va letto nel contesto.",
+      "note_ar": "السماح لصاحب الأولوية بالمرور.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "arresto",
+      "arabic": "توقف بسبب حركة المرور",
+      "category": "driving",
+      "note_it": "Termine pratico di driving; il significato va letto nel contesto.",
+      "note_ar": "انقطاع السير بسبب متطلبات المرور قانونًا.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "fermata",
+      "arabic": "توقف مؤقت",
+      "category": "driving",
+      "note_it": "Termine pratico di driving; il significato va letto nel contesto.",
+      "note_ar": "تعليق قصير مع استعداد السائق للمواصلة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "sosta",
+      "arabic": "وقوف ممتد",
+      "category": "driving",
+      "note_it": "Termine pratico di driving; il significato va letto nel contesto.",
+      "note_ar": "تعليق السير مع إمكانية ابتعاد السائق.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "sosta di emergenza",
+      "arabic": "وقوف طارئ",
+      "category": "driving",
+      "note_it": "Termine pratico di driving; il significato va letto nel contesto.",
+      "note_ar": "توقف بسبب عطل أو وعكة بدنية.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "autostrada",
+      "arabic": "الطريق السريع (فئة قانونية إيطالية)",
+      "category": "driving",
+      "note_it": "Strada di tipo A con caratteristiche definite dall’art. 2; non è un sinonimo giuridico generico di qualsiasi strada veloce.",
+      "note_ar": "طريق من الفئة A بخصائص محددة في المادة 2؛ ولا يُعد كل طريق سريع autostrada.",
+      "article": "Art. 2",
+      "source_url": "https://aci.gov.it/codice-della-strada/art-2/"
+    },
+    {
+      "italian": "sorpasso",
+      "arabic": "تجاوز مركبة",
+      "category": "driving",
+      "note_it": "Termine pratico di driving; il significato va letto nel contesto.",
+      "note_ar": "مناورة تجاوز مستخدم يسير في الاتجاه نفسه.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "superamento",
+      "arabic": "تخطّي",
+      "category": "driving",
+      "note_it": "Termine pratico di driving; il significato va letto nel contesto.",
+      "note_ar": "تجاوز عائق؛ لا يساوي دائمًا sorpasso القانوني.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "cambio di corsia",
+      "arabic": "تغيير الحارة",
+      "category": "driving",
+      "note_it": "Termine pratico di driving; il significato va letto nel contesto.",
+      "note_ar": "انتقال المركبة إلى حارة أخرى.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "svolta",
+      "arabic": "انعطاف",
+      "category": "driving",
+      "note_it": "Termine pratico di driving; il significato va letto nel contesto.",
+      "note_ar": "تغيير اتجاه السير.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "retromarcia",
+      "arabic": "رجوع إلى الخلف",
+      "category": "driving",
+      "note_it": "Termine pratico di driving; il significato va letto nel contesto.",
+      "note_ar": "تحريك المركبة إلى الوراء.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "inversione di marcia",
+      "arabic": "استدارة عكس الاتجاه",
+      "category": "driving",
+      "note_it": "Termine pratico di driving; il significato va letto nel contesto.",
+      "note_ar": "مناورة تغيير اتجاه السير للجهة المقابلة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "immissione",
+      "arabic": "اندماج في الطريق",
+      "category": "driving",
+      "note_it": "Termine pratico di driving; il significato va letto nel contesto.",
+      "note_ar": "دخول إلى مسار أو طريق.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "uscita",
+      "arabic": "خروج",
+      "category": "driving",
+      "note_it": "Termine pratico di driving; il significato va letto nel contesto.",
+      "note_ar": "مغادرة الطريق عبر مخرج.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "velocità adeguata",
+      "arabic": "سرعة ملائمة",
+      "category": "driving",
+      "note_it": "Termine pratico di driving; il significato va letto nel contesto.",
+      "note_ar": "سرعة تناسب الظروف وقد تقل عن الحد الأقصى.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "limite di velocità",
+      "arabic": "حد السرعة",
+      "category": "driving",
+      "note_it": "Termine pratico di driving; il significato va letto nel contesto.",
+      "note_ar": "قيمة قصوى قانونية أو محددة بإشارة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "distanza di sicurezza",
+      "arabic": "مسافة الأمان",
+      "category": "driving",
+      "note_it": "Termine pratico di driving; il significato va letto nel contesto.",
+      "note_ar": "فاصل يتيح الاستجابة والتوقف بحسب الظروف.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "spazio di frenata",
+      "arabic": "مسافة الكبح",
+      "category": "driving",
+      "note_it": "Termine pratico di driving; il significato va letto nel contesto.",
+      "note_ar": "المسافة المقطوعة أثناء الكبح.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "spazio di arresto",
+      "arabic": "مسافة التوقف",
+      "category": "driving",
+      "note_it": "Termine pratico di driving; il significato va letto nel contesto.",
+      "note_ar": "المسافة من بدء الاستجابة حتى التوقف.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "campo di visibilità",
+      "arabic": "مجال الرؤية",
+      "category": "driving",
+      "note_it": "Termine pratico di driving; il significato va letto nel contesto.",
+      "note_ar": "المساحة التي يستطيع السائق رؤيتها.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "angolo cieco",
+      "arabic": "زاوية عمياء",
+      "category": "driving",
+      "note_it": "Termine pratico di driving; il significato va letto nel contesto.",
+      "note_ar": "منطقة لا تظهر بوضوح في المرايا.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "aderenza",
+      "arabic": "تماسك الإطارات",
+      "category": "driving",
+      "note_it": "Termine pratico di driving; il significato va letto nel contesto.",
+      "note_ar": "تماسك الإطار مع سطح الطريق.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "frenata",
+      "arabic": "كبح",
+      "category": "driving",
+      "note_it": "Termine pratico di driving; il significato va letto nel contesto.",
+      "note_ar": "إبطاء المركبة أو إيقافها.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "frenata di emergenza",
+      "arabic": "كبح طارئ",
+      "category": "driving",
+      "note_it": "Termine pratico di driving; il significato va letto nel contesto.",
+      "note_ar": "كبح سريع استجابة لخطر.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "guida prudente",
+      "arabic": "قيادة حذرة",
+      "category": "driving",
+      "note_it": "Termine pratico di driving; il significato va letto nel contesto.",
+      "note_ar": "مراعاة الخطر والظروف المحيطة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "veicolo proveniente da destra",
+      "arabic": "المركبة القادمة من اليمين",
+      "category": "driving",
+      "note_it": "All’intersezione, di regola ha precedenza chi proviene da destra, salvo diversa segnalazione.",
+      "note_ar": "عند التقاطع، تكون الأولوية عادةً للمركبة القادمة من اليمين، ما لم تدل الإشارات على غير ذلك.",
+      "article": "Art. 145",
+      "source_url": "https://aci.gov.it/codice-della-strada/art-145/"
+    },
+    {
+      "italian": "strada a senso unico",
+      "arabic": "طريق باتجاه واحد",
+      "category": "driving",
+      "note_it": "Termine pratico di driving; il significato va letto nel contesto.",
+      "note_ar": "السير فيه باتجاه محدد.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "strada a doppio senso",
+      "arabic": "طريق باتجاهين",
+      "category": "driving",
+      "note_it": "Termine pratico di driving; il significato va letto nel contesto.",
+      "note_ar": "تجري فيه الحركة في اتجاهين.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "centro abitato",
+      "arabic": "منطقة مأهولة",
+      "category": "driving",
+      "note_it": "Termine pratico di driving; il significato va letto nel contesto.",
+      "note_ar": "منطقة مبنية محددة بعلامات.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "veicolo",
+      "arabic": "مركبة",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "لها تعريف قانوني واستثناءات؛ ليست كل آلة متحركة مركبة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "autoveicolo",
+      "arabic": "مركبة آلية",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "فئة قانونية من المركبات ذات محرك.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "autovettura",
+      "arabic": "سيارة ركاب",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "نوع من autoveicolo مخصص لنقل الأشخاص.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "motociclo",
+      "arabic": "دراجة نارية",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "مركبة آلية ذات عجلتين ضمن تصنيفها.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "ciclomotore",
+      "arabic": "دراجة بمحرك صغير",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "فئة قانونية تختلف عن motociclo.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "velocipede",
+      "arabic": "دراجة هوائية",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "مصطلح قانوني يشمل الدراجات وفق التعريف.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "rimorchio",
+      "arabic": "مقطورة",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "مركبة تجرها مركبة آلية؛ فئة منفصلة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "semirimorchio",
+      "arabic": "شبه مقطورة",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "نوع من المقطورات، لا فئة مستقلة عنها.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "veicolo trainante",
+      "arabic": "مركبة قاطرة",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "المركبة التي تجر المقطورة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "massa massima autorizzata",
+      "arabic": "الكتلة القصوى المسموح بها",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "قيمة معتمدة للمركبة أو المجموعة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "massa complessiva",
+      "arabic": "الكتلة الإجمالية",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "كتلة المجموعة وفق السياق المحدد.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "targa",
+      "arabic": "لوحة تسجيل",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "تحمل رقم تسجيل المركبة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "carta di circolazione",
+      "arabic": "وثيقة تسجيل المركبة",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "تتضمن بيانات المركبة المعتمدة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "pneumatico",
+      "arabic": "إطار",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "الجزء المطاطي المحيط بالعجلة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "battistrada",
+      "arabic": "نقشة الإطار",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "السطح الملامس للطريق ونقوشه.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "freno",
+      "arabic": "مكبح",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "جزء من منظومة إبطاء المركبة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "freno di servizio",
+      "arabic": "مكبح الخدمة",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "المكبح الأساسي للتحكم والتوقف.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "freno di stazionamento",
+      "arabic": "مكبح التثبيت",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "يؤمن المركبة وهي متوقفة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "sterzo",
+      "arabic": "نظام توجيه",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "منظومة التحكم باتجاه المركبة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "volante",
+      "arabic": "عجلة القيادة",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "يديرها السائق لتوجيه السيارة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "frizione",
+      "arabic": "قابض",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "يصل أو يفصل المحرك بناقل الحركة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "cambio",
+      "arabic": "ناقل الحركة",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "يغير نسب نقل القوة للعجلات.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "motore",
+      "arabic": "محرك",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "مصدر القوة المحركة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "batteria",
+      "arabic": "بطارية",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "مصدر كهرباء المركبة أو جزء من منظومتها.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "alternatore",
+      "arabic": "مولّد كهربائي",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "يشحن البطارية أثناء عمل المحرك.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "radiatore",
+      "arabic": "مِبرَد",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "جزء من نظام تبريد المحرك.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "liquido di raffreddamento",
+      "arabic": "سائل تبريد",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "يدور في نظام تبريد المحرك.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "olio motore",
+      "arabic": "زيت المحرك",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "يزيت أجزاء المحرك.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "faro",
+      "arabic": "مصباح أمامي",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "وحدة إنارة أمامية.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "proiettore anabbagliante",
+      "arabic": "مصباح الضوء المنخفض",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "يحد من إبهار مستخدمي الطريق.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "proiettore abbagliante",
+      "arabic": "مصباح الضوء العالي",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "يستخدم وفق قواعد الإنارة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "indicatore di direzione",
+      "arabic": "مؤشر اتجاه",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "ضوء يعلن نية تغيير الاتجاه.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "luci di posizione",
+      "arabic": "أضواء الموضع",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "تظهر وجود المركبة وعرضها.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "tergicristallo",
+      "arabic": "ماسحة الزجاج",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "تمسح الماء عن الزجاج الأمامي.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "parabrezza",
+      "arabic": "الزجاج الأمامي",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "اللوح الزجاجي أمام السائق.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "specchietto retrovisore",
+      "arabic": "مرآة خلفية",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "تساعد على مراقبة الطريق خلف المركبة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "cintura di sicurezza",
+      "arabic": "حزام أمان",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "وسيلة تثبيت للراكب، وفق أحكام الفئات.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "airbag",
+      "arabic": "وسادة هوائية",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "وسيلة حماية تكميلية.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "poggiatesta",
+      "arabic": "مسند الرأس",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "يدعم الرأس والرقبة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "triangolo mobile di pericolo",
+      "arabic": "مثلث تحذير",
+      "category": "vehicle",
+      "note_it": "Termine pratico di vehicle; il significato va letto nel contesto.",
+      "note_ar": "جهاز عاكس للتحذير في حالات محددة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "patente di guida",
+      "arabic": "رخصة قيادة",
+      "category": "procedures",
+      "note_it": "Termine pratico di procedures; il significato va letto nel contesto.",
+      "note_ar": "تحدد الفئات التي يحق لحاملها قيادتها.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "categoria B",
+      "arabic": "فئة B",
+      "category": "procedures",
+      "note_it": "Termine pratico di procedures; il significato va letto nel contesto.",
+      "note_ar": "فئة رخصة للمركبات المحددة قانونًا.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "codice B96",
+      "arabic": "الرمز B96",
+      "category": "procedures",
+      "note_it": "Termine pratico di procedures; il significato va letto nel contesto.",
+      "note_ar": "يتطلب اختبارًا عند تجاوز المجموعة 3500 كغ ضمن شروط الوزارة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "foglio rosa",
+      "arabic": "تصريح تدريب مؤقت",
+      "category": "procedures",
+      "note_it": "Termine pratico di procedures; il significato va letto nel contesto.",
+      "note_ar": "يصدر بعد اجتياز النظري وفق الشروط.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "esame di teoria",
+      "arabic": "امتحان نظري",
+      "category": "procedures",
+      "note_it": "Termine pratico di procedures; il significato va letto nel contesto.",
+      "note_ar": "اختبار المعرفة النظرية.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "esame di guida",
+      "arabic": "امتحان قيادة",
+      "category": "procedures",
+      "note_it": "Termine pratico di procedures; il significato va letto nel contesto.",
+      "note_ar": "اختبار عملي للقيادة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "motorizzazione civile",
+      "arabic": "مكتب النقل البري",
+      "category": "procedures",
+      "note_it": "Termine pratico di procedures; il significato va letto nel contesto.",
+      "note_ar": "جهة إدارية للمركبات والرخص.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "autoscuola",
+      "arabic": "مدرسة قيادة",
+      "category": "procedures",
+      "note_it": "Termine pratico di procedures; il significato va letto nel contesto.",
+      "note_ar": "مؤسسة تدريب على القيادة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "istruttore di guida",
+      "arabic": "مدرب قيادة",
+      "category": "procedures",
+      "note_it": "Termine pratico di procedures; il significato va letto nel contesto.",
+      "note_ar": "شخص مؤهل للتدريب.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "domanda",
+      "arabic": "طلب",
+      "category": "procedures",
+      "note_it": "Termine pratico di procedures; il significato va letto nel contesto.",
+      "note_ar": "طلب رسمي لإجراء معاملة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "modulo",
+      "arabic": "استمارة",
+      "category": "procedures",
+      "note_it": "Termine pratico di procedures; il significato va letto nel contesto.",
+      "note_ar": "نموذج يعبأ للمعاملة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "documento di identità",
+      "arabic": "وثيقة هوية",
+      "category": "procedures",
+      "note_it": "Termine pratico di procedures; il significato va letto nel contesto.",
+      "note_ar": "مستند رسمي لإثبات الهوية.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "codice fiscale",
+      "arabic": "الرقم الضريبي",
+      "category": "procedures",
+      "note_it": "Termine pratico di procedures; il significato va letto nel contesto.",
+      "note_ar": "معرّف شخصي إداري إيطالي.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "certificato medico",
+      "arabic": "شهادة طبية",
+      "category": "procedures",
+      "note_it": "Termine pratico di procedures; il significato va letto nel contesto.",
+      "note_ar": "وثيقة طبية مطلوبة لبعض الإجراءات.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "idoneità psicofisica",
+      "arabic": "اللياقة النفسية والبدنية",
+      "category": "procedures",
+      "note_it": "Termine pratico di procedures; il significato va letto nel contesto.",
+      "note_ar": "تقييم صلاحية الشخص للقيادة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "prenotazione",
+      "arabic": "حجز موعد",
+      "category": "procedures",
+      "note_it": "Termine pratico di procedures; il significato va letto nel contesto.",
+      "note_ar": "تحديد موعد لاختبار أو معاملة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "Documento Unico",
+      "arabic": "الوثيقة الموحدة للسير والملكية",
+      "category": "procedures",
+      "note_it": "Il DU riunisce i dati della carta di circolazione e quelli giuridico-patrimoniali del veicolo; i documenti precedenti restano validi fino al rilascio del DU.",
+      "note_ar": "تجمع الوثيقة الموحدة بيانات بطاقة السير وبيانات المركبة القانونية والملكية؛ وتظل الوثائق السابقة صالحة إلى أن تُصدر الوثيقة الموحدة.",
+      "article": "D.lgs. 98/2017 · Art. 93",
+      "source_url": "https://aci.gov.it/pratica-auto/documenti-del-veicolo-il-du-documento-unico-e-di-proprieta-del-veicolo/"
+    },
+    {
+      "italian": "duplicato",
+      "arabic": "نسخة بديلة",
+      "category": "procedures",
+      "note_it": "Termine pratico di procedures; il significato va letto nel contesto.",
+      "note_ar": "بدل وثيقة مفقودة أو تالفة وفق الإجراء.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "rinnovo della patente",
+      "arabic": "تجديد الرخصة",
+      "category": "procedures",
+      "note_it": "Termine pratico di procedures; il significato va letto nel contesto.",
+      "note_ar": "إجراء تمديد الصلاحية وفق الشروط.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "conversione della patente",
+      "arabic": "تحويل الرخصة",
+      "category": "procedures",
+      "note_it": "Termine pratico di procedures; il significato va letto nel contesto.",
+      "note_ar": "إجراء الاعتراف أو التحويل وفق القواعد.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "immatricolazione",
+      "arabic": "تسجيل المركبة",
+      "category": "procedures",
+      "note_it": "Termine pratico di procedures; il significato va letto nel contesto.",
+      "note_ar": "إجراء إداري لتسجيل المركبة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "passaggio di proprietà",
+      "arabic": "نقل الملكية",
+      "category": "procedures",
+      "note_it": "Termine pratico di procedures; il significato va letto nel contesto.",
+      "note_ar": "تسجيل انتقال ملكية المركبة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "revisione periodica",
+      "arabic": "فحص دوري",
+      "category": "procedures",
+      "note_it": "Termine pratico di procedures; il significato va letto nel contesto.",
+      "note_ar": "فحص المركبة حسب الجدول والقواعد.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "collaudo",
+      "arabic": "اختبار اعتماد فني",
+      "category": "procedures",
+      "note_it": "Termine pratico di procedures; il significato va letto nel contesto.",
+      "note_ar": "فحص فني أو اعتماد لتعديل محدد.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "assicurazione obbligatoria",
+      "arabic": "التأمين الإلزامي",
+      "category": "procedures",
+      "note_it": "Termine pratico di procedures; il significato va letto nel contesto.",
+      "note_ar": "تغطية المسؤولية المدنية المطلوبة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "polizza assicurativa",
+      "arabic": "وثيقة تأمين",
+      "category": "procedures",
+      "note_it": "Termine pratico di procedures; il significato va letto nel contesto.",
+      "note_ar": "عقد يحدد التغطية والشروط.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "responsabilità civile",
+      "arabic": "مسؤولية مدنية",
+      "category": "procedures",
+      "note_it": "Termine pratico di procedures; il significato va letto nel contesto.",
+      "note_ar": "مسؤولية عن ضرر للغير وفق القانون.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "verbale",
+      "arabic": "محضر مخالفة",
+      "category": "procedures",
+      "note_it": "Termine pratico di procedures; il significato va letto nel contesto.",
+      "note_ar": "وثيقة رسمية تسجل واقعة أو مخالفة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "sanzione amministrativa",
+      "arabic": "عقوبة إدارية",
+      "category": "procedures",
+      "note_it": "Termine pratico di procedures; il significato va letto nel contesto.",
+      "note_ar": "جزاء إداري تحدده النصوص النافذة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "ricorso",
+      "arabic": "طعن أو اعتراض",
+      "category": "procedures",
+      "note_it": "Termine pratico di procedures; il significato va letto nel contesto.",
+      "note_ar": "طلب مراجعة قرار وفق الإجراء والمهل.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "notifica",
+      "arabic": "تبليغ رسمي",
+      "category": "procedures",
+      "note_it": "Termine pratico di procedures; il significato va letto nel contesto.",
+      "note_ar": "إيصال وثيقة بالطريقة المقررة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "scadenza",
+      "arabic": "تاريخ انتهاء",
+      "category": "procedures",
+      "note_it": "Termine pratico di procedures; il significato va letto nel contesto.",
+      "note_ar": "موعد انتهاء صلاحية أو أجل.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "documenti di circolazione",
+      "arabic": "وثائق السير",
+      "category": "procedures",
+      "note_it": "Termine pratico di procedures; il significato va letto nel contesto.",
+      "note_ar": "وثائق مطلوبة حسب المركبة والظرف.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "controllo di polizia",
+      "arabic": "تفتيش شرطي",
+      "category": "procedures",
+      "note_it": "Termine pratico di procedures; il significato va letto nel contesto.",
+      "note_ar": "تحقق يجريه أعوان مختصون.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "agente di polizia stradale",
+      "arabic": "شرطي مرور",
+      "category": "procedures",
+      "note_it": "Termine pratico di procedures; il significato va letto nel contesto.",
+      "note_ar": "عون يؤدي مهام الشرطة المرورية.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "fermo amministrativo",
+      "arabic": "تقييد إداري للمركبة",
+      "category": "procedures",
+      "note_it": "Termine pratico di procedures; il significato va letto nel contesto.",
+      "note_ar": "إجراء إداري متميز عن الضبط.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "sequestro del veicolo",
+      "arabic": "ضبط المركبة",
+      "category": "procedures",
+      "note_it": "Termine pratico di procedures; il significato va letto nel contesto.",
+      "note_ar": "إجراء قانوني يختلف عن fermo.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "denuncia di smarrimento",
+      "arabic": "بلاغ فقدان",
+      "category": "procedures",
+      "note_it": "Termine pratico di procedures; il significato va letto nel contesto.",
+      "note_ar": "إبلاغ رسمي عن فقد وثيقة أو شيء.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "revoca della patente",
+      "arabic": "إلغاء رخصة القيادة",
+      "category": "procedures",
+      "note_it": "Provvedimento disposto nei casi previsti; cause ed effetti dipendono dalla norma applicabile e sono distinti dalla sospensione.",
+      "note_ar": "قرار يُتخذ في الحالات التي يحددها القانون؛ تختلف أسبابه وآثاره بحسب النص، وهو غير تعليق الرخصة مؤقتًا.",
+      "article": "Art. 130",
+      "source_url": "https://aci.gov.it/codice-della-strada/art-130/"
+    },
+    {
+      "italian": "ufficio competente",
+      "arabic": "المكتب المختص",
+      "category": "procedures",
+      "note_it": "Termine pratico di procedures; il significato va letto nel contesto.",
+      "note_ar": "الجهة المعنية بمعالجة المعاملة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "sicurezza stradale",
+      "arabic": "السلامة المرورية",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "حماية مستخدمي الطريق والحد من المخاطر.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "pericolo",
+      "arabic": "خطر",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "حالة قد تسبب ضررًا أو حادثًا.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "prudenza",
+      "arabic": "حذر",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "انتباه وتقدير للمخاطر.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "incidente stradale",
+      "arabic": "حادث مروري",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "واقعة تصادم أو ضرر على الطريق.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "primo soccorso",
+      "arabic": "إسعاف أولي",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "مساعدة أولية؛ اتبع إرشادات المختصين.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "chiamata di emergenza",
+      "arabic": "اتصال طوارئ",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "طلب المساعدة من خدمات الطوارئ.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "cassetta di pronto soccorso",
+      "arabic": "حقيبة إسعافات أولية",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "مستلزمات للمساعدة الأولية.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "cintura allacciata",
+      "arabic": "حزام مربوط",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "تأكد من تثبيته قبل الانطلاق.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "seggiolino per bambini",
+      "arabic": "مقعد أطفال",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "نظام تثبيت معتمد وملائم للطفل.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "casco protettivo",
+      "arabic": "خوذة واقية",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "خوذة مناسبة ومثبتة عند استخدام الدراجة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "giubbotto riflettente",
+      "arabic": "سترة عاكسة",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "ملابس عالية الوضوح عند التوقف الطارئ.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "visibilità",
+      "arabic": "مدى الرؤية",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "القدرة على رؤية الطريق ومستخدميه.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "visibilità limitata",
+      "arabic": "رؤية محدودة",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "قد تنتج عن الضباب أو الظلام.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "nebbia",
+      "arabic": "ضباب",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "يقلل الرؤية ويستلزم قيادة ملائمة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "pioggia",
+      "arabic": "مطر",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "قد يقلل التماسك والرؤية.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "neve",
+      "arabic": "ثلج",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "يؤثر في الرؤية والتماسك.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "ghiaccio",
+      "arabic": "جليد",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "سطح زلق يضعف تماسك الإطارات.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "strada bagnata",
+      "arabic": "طريق مبلل",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "راعِ مسافة التوقف والتماسك.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "aquaplaning",
+      "arabic": "انزلاق مائي",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "فقدان تماس الإطار بسبب طبقة الماء.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "ostacolo",
+      "arabic": "عائق",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "شيء يعترض مسار المركبة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "ostacolo prevedibile",
+      "arabic": "عائق متوقع",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "عائق ينبغي أخذه في الحسبان ضمن مجال الرؤية.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "guasto",
+      "arabic": "عطل",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "خلل يضعف عمل المركبة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "avaria",
+      "arabic": "تعطل المركبة",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "عطل يستدعي تأمين المكان واتباع الإجراء.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "pneumatico sgonfio",
+      "arabic": "إطار منخفض الضغط",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "ضغطه أقل من المستوى المطلوب.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "scoppio di uno pneumatico",
+      "arabic": "انفجار إطار",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "فقد مفاجئ للضغط؛ تجنب رد الفعل العنيف.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "freni inefficienti",
+      "arabic": "مكابح غير فعالة",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "خلل يقلل قدرة الكبح.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "distanza laterale",
+      "arabic": "مسافة جانبية",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "اترك حيزًا مناسبًا عند تجاوز مستخدم الطريق.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "utente vulnerabile",
+      "arabic": "مستخدم طريق معرض للخطر",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "مثل المشاة وراكبي الدراجات.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "pedone",
+      "arabic": "مشاة",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "شخص يسير أو يستخدم وسيلة مساعدة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "ciclista",
+      "arabic": "راكب دراجة",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "شخص يقود دراجة على الطريق.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "motociclista",
+      "arabic": "سائق دراجة نارية",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "مستخدم أقل حماية من ركاب السيارة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "bambino a bordo",
+      "arabic": "طفل في المركبة",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "يستلزم نظام تثبيت مناسبًا.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "carico sporgente",
+      "arabic": "حمولة بارزة",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "لها شروط احتياط وتحذير بحسب الحالة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "carico fissato",
+      "arabic": "حمولة مثبتة",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "تؤمن لمنع سقوطها أو تحركها.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "fumo",
+      "arabic": "دخان",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "قد يعيق الرؤية أو يدل على خطر.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "incendio",
+      "arabic": "حريق",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "ابتعد لمكان آمن واتصل بالطوارئ.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "sostanza alcolica",
+      "arabic": "مادة كحولية",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "الحظر القانوني يتعلق بحالة القيادة المحددة بالنص.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "sostanza stupefacente",
+      "arabic": "مادة مخدرة",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "لا تقد تحت تأثير مواد مخدرة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "stanchezza",
+      "arabic": "إرهاق",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "يضعف الانتباه وزمن الاستجابة.",
+      "tts_locale": "it-IT"
+    },
+    {
+      "italian": "colpo di sonno",
+      "arabic": "غفوة أثناء القيادة",
+      "category": "safety",
+      "note_it": "Termine pratico di safety; il significato va letto nel contesto.",
+      "note_ar": "خطر فقدان السيطرة؛ توقف بأمان.",
+      "tts_locale": "it-IT"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "module_id": "road-basics",
+  "lessons": [
+    {
+      "lesson_order": 1,
+      "heading_it": "Parti della strada e significato dei termini",
+      "heading_ar": "أجزاء الطريق ومعاني المصطلحات",
+      "body_it": "La strada, ai fini del Codice, è uno spazio destinato alla circolazione pubblica di pedoni, veicoli e animali. La carreggiata è la parte destinata allo scorrimento dei veicoli e può comprendere una o più corsie. La corsia è una fascia longitudinale larga quanto basta per il passaggio di una sola fila di veicoli. Il marciapiede si trova fuori dalla carreggiata ed è destinato ai pedoni; è rialzato oppure delimitato e protetto. Questi termini descrivono parti diverse: riconoscerle aiuta a leggere la strada e a capire dove si svolgono i diversi movimenti. È una spiegazione didattica, non una traduzione ufficiale del Codice.",
+      "body_ar": "لأغراض قانون المرور، الطريق مساحة مخصصة للاستخدام العام في حركة المشاة والمركبات والحيوانات. أما carreggiata فهي الجزء المخصص لسير المركبات، وقد يضم حارة واحدة أو أكثر. وcorsia شريط طولي من الطريق يسمح عرضه بمرور صف واحد من المركبات. أما marciapiede فهو جزء خارج carreggiata ومخصص للمشاة، ويكون مرتفعًا أو محددًا ومحميًا بطريقة أخرى. المصطلحات دي بتوصف أجزاء مختلفة؛ وفهمها بيساعدك تقرأ الطريق وتعرف أماكن حركة كل مستخدم. ده شرح تعليمي مبسط، مش ترجمة رسمية للقانون.",
+      "core_it": "La carreggiata è destinata ai veicoli e può includere più corsie.\nIl marciapiede è esterno alla carreggiata ed è destinato ai pedoni.",
+      "core_ar": "الـcarreggiata مخصصة للمركبات وممكن تضم أكتر من حارة.\nالرصيف خارجها ومخصص للمشاة.",
+      "key_points": [
+        {"title_it":"Strada","title_ar":"الطريق","it":"Spazio pubblico destinato alla circolazione di pedoni, veicoli e animali.","ar":"مساحة عامة مخصصة لحركة المشاة والمركبات والحيوانات."},
+        {"title_it":"Carreggiata","title_ar":"جزء سير المركبات","it":"Parte della strada destinata allo scorrimento dei veicoli.","ar":"جزء الطريق المخصص لسير المركبات."},
+        {"title_it":"Corsia","title_ar":"الحارة المرورية","it":"Fascia longitudinale adatta al transito di una fila di veicoli.","ar":"شريط طولي يسمح بمرور صف واحد من المركبات."},
+        {"title_it":"Marciapiede","title_ar":"الرصيف","it":"Parte esterna alla carreggiata destinata ai pedoni.","ar":"جزء خارج carreggiata ومخصص للمشاة."}
+      ],
+      "trap_words": [
+        {"term_it":"carreggiata","meaning_ar":"الجزء المخصص لسير المركبات، وقد يضم حارات متعددة","why_it":"Non indica una singola corsia.","why_ar":"مش معناها حارة واحدة بعينها.","example_it":"La carreggiata comprende due corsie.","example_ar":"الـcarreggiata بتضم حارتين."},
+        {"term_it":"corsia","meaning_ar":"حارة أو شريط طولي لحركة صف واحد من المركبات","why_it":"Non è sinonimo dell'intera carreggiata.","why_ar":"مش مرادف لكل جزء سير المركبات.","example_it":"Il veicolo resta nella propria corsia.","example_ar":"المركبة تفضل في حارتها."}
+      ],
+      "numbers": [],
+      "common_mistakes": [
+        {"mistake_it":"Chiamare corsia l'intera carreggiata.","mistake_ar":"اعتبار corsia هي كل جزء سير المركبات.","why_it":"La carreggiata può contenere una o più corsie.","why_ar":"لأن carreggiata ممكن تضم حارة واحدة أو أكتر."},
+        {"mistake_it":"Considerare il marciapiede parte della carreggiata.","mistake_ar":"اعتبار الرصيف جزءًا من carreggiata.","why_it":"La definizione colloca il marciapiede all'esterno della carreggiata.","why_ar":"التعريف بيحدد الرصيف كجزء خارج carreggiata."}
+      ],
+      "quick_check": [
+        {"statement_it":"Una carreggiata può comprendere più corsie.","statement_ar":"ممكن الـcarreggiata تضم أكتر من حارة.","answer":"VERO","explanation_it":"La definizione ammette una o più corsie di marcia.","explanation_ar":"التعريف يسمح بحارة واحدة أو أكتر."},
+        {"statement_it":"Il marciapiede è destinato ai veicoli ed è dentro la carreggiata.","statement_ar":"الرصيف مخصص للمركبات وداخل carreggiata.","answer":"FALSO","explanation_it":"È esterno alla carreggiata ed è destinato ai pedoni.","explanation_ar":"هو خارج carreggiata ومخصص للمشاة."},
+        {"statement_it":"La corsia consente il transito di una sola fila di veicoli.","statement_ar":"الحارة تسمح بمرور صف واحد من المركبات.","answer":"VERO","explanation_it":"Questa è la funzione dimensionale indicata dalla definizione.","explanation_ar":"ده المعنى الوارد في تعريف عرض الحارة ووظيفتها."}
+      ],
+      "example_it":"Su una strada con due corsie e un marciapiede, le corsie appartengono alla carreggiata; il marciapiede è esterno e destinato ai pedoni.",
+      "example_ar":"في طريق فيه حارتين ورصيف، الحارتين جزء من carreggiata؛ أما الرصيف فبراها ومخصص للمشاة.",
+      "pitfall_it":"Non scambiare la carreggiata, che può comprendere più corsie, con una singola corsia.",
+      "pitfall_ar":"ما تخلطش بين carreggiata اللي ممكن تضم حارات متعددة وبين حارة واحدة.",
+      "legal_sources": [
+        {"article":"Art. 2, comma 1; art. 3, definizioni 7, 12 e 33","title_it":"Codice della strada: definizione di strada e parti della strada","title_ar":"قانون المرور: تعريف الطريق وأجزاؤه","url":"https://aci.gov.it/codice-della-strada/art-3/"}
+      ]
+    },
+    {
+      "lesson_order": 2,
+      "heading_it": "Che cosa è un veicolo e come si classifica",
+      "heading_ar": "ما هي المركبة وكيف تُصنَّف؟",
+      "body_it": "Nel Codice, il veicolo è definito in generale come una macchina di qualsiasi specie che circola sulla strada guidata dall’uomo. La definizione esclude alcune macchine per bambini entro i limiti regolamentari e determinati ausili medici per persone con disabilità: non basta quindi che qualcosa si muova per qualificarlo sempre come veicolo. Il Codice distingue categorie come velocipedi, autoveicoli e rimorchi. Un’autovettura appartiene agli autoveicoli; il rimorchio è una categoria distinta. Nella categoria internazionale O rientrano i rimorchi, compresi i semirimorchi: questi ultimi non costituiscono una categoria autonoma rispetto ai rimorchi. È una sintesi didattica.",
+      "body_ar": "القانون بيعرّف المركبة بشكل عام إنها آلة من أي نوع بتسير على الطريق ويقودها إنسان. لكن التعريف بيستثني بعض ألعاب الأطفال ضمن الحدود اللي تحددها اللائحة، وبعض الأجهزة الطبية المساعدة لذوي الإعاقة؛ فمش كل حاجة بتتحرك تبقى مركبة بالمعنى القانوني. القانون بيفرّق بين فئات زي الدراجات، والمركبات الآلية، والمقطورات. عربية الركوب نوع من المركبات الآلية، أما المقطورة فلها فئة منفصلة. والفئة الدولية O تشمل المقطورات، بما فيها أنصاف المقطورات؛ يعني نصف المقطورة مش فئة مستقلة عن المقطورات. ده ملخص تعليمي.",
+      "core_it":"La definizione di veicolo prevede eccezioni specifiche.\nIl semirimorchio rientra tra i rimorchi, non in una categoria autonoma.",
+      "core_ar":"تعريف المركبة له استثناءات محددة.\nنصف المقطورة داخل فئة المقطورات، مش فئة مستقلة.",
+      "key_points": [
+        {"title_it":"Definizione generale","title_ar":"التعريف العام","it":"Macchina che circola sulla strada guidata dall'uomo, con eccezioni previste.","ar":"آلة تسير على الطريق بقيادة إنسان، مع وجود استثناءات منصوص عليها."},
+        {"title_it":"Eccezioni","title_ar":"الاستثناءات","it":"Alcune macchine per bambini e determinati ausili medici non rientrano nella definizione.","ar":"بعض آلات الأطفال وبعض الأجهزة الطبية المساعدة لا تدخل في التعريف."},
+        {"title_it":"Categorie","title_ar":"الفئات","it":"Il Codice distingue, tra le altre, autoveicoli e rimorchi.","ar":"القانون بيفرّق، ضمن فئات تانية، بين المركبات الآلية والمقطورات."},
+        {"title_it":"Semirimorchi","title_ar":"أنصاف المقطورات","it":"Sono inclusi nella categoria O dei rimorchi.","ar":"داخلة ضمن الفئة O الخاصة بالمقطورات."}
+      ],
+      "trap_words": [
+        {"term_it":"semirimorchio","meaning_ar":"نصف مقطورة، مُدرج ضمن فئة المقطورات","why_it":"Non è una categoria autonoma rispetto ai rimorchi.","why_ar":"مش فئة مستقلة عن المقطورات.","example_it":"La categoria O comprende rimorchi e semirimorchi.","example_ar":"الفئة O بتشمل المقطورات وأنصاف المقطورات."}
+      ],
+      "numbers": [],
+      "common_mistakes": [
+        {"mistake_it":"Affermare che ogni macchina in movimento sia sempre un veicolo ai fini del Codice.","mistake_ar":"القول إن كل آلة متحركة تُعد دائمًا مركبة بموجب القانون.","why_it":"La definizione contiene eccezioni espresse.","why_ar":"التعريف فيه استثناءات صريحة."},
+        {"mistake_it":"Trattare i semirimorchi come categoria autonoma dai rimorchi.","mistake_ar":"اعتبار أنصاف المقطورات فئة مستقلة عن المقطورات.","why_it":"La categoria internazionale O include entrambi tra i rimorchi.","why_ar":"الفئة الدولية O بتضم الاتنين تحت فئة المقطورات."}
+      ],
+      "quick_check": [
+        {"statement_it":"La definizione del Codice non prevede eccezioni per alcuna macchina.","statement_ar":"تعريف القانون ما فيهوش أي استثناء لأي آلة.","answer":"FALSO","explanation_it":"Sono escluse alcune macchine per bambini e determinati ausili medici.","explanation_ar":"فيه استثناءات لبعض آلات الأطفال وبعض الأجهزة الطبية المساعدة."},
+        {"statement_it":"La categoria O comprende anche i semirimorchi.","statement_ar":"الفئة O بتشمل كمان أنصاف المقطورات.","answer":"VERO","explanation_it":"L'articolo 47 include i semirimorchi nella categoria dei rimorchi O.","explanation_ar":"المادة 47 بتدرج أنصاف المقطورات ضمن فئة المقطورات O."},
+        {"statement_it":"Un'autovettura e un rimorchio appartengono alla stessa categoria del Codice.","statement_ar":"عربية الركوب والمقطورة من نفس فئة القانون.","answer":"FALSO","explanation_it":"L'autovettura è un tipo di autoveicolo; il rimorchio è classificato distintamente.","explanation_ar":"عربية الركوب نوع من المركبات الآلية، والمقطورة مصنفة بشكل منفصل."}
+      ],
+      "example_it":"Un’autovettura traina un rimorchio: l’auto è un autoveicolo e il rimorchio è classificato separatamente; un semirimorchio resta incluso nella categoria dei rimorchi.",
+      "example_ar":"عربية ركوب بتجر مقطورة: العربية مركبة آلية والمقطورة مصنفة لوحدها؛ ونصف المقطورة يظل ضمن فئة المقطورات.",
+      "pitfall_it":"Non confondere il veicolo trainante con il rimorchio e non separare il semirimorchio dalla categoria dei rimorchi.",
+      "pitfall_ar":"ما تخلطش بين المركبة القاطرة والمقطورة، وما تفصلش نصف المقطورة عن فئة المقطورات.",
+      "legal_sources": [
+        {"article":"Art. 46","title_it":"Nozione di veicolo","title_ar":"مفهوم المركبة","url":"https://aci.gov.it/codice-della-strada/art-46/"},
+        {"article":"Art. 47, commi 1–2","title_it":"Classificazione dei veicoli","title_ar":"تصنيف المركبات","url":"https://aci.gov.it/codice-della-strada/art-47/"}
+      ]
+    },
+    {
+      "lesson_order": 3,
+      "heading_it": "Prudenza e velocità adatta alle condizioni",
+      "heading_ar": "الحذر والسرعة المناسبة للظروف",
+      "body_it": "La circolazione richiede attenzione e rispetto per la sicurezza di tutti. L’articolo 140 stabilisce il principio generale di non creare pericolo o intralcio e di salvaguardare la sicurezza della circolazione. L’articolo 141 richiede al conducente di regolare la velocità considerando veicolo e carico, strada, traffico e ogni altra circostanza. Deve mantenere il controllo e poter arrestare tempestivamente il veicolo entro i limiti del proprio campo visivo, anche davanti a un ostacolo prevedibile. Perciò rispettare il limite massimo non rende automaticamente adeguata la velocità: pioggia, curva o visibilità ridotta possono richiedere di rallentare. Questa è una parafrasi educativa, non il testo letterale.",
+      "body_ar": "السير على الطريق محتاج انتباه واحترام سلامة الجميع. المادة 140 بتحط المبدأ العام: ما ينفعش مستعمل الطريق يسبب خطر أو تعطيل، ولازم يحافظ على سلامة الحركة. والمادة 141 بتطلب من السائق يضبط السرعة مع مراعاة المركبة وحمولتها والطريق والمرور وأي ظروف تانية. لازم يفضل مسيطر على المركبة ويقدر يوقفها في الوقت المناسب داخل حدود مجال رؤيته، حتى قدام عائق متوقع. عشان كده مجرد الالتزام بالحد الأقصى مش معناه إن السرعة مناسبة تلقائيًا؛ المطر أو المنحنى أو ضعف الرؤية ممكن يخلّوا التهدئة ضرورية. ده شرح تعليمي بالمعنى، مش نقل حرفي للنص.",
+      "core_it":"La velocità va adeguata alle condizioni, non solo al limite massimo.\nIl conducente deve mantenere il controllo e poter fermarsi entro il campo visivo.",
+      "core_ar":"السرعة لازم تناسب الظروف، مش الحد الأقصى بس.\nالسائق لازم يفضل مسيطر ويقدر يقف داخل مجال رؤيته.",
+      "key_points": [
+        {"title_it":"Sicurezza comune","title_ar":"السلامة للجميع","it":"Gli utenti non devono creare pericolo o intralcio alla circolazione.","ar":"مستعملو الطريق ما يسببوش خطر أو تعطيل للحركة."},
+        {"title_it":"Velocità adeguata","title_ar":"سرعة مناسبة","it":"Considerare veicolo, carico, strada, traffico e circostanze.","ar":"راعي المركبة والحمولة والطريق والمرور والظروف المحيطة."},
+        {"title_it":"Controllo","title_ar":"السيطرة","it":"Il conducente deve conservare il controllo del veicolo.","ar":"السائق لازم يحافظ على السيطرة على المركبة."},
+        {"title_it":"Campo visivo","title_ar":"مجال الرؤية","it":"Deve poter arrestarsi tempestivamente entro i limiti visibili.","ar":"لازم يقدر يوقف في الوقت المناسب داخل حدود اللي شايفه."},
+        {"title_it":"Limite massimo","title_ar":"الحد الأقصى","it":"Rispettarlo non significa sempre che la velocità sia adatta alle condizioni.","ar":"الالتزام بيه مش معناه إن السرعة مناسبة للظروف في كل مرة."}
+      ],
+      "trap_words": [
+        {"term_it":"campo di visibilità","meaning_ar":"المسافة أو المجال اللي يقدر السائق يشوفه قدامه","why_it":"La regola collega la velocità anche alla possibilità di fermarsi entro ciò che è visibile.","why_ar":"القاعدة بتربط السرعة بالقدرة على الوقوف داخل المجال المرئي.","example_it":"In una curva cieca, ridurre la velocità aiuta a fermarsi entro il campo visibile.","example_ar":"في منحنى الرؤية فيه محدودة، التهدئة بتساعد السائق يقف داخل المجال اللي شايفه."}
+      ],
+      "numbers": [],
+      "common_mistakes": [
+        {"mistake_it":"Pensare che stare sotto il limite massimo basti sempre.","mistake_ar":"الاعتقاد إن عدم تجاوز الحد الأقصى كفاية دايمًا.","why_it":"La velocità va adattata alle condizioni e alla visibilità.","why_ar":"السرعة لازم تناسب الظروف والرؤية."},
+        {"mistake_it":"Dimenticare che la capacità di arrestarsi nel campo visivo è parte della prudenza richiesta.","mistake_ar":"نسيان إن القدرة على الوقوف داخل مجال الرؤية جزء من الحذر المطلوب.","why_it":"L'articolo 141 richiede controllo e arresto tempestivo entro i limiti visibili.","why_ar":"المادة 141 بتطلب السيطرة والقدرة على الوقوف في الوقت المناسب داخل حدود الرؤية."}
+      ],
+      "quick_check": [
+        {"statement_it":"Il conducente deve considerare anche strada e traffico quando regola la velocità.","statement_ar":"السائق لازم يراعي الطريق والمرور وهو بيضبط السرعة.","answer":"VERO","explanation_it":"Sono tra le circostanze considerate nella regola dell'articolo 141.","explanation_ar":"دول من الظروف اللي لازم تتراعى وفق المادة 141."},
+        {"statement_it":"Il rispetto del limite massimo rende sempre sicura qualsiasi velocità scelta.","statement_ar":"الالتزام بالحد الأقصى بيخلي أي سرعة مختارة آمنة دايمًا.","answer":"FALSO","explanation_it":"La velocità deve essere adeguata alle condizioni e alla visibilità.","explanation_ar":"السرعة لازم تناسب الظروف ومدى الرؤية."},
+        {"statement_it":"Il conducente deve poter arrestare tempestivamente il veicolo entro il campo visivo.","statement_ar":"لازم السائق يقدر يوقف المركبة في الوقت المناسب داخل مجال الرؤية.","answer":"VERO","explanation_it":"È uno dei doveri descritti dall'articolo 141.","explanation_ar":"ده من واجبات السائق المذكورة في المادة 141."}
+      ],
+      "example_it":"Su fondo bagnato, avvicinandosi a una curva con visuale corta, il conducente rallenta quanto serve per mantenere il controllo e potersi fermare nello spazio visibile.",
+      "example_ar":"على طريق مبلول وقبل منحنى الرؤية فيه قصيرة، السائق يهدّي بالقدر اللي يخليه مسيطر ويقدر يقف داخل المسافة اللي شايفها.",
+      "pitfall_it":"Non trattare il limite massimo come una velocità sempre adatta: le condizioni possono imporre di andare più piano.",
+      "pitfall_ar":"ما تعتبرش الحد الأقصى سرعة مناسبة في كل الأحوال؛ الظروف ممكن تفرض إنك تمشي أبطأ.",
+      "legal_sources": [
+        {"article":"Art. 140","title_it":"Principio informatore della circolazione","title_ar":"المبدأ العام لحركة المرور","url":"https://aci.gov.it/codice-della-strada/art-140/"},
+        {"article":"Art. 141, commi 1–3","title_it":"Velocità","title_ar":"السرعة","url":"https://aci.gov.it/codice-della-strada/art-141/"}
+      ]
+    },
+    {
+      "lesson_order": 4,
+      "heading_it": "Come leggere l’aggiornamento del Codice del 2024",
+      "heading_ar": "إزاي نفهم تحديث قانون المرور في 2024؟",
+      "body_it": "La legge 25 novembre 2024, n. 177, è stata pubblicata nella Gazzetta Ufficiale il 29 novembre 2024; la scheda ufficiale indica che è entrata in vigore il 14 dicembre 2024. Il Ministero segnala che la legge ha modificato alcune norme del Codice della strada e descrive diversi ambiti interessati. Da queste informazioni non si può dedurre che ogni articolo del Codice sia stato modificato. Per una questione concreta occorre consultare la disposizione pertinente nella versione vigente, non affidarsi soltanto alla data della riforma o a una sintesi generale. Le fonti ufficiali aiutano a orientarsi, ma questa lezione resta una spiegazione semplificata e non garantisce completezza legale aggiornata.",
+      "body_ar": "القانون رقم 177 المؤرخ 25 نوفمبر 2024 اتنشر في الجريدة الرسمية يوم 29 نوفمبر 2024؛ وبيانات الجريدة الرسمية بتقول إنه دخل حيز النفاذ يوم 14 ديسمبر 2024. ووزارة النقل بتشير إلى إن القانون عدّل بعض أحكام قانون المرور وبتذكر مجالات مختلفة شملتها التعديلات. لكن المعلومات دي ما تثبتش إن كل مادة في قانون المرور اتعدلت. لو عندك سؤال محدد، لازم تراجع الحكم المعني بصيغته النافذة، وما تعتمدش بس على تاريخ التعديل أو ملخص عام. المصادر الرسمية بتساعد في الوصول للمعلومة، لكن الدرس ده شرح مبسط ومش ضمان لاكتمال أو حداثة كل التفاصيل القانونية.",
+      "core_it":"La legge n. 177/2024 è entrata in vigore il 14 dicembre 2024.\nLa data non dimostra che ogni articolo del Codice sia stato modificato.",
+      "core_ar":"القانون 177/2024 دخل حيز النفاذ يوم 14 ديسمبر 2024.\nالتاريخ ده ما يثبتش إن كل مادة في قانون المرور اتعدلت.",
+      "key_points": [
+        {"title_it":"Data della legge","title_ar":"تاريخ القانون","it":"La legge n. 177 è datata 25 novembre 2024.","ar":"تاريخ القانون رقم 177 هو 25 نوفمبر 2024."},
+        {"title_it":"Pubblicazione","title_ar":"النشر","it":"La pubblicazione nella Gazzetta Ufficiale è del 29 novembre 2024.","ar":"النشر في الجريدة الرسمية كان يوم 29 نوفمبر 2024."},
+        {"title_it":"Entrata in vigore","title_ar":"بدء النفاذ","it":"La scheda ufficiale indica il 14 dicembre 2024.","ar":"بيانات الجريدة الرسمية بتحدد 14 ديسمبر 2024 لبدء النفاذ."},
+        {"title_it":"Ambito delle modifiche","title_ar":"نطاق التعديلات","it":"Il Ministero parla di alcune norme modificate, non di ogni articolo.","ar":"الوزارة بتتكلم عن تعديل بعض الأحكام، مش كل المواد."},
+        {"title_it":"Verifica puntuale","title_ar":"التحقق المحدد","it":"Per una questione concreta, consultare la disposizione pertinente nella versione vigente.","ar":"لأي مسألة محددة، راجع الحكم المعني بصيغته النافذة."}
+      ],
+      "trap_words": [
+        {"term_it":"entrata in vigore","meaning_ar":"تاريخ بدء سريان الحكم القانوني","why_it":"Non coincide necessariamente con la data della legge o della pubblicazione.","why_ar":"مش لازم يطابق تاريخ إصدار القانون أو تاريخ نشره.","example_it":"Legge: 25 novembre; pubblicazione: 29 novembre; entrata in vigore: 14 dicembre 2024.","example_ar":"تاريخ القانون 25 نوفمبر؛ النشر 29 نوفمبر؛ وبدء النفاذ 14 ديسمبر 2024."}
+      ],
+      "numbers": [
+        {"value":"14 dicembre 2024","context_it":"Data di entrata in vigore indicata dalla Gazzetta Ufficiale per la legge n. 177/2024.","context_ar":"تاريخ بدء نفاذ القانون 177/2024 وفق بيانات الجريدة الرسمية."},
+        {"value":"29 novembre 2024","context_it":"Data di pubblicazione della legge n. 177/2024 nella Gazzetta Ufficiale.","context_ar":"تاريخ نشر القانون 177/2024 في الجريدة الرسمية."}
+      ],
+      "common_mistakes": [
+        {"mistake_it":"Confondere la data della legge, quella di pubblicazione e quella di entrata in vigore.","mistake_ar":"الخلط بين تاريخ القانون وتاريخ نشره وتاريخ بدء نفاذه.","why_it":"Sono tre date diverse, come mostra la scheda ufficiale.","why_ar":"دي تواريخ مختلفة، زي ما بتوضح بيانات الجريدة الرسمية."},
+        {"mistake_it":"Concludere che ogni articolo del Codice sia cambiato perché è entrata in vigore una legge di modifica.","mistake_ar":"استنتاج إن كل مواد القانون اتغيرت لمجرد دخول قانون تعديل حيز النفاذ.","why_it":"Il Ministero riferisce modifiche ad alcune norme; per il singolo articolo serve una verifica puntuale.","why_ar":"الوزارة بتذكر تعديلات لبعض الأحكام؛ وكل مادة محتاجة تحقق لوحدها."}
+      ],
+      "quick_check": [
+        {"statement_it":"La legge n. 177/2024 è entrata in vigore il 14 dicembre 2024.","statement_ar":"القانون 177/2024 دخل حيز النفاذ يوم 14 ديسمبر 2024.","answer":"VERO","explanation_it":"La data è riportata nella scheda della Gazzetta Ufficiale e nella pagina ministeriale.","explanation_ar":"التاريخ ده وارد في بيانات الجريدة الرسمية وصفحة الوزارة."},
+        {"statement_it":"Il 29 novembre 2024 è la data di entrata in vigore della legge n. 177.","statement_ar":"29 نوفمبر 2024 هو تاريخ بدء نفاذ القانون 177.","answer":"FALSO","explanation_it":"È la data di pubblicazione; l'entrata in vigore indicata è il 14 dicembre.","explanation_ar":"ده تاريخ النشر؛ أما بدء النفاذ المحدد فهو 14 ديسمبر."},
+        {"statement_it":"La data di entrata in vigore dimostra da sola che ogni articolo del Codice è stato modificato.","statement_ar":"تاريخ بدء النفاذ لوحده يثبت إن كل مادة في قانون المرور اتعدلت.","answer":"FALSO","explanation_it":"Occorre verificare il testo della disposizione specifica; la legge ha modificato alcune norme.","explanation_ar":"لازم تراجع نص الحكم المحدد؛ القانون عدّل بعض الأحكام."}
+      ],
+      "example_it":"Se una domanda riguarda una definizione stradale, verificare l’articolo pertinente nella versione vigente: la data di una riforma non dimostra da sola che quella definizione sia cambiata.",
+      "example_ar":"لو السؤال عن تعريف من تعريفات الطريق، راجع المادة المعنية بصيغتها النافذة؛ تاريخ تعديل القانون لوحده ما يثبتش إن التعريف ده اتغير.",
+      "pitfall_it":"Non attribuire una modifica a un articolo specifico senza averne verificato il testo vigente.",
+      "pitfall_ar":"ما تنسبش تعديل لمادة بعينها من غير ما تتحقق من نصها النافذ.",
+      "legal_sources": [
+        {"article":"Legge 25 novembre 2024, n. 177; dati di pubblicazione e di entrata in vigore","title_it":"Gazzetta Ufficiale: legge n. 177/2024","title_ar":"الجريدة الرسمية: القانون 177/2024","url":"https://www.gazzettaufficiale.it/eli/id/2024/11/29/24G00199/sg"},
+        {"article":"Comunicazione ministeriale sulla legge n. 177/2024","title_it":"MIT: entrata in vigore delle modifiche al Codice della strada","title_ar":"وزارة النقل: بدء نفاذ تعديلات قانون المرور","url":"https://www.mit.gov.it/comunicazione/news/sicurezza-stradale-e-vigore-il-decreto-con-modifiche-al-codice-della-strada"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5646 @@
+{
+  "schema_version": 2,
+  "source": "data/questions.json — Italian text from the question bank linked by the official portal; this index does not independently certify exact PDF transcription.",
+  "method": {
+    "scope": "Only compare questions within the same question-bank topic.",
+    "clustering": "complete-link",
+    "clustering_rule": "Every pair inside a group independently passes all thresholds.",
+    "normalization": "Lowercase and remove accents/punctuation for matching; source text remains unchanged.",
+    "minimum_tokens": 6,
+    "minimum_length_ratio": 0.86,
+    "minimum_set_jaccard": 0.72,
+    "minimum_sequence_similarity": 0.88,
+    "maximum_changed_tokens": 2,
+    "note": "Automated wording groups are study aids, not verified equivalent questions. Check every changed word, answer, and any figure independently."
+  },
+  "question_count": 7020,
+  "question_bank_sha256": "0b092118291a1e2d08f8a6c39cc2d80bb4cd3341830b09a359e07a698f7bd45d",
+  "group_count": 453,
+  "grouped_question_count": 1093,
+  "accepted_pair_count": 1251,
+  "groups": [
+    {
+      "id": "similar-0001",
+      "topic": "Segnali di pericolo",
+      "representative_id": 18855,
+      "question_ids": [
+        18855,
+        18896,
+        18905,
+        19096,
+        19170,
+        19238,
+        19261,
+        19299,
+        19342,
+        19360,
+        19407,
+        19489,
+        19499
+      ],
+      "member_count": 13,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0002",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23222,
+      "question_ids": [
+        23222,
+        23241,
+        23242,
+        23245,
+        23246,
+        23247,
+        23262,
+        23263,
+        23267,
+        23268,
+        23270,
+        23395
+      ],
+      "member_count": 12,
+      "minimum_pair_similarity": 0.9,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0003",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20040,
+      "question_ids": [
+        20040,
+        20059,
+        20079,
+        20102,
+        20131,
+        20171,
+        20191,
+        20213,
+        20234,
+        20272,
+        20282,
+        20304
+      ],
+      "member_count": 12,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0004",
+      "topic": "Distanza di sicurezza",
+      "representative_id": 22579,
+      "question_ids": [
+        22579,
+        22580,
+        22581,
+        22582,
+        22583,
+        22584,
+        22585,
+        22586,
+        22587
+      ],
+      "member_count": 9,
+      "minimum_pair_similarity": 0.888889,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0005",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20038,
+      "question_ids": [
+        20038,
+        20050,
+        20071,
+        20094,
+        20120,
+        20164,
+        20186,
+        20207,
+        20277
+      ],
+      "member_count": 9,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0006",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20052,
+      "question_ids": [
+        20052,
+        20073,
+        20095,
+        20138,
+        20161,
+        20187,
+        20285,
+        20295,
+        20341
+      ],
+      "member_count": 9,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0007",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20060,
+      "question_ids": [
+        20060,
+        20080,
+        20103,
+        20130,
+        20155,
+        20170,
+        20273,
+        20278
+      ],
+      "member_count": 8,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0008",
+      "topic": "Segnali di pericolo",
+      "representative_id": 18850,
+      "question_ids": [
+        18850,
+        18857,
+        18886,
+        18929,
+        19014,
+        19247,
+        19393,
+        19400
+      ],
+      "member_count": 8,
+      "minimum_pair_similarity": 0.888889,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0009",
+      "topic": "Segnali di divieto",
+      "representative_id": 19597,
+      "question_ids": [
+        19597,
+        19853,
+        19877,
+        19890,
+        19927,
+        19993
+      ],
+      "member_count": 6,
+      "minimum_pair_similarity": 0.941176,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0010",
+      "topic": "Segnali di pericolo",
+      "representative_id": 18859,
+      "question_ids": [
+        18859,
+        18932,
+        19176,
+        19230,
+        19240,
+        19379
+      ],
+      "member_count": 6,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0011",
+      "topic": "Segnali di pericolo",
+      "representative_id": 18950,
+      "question_ids": [
+        18950,
+        18981,
+        19006,
+        19035,
+        19057,
+        19082
+      ],
+      "member_count": 6,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0012",
+      "topic": "Segnali di precedenza",
+      "representative_id": 20466,
+      "question_ids": [
+        20466,
+        20539,
+        20582,
+        20620,
+        20632,
+        20668
+      ],
+      "member_count": 6,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0013",
+      "topic": "Uso delle luci; uso dei dispositivi acustici; spie e simboli",
+      "representative_id": 24213,
+      "question_ids": [
+        24213,
+        24218,
+        24273,
+        24301,
+        24312,
+        24316
+      ],
+      "member_count": 6,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0014",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23183,
+      "question_ids": [
+        23183,
+        23387,
+        23391,
+        23435,
+        23438
+      ],
+      "member_count": 5,
+      "minimum_pair_similarity": 0.923077,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0015",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23281,
+      "question_ids": [
+        23272,
+        23274,
+        23280,
+        23281,
+        23282
+      ],
+      "member_count": 5,
+      "minimum_pair_similarity": 0.894737,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0016",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23309,
+      "question_ids": [
+        23309,
+        23314,
+        23334,
+        23339,
+        23352
+      ],
+      "member_count": 5,
+      "minimum_pair_similarity": 0.882353,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0017",
+      "topic": "Segnali di indicazione",
+      "representative_id": 21307,
+      "question_ids": [
+        21307,
+        21399,
+        21408,
+        21569,
+        21618
+      ],
+      "member_count": 5,
+      "minimum_pair_similarity": 0.888889,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0018",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20084,
+      "question_ids": [
+        20084,
+        20108,
+        20175,
+        20196,
+        20215
+      ],
+      "member_count": 5,
+      "minimum_pair_similarity": 0.947368,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0019",
+      "topic": "Segnali di precedenza",
+      "representative_id": 20482,
+      "question_ids": [
+        20482,
+        20509,
+        20527,
+        20560,
+        20670
+      ],
+      "member_count": 5,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0020",
+      "topic": "Uso delle luci; uso dei dispositivi acustici; spie e simboli",
+      "representative_id": 24199,
+      "question_ids": [
+        24198,
+        24199,
+        24204,
+        24205,
+        24211
+      ],
+      "member_count": 5,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0021",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23063,
+      "question_ids": [
+        23063,
+        23069,
+        23163,
+        23164
+      ],
+      "member_count": 4,
+      "minimum_pair_similarity": 0.9375,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0022",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23070,
+      "question_ids": [
+        23064,
+        23070,
+        23111,
+        23225
+      ],
+      "member_count": 4,
+      "minimum_pair_similarity": 0.882353,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0023",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23085,
+      "question_ids": [
+        23085,
+        23089,
+        23420,
+        23449
+      ],
+      "member_count": 4,
+      "minimum_pair_similarity": 0.9375,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0024",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23096,
+      "question_ids": [
+        23096,
+        23098,
+        23411,
+        23414
+      ],
+      "member_count": 4,
+      "minimum_pair_similarity": 0.952381,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0025",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23156,
+      "question_ids": [
+        23115,
+        23156,
+        23157,
+        23158
+      ],
+      "member_count": 4,
+      "minimum_pair_similarity": 0.888889,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0026",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23165,
+      "question_ids": [
+        23165,
+        23166,
+        23220,
+        23412
+      ],
+      "member_count": 4,
+      "minimum_pair_similarity": 0.9,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0027",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23213,
+      "question_ids": [
+        23213,
+        23240,
+        23276,
+        23396
+      ],
+      "member_count": 4,
+      "minimum_pair_similarity": 0.903226,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0028",
+      "topic": "Segnali di divieto",
+      "representative_id": 19527,
+      "question_ids": [
+        19527,
+        19690,
+        19699,
+        19894
+      ],
+      "member_count": 4,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0029",
+      "topic": "Segnali di divieto",
+      "representative_id": 19540,
+      "question_ids": [
+        19540,
+        19911,
+        19933,
+        19942
+      ],
+      "member_count": 4,
+      "minimum_pair_similarity": 0.9,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0030",
+      "topic": "Segnali di divieto",
+      "representative_id": 19659,
+      "question_ids": [
+        19659,
+        19668,
+        19689,
+        19707
+      ],
+      "member_count": 4,
+      "minimum_pair_similarity": 0.9,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0031",
+      "topic": "Segnali di divieto",
+      "representative_id": 19714,
+      "question_ids": [
+        19714,
+        19717,
+        19724,
+        19750
+      ],
+      "member_count": 4,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0032",
+      "topic": "Segnali di indicazione",
+      "representative_id": 21361,
+      "question_ids": [
+        21361,
+        21374,
+        21388,
+        21446
+      ],
+      "member_count": 4,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0033",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20045,
+      "question_ids": [
+        20045,
+        20087,
+        20112,
+        20162
+      ],
+      "member_count": 4,
+      "minimum_pair_similarity": 0.888889,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0034",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20053,
+      "question_ids": [
+        20046,
+        20053,
+        20141,
+        20204
+      ],
+      "member_count": 4,
+      "minimum_pair_similarity": 0.888889,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0035",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20174,
+      "question_ids": [
+        20174,
+        20194,
+        20210,
+        20216
+      ],
+      "member_count": 4,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0036",
+      "topic": "Segnali di pericolo",
+      "representative_id": 18853,
+      "question_ids": [
+        18853,
+        18888,
+        18911,
+        18989
+      ],
+      "member_count": 4,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0037",
+      "topic": "Segnali di precedenza",
+      "representative_id": 20572,
+      "question_ids": [
+        20572,
+        20577,
+        20700,
+        20704
+      ],
+      "member_count": 4,
+      "minimum_pair_similarity": 0.930233,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0038",
+      "topic": "Definizioni stradali e di traffico; definizioni e classificazione dei veicoli; doveri del conducente nell'uso della strada",
+      "representative_id": 18371,
+      "question_ids": [
+        18371,
+        18374,
+        18387
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 0.882353,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0039",
+      "topic": "Definizioni stradali e di traffico; definizioni e classificazione dei veicoli; doveri del conducente nell'uso della strada",
+      "representative_id": 18439,
+      "question_ids": [
+        18439,
+        18461,
+        18491
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 0.888889,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0040",
+      "topic": "Elementi costitutivi del veicolo importanti per la sicurezza; manutenzione ed uso; stabilità e tenuta di strada del veicolo;",
+      "representative_id": 25178,
+      "question_ids": [
+        25177,
+        25178,
+        25199
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0041",
+      "topic": "Elementi costitutivi del veicolo importanti per la sicurezza; manutenzione ed uso; stabilità e tenuta di strada del veicolo;",
+      "representative_id": 25406,
+      "question_ids": [
+        25406,
+        25407,
+        25408
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 0.952381,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0042",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23056,
+      "question_ids": [
+        23056,
+        23062,
+        23251
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0043",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23088,
+      "question_ids": [
+        23088,
+        23419,
+        23454
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 0.916667,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0044",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23101,
+      "question_ids": [
+        23101,
+        23167,
+        23221
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 0.9375,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0045",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23110,
+      "question_ids": [
+        23110,
+        23117,
+        23118
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 0.9,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0046",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23144,
+      "question_ids": [
+        23144,
+        23441,
+        23446
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 0.916667,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0047",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23175,
+      "question_ids": [
+        23175,
+        23179,
+        23297
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0048",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23327,
+      "question_ids": [
+        23315,
+        23327,
+        23338
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 0.923077,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0049",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23401,
+      "question_ids": [
+        23249,
+        23401,
+        23415
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 0.882353,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0050",
+      "topic": "Fermata, sosta, arresto e partenza",
+      "representative_id": 23675,
+      "question_ids": [
+        23675,
+        23691,
+        23695
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 0.888889,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0051",
+      "topic": "Limiti di velocità; pericolo e intralcio alla circolazione; comportamenti ai passaggi a livello",
+      "representative_id": 22331,
+      "question_ids": [
+        22331,
+        22335,
+        22346
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 0.882353,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0052",
+      "topic": "Norme sulla circol. dei veicoli; pos. dei veicoli sulla carreggiata; cambio di direz. di corsia (svolta); comp. in presenza di",
+      "representative_id": 22884,
+      "question_ids": [
+        22884,
+        22885,
+        22886
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 0.903226,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0053",
+      "topic": "Patenti di guida; documenti di circolazione del veicolo; obbligo verso funzionari ed agenti; sistema sanzionatorio; patente a",
+      "representative_id": 24680,
+      "question_ids": [
+        24680,
+        24684,
+        24685
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 0.97619,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0054",
+      "topic": "Responsabilità civile, penale, amministrativa; assicurazione R.C.A.; altre forme assicurative legate al veicolo",
+      "representative_id": 24977,
+      "question_ids": [
+        24977,
+        24978,
+        24979
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 0.944444,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0055",
+      "topic": "Segnali complementari; segnali temporanei e di cantiere",
+      "representative_id": 21943,
+      "question_ids": [
+        21943,
+        21951,
+        21982
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0056",
+      "topic": "Segnali di divieto",
+      "representative_id": 19521,
+      "question_ids": [
+        19521,
+        19660,
+        19682
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0057",
+      "topic": "Segnali di divieto",
+      "representative_id": 19661,
+      "question_ids": [
+        19661,
+        19676,
+        19688
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0058",
+      "topic": "Segnali di divieto",
+      "representative_id": 19713,
+      "question_ids": [
+        19713,
+        19721,
+        19737
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 0.956522,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0059",
+      "topic": "Segnali di divieto",
+      "representative_id": 19718,
+      "question_ids": [
+        19705,
+        19718,
+        19761
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0060",
+      "topic": "Segnali di divieto",
+      "representative_id": 19836,
+      "question_ids": [
+        19651,
+        19836,
+        19848
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 0.933333,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0061",
+      "topic": "Segnali di divieto",
+      "representative_id": 19861,
+      "question_ids": [
+        19861,
+        19868,
+        19882
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0062",
+      "topic": "Segnali di indicazione",
+      "representative_id": 21312,
+      "question_ids": [
+        21312,
+        21471,
+        21551
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0063",
+      "topic": "Segnali di indicazione",
+      "representative_id": 21611,
+      "question_ids": [
+        21611,
+        21651,
+        21745
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0064",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20049,
+      "question_ids": [
+        20049,
+        20070,
+        20097
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0065",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20051,
+      "question_ids": [
+        20051,
+        20072,
+        20096
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0066",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20143,
+      "question_ids": [
+        20143,
+        20232,
+        20252
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 0.9,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0067",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20173,
+      "question_ids": [
+        20173,
+        20189,
+        20195
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 0.952381,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0068",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20176,
+      "question_ids": [
+        20176,
+        20197,
+        20217
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0069",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20192,
+      "question_ids": [
+        20192,
+        20214,
+        20415
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0070",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20224,
+      "question_ids": [
+        20224,
+        20226,
+        20227
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 0.888889,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0071",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20349,
+      "question_ids": [
+        20349,
+        20350,
+        20408
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 0.88,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0072",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20380,
+      "question_ids": [
+        20362,
+        20380,
+        20385
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 0.896552,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0073",
+      "topic": "Segnali di pericolo",
+      "representative_id": 18860,
+      "question_ids": [
+        18860,
+        18986,
+        19188
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 0.933333,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0074",
+      "topic": "Segnali di pericolo",
+      "representative_id": 18865,
+      "question_ids": [
+        18865,
+        18879,
+        18914
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0075",
+      "topic": "Segnali di pericolo",
+      "representative_id": 18913,
+      "question_ids": [
+        18913,
+        19217,
+        19233
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0076",
+      "topic": "Segnali di pericolo",
+      "representative_id": 18927,
+      "question_ids": [
+        18880,
+        18927,
+        18955
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 0.916667,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0077",
+      "topic": "Segnali di pericolo",
+      "representative_id": 18952,
+      "question_ids": [
+        18952,
+        18977,
+        19004
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0078",
+      "topic": "Segnali di pericolo",
+      "representative_id": 18992,
+      "question_ids": [
+        18966,
+        18992,
+        19016
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 0.894737,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0079",
+      "topic": "Segnali di pericolo",
+      "representative_id": 19064,
+      "question_ids": [
+        19064,
+        19271,
+        19508
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 0.9,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0080",
+      "topic": "Segnali di pericolo",
+      "representative_id": 19223,
+      "question_ids": [
+        19223,
+        19239,
+        19253
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 0.97561,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0081",
+      "topic": "Segnali di pericolo",
+      "representative_id": 19285,
+      "question_ids": [
+        19285,
+        19286,
+        19287
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 0.888889,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0082",
+      "topic": "Segnali di precedenza",
+      "representative_id": 20535,
+      "question_ids": [
+        20480,
+        20535,
+        20570
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 0.941176,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0083",
+      "topic": "Segnali di precedenza",
+      "representative_id": 20604,
+      "question_ids": [
+        20604,
+        20621,
+        20633
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0084",
+      "topic": "Segnali di precedenza",
+      "representative_id": 20614,
+      "question_ids": [
+        20614,
+        20647,
+        20659
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0085",
+      "topic": "Uso delle luci; uso dei dispositivi acustici; spie e simboli",
+      "representative_id": 24200,
+      "question_ids": [
+        24197,
+        24200,
+        24203
+      ],
+      "member_count": 3,
+      "minimum_pair_similarity": 0.88,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0086",
+      "topic": "Comportamenti per prevenire incidenti stradali; comportamento in caso di incidente stradale; peculiarità della guida di",
+      "representative_id": 24700,
+      "question_ids": [
+        24700,
+        24701
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.928571,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0087",
+      "topic": "Comportamenti per prevenire incidenti stradali; comportamento in caso di incidente stradale; peculiarità della guida di",
+      "representative_id": 24703,
+      "question_ids": [
+        24703,
+        24704
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.933333,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0088",
+      "topic": "Comportamenti per prevenire incidenti stradali; comportamento in caso di incidente stradale; peculiarità della guida di",
+      "representative_id": 24732,
+      "question_ids": [
+        24732,
+        24733
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.888889,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0089",
+      "topic": "Definizioni stradali e di traffico; definizioni e classificazione dei veicoli; doveri del conducente nell'uso della strada",
+      "representative_id": 18326,
+      "question_ids": [
+        18326,
+        18329
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.947368,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0090",
+      "topic": "Definizioni stradali e di traffico; definizioni e classificazione dei veicoli; doveri del conducente nell'uso della strada",
+      "representative_id": 18342,
+      "question_ids": [
+        18342,
+        18345
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.9375,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0091",
+      "topic": "Definizioni stradali e di traffico; definizioni e classificazione dei veicoli; doveri del conducente nell'uso della strada",
+      "representative_id": 18405,
+      "question_ids": [
+        18405,
+        18407
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.904762,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0092",
+      "topic": "Definizioni stradali e di traffico; definizioni e classificazione dei veicoli; doveri del conducente nell'uso della strada",
+      "representative_id": 18413,
+      "question_ids": [
+        18413,
+        18414
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.9,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0093",
+      "topic": "Definizioni stradali e di traffico; definizioni e classificazione dei veicoli; doveri del conducente nell'uso della strada",
+      "representative_id": 18438,
+      "question_ids": [
+        18438,
+        18460
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.888889,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0094",
+      "topic": "Definizioni stradali e di traffico; definizioni e classificazione dei veicoli; doveri del conducente nell'uso della strada",
+      "representative_id": 18537,
+      "question_ids": [
+        18537,
+        18543
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.888889,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0095",
+      "topic": "Definizioni stradali e di traffico; definizioni e classificazione dei veicoli; doveri del conducente nell'uso della strada",
+      "representative_id": 18548,
+      "question_ids": [
+        18548,
+        18630
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.9375,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0096",
+      "topic": "Definizioni stradali e di traffico; definizioni e classificazione dei veicoli; doveri del conducente nell'uso della strada",
+      "representative_id": 18569,
+      "question_ids": [
+        18569,
+        18578
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.933333,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0097",
+      "topic": "Definizioni stradali e di traffico; definizioni e classificazione dei veicoli; doveri del conducente nell'uso della strada",
+      "representative_id": 18608,
+      "question_ids": [
+        18608,
+        18661
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.888889,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0098",
+      "topic": "Definizioni stradali e di traffico; definizioni e classificazione dei veicoli; doveri del conducente nell'uso della strada",
+      "representative_id": 18663,
+      "question_ids": [
+        18663,
+        18667
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.933333,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0099",
+      "topic": "Dispositivi di equipaggiamento: funzione ed uso; cinture di sicurezza e sistemi di ritenuta per bambini; casco protettivo;",
+      "representative_id": 24336,
+      "question_ids": [
+        24336,
+        24342
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.96,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0100",
+      "topic": "Dispositivi di equipaggiamento: funzione ed uso; cinture di sicurezza e sistemi di ritenuta per bambini; casco protettivo;",
+      "representative_id": 24346,
+      "question_ids": [
+        24346,
+        24352
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.928571,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0101",
+      "topic": "Distanza di sicurezza",
+      "representative_id": 22530,
+      "question_ids": [
+        22530,
+        22532
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.903226,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0102",
+      "topic": "Distanza di sicurezza",
+      "representative_id": 22536,
+      "question_ids": [
+        22536,
+        22548
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.944444,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0103",
+      "topic": "Distanza di sicurezza",
+      "representative_id": 22537,
+      "question_ids": [
+        22537,
+        22549
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.95,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0104",
+      "topic": "Distanza di sicurezza",
+      "representative_id": 22552,
+      "question_ids": [
+        22552,
+        22553
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.9375,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0105",
+      "topic": "Distanza di sicurezza",
+      "representative_id": 22575,
+      "question_ids": [
+        22575,
+        22576
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.916667,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0106",
+      "topic": "Distanza di sicurezza",
+      "representative_id": 22594,
+      "question_ids": [
+        22594,
+        22599
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.933333,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0107",
+      "topic": "Distanza di sicurezza",
+      "representative_id": 22595,
+      "question_ids": [
+        22595,
+        22600
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.933333,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0108",
+      "topic": "Distanza di sicurezza",
+      "representative_id": 22596,
+      "question_ids": [
+        22596,
+        22601
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.933333,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0109",
+      "topic": "Distanza di sicurezza",
+      "representative_id": 22597,
+      "question_ids": [
+        22597,
+        22598
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.933333,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0110",
+      "topic": "Distanza di sicurezza",
+      "representative_id": 22603,
+      "question_ids": [
+        22603,
+        22607
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0111",
+      "topic": "Distanza di sicurezza",
+      "representative_id": 22609,
+      "question_ids": [
+        22609,
+        22610
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.9,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0112",
+      "topic": "Distanza di sicurezza",
+      "representative_id": 22611,
+      "question_ids": [
+        22611,
+        22616
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0113",
+      "topic": "Distanza di sicurezza",
+      "representative_id": 22612,
+      "question_ids": [
+        22612,
+        22617
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0114",
+      "topic": "Distanza di sicurezza",
+      "representative_id": 22619,
+      "question_ids": [
+        22619,
+        22626
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.941176,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0115",
+      "topic": "Distanza di sicurezza",
+      "representative_id": 22627,
+      "question_ids": [
+        22627,
+        22632
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.9,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0116",
+      "topic": "Distanza di sicurezza",
+      "representative_id": 22630,
+      "question_ids": [
+        22630,
+        22631
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.956522,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0117",
+      "topic": "Elementi costitutivi del veicolo importanti per la sicurezza; manutenzione ed uso; stabilità e tenuta di strada del veicolo;",
+      "representative_id": 25174,
+      "question_ids": [
+        25174,
+        25176
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.888889,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0118",
+      "topic": "Elementi costitutivi del veicolo importanti per la sicurezza; manutenzione ed uso; stabilità e tenuta di strada del veicolo;",
+      "representative_id": 25179,
+      "question_ids": [
+        25179,
+        25200
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0119",
+      "topic": "Elementi costitutivi del veicolo importanti per la sicurezza; manutenzione ed uso; stabilità e tenuta di strada del veicolo;",
+      "representative_id": 25186,
+      "question_ids": [
+        25186,
+        25192
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.9,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0120",
+      "topic": "Elementi costitutivi del veicolo importanti per la sicurezza; manutenzione ed uso; stabilità e tenuta di strada del veicolo;",
+      "representative_id": 25187,
+      "question_ids": [
+        25187,
+        25190
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.9,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0121",
+      "topic": "Elementi costitutivi del veicolo importanti per la sicurezza; manutenzione ed uso; stabilità e tenuta di strada del veicolo;",
+      "representative_id": 25202,
+      "question_ids": [
+        25202,
+        25205
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.944444,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0122",
+      "topic": "Elementi costitutivi del veicolo importanti per la sicurezza; manutenzione ed uso; stabilità e tenuta di strada del veicolo;",
+      "representative_id": 25208,
+      "question_ids": [
+        25208,
+        25213
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.928571,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0123",
+      "topic": "Elementi costitutivi del veicolo importanti per la sicurezza; manutenzione ed uso; stabilità e tenuta di strada del veicolo;",
+      "representative_id": 25210,
+      "question_ids": [
+        25210,
+        25212
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.894737,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0124",
+      "topic": "Elementi costitutivi del veicolo importanti per la sicurezza; manutenzione ed uso; stabilità e tenuta di strada del veicolo;",
+      "representative_id": 25211,
+      "question_ids": [
+        25211,
+        25214
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.888889,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0125",
+      "topic": "Elementi costitutivi del veicolo importanti per la sicurezza; manutenzione ed uso; stabilità e tenuta di strada del veicolo;",
+      "representative_id": 25215,
+      "question_ids": [
+        25215,
+        25216
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.9,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0126",
+      "topic": "Elementi costitutivi del veicolo importanti per la sicurezza; manutenzione ed uso; stabilità e tenuta di strada del veicolo;",
+      "representative_id": 25219,
+      "question_ids": [
+        25219,
+        25226
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.923077,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0127",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23054,
+      "question_ids": [
+        23054,
+        23058
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0128",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23065,
+      "question_ids": [
+        23065,
+        23410
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.918919,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0129",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23066,
+      "question_ids": [
+        23066,
+        23114
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.888889,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0130",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23071,
+      "question_ids": [
+        23071,
+        23112
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.894737,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0131",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23080,
+      "question_ids": [
+        23080,
+        23081
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.894737,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0132",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23082,
+      "question_ids": [
+        23082,
+        23083
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.894737,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0133",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23091,
+      "question_ids": [
+        23091,
+        23407
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.903226,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0134",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23095,
+      "question_ids": [
+        23095,
+        23099
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.913043,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0135",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23097,
+      "question_ids": [
+        23097,
+        23100
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.944444,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0136",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23105,
+      "question_ids": [
+        23105,
+        23108
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.913043,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0137",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23107,
+      "question_ids": [
+        23107,
+        23109
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.947368,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0138",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23119,
+      "question_ids": [
+        23119,
+        23120
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.941176,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0139",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23123,
+      "question_ids": [
+        23123,
+        23131
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.933333,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0140",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23140,
+      "question_ids": [
+        23140,
+        23141
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.9375,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0141",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23143,
+      "question_ids": [
+        23143,
+        23153
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.9375,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0142",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23146,
+      "question_ids": [
+        23146,
+        23427
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.9375,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0143",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23147,
+      "question_ids": [
+        23147,
+        23429
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0144",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23148,
+      "question_ids": [
+        23148,
+        23443
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.88,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0145",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23162,
+      "question_ids": [
+        23162,
+        23223
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.958333,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0146",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23168,
+      "question_ids": [
+        23168,
+        23171
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.928571,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0147",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23182,
+      "question_ids": [
+        23182,
+        23190
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.947368,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0148",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23184,
+      "question_ids": [
+        23184,
+        23388
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.9375,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0149",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23194,
+      "question_ids": [
+        23194,
+        23201
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.944444,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0150",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23196,
+      "question_ids": [
+        23196,
+        23421
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.933333,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0151",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23199,
+      "question_ids": [
+        23199,
+        23382
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0152",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23203,
+      "question_ids": [
+        23203,
+        23386
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.88,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0153",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23208,
+      "question_ids": [
+        23208,
+        23399
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.9375,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0154",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23211,
+      "question_ids": [
+        23211,
+        23212
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.956522,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0155",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23217,
+      "question_ids": [
+        23217,
+        23244
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.888889,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0156",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23229,
+      "question_ids": [
+        23229,
+        23234
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.928571,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0157",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23232,
+      "question_ids": [
+        23232,
+        23239
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.933333,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0158",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23235,
+      "question_ids": [
+        23235,
+        23236
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.933333,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0159",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23243,
+      "question_ids": [
+        23243,
+        23248
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.944444,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0160",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23254,
+      "question_ids": [
+        23254,
+        23260
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.928571,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0161",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23258,
+      "question_ids": [
+        23258,
+        23259
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.9,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0162",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23265,
+      "question_ids": [
+        23265,
+        23271
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.947368,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0163",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23284,
+      "question_ids": [
+        23284,
+        23289
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.933333,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0164",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23285,
+      "question_ids": [
+        23285,
+        23290
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.933333,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0165",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23298,
+      "question_ids": [
+        23298,
+        23301
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.916667,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0166",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23303,
+      "question_ids": [
+        23303,
+        23306
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.923077,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0167",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23310,
+      "question_ids": [
+        23310,
+        23336
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.882353,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0168",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23322,
+      "question_ids": [
+        23322,
+        23324
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.923077,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0169",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23351,
+      "question_ids": [
+        23351,
+        23353
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.926829,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0170",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23364,
+      "question_ids": [
+        23364,
+        23370
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.916667,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0171",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23365,
+      "question_ids": [
+        23365,
+        23367
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.928571,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0172",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23371,
+      "question_ids": [
+        23371,
+        23374
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.928571,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0173",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23377,
+      "question_ids": [
+        23377,
+        23380
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.923077,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0174",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23383,
+      "question_ids": [
+        23383,
+        23385
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.928571,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0175",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23390,
+      "question_ids": [
+        23390,
+        23392
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.941176,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0176",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23397,
+      "question_ids": [
+        23397,
+        23400
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.944444,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0177",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23404,
+      "question_ids": [
+        23404,
+        23406
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.928571,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0178",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23413,
+      "question_ids": [
+        23413,
+        23416
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.947368,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0179",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23418,
+      "question_ids": [
+        23418,
+        23423
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.9375,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0180",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23430,
+      "question_ids": [
+        23430,
+        23433
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.941176,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0181",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23448,
+      "question_ids": [
+        23448,
+        23453
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.903226,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0182",
+      "topic": "Esempi di precedenza (ordine di precedenza agli incroci)",
+      "representative_id": 23452,
+      "question_ids": [
+        23452,
+        23455
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.9375,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0183",
+      "topic": "Fermata, sosta, arresto e partenza",
+      "representative_id": 23654,
+      "question_ids": [
+        23654,
+        23700
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.896552,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0184",
+      "topic": "Fermata, sosta, arresto e partenza",
+      "representative_id": 23659,
+      "question_ids": [
+        23659,
+        23711
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.96,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0185",
+      "topic": "Fermata, sosta, arresto e partenza",
+      "representative_id": 23665,
+      "question_ids": [
+        23665,
+        23727
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.923077,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0186",
+      "topic": "Fermata, sosta, arresto e partenza",
+      "representative_id": 23666,
+      "question_ids": [
+        23666,
+        23728
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.958333,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0187",
+      "topic": "Fermata, sosta, arresto e partenza",
+      "representative_id": 23667,
+      "question_ids": [
+        23667,
+        23729
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.888889,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0188",
+      "topic": "Fermata, sosta, arresto e partenza",
+      "representative_id": 23668,
+      "question_ids": [
+        23668,
+        23730
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.944444,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0189",
+      "topic": "Fermata, sosta, arresto e partenza",
+      "representative_id": 23670,
+      "question_ids": [
+        23670,
+        23732
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.944444,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0190",
+      "topic": "Fermata, sosta, arresto e partenza",
+      "representative_id": 23677,
+      "question_ids": [
+        23677,
+        23678
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.918919,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0191",
+      "topic": "Fermata, sosta, arresto e partenza",
+      "representative_id": 23739,
+      "question_ids": [
+        23739,
+        23740
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.930233,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0192",
+      "topic": "Guida in relazione alle qualità e condizioni fisiche e psichiche; alcool, droga e farmaci ; primo soccorso",
+      "representative_id": 24833,
+      "question_ids": [
+        24833,
+        24834
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.896552,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0193",
+      "topic": "Guida in relazione alle qualità e condizioni fisiche e psichiche; alcool, droga e farmaci ; primo soccorso",
+      "representative_id": 24836,
+      "question_ids": [
+        24836,
+        24838
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.928571,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0194",
+      "topic": "Guida in relazione alle qualità e condizioni fisiche e psichiche; alcool, droga e farmaci ; primo soccorso",
+      "representative_id": 24942,
+      "question_ids": [
+        24942,
+        24945
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0195",
+      "topic": "Ingombro della carreggiata; segnalazione di veicolo fermo; norme sulla circolazione in autostrada e strade extraurbane",
+      "representative_id": 23833,
+      "question_ids": [
+        23833,
+        23840
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.961538,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0196",
+      "topic": "Ingombro della carreggiata; segnalazione di veicolo fermo; norme sulla circolazione in autostrada e strade extraurbane",
+      "representative_id": 23847,
+      "question_ids": [
+        23847,
+        23850
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.969697,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0197",
+      "topic": "Ingombro della carreggiata; segnalazione di veicolo fermo; norme sulla circolazione in autostrada e strade extraurbane",
+      "representative_id": 23865,
+      "question_ids": [
+        23865,
+        23869
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.938776,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0198",
+      "topic": "Ingombro della carreggiata; segnalazione di veicolo fermo; norme sulla circolazione in autostrada e strade extraurbane",
+      "representative_id": 23934,
+      "question_ids": [
+        23934,
+        23938
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0199",
+      "topic": "Ingombro della carreggiata; segnalazione di veicolo fermo; norme sulla circolazione in autostrada e strade extraurbane",
+      "representative_id": 23939,
+      "question_ids": [
+        23939,
+        23943
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.978723,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0200",
+      "topic": "Ingombro della carreggiata; segnalazione di veicolo fermo; norme sulla circolazione in autostrada e strade extraurbane",
+      "representative_id": 23941,
+      "question_ids": [
+        23941,
+        23944
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.888889,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0201",
+      "topic": "Ingombro della carreggiata; segnalazione di veicolo fermo; norme sulla circolazione in autostrada e strade extraurbane",
+      "representative_id": 23956,
+      "question_ids": [
+        23956,
+        23960
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.970588,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0202",
+      "topic": "Ingombro della carreggiata; segnalazione di veicolo fermo; norme sulla circolazione in autostrada e strade extraurbane",
+      "representative_id": 24040,
+      "question_ids": [
+        24040,
+        24136
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0203",
+      "topic": "Ingombro della carreggiata; segnalazione di veicolo fermo; norme sulla circolazione in autostrada e strade extraurbane",
+      "representative_id": 24041,
+      "question_ids": [
+        24041,
+        24134
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.967742,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0204",
+      "topic": "Ingombro della carreggiata; segnalazione di veicolo fermo; norme sulla circolazione in autostrada e strade extraurbane",
+      "representative_id": 24048,
+      "question_ids": [
+        24048,
+        24117
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.972973,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0205",
+      "topic": "Ingombro della carreggiata; segnalazione di veicolo fermo; norme sulla circolazione in autostrada e strade extraurbane",
+      "representative_id": 24051,
+      "question_ids": [
+        24051,
+        24116
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0206",
+      "topic": "Limiti di velocità; pericolo e intralcio alla circolazione; comportamenti ai passaggi a livello",
+      "representative_id": 22273,
+      "question_ids": [
+        22273,
+        22274
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.916667,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0207",
+      "topic": "Limiti di velocità; pericolo e intralcio alla circolazione; comportamenti ai passaggi a livello",
+      "representative_id": 22291,
+      "question_ids": [
+        22291,
+        22292
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.888889,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0208",
+      "topic": "Limiti di velocità; pericolo e intralcio alla circolazione; comportamenti ai passaggi a livello",
+      "representative_id": 22302,
+      "question_ids": [
+        22302,
+        22303
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.916667,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0209",
+      "topic": "Limiti di velocità; pericolo e intralcio alla circolazione; comportamenti ai passaggi a livello",
+      "representative_id": 22317,
+      "question_ids": [
+        22317,
+        22325
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.888889,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0210",
+      "topic": "Limiti di velocità; pericolo e intralcio alla circolazione; comportamenti ai passaggi a livello",
+      "representative_id": 22333,
+      "question_ids": [
+        22333,
+        22350
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0211",
+      "topic": "Limiti di velocità; pericolo e intralcio alla circolazione; comportamenti ai passaggi a livello",
+      "representative_id": 22343,
+      "question_ids": [
+        22343,
+        22344
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.888889,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0212",
+      "topic": "Limiti di velocità; pericolo e intralcio alla circolazione; comportamenti ai passaggi a livello",
+      "representative_id": 22354,
+      "question_ids": [
+        22354,
+        22356
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.933333,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0213",
+      "topic": "Limiti di velocità; pericolo e intralcio alla circolazione; comportamenti ai passaggi a livello",
+      "representative_id": 22357,
+      "question_ids": [
+        22357,
+        22364
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.913043,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0214",
+      "topic": "Limiti di velocità; pericolo e intralcio alla circolazione; comportamenti ai passaggi a livello",
+      "representative_id": 22358,
+      "question_ids": [
+        22358,
+        22365
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.96,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0215",
+      "topic": "Limiti di velocità; pericolo e intralcio alla circolazione; comportamenti ai passaggi a livello",
+      "representative_id": 22367,
+      "question_ids": [
+        22367,
+        22376
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.941176,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0216",
+      "topic": "Limiti di velocità; pericolo e intralcio alla circolazione; comportamenti ai passaggi a livello",
+      "representative_id": 22368,
+      "question_ids": [
+        22368,
+        22377
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.903226,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0217",
+      "topic": "Limiti di velocità; pericolo e intralcio alla circolazione; comportamenti ai passaggi a livello",
+      "representative_id": 22370,
+      "question_ids": [
+        22370,
+        22379
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.918919,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0218",
+      "topic": "Limiti di velocità; pericolo e intralcio alla circolazione; comportamenti ai passaggi a livello",
+      "representative_id": 22373,
+      "question_ids": [
+        22373,
+        22382
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.930233,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0219",
+      "topic": "Limiti di velocità; pericolo e intralcio alla circolazione; comportamenti ai passaggi a livello",
+      "representative_id": 22374,
+      "question_ids": [
+        22374,
+        22383
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.941176,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0220",
+      "topic": "Limiti di velocità; pericolo e intralcio alla circolazione; comportamenti ai passaggi a livello",
+      "representative_id": 22405,
+      "question_ids": [
+        22405,
+        22455
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.914286,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0221",
+      "topic": "Limiti di velocità; pericolo e intralcio alla circolazione; comportamenti ai passaggi a livello",
+      "representative_id": 22413,
+      "question_ids": [
+        22413,
+        22414
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.958333,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0222",
+      "topic": "Limiti di velocità; pericolo e intralcio alla circolazione; comportamenti ai passaggi a livello",
+      "representative_id": 22418,
+      "question_ids": [
+        22418,
+        22426
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.9375,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0223",
+      "topic": "Limiti di velocità; pericolo e intralcio alla circolazione; comportamenti ai passaggi a livello",
+      "representative_id": 22421,
+      "question_ids": [
+        22421,
+        22422
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.956522,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0224",
+      "topic": "Limiti di velocità; pericolo e intralcio alla circolazione; comportamenti ai passaggi a livello",
+      "representative_id": 22423,
+      "question_ids": [
+        22423,
+        22424
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0225",
+      "topic": "Limiti di velocità; pericolo e intralcio alla circolazione; comportamenti ai passaggi a livello",
+      "representative_id": 22436,
+      "question_ids": [
+        22436,
+        22437
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.882353,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0226",
+      "topic": "Norme sul sorpasso",
+      "representative_id": 23487,
+      "question_ids": [
+        23487,
+        23488
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.926829,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0227",
+      "topic": "Norme sul sorpasso",
+      "representative_id": 23494,
+      "question_ids": [
+        23494,
+        23495
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.888889,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0228",
+      "topic": "Norme sul sorpasso",
+      "representative_id": 23556,
+      "question_ids": [
+        23556,
+        23557
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.928571,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0229",
+      "topic": "Norme sulla circol. dei veicoli; pos. dei veicoli sulla carreggiata; cambio di direz. di corsia (svolta); comp. in presenza di",
+      "representative_id": 22769,
+      "question_ids": [
+        22769,
+        22772
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.947368,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0230",
+      "topic": "Norme sulla circol. dei veicoli; pos. dei veicoli sulla carreggiata; cambio di direz. di corsia (svolta); comp. in presenza di",
+      "representative_id": 22795,
+      "question_ids": [
+        22795,
+        22796
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.947368,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0231",
+      "topic": "Norme sulla circol. dei veicoli; pos. dei veicoli sulla carreggiata; cambio di direz. di corsia (svolta); comp. in presenza di",
+      "representative_id": 22815,
+      "question_ids": [
+        22815,
+        22827
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.966667,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0232",
+      "topic": "Norme sulla circol. dei veicoli; pos. dei veicoli sulla carreggiata; cambio di direz. di corsia (svolta); comp. in presenza di",
+      "representative_id": 22902,
+      "question_ids": [
+        22902,
+        22903
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0233",
+      "topic": "Norme sulla circol. dei veicoli; pos. dei veicoli sulla carreggiata; cambio di direz. di corsia (svolta); comp. in presenza di",
+      "representative_id": 22937,
+      "question_ids": [
+        22937,
+        22940
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.958333,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0234",
+      "topic": "Norme sulla circol. dei veicoli; pos. dei veicoli sulla carreggiata; cambio di direz. di corsia (svolta); comp. in presenza di",
+      "representative_id": 22950,
+      "question_ids": [
+        22950,
+        22957
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0235",
+      "topic": "Pannelli integrativi dei segnali",
+      "representative_id": 22012,
+      "question_ids": [
+        22012,
+        22014
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.9,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0236",
+      "topic": "Pannelli integrativi dei segnali",
+      "representative_id": 22015,
+      "question_ids": [
+        22015,
+        22016
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.944444,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0237",
+      "topic": "Pannelli integrativi dei segnali",
+      "representative_id": 22038,
+      "question_ids": [
+        22038,
+        22050
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.923077,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0238",
+      "topic": "Pannelli integrativi dei segnali",
+      "representative_id": 22063,
+      "question_ids": [
+        22063,
+        22064
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.916667,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0239",
+      "topic": "Pannelli integrativi dei segnali",
+      "representative_id": 22082,
+      "question_ids": [
+        22082,
+        22103
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.9,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0240",
+      "topic": "Pannelli integrativi dei segnali",
+      "representative_id": 22086,
+      "question_ids": [
+        22086,
+        22090
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.933333,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0241",
+      "topic": "Pannelli integrativi dei segnali",
+      "representative_id": 22097,
+      "question_ids": [
+        22097,
+        22098
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.888889,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0242",
+      "topic": "Pannelli integrativi dei segnali",
+      "representative_id": 22128,
+      "question_ids": [
+        22128,
+        22134
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.947368,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0243",
+      "topic": "Pannelli integrativi dei segnali",
+      "representative_id": 22164,
+      "question_ids": [
+        22164,
+        22209
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0244",
+      "topic": "Pannelli integrativi dei segnali",
+      "representative_id": 22232,
+      "question_ids": [
+        22232,
+        22234
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.923077,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0245",
+      "topic": "Pannelli integrativi dei segnali",
+      "representative_id": 22243,
+      "question_ids": [
+        22243,
+        22246
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.96,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0246",
+      "topic": "Pannelli integrativi dei segnali",
+      "representative_id": 22264,
+      "question_ids": [
+        22264,
+        22265
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.923077,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0247",
+      "topic": "Patenti di guida; documenti di circolazione del veicolo; obbligo verso funzionari ed agenti; sistema sanzionatorio; patente a",
+      "representative_id": 24476,
+      "question_ids": [
+        24476,
+        24477
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.928571,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0248",
+      "topic": "Patenti di guida; documenti di circolazione del veicolo; obbligo verso funzionari ed agenti; sistema sanzionatorio; patente a",
+      "representative_id": 24493,
+      "question_ids": [
+        24493,
+        24535
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.894737,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0249",
+      "topic": "Patenti di guida; documenti di circolazione del veicolo; obbligo verso funzionari ed agenti; sistema sanzionatorio; patente a",
+      "representative_id": 24501,
+      "question_ids": [
+        24501,
+        24518
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.930233,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0250",
+      "topic": "Patenti di guida; documenti di circolazione del veicolo; obbligo verso funzionari ed agenti; sistema sanzionatorio; patente a",
+      "representative_id": 24502,
+      "question_ids": [
+        24502,
+        24506
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.9375,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0251",
+      "topic": "Patenti di guida; documenti di circolazione del veicolo; obbligo verso funzionari ed agenti; sistema sanzionatorio; patente a",
+      "representative_id": 24543,
+      "question_ids": [
+        24543,
+        24547
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.904762,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0252",
+      "topic": "Patenti di guida; documenti di circolazione del veicolo; obbligo verso funzionari ed agenti; sistema sanzionatorio; patente a",
+      "representative_id": 24607,
+      "question_ids": [
+        24607,
+        24608
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.941176,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0253",
+      "topic": "Patenti di guida; documenti di circolazione del veicolo; obbligo verso funzionari ed agenti; sistema sanzionatorio; patente a",
+      "representative_id": 24639,
+      "question_ids": [
+        24639,
+        24647
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0254",
+      "topic": "Patenti di guida; documenti di circolazione del veicolo; obbligo verso funzionari ed agenti; sistema sanzionatorio; patente a",
+      "representative_id": 24644,
+      "question_ids": [
+        24644,
+        24652
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.9375,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0255",
+      "topic": "Patenti di guida; documenti di circolazione del veicolo; obbligo verso funzionari ed agenti; sistema sanzionatorio; patente a",
+      "representative_id": 24671,
+      "question_ids": [
+        24671,
+        24672
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.923077,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0256",
+      "topic": "Patenti di guida; documenti di circolazione del veicolo; obbligo verso funzionari ed agenti; sistema sanzionatorio; patente a",
+      "representative_id": 24692,
+      "question_ids": [
+        24692,
+        24694
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.975,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0257",
+      "topic": "Responsabilità civile, penale, amministrativa; assicurazione R.C.A.; altre forme assicurative legate al veicolo",
+      "representative_id": 25015,
+      "question_ids": [
+        25015,
+        25017
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.954545,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0258",
+      "topic": "Responsabilità civile, penale, amministrativa; assicurazione R.C.A.; altre forme assicurative legate al veicolo",
+      "representative_id": 31015,
+      "question_ids": [
+        31015,
+        31043
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.974359,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0259",
+      "topic": "Responsabilità civile, penale, amministrativa; assicurazione R.C.A.; altre forme assicurative legate al veicolo",
+      "representative_id": 31034,
+      "question_ids": [
+        31034,
+        31061
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.96,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0260",
+      "topic": "Segnalazioni semaforiche; segnalazioni degli agenti del traffico",
+      "representative_id": 20982,
+      "question_ids": [
+        20982,
+        20990
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.928571,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0261",
+      "topic": "Segnalazioni semaforiche; segnalazioni degli agenti del traffico",
+      "representative_id": 21017,
+      "question_ids": [
+        21017,
+        21018
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.888889,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0262",
+      "topic": "Segnalazioni semaforiche; segnalazioni degli agenti del traffico",
+      "representative_id": 21020,
+      "question_ids": [
+        21020,
+        21023
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.9375,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0263",
+      "topic": "Segnalazioni semaforiche; segnalazioni degli agenti del traffico",
+      "representative_id": 21027,
+      "question_ids": [
+        21027,
+        21028
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0264",
+      "topic": "Segnalazioni semaforiche; segnalazioni degli agenti del traffico",
+      "representative_id": 21057,
+      "question_ids": [
+        21057,
+        21096
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0265",
+      "topic": "Segnalazioni semaforiche; segnalazioni degli agenti del traffico",
+      "representative_id": 21074,
+      "question_ids": [
+        21074,
+        21107
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0266",
+      "topic": "Segnalazioni semaforiche; segnalazioni degli agenti del traffico",
+      "representative_id": 21078,
+      "question_ids": [
+        21078,
+        21097
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.969697,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0267",
+      "topic": "Segnalazioni semaforiche; segnalazioni degli agenti del traffico",
+      "representative_id": 21111,
+      "question_ids": [
+        21111,
+        21122
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0268",
+      "topic": "Segnalazioni semaforiche; segnalazioni degli agenti del traffico",
+      "representative_id": 21159,
+      "question_ids": [
+        21159,
+        21161
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.954545,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0269",
+      "topic": "Segnalazioni semaforiche; segnalazioni degli agenti del traffico",
+      "representative_id": 21162,
+      "question_ids": [
+        21162,
+        21167
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.952381,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0270",
+      "topic": "Segnalazioni semaforiche; segnalazioni degli agenti del traffico",
+      "representative_id": 21184,
+      "question_ids": [
+        21184,
+        21191
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.958333,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0271",
+      "topic": "Segnalazioni semaforiche; segnalazioni degli agenti del traffico",
+      "representative_id": 21187,
+      "question_ids": [
+        21187,
+        21192
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.956522,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0272",
+      "topic": "Segnalazioni semaforiche; segnalazioni degli agenti del traffico",
+      "representative_id": 21188,
+      "question_ids": [
+        21188,
+        21189
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.958333,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0273",
+      "topic": "Segnalazioni semaforiche; segnalazioni degli agenti del traffico",
+      "representative_id": 21219,
+      "question_ids": [
+        21219,
+        21221
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.928571,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0274",
+      "topic": "Segnaletica orizzontale; segni sugli ostacoli",
+      "representative_id": 20727,
+      "question_ids": [
+        20727,
+        20735
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.947368,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0275",
+      "topic": "Segnaletica orizzontale; segni sugli ostacoli",
+      "representative_id": 20762,
+      "question_ids": [
+        20762,
+        20779
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.926829,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0276",
+      "topic": "Segnaletica orizzontale; segni sugli ostacoli",
+      "representative_id": 20763,
+      "question_ids": [
+        20763,
+        20777
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.93617,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0277",
+      "topic": "Segnaletica orizzontale; segni sugli ostacoli",
+      "representative_id": 20766,
+      "question_ids": [
+        20766,
+        20776
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.941176,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0278",
+      "topic": "Segnaletica orizzontale; segni sugli ostacoli",
+      "representative_id": 20799,
+      "question_ids": [
+        20799,
+        20800
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.9375,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0279",
+      "topic": "Segnaletica orizzontale; segni sugli ostacoli",
+      "representative_id": 20803,
+      "question_ids": [
+        20803,
+        20804
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0280",
+      "topic": "Segnaletica orizzontale; segni sugli ostacoli",
+      "representative_id": 20808,
+      "question_ids": [
+        20808,
+        20809
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.933333,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0281",
+      "topic": "Segnaletica orizzontale; segni sugli ostacoli",
+      "representative_id": 20811,
+      "question_ids": [
+        20811,
+        20831
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.928571,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0282",
+      "topic": "Segnaletica orizzontale; segni sugli ostacoli",
+      "representative_id": 20813,
+      "question_ids": [
+        20813,
+        20833
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.888889,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0283",
+      "topic": "Segnaletica orizzontale; segni sugli ostacoli",
+      "representative_id": 20822,
+      "question_ids": [
+        20822,
+        20827
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.928571,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0284",
+      "topic": "Segnaletica orizzontale; segni sugli ostacoli",
+      "representative_id": 20829,
+      "question_ids": [
+        20829,
+        20832
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.888889,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0285",
+      "topic": "Segnaletica orizzontale; segni sugli ostacoli",
+      "representative_id": 20866,
+      "question_ids": [
+        20866,
+        20869
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.888889,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0286",
+      "topic": "Segnaletica orizzontale; segni sugli ostacoli",
+      "representative_id": 20946,
+      "question_ids": [
+        20946,
+        20947
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.952381,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0287",
+      "topic": "Segnali complementari; segnali temporanei e di cantiere",
+      "representative_id": 21922,
+      "question_ids": [
+        21922,
+        21932
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0288",
+      "topic": "Segnali complementari; segnali temporanei e di cantiere",
+      "representative_id": 21924,
+      "question_ids": [
+        21924,
+        21934
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0289",
+      "topic": "Segnali complementari; segnali temporanei e di cantiere",
+      "representative_id": 21927,
+      "question_ids": [
+        21927,
+        21937
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0290",
+      "topic": "Segnali complementari; segnali temporanei e di cantiere",
+      "representative_id": 21928,
+      "question_ids": [
+        21928,
+        21938
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0291",
+      "topic": "Segnali complementari; segnali temporanei e di cantiere",
+      "representative_id": 21968,
+      "question_ids": [
+        21968,
+        21984
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.888889,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0292",
+      "topic": "Segnali di divieto",
+      "representative_id": 19516,
+      "question_ids": [
+        19516,
+        19774
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.941176,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0293",
+      "topic": "Segnali di divieto",
+      "representative_id": 19518,
+      "question_ids": [
+        19518,
+        19669
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0294",
+      "topic": "Segnali di divieto",
+      "representative_id": 19520,
+      "question_ids": [
+        19520,
+        19544
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0295",
+      "topic": "Segnali di divieto",
+      "representative_id": 19522,
+      "question_ids": [
+        19522,
+        19650
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.952381,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0296",
+      "topic": "Segnali di divieto",
+      "representative_id": 19545,
+      "question_ids": [
+        19545,
+        19562
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0297",
+      "topic": "Segnali di divieto",
+      "representative_id": 19556,
+      "question_ids": [
+        19556,
+        19888
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0298",
+      "topic": "Segnali di divieto",
+      "representative_id": 19557,
+      "question_ids": [
+        19557,
+        19633
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0299",
+      "topic": "Segnali di divieto",
+      "representative_id": 19565,
+      "question_ids": [
+        19565,
+        19716
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0300",
+      "topic": "Segnali di divieto",
+      "representative_id": 19576,
+      "question_ids": [
+        19576,
+        19577
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.916667,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0301",
+      "topic": "Segnali di divieto",
+      "representative_id": 19592,
+      "question_ids": [
+        19592,
+        19667
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0302",
+      "topic": "Segnali di divieto",
+      "representative_id": 19600,
+      "question_ids": [
+        19600,
+        19871
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0303",
+      "topic": "Segnali di divieto",
+      "representative_id": 19603,
+      "question_ids": [
+        19603,
+        19606
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0304",
+      "topic": "Segnali di divieto",
+      "representative_id": 19644,
+      "question_ids": [
+        19644,
+        19701
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0305",
+      "topic": "Segnali di divieto",
+      "representative_id": 19645,
+      "question_ids": [
+        19645,
+        19647
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0306",
+      "topic": "Segnali di divieto",
+      "representative_id": 19654,
+      "question_ids": [
+        19654,
+        19692
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0307",
+      "topic": "Segnali di divieto",
+      "representative_id": 19658,
+      "question_ids": [
+        19658,
+        19684
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0308",
+      "topic": "Segnali di divieto",
+      "representative_id": 19662,
+      "question_ids": [
+        19662,
+        19673
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0309",
+      "topic": "Segnali di divieto",
+      "representative_id": 19675,
+      "question_ids": [
+        19675,
+        19679
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0310",
+      "topic": "Segnali di divieto",
+      "representative_id": 19719,
+      "question_ids": [
+        19719,
+        19736
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0311",
+      "topic": "Segnali di divieto",
+      "representative_id": 19734,
+      "question_ids": [
+        19734,
+        19742
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.95,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0312",
+      "topic": "Segnali di divieto",
+      "representative_id": 19770,
+      "question_ids": [
+        19770,
+        19775
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.916667,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0313",
+      "topic": "Segnali di divieto",
+      "representative_id": 19872,
+      "question_ids": [
+        19872,
+        19887
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0314",
+      "topic": "Segnali di divieto",
+      "representative_id": 19889,
+      "question_ids": [
+        19889,
+        19893
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.933333,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0315",
+      "topic": "Segnali di divieto",
+      "representative_id": 19910,
+      "question_ids": [
+        19910,
+        20002
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0316",
+      "topic": "Segnali di indicazione",
+      "representative_id": 21234,
+      "question_ids": [
+        21234,
+        21733
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0317",
+      "topic": "Segnali di indicazione",
+      "representative_id": 21239,
+      "question_ids": [
+        21239,
+        21247
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0318",
+      "topic": "Segnali di indicazione",
+      "representative_id": 21244,
+      "question_ids": [
+        21244,
+        21546
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0319",
+      "topic": "Segnali di indicazione",
+      "representative_id": 21251,
+      "question_ids": [
+        21251,
+        21252
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.9,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0320",
+      "topic": "Segnali di indicazione",
+      "representative_id": 21396,
+      "question_ids": [
+        21396,
+        21712
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.923077,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0321",
+      "topic": "Segnali di indicazione",
+      "representative_id": 21417,
+      "question_ids": [
+        21417,
+        21431
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0322",
+      "topic": "Segnali di indicazione",
+      "representative_id": 21422,
+      "question_ids": [
+        21422,
+        21725
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0323",
+      "topic": "Segnali di indicazione",
+      "representative_id": 21439,
+      "question_ids": [
+        21439,
+        21566
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0324",
+      "topic": "Segnali di indicazione",
+      "representative_id": 21441,
+      "question_ids": [
+        21441,
+        21452
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0325",
+      "topic": "Segnali di indicazione",
+      "representative_id": 21484,
+      "question_ids": [
+        21484,
+        21501
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0326",
+      "topic": "Segnali di indicazione",
+      "representative_id": 21520,
+      "question_ids": [
+        21520,
+        21690
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0327",
+      "topic": "Segnali di indicazione",
+      "representative_id": 21529,
+      "question_ids": [
+        21529,
+        21689
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.9,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0328",
+      "topic": "Segnali di indicazione",
+      "representative_id": 21531,
+      "question_ids": [
+        21531,
+        21540
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.888889,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0329",
+      "topic": "Segnali di indicazione",
+      "representative_id": 21533,
+      "question_ids": [
+        21533,
+        21538
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.882353,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0330",
+      "topic": "Segnali di indicazione",
+      "representative_id": 21547,
+      "question_ids": [
+        21547,
+        21632
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0331",
+      "topic": "Segnali di indicazione",
+      "representative_id": 21606,
+      "question_ids": [
+        21606,
+        21617
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0332",
+      "topic": "Segnali di indicazione",
+      "representative_id": 21615,
+      "question_ids": [
+        21615,
+        21676
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0333",
+      "topic": "Segnali di indicazione",
+      "representative_id": 21616,
+      "question_ids": [
+        21616,
+        21675
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0334",
+      "topic": "Segnali di indicazione",
+      "representative_id": 21620,
+      "question_ids": [
+        21620,
+        21681
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0335",
+      "topic": "Segnali di indicazione",
+      "representative_id": 21627,
+      "question_ids": [
+        21627,
+        21640
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0336",
+      "topic": "Segnali di indicazione",
+      "representative_id": 21638,
+      "question_ids": [
+        21638,
+        21668
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0337",
+      "topic": "Segnali di indicazione",
+      "representative_id": 21702,
+      "question_ids": [
+        21702,
+        21714
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.933333,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0338",
+      "topic": "Segnali di indicazione",
+      "representative_id": 21764,
+      "question_ids": [
+        21764,
+        21766
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.888889,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0339",
+      "topic": "Segnali di indicazione",
+      "representative_id": 21801,
+      "question_ids": [
+        21801,
+        21810
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0340",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20033,
+      "question_ids": [
+        20033,
+        20135
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0341",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20034,
+      "question_ids": [
+        20034,
+        20136
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0342",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20035,
+      "question_ids": [
+        20035,
+        20137
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0343",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20037,
+      "question_ids": [
+        20037,
+        20122
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0344",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20039,
+      "question_ids": [
+        20039,
+        20139
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0345",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20041,
+      "question_ids": [
+        20041,
+        20142
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.916667,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0346",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20044,
+      "question_ids": [
+        20044,
+        20249
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.888889,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0347",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20056,
+      "question_ids": [
+        20056,
+        20167
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0348",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20062,
+      "question_ids": [
+        20062,
+        20157
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0349",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20066,
+      "question_ids": [
+        20066,
+        20239
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.947368,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0350",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20067,
+      "question_ids": [
+        20067,
+        20091
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.888889,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0351",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20081,
+      "question_ids": [
+        20081,
+        20104
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.9375,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0352",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20082,
+      "question_ids": [
+        20082,
+        20105
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0353",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20083,
+      "question_ids": [
+        20083,
+        20107
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0354",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20085,
+      "question_ids": [
+        20085,
+        20110
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.9,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0355",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20090,
+      "question_ids": [
+        20090,
+        20258
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.947368,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0356",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20106,
+      "question_ids": [
+        20106,
+        20260
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0357",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20109,
+      "question_ids": [
+        20109,
+        20206
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.952381,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0358",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20121,
+      "question_ids": [
+        20121,
+        20149
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0359",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20123,
+      "question_ids": [
+        20123,
+        20150
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.974359,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0360",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20124,
+      "question_ids": [
+        20124,
+        20151
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.928571,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0361",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20163,
+      "question_ids": [
+        20163,
+        20185
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0362",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20165,
+      "question_ids": [
+        20165,
+        20178
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.88,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0363",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20182,
+      "question_ids": [
+        20182,
+        20203
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.916667,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0364",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20188,
+      "question_ids": [
+        20188,
+        20209
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0365",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20190,
+      "question_ids": [
+        20190,
+        20211
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.916667,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0366",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20198,
+      "question_ids": [
+        20198,
+        20233
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.952381,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0367",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20199,
+      "question_ids": [
+        20199,
+        20219
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0368",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20228,
+      "question_ids": [
+        20228,
+        20248
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.923077,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0369",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20231,
+      "question_ids": [
+        20231,
+        20251
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.9,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0370",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20242,
+      "question_ids": [
+        20242,
+        20261
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0371",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20243,
+      "question_ids": [
+        20243,
+        20262
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0372",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20246,
+      "question_ids": [
+        20246,
+        20247
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0373",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20299,
+      "question_ids": [
+        20299,
+        20313
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.916667,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0374",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20300,
+      "question_ids": [
+        20300,
+        20319
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0375",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20316,
+      "question_ids": [
+        20316,
+        20322
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.916667,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0376",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20345,
+      "question_ids": [
+        20345,
+        20353
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0377",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20366,
+      "question_ids": [
+        20366,
+        20406
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.96,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0378",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20372,
+      "question_ids": [
+        20372,
+        20402
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.965517,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0379",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20381,
+      "question_ids": [
+        20381,
+        20386
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0380",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20399,
+      "question_ids": [
+        20399,
+        20407
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0381",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20412,
+      "question_ids": [
+        20412,
+        20413
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.933333,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0382",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20419,
+      "question_ids": [
+        20419,
+        20420
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.941176,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0383",
+      "topic": "Segnali di obbligo",
+      "representative_id": 20441,
+      "question_ids": [
+        20441,
+        20446
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0384",
+      "topic": "Segnali di pericolo",
+      "representative_id": 18852,
+      "question_ids": [
+        18852,
+        18868
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.916667,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0385",
+      "topic": "Segnali di pericolo",
+      "representative_id": 18858,
+      "question_ids": [
+        18858,
+        19377
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.928571,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0386",
+      "topic": "Segnali di pericolo",
+      "representative_id": 18875,
+      "question_ids": [
+        18875,
+        19051
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.928571,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0387",
+      "topic": "Segnali di pericolo",
+      "representative_id": 18878,
+      "question_ids": [
+        18878,
+        18920
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0388",
+      "topic": "Segnali di pericolo",
+      "representative_id": 18885,
+      "question_ids": [
+        18885,
+        18903
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0389",
+      "topic": "Segnali di pericolo",
+      "representative_id": 18887,
+      "question_ids": [
+        18887,
+        18910
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0390",
+      "topic": "Segnali di pericolo",
+      "representative_id": 18891,
+      "question_ids": [
+        18891,
+        19454
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.941176,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0391",
+      "topic": "Segnali di pericolo",
+      "representative_id": 18893,
+      "question_ids": [
+        18893,
+        19021
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0392",
+      "topic": "Segnali di pericolo",
+      "representative_id": 18926,
+      "question_ids": [
+        18926,
+        19066
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.88,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0393",
+      "topic": "Segnali di pericolo",
+      "representative_id": 18928,
+      "question_ids": [
+        18928,
+        19008
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0394",
+      "topic": "Segnali di pericolo",
+      "representative_id": 18935,
+      "question_ids": [
+        18935,
+        18951
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.941176,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0395",
+      "topic": "Segnali di pericolo",
+      "representative_id": 18942,
+      "question_ids": [
+        18942,
+        18969
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0396",
+      "topic": "Segnali di pericolo",
+      "representative_id": 18947,
+      "question_ids": [
+        18947,
+        18997
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0397",
+      "topic": "Segnali di pericolo",
+      "representative_id": 18954,
+      "question_ids": [
+        18954,
+        18982
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.96,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0398",
+      "topic": "Segnali di pericolo",
+      "representative_id": 18956,
+      "question_ids": [
+        18956,
+        18979
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0399",
+      "topic": "Segnali di pericolo",
+      "representative_id": 18976,
+      "question_ids": [
+        18976,
+        19003
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.916667,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0400",
+      "topic": "Segnali di pericolo",
+      "representative_id": 18984,
+      "question_ids": [
+        18984,
+        19013
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0401",
+      "topic": "Segnali di pericolo",
+      "representative_id": 18993,
+      "question_ids": [
+        18993,
+        19017
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0402",
+      "topic": "Segnali di pericolo",
+      "representative_id": 18994,
+      "question_ids": [
+        18994,
+        19018
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0403",
+      "topic": "Segnali di pericolo",
+      "representative_id": 19000,
+      "question_ids": [
+        19000,
+        19024
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0404",
+      "topic": "Segnali di pericolo",
+      "representative_id": 19010,
+      "question_ids": [
+        19010,
+        19278
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0405",
+      "topic": "Segnali di pericolo",
+      "representative_id": 19036,
+      "question_ids": [
+        19036,
+        19061
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.9,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0406",
+      "topic": "Segnali di pericolo",
+      "representative_id": 19079,
+      "question_ids": [
+        19079,
+        19092
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.933333,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0407",
+      "topic": "Segnali di pericolo",
+      "representative_id": 19093,
+      "question_ids": [
+        19093,
+        19101
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.88,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0408",
+      "topic": "Segnali di pericolo",
+      "representative_id": 19140,
+      "question_ids": [
+        19140,
+        19141
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.928571,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0409",
+      "topic": "Segnali di pericolo",
+      "representative_id": 19145,
+      "question_ids": [
+        19145,
+        19304
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0410",
+      "topic": "Segnali di pericolo",
+      "representative_id": 19148,
+      "question_ids": [
+        19148,
+        19470
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.9,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0411",
+      "topic": "Segnali di pericolo",
+      "representative_id": 19168,
+      "question_ids": [
+        19168,
+        19175
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0412",
+      "topic": "Segnali di pericolo",
+      "representative_id": 19169,
+      "question_ids": [
+        19169,
+        19511
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0413",
+      "topic": "Segnali di pericolo",
+      "representative_id": 19189,
+      "question_ids": [
+        19189,
+        19214
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.941176,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0414",
+      "topic": "Segnali di pericolo",
+      "representative_id": 19190,
+      "question_ids": [
+        19190,
+        19216
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0415",
+      "topic": "Segnali di pericolo",
+      "representative_id": 19191,
+      "question_ids": [
+        19191,
+        19224
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0416",
+      "topic": "Segnali di pericolo",
+      "representative_id": 19218,
+      "question_ids": [
+        19218,
+        19236
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.944444,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0417",
+      "topic": "Segnali di pericolo",
+      "representative_id": 19221,
+      "question_ids": [
+        19221,
+        19222
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0418",
+      "topic": "Segnali di pericolo",
+      "representative_id": 19245,
+      "question_ids": [
+        19245,
+        19250
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.952381,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0419",
+      "topic": "Segnali di pericolo",
+      "representative_id": 19322,
+      "question_ids": [
+        19322,
+        19333
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0420",
+      "topic": "Segnali di pericolo",
+      "representative_id": 19351,
+      "question_ids": [
+        19351,
+        19417
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0421",
+      "topic": "Segnali di pericolo",
+      "representative_id": 19355,
+      "question_ids": [
+        19355,
+        19356
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.923077,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0422",
+      "topic": "Segnali di pericolo",
+      "representative_id": 19386,
+      "question_ids": [
+        19386,
+        19396
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0423",
+      "topic": "Segnali di pericolo",
+      "representative_id": 19388,
+      "question_ids": [
+        19388,
+        19398
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0424",
+      "topic": "Segnali di pericolo",
+      "representative_id": 19392,
+      "question_ids": [
+        19392,
+        19480
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0425",
+      "topic": "Segnali di pericolo",
+      "representative_id": 19408,
+      "question_ids": [
+        19408,
+        19500
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0426",
+      "topic": "Segnali di pericolo",
+      "representative_id": 19414,
+      "question_ids": [
+        19414,
+        19506
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0427",
+      "topic": "Segnali di pericolo",
+      "representative_id": 19415,
+      "question_ids": [
+        19415,
+        19507
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0428",
+      "topic": "Segnali di pericolo",
+      "representative_id": 19418,
+      "question_ids": [
+        19418,
+        19504
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0429",
+      "topic": "Segnali di pericolo",
+      "representative_id": 19465,
+      "question_ids": [
+        19465,
+        19466
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.88,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0430",
+      "topic": "Segnali di pericolo",
+      "representative_id": 19485,
+      "question_ids": [
+        19485,
+        19488
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0431",
+      "topic": "Segnali di precedenza",
+      "representative_id": 20474,
+      "question_ids": [
+        20474,
+        20607
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0432",
+      "topic": "Segnali di precedenza",
+      "representative_id": 20476,
+      "question_ids": [
+        20476,
+        20504
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0433",
+      "topic": "Segnali di precedenza",
+      "representative_id": 20479,
+      "question_ids": [
+        20479,
+        20490
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.888889,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0434",
+      "topic": "Segnali di precedenza",
+      "representative_id": 20520,
+      "question_ids": [
+        20520,
+        20536
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.944444,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0435",
+      "topic": "Segnali di precedenza",
+      "representative_id": 20542,
+      "question_ids": [
+        20542,
+        20662
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.941176,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0436",
+      "topic": "Segnali di precedenza",
+      "representative_id": 20551,
+      "question_ids": [
+        20551,
+        20564
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.916667,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0437",
+      "topic": "Segnali di precedenza",
+      "representative_id": 20555,
+      "question_ids": [
+        20555,
+        20571
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0438",
+      "topic": "Segnali di precedenza",
+      "representative_id": 20559,
+      "question_ids": [
+        20559,
+        20655
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.916667,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0439",
+      "topic": "Segnali di precedenza",
+      "representative_id": 20573,
+      "question_ids": [
+        20573,
+        20701
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.923077,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0440",
+      "topic": "Segnali di precedenza",
+      "representative_id": 20574,
+      "question_ids": [
+        20574,
+        20702
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0441",
+      "topic": "Segnali di precedenza",
+      "representative_id": 20575,
+      "question_ids": [
+        20575,
+        20706
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0442",
+      "topic": "Segnali di precedenza",
+      "representative_id": 20578,
+      "question_ids": [
+        20578,
+        20707
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.966667,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0443",
+      "topic": "Segnali di precedenza",
+      "representative_id": 20579,
+      "question_ids": [
+        20579,
+        20703
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.965517,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0444",
+      "topic": "Segnali di precedenza",
+      "representative_id": 20588,
+      "question_ids": [
+        20588,
+        20671
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0445",
+      "topic": "Segnali di precedenza",
+      "representative_id": 20609,
+      "question_ids": [
+        20609,
+        20630
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0446",
+      "topic": "Segnali di precedenza",
+      "representative_id": 20623,
+      "question_ids": [
+        20623,
+        20635
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.9,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0447",
+      "topic": "Segnali di precedenza",
+      "representative_id": 20652,
+      "question_ids": [
+        20652,
+        20664
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0448",
+      "topic": "Uso delle luci; uso dei dispositivi acustici; spie e simboli",
+      "representative_id": 24143,
+      "question_ids": [
+        24143,
+        24163
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0449",
+      "topic": "Uso delle luci; uso dei dispositivi acustici; spie e simboli",
+      "representative_id": 24160,
+      "question_ids": [
+        24160,
+        24161
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.923077,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0450",
+      "topic": "Uso delle luci; uso dei dispositivi acustici; spie e simboli",
+      "representative_id": 24193,
+      "question_ids": [
+        24193,
+        24194
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.909091,
+      "maximum_changed_tokens": 1
+    },
+    {
+      "id": "similar-0451",
+      "topic": "Uso delle luci; uso dei dispositivi acustici; spie e simboli",
+      "representative_id": 24201,
+      "question_ids": [
+        24201,
+        24206
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 1.0,
+      "maximum_changed_tokens": 0
+    },
+    {
+      "id": "similar-0452",
+      "topic": "Uso delle luci; uso dei dispositivi acustici; spie e simboli",
+      "representative_id": 24249,
+      "question_ids": [
+        24249,
+        24250
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.938776,
+      "maximum_changed_tokens": 2
+    },
+    {
+      "id": "similar-0453",
+      "topic": "Uso delle luci; uso dei dispositivi acustici; spie e simboli",
+      "representative_id": 24287,
+      "question_ids": [
+        24287,
+        24290
+      ],
+      "member_count": 2,
+      "minimum_pair_similarity": 0.930233,
+      "maximum_changed_tokens": 2
+    }
+  ]
+}

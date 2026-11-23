@@ -1,0 +1,26 @@
+{
+  "name": "patente-b-bilingual",
+  "version": "58.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build-pwa.cjs",
+    "start": "node server.js",
+    "test": "npm run build && node --test tests/*.test.cjs"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "8.6.2",
+    "esbuild": "0.28.1"
+  },
+  "dependencies": {
+    "@capacitor-firebase/authentication": "8.6.0",
+    "@capacitor/android": "8.5.3",
+    "@capacitor/core": "8.5.3",
+    "firebase": "12.19.0"
+  },
+  "overrides": {
+    "@grpc/grpc-js": "1.14.7"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true
+  }
+}

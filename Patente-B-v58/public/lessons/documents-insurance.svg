@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+<title id="title">رخصة ووثائق مركبة وتأمين</title>
+<desc id="desc">ثلاث بطاقات رمزية: رخصة قيادة، وثيقة تسجيل مركبة، وتغطية مسؤولية مدنية.</desc>
+<rect width="960" height="420" rx="28" fill="#f3f3eb"/>
+<path d="M160 211h640" stroke="#9aaf9f" stroke-width="8" stroke-dasharray="18 16"/>
+<g transform="translate(75 75)"><rect width="220" height="270" rx="20" fill="#fffef9" stroke="#dce0d4" stroke-width="4"/><rect x="0" y="0" width="220" height="55" rx="18" fill="#173b32"/><circle cx="47" cy="111" r="26" fill="#f2c94c"/><path d="M32 184h146M32 216h120M32 245h94" stroke="#c7d3c8" stroke-width="11" stroke-linecap="round"/><path d="M38 111h18m-9-9v18" stroke="#173b32" stroke-width="5" stroke-linecap="round"/></g>
+<g transform="translate(370 75)"><rect width="220" height="270" rx="20" fill="#fffef9" stroke="#dce0d4" stroke-width="4"/><rect x="0" y="0" width="220" height="55" rx="18" fill="#173b32"/><path d="M62 110h96v64H62z" fill="#e9eee5" stroke="#88a18e" stroke-width="5"/><circle cx="84" cy="208" r="14" fill="#f2c94c"/><circle cx="140" cy="208" r="14" fill="#f2c94c"/><path d="M35 245h150" stroke="#c7d3c8" stroke-width="10" stroke-linecap="round"/></g>
+<g transform="translate(665 75)"><rect width="220" height="270" rx="20" fill="#fffef9" stroke="#dce0d4" stroke-width="4"/><rect x="0" y="0" width="220" height="55" rx="18" fill="#173b32"/><path d="M110 91l54 20v43c0 38-22 63-54 79-32-16-54-41-54-79v-43z" fill="#e9eee5" stroke="#88a18e" stroke-width="5"/><path d="M83 153l18 18 37-40" fill="none" stroke="#287251" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/><path d="M43 257h134" stroke="#c7d3c8" stroke-width="10" stroke-linecap="round"/></g>
+<text x="480" y="388" text-anchor="middle" fill="#526b5c" font-family="sans-serif" font-size="20">ثلاثة مفاهيم مختلفة — راجع الوثيقة المطلوبة ومصدرها القانوني</text>
+</svg>

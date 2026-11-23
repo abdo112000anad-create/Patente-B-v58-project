@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "module_id": "signs",
+  "lessons": [
+    {
+      "lesson_order": 1,
+      "heading_it": "Riconoscere i gruppi dei segnali verticali",
+      "heading_ar": "التعرّف على مجموعات الإشارات الرأسية",
+      "body_it": "L’articolo 39 distingue tre gruppi di segnali verticali. I segnali di pericolo avvertono della presenza e della natura di un rischio e richiedono prudenza. I segnali di prescrizione comunicano obblighi, divieti o limitazioni; al loro interno rientrano i segnali di precedenza, di divieto e di obbligo. I segnali di indicazione offrono informazioni utili alla guida e per individuare località, itinerari e servizi. Il regolamento specifica forme e significati dei singoli segnali. La formula “pericolo, prescrizione, indicazione” aiuta a orientarsi, ma non sostituisce la lettura del simbolo concreto e delle regole applicabili. Questa è una spiegazione didattica, non una citazione normativa.",
+      "body_ar": "تميّز المادة 39 بين ثلاث مجموعات من الإشارات الرأسية. إشارات الخطر تنبّه إلى وجود خطر وطبيعته وتطلب الحذر. إشارات التنظيم أو الوصفات المرورية تُعلن واجبًا أو منعًا أو قيدًا؛ وتندرج ضمنها إشارات الأولوية والمنع والإلزام. أما إشارات الإرشاد فتقدم معلومات مفيدة للقيادة ولتحديد الأماكن والمسارات والخدمات. وتفصّل اللائحة أشكال الإشارات المفردة ودلالاتها. عبارة «خطر، تنظيم، إرشاد» تساعد على ترتيب المعلومات، لكنها لا تغني عن قراءة الرمز المحدد والقواعد المنطبقة عليه. هذا شرح تعليمي، وليس اقتباسًا من نص القانون.",
+      "core_it": "I segnali verticali si dividono in pericolo, prescrizione e indicazione.\nLa forma aiuta, ma va letto il significato specifico.",
+      "core_ar": "تنقسم الإشارات الرأسية إلى خطر وتنظيم وإرشاد.\nالشكل يساعد، لكن يجب قراءة دلالة العلامة المحددة.",
+      "key_points": [
+        {"title_it":"Pericolo","title_ar":"الخطر","it":"Avverte del rischio e ne indica la natura; richiede prudenza.","ar":"ينبّه إلى الخطر ويبيّن طبيعته، ويطلب الحذر."},
+        {"title_it":"Prescrizione","title_ar":"التنظيم","it":"Comunica obblighi, divieti o limitazioni da rispettare.","ar":"يعلن واجبًا أو منعًا أو قيدًا يجب احترامه."},
+        {"title_it":"Indicazione","title_ar":"الإرشاد","it":"Fornisce informazioni utili a chi guida e per trovare luoghi o servizi.","ar":"يقدم معلومات مفيدة للسائق وللوصول إلى أماكن أو خدمات."},
+        {"title_it":"Sottogruppi","title_ar":"الفئات الفرعية","it":"Precedenza, divieto e obbligo sono sottogruppi della prescrizione.","ar":"الأولوية والمنع والإلزام فئات فرعية من التنظيم."}
+      ],
+      "trap_words": [],
+      "numbers": [{"value":"Art. 39","context_it":"Classifica i segnali verticali in tre gruppi principali.","context_ar":"يصنّف الإشارات الرأسية ضمن ثلاث مجموعات رئيسية."}],
+      "common_mistakes": [
+        {"mistake_it":"Credere che ogni segnale triangolare sia un divieto.","mistake_ar":"الاعتقاد بأن كل علامة مثلثة تعني المنع.","why_it":"La funzione dipende dalla categoria e dal simbolo; un segnale di pericolo avverte e richiede prudenza.","why_ar":"الدلالة تعتمد على الفئة والرمز؛ فعلامة الخطر تنبّه وتطلب الحذر."},
+        {"mistake_it":"Trattare precedenza come gruppo autonomo distinto dalla prescrizione.","mistake_ar":"اعتبار إشارات الأولوية مجموعة مستقلة عن إشارات التنظيم.","why_it":"L’articolo 39 le colloca tra i segnali di prescrizione.","why_ar":"تضعها المادة 39 ضمن إشارات التنظيم."}
+      ],
+      "quick_check": [
+        {"statement_it":"I segnali di indicazione possono aiutare a individuare località e servizi.","statement_ar":"يمكن لإشارات الإرشاد أن تساعد على تحديد الأماكن والخدمات.","answer":"VERO","explanation_it":"Questa è una delle funzioni indicate per il gruppo dei segnali di indicazione.","explanation_ar":"هذه إحدى وظائف مجموعة إشارات الإرشاد."},
+        {"statement_it":"I segnali di precedenza sono una sottocategoria dei segnali di prescrizione.","statement_ar":"إشارات الأولوية فئة فرعية من إشارات التنظيم.","answer":"VERO","explanation_it":"L’articolo 39 include i segnali di precedenza nella categoria della prescrizione.","explanation_ar":"تدرج المادة 39 إشارات الأولوية ضمن فئة التنظيم."},
+        {"statement_it":"Un segnale di pericolo impone sempre un divieto di transito.","statement_ar":"علامة الخطر تفرض دائمًا منع المرور.","answer":"FALSO","explanation_it":"La sua funzione è avvertire del pericolo e richiedere prudenza, non stabilire sempre un divieto.","explanation_ar":"وظيفتها التنبيه للخطر وطلب الحذر، وليس فرض المنع دائمًا."}
+      ],
+      "example_it":"Un triangolo avverte di un pericolo: riconosci l’avvertimento e guida con prudenza; un segnale di direzione obbligatoria, invece, indica una prescrizione da seguire.",
+      "example_ar":"تحذّر علامة مثلثة من خطر: افهم التحذير وقد بحذر؛ أما علامة الاتجاه الإلزامي فتشير إلى توجيه واجب الاتباع.",
+      "pitfall_it":"Non dedurre il comando soltanto dalla forma o dal colore: individua la categoria e interpreta il simbolo specifico.",
+      "pitfall_ar":"لا تستنتج الأمر من الشكل أو اللون وحدهما؛ حدّد الفئة وافهم الرمز المحدد.",
+      "legal_sources":[
+        {"article":"39","title_it":"Codice della strada, segnali verticali","title_ar":"قانون الطرق، الإشارات الرأسية","url":"https://aci.gov.it/codice-della-strada/art-39/"},
+        {"article":"39; artt. 79 e seguenti del regolamento","title_it":"Normattiva, D.Lgs. 285/1992 vigente","title_ar":"Normattiva، المرسوم التشريعي 285/1992 النافذ","url":"https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285!vig="}
+      ]
+    },
+    {
+      "lesson_order": 2,
+      "heading_it": "Separare avvertimenti, divieti e obblighi",
+      "heading_ar": "التمييز بين التحذير والمنع والإلزام",
+      "body_it": "Per leggere un segnale, chiediti che cosa comunica e quale comportamento richiede, senza fermarti all’aspetto. Un segnale di pericolo avverte di una situazione rischiosa e richiama prudenza; non equivale automaticamente a un divieto. Un segnale di divieto limita un’azione o il transito secondo il suo significato e il suo ambito. Un segnale di obbligo prescrive un comportamento, per esempio una direzione da seguire. I segnali di divieto e di obbligo appartengono, insieme a quelli di precedenza, ai segnali di prescrizione. Forma e simboli aiutano a riconoscere il tipo, ma per conoscere contenuto e portata occorre leggere il segnale concreto e l’eventuale pannello associato. La spiegazione è didattica e non esaurisce ogni caso.",
+      "body_ar": "عند قراءة علامة، اسأل نفسك عمّا تنقله وما السلوك الذي تطلبه، ولا تكتفِ بمظهرها. علامة الخطر تحذّر من وضع محفوف بالخطر وتدعو إلى الحذر؛ ولا تعني تلقائيًا وجود منع. علامة المنع تقيّد فعلًا أو المرور بحسب دلالتها ونطاقها. وعلامة الإلزام تفرض سلوكًا، مثل اتباع اتجاه معيّن. تندرج إشارات المنع والإلزام، مع إشارات الأولوية، ضمن إشارات التنظيم. يساعد الشكل والرمز على التعرّف إلى النوع، لكن معرفة المضمون والنطاق تتطلب قراءة العلامة المحددة وأي لوحة تكميلية مرتبطة بها. هذا شرح تعليمي لا يغطي كل حالة ممكنة.",
+      "core_it":"Pericolo avverte; divieto limita; obbligo prescrive un comportamento.\nLeggi simbolo e pannello, non il solo colore.",
+      "core_ar":"الخطر يحذّر؛ والمنع يقيّد؛ والإلزام يفرض سلوكًا.\nاقرأ الرمز واللوحة، لا اللون وحده.",
+      "key_points":[
+        {"title_it":"Avvertimento","title_ar":"تحذير","it":"Il segnale di pericolo richiama attenzione e prudenza.","ar":"علامة الخطر تلفت الانتباه وتطلب الحذر."},
+        {"title_it":"Divieto","title_ar":"منع","it":"Indica un’azione o un transito non consentito nel proprio ambito.","ar":"تشير إلى فعل أو مرور غير مسموح ضمن نطاقها."},
+        {"title_it":"Obbligo","title_ar":"إلزام","it":"Indica un comportamento da seguire, come una direzione prescritta.","ar":"تحدد سلوكًا يجب اتباعه، مثل اتجاه مفروض."},
+        {"title_it":"Lettura completa","title_ar":"قراءة كاملة","it":"Considera il simbolo e gli eventuali pannelli collegati.","ar":"ضع في اعتبارك الرمز وأي لوحات مرتبطة به."}
+      ],
+      "trap_words":[],
+      "numbers":[],
+      "common_mistakes":[
+        {"mistake_it":"Interpretare un avvertimento come un divieto automatico.","mistake_ar":"فهم التحذير على أنه منع تلقائي.","why_it":"Avvertire del rischio e vietare un’azione sono funzioni diverse.","why_ar":"التنبيه إلى الخطر ومنع فعل وظيفتان مختلفتان."},
+        {"mistake_it":"Decidere l’ambito di un divieto dal solo colore.","mistake_ar":"تحديد نطاق المنع من اللون وحده.","why_it":"Il significato dipende dal segnale specifico e dalle indicazioni associate.","why_ar":"تعتمد الدلالة على العلامة المحددة وما يرتبط بها من بيانات."}
+      ],
+      "quick_check":[
+        {"statement_it":"Un segnale di obbligo può prescrivere una direzione da seguire.","statement_ar":"يمكن لعلامة الإلزام أن تفرض اتجاهًا يجب اتباعه.","answer":"VERO","explanation_it":"La direzione prescritta è un esempio di comportamento obbligatorio.","explanation_ar":"الاتجاه المفروض مثال على سلوك إلزامي."},
+        {"statement_it":"Un segnale di pericolo equivale sempre a un divieto.","statement_ar":"علامة الخطر تعادل دائمًا علامة منع.","answer":"FALSO","explanation_it":"Il segnale di pericolo avverte e richiede prudenza; non crea sempre un divieto.","explanation_ar":"علامة الخطر تحذّر وتطلب الحذر؛ ولا تنشئ منعًا في كل مرة."},
+        {"statement_it":"I pannelli associati possono essere rilevanti per interpretare un segnale.","statement_ar":"قد تكون اللوحات المرتبطة مهمة لفهم العلامة.","answer":"VERO","explanation_it":"Il pannello va considerato insieme al segnale cui si riferisce.","explanation_ar":"ينبغي قراءة اللوحة مع العلامة التي تتبعها."}
+      ],
+      "example_it":"All’ingresso di una strada laterale trovi un segnale di divieto d’accesso: non imboccare quel passaggio. Più avanti, un segnale d’obbligo indica il lato da seguire intorno a un ostacolo.",
+      "example_ar":"عند مدخل طريق جانبي ترى علامة منع الدخول: لا تدخل من ذلك المدخل. وبعدها تشير علامة إلزام إلى الجانب الذي ينبغي المرور منه حول عائق.",
+      "pitfall_it":"Non confondere l’avviso di un rischio con una proibizione; cerca la prescrizione effettiva e il suo ambito.",
+      "pitfall_ar":"لا تخلط بين التحذير من خطر وبين الحظر؛ ابحث عن التوجيه الفعلي ونطاقه.",
+      "legal_sources":[
+        {"article":"39","title_it":"Codice della strada, segnali verticali","title_ar":"قانون الطرق، الإشارات الرأسية","url":"https://aci.gov.it/codice-della-strada/art-39/"},
+        {"article":"84–86","title_it":"D.P.R. 495/1992, regolamento di esecuzione (testo pubblicato)","title_ar":"D.P.R. 495/1992، اللائحة التنفيذية (النص المنشور)","url":"https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.dataPubblicazioneGazzetta=1992-12-28&atto.codiceRedazionale=092G0531&tipoSerie=serie_generale&tipoVigenza=originario"}
+      ]
+    },
+    {
+      "lesson_order": 3,
+      "heading_it": "Capire le precedenze e le linee di arresto",
+      "heading_ar": "فهم الأولوية وخطوط التوقف",
+      "body_it": "I segnali di precedenza non formano una categoria autonoma: l’articolo 39 li colloca tra i segnali di prescrizione, insieme ai segnali di divieto e di obbligo. “Dare precedenza” e “fermarsi e dare precedenza” non hanno lo stesso significato: il segnale di STOP richiede l’arresto nel punto previsto e poi la precedenza. La linea trasversale continua indica il limite prima del quale fermarsi nei casi previsti; quella discontinua indica il limite prima del quale fermarsi, se necessario, per dare precedenza. Quanto alla gerarchia, gli ordini degli agenti prevalgono; i segnali luminosi che regolano la precedenza prevalgono su quelli verticali e orizzontali, salvo il giallo lampeggiante di pericolo; i verticali prevalgono sugli orizzontali. Non estendere questa sintesi oltre tali casi.",
+      "body_ar":"إشارات الأولوية ليست فئة مستقلة؛ فالمادة 39 تدرجها ضمن إشارات التنظيم، إلى جانب إشارات المنع والإلزام. ولا تعني «أعطِ الأولوية» الشيء نفسه الذي تعنيه «قف وأعطِ الأولوية»: فعلامة STOP تتطلب التوقف في الموضع المحدد ثم إعطاء الأولوية. يشير خط التوقف العرضي المتصل إلى الحد الذي يجب التوقف قبله في الحالات المقررة؛ أما الخط المتقطع فيحدد الموضع الذي يجب التوقف قبله، عند الحاجة، لإعطاء الأولوية. وفي ترتيب الإشارات، تتقدم أوامر رجال الشرطة؛ وتتقدم الإشارات الضوئية المنظمة للأولوية على الإشارات الرأسية والأرضية، عدا الأصفر الومّاض التحذيري؛ وتتقدم الإشارات الرأسية على الأرضية. لا تعمم هذا الملخص خارج الحالات المذكورة.",
+      "core_it":"Precedenza è una sottocategoria della prescrizione; STOP comporta arresto.\nAgenti, semafori e segnali verticali hanno la prevalenza specificata dalla legge.",
+      "core_ar":"الأولوية فئة فرعية من التنظيم؛ وSTOP يتطلب التوقف.\nللشرطة والإشارات الضوئية والرأسية الأولوية المحددة قانونًا.",
+      "key_points":[
+        {"title_it":"Classificazione","title_ar":"التصنيف","it":"I segnali di precedenza sono segnali di prescrizione.","ar":"إشارات الأولوية من إشارات التنظيم."},
+        {"title_it":"STOP","title_ar":"قف","it":"Richiede di fermarsi nel punto previsto e poi dare precedenza.","ar":"يتطلب التوقف في الموضع المحدد ثم إعطاء الأولوية."},
+        {"title_it":"Linee","title_ar":"الخطوط","it":"Le linee continue e discontinue di arresto hanno funzioni distinte.","ar":"لخطوط التوقف المتصلة والمتقطعة وظيفتان مختلفتان."},
+        {"title_it":"Prevalenza","title_ar":"الأولوية بين الإشارات","it":"Gli agenti prevalgono; la legge specifica l’ordine tra segnali luminosi, verticali e orizzontali.","ar":"تتقدم أوامر الشرطة؛ ويحدد القانون الترتيب بين الإشارات الضوئية والرأسية والأرضية."}
+      ],
+      "trap_words":[],
+      "numbers":[{"value":"Art. 39, c. 1, lett. B","context_it":"Include i segnali di precedenza tra quelli di prescrizione.","context_ar":"يدرج إشارات الأولوية ضمن إشارات التنظيم."}],
+      "common_mistakes":[
+        {"mistake_it":"Trattare “dare precedenza” e STOP come sinonimi.","mistake_ar":"اعتبار «أعطِ الأولوية» وSTOP مترادفين.","why_it":"STOP richiede anche l’arresto nel punto previsto; dare precedenza non impone sempre di fermarsi.","why_ar":"تتطلب STOP التوقف أيضًا في الموضع المحدد؛ أما إعطاء الأولوية فلا يفرض التوقف دائمًا."},
+        {"mistake_it":"Considerare i segnali di precedenza una categoria separata dalla prescrizione.","mistake_ar":"اعتبار إشارات الأولوية فئة مستقلة عن التنظيم.","why_it":"L’articolo 39 le colloca espressamente tra i segnali di prescrizione.","why_ar":"تدرجها المادة 39 صراحةً ضمن إشارات التنظيم."}
+      ],
+      "quick_check":[
+        {"statement_it":"I segnali di precedenza sono inclusi nei segnali di prescrizione.","statement_ar":"تندرج إشارات الأولوية ضمن إشارات التنظيم.","answer":"VERO","explanation_it":"È la classificazione indicata dall’articolo 39.","explanation_ar":"هذا هو التصنيف الوارد في المادة 39."},
+        {"statement_it":"Il segnale STOP richiede di fermarsi nel punto previsto e poi dare precedenza.","statement_ar":"تتطلب علامة STOP التوقف في الموضع المحدد ثم إعطاء الأولوية.","answer":"VERO","explanation_it":"La prescrizione dello STOP comprende l’arresto e la precedenza.","explanation_ar":"يتضمن توجيه STOP التوقف وإعطاء الأولوية."},
+        {"statement_it":"La linea discontinua di arresto impone sempre di fermarsi, anche se non occorre dare precedenza.","statement_ar":"يفرض خط التوقف المتقطع التوقف دائمًا حتى إن لم تكن هناك حاجة لإعطاء الأولوية.","answer":"FALSO","explanation_it":"Indica il limite prima del quale fermarsi, se necessario, per dare precedenza.","explanation_ar":"يحدد الحد الذي يجب التوقف قبله عند الحاجة لإعطاء الأولوية."}
+      ],
+      "example_it":"A un incrocio trovi STOP e la linea di arresto: fermati prima del limite indicato, poi riparti soltanto dopo aver verificato che puoi dare la precedenza. Se un agente dirige il traffico, segui il suo ordine.",
+      "example_ar":"عند تقاطع ترى STOP وخط التوقف: قف قبل الحد المحدد، ثم تحرك فقط بعد التحقق من إمكان إعطاء الأولوية. وإذا كان شرطي ينظم المرور، فاتبع أمره.",
+      "pitfall_it":"Non dire che si deve arrestarsi soltanto in presenza di STOP: la lezione confronta due segnali, ma possono esistere altri obblighi specifici di arresto e precedenza.",
+      "pitfall_ar":"لا تقل إن التوقف الإلزامي لا يكون إلا عند STOP؛ فالدرس يقارن بين علامتين، لكن قد توجد حالات قانونية أخرى محددة للتوقف وإعطاء الأولوية.",
+      "legal_sources":[
+        {"article":"39","title_it":"Codice della strada, segnali verticali","title_ar":"قانون الطرق، الإشارات الرأسية","url":"https://aci.gov.it/codice-della-strada/art-39/"},
+        {"article":"38–40","title_it":"Normattiva, D.Lgs. 285/1992 vigente","title_ar":"Normattiva، المرسوم التشريعي 285/1992 النافذ","url":"https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285!vig="},
+        {"article":"145, commi 6 e 8","title_it":"ACI, precedenza","title_ar":"ACI، الأولوية","url":"https://aci.gov.it/codice-della-strada/art-145/"}
+      ]
+    },
+    {
+      "lesson_order": 4,
+      "heading_it": "Leggere insieme indicazioni e pannelli integrativi",
+      "heading_ar": "قراءة الإرشادات واللوحات التكميلية معًا",
+      "body_it": "I segnali di indicazione forniscono informazioni utili alla guida e per riconoscere località, itinerari e servizi. Un pannello integrativo si legge insieme al segnale principale cui è abbinato: può precisarne o chiarirne la portata, ma non va trattato come se fosse una prescrizione indipendente senza esaminarne il contenuto. Per esempio, una fascia oraria riportata su un pannello può delimitare quando vale la prescrizione indicata sopra; un pannello di distanza aggiunge un’informazione sul percorso. Il regolamento tratta i pannelli integrativi generali all’articolo 83 e i segnali di indicazione agli articoli 124–136. Attenzione: il riferimento disponibile alla Gazzetta Ufficiale riporta il testo originario del regolamento, non un testo consolidato di tutte le modifiche successive; qui si descrivono soltanto funzioni generali verificabili.",
+      "body_ar":"تقدّم إشارات الإرشاد معلومات مفيدة للقيادة وللتعرّف إلى الأماكن والمسارات والخدمات. وتُقرأ اللوحة التكميلية مع العلامة الأساسية المرتبطة بها؛ فقد تحدد نطاقها أو توضحها، لكن لا ينبغي اعتبارها توجيهًا مستقلًا من دون فحص محتواها. فمثلًا، قد تحدد فترة زمنية مكتوبة على اللوحة الأوقات التي يسري فيها التوجيه الموجود فوقها؛ وقد تضيف لوحة المسافة معلومة عن الطريق. تتناول اللائحة اللوحات التكميلية العامة في المادة 83 وإشارات الإرشاد في المواد 124–136. تنبيه: المرجع المتاح من الجريدة الرسمية يعرض النص الأصلي للائحة، وليس نصًا موحدًا يشمل كل التعديلات اللاحقة؛ لذلك يقتصر هذا الشرح على الوظائف العامة التي أمكن التحقق منها.",
+      "core_it":"Il pannello si interpreta insieme al segnale principale.\nPuò precisarne l’ambito o aggiungere informazioni utili.",
+      "core_ar":"تُفهم اللوحة مع العلامة الأساسية.\nقد تحدد نطاقها أو تضيف معلومات مفيدة.",
+      "key_points":[
+        {"title_it":"Informazioni","title_ar":"معلومات","it":"I segnali di indicazione aiutano nella guida e nell’individuazione di luoghi e servizi.","ar":"تساعد إشارات الإرشاد في القيادة وتحديد الأماكن والخدمات."},
+        {"title_it":"Lettura congiunta","title_ar":"القراءة معًا","it":"Il pannello va letto con il segnale al quale è associato.","ar":"تُقرأ اللوحة مع العلامة المرتبطة بها."},
+        {"title_it":"Ambito","title_ar":"النطاق","it":"Un pannello può chiarire o delimitare l’applicazione del segnale principale.","ar":"قد توضح اللوحة تطبيق العلامة الأساسية أو تحدد نطاقه."},
+        {"title_it":"Riferimenti","title_ar":"المراجع","it":"Il regolamento tratta i pannelli generali all’art. 83 e le indicazioni agli artt. 124–136.","ar":"تتناول اللائحة اللوحات العامة في المادة 83 والإرشاد في المواد 124–136."}
+      ],
+      "trap_words":[],
+      "numbers":[{"value":"Artt. 83 e 124–136","context_it":"Nel regolamento pubblicato, riguardano pannelli integrativi generali e segnali di indicazione.","context_ar":"في نص اللائحة المنشور، تتناول اللوحات التكميلية العامة وإشارات الإرشاد."}],
+      "common_mistakes":[
+        {"mistake_it":"Ignorare il pannello e interpretare soltanto il segnale principale.","mistake_ar":"تجاهل اللوحة وقراءة العلامة الأساسية وحدها.","why_it":"Il pannello può specificare tempi, distanze o condizioni pertinenti al segnale.","why_ar":"قد تحدد اللوحة أوقاتًا أو مسافات أو شروطًا متصلة بالعلامة."},
+        {"mistake_it":"Attribuire al pannello una regola autonoma senza leggerne il contenuto.","mistake_ar":"اعتبار اللوحة قاعدة مستقلة من دون قراءة محتواها.","why_it":"La sua funzione dipende dal segnale cui è collegato e dalle indicazioni riportate.","why_ar":"تعتمد وظيفتها على العلامة المرتبطة بها والبيانات المكتوبة عليها."}
+      ],
+      "quick_check":[
+        {"statement_it":"Un pannello integrativo si interpreta insieme al segnale cui è abbinato.","statement_ar":"تُفسر اللوحة التكميلية مع العلامة المرتبطة بها.","answer":"VERO","explanation_it":"Il pannello completa o chiarisce il segnale principale.","explanation_ar":"تكمل اللوحة العلامة الأساسية أو توضحها."},
+        {"statement_it":"I segnali di indicazione possono aiutare a individuare itinerari e servizi.","statement_ar":"يمكن لإشارات الإرشاد أن تساعد على تحديد المسارات والخدمات.","answer":"VERO","explanation_it":"Informare sugli itinerari e sui servizi rientra nella loro funzione.","explanation_ar":"الإخبار عن المسارات والخدمات من وظائفها."},
+        {"statement_it":"La pagina GU consultata è un testo consolidato di tutte le modifiche successive al regolamento.","statement_ar":"صفحة الجريدة الرسمية التي تمت مراجعتها نص موحد يشمل كل التعديلات اللاحقة على اللائحة.","answer":"FALSO","explanation_it":"La pagina consultata presenta il testo originariamente pubblicato, non un consolidato completo.","explanation_ar":"تعرض الصفحة النص المنشور أصلًا، وليس نصًا موحدًا كاملًا."}
+      ],
+      "example_it":"Sotto un segnale di divieto di sosta leggi un pannello con una fascia oraria: considera insieme il divieto e l’orario riportato. Se il pannello indica una distanza, aggiungi tale informazione alla lettura del segnale principale.",
+      "example_ar":"تحت علامة منع الوقوف تقرأ لوحة عليها فترة زمنية: اقرأ المنع والفترة معًا. وإذا حددت اللوحة مسافة، فأضف هذه المعلومة إلى فهم العلامة الأساسية.",
+      "pitfall_it":"Non ignorare il pannello e non attribuirgli un effetto più ampio di quello che il suo testo, letto con il segnale, consente di comprendere.",
+      "pitfall_ar":"لا تتجاهل اللوحة، ولا تنسب إليها أثرًا أوسع مما يفهم من نصها عند قراءته مع العلامة.",
+      "legal_sources":[
+        {"article":"83; 124–136","title_it":"D.P.R. 495/1992, regolamento di esecuzione (testo pubblicato in GU)","title_ar":"D.P.R. 495/1992، اللائحة التنفيذية (النص المنشور بالجريدة الرسمية)","url":"https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.dataPubblicazioneGazzetta=1992-12-28&atto.codiceRedazionale=092G0531&tipoSerie=serie_generale&tipoVigenza=originario"},
+        {"article":"39","title_it":"Codice della strada, segnali verticali","title_ar":"قانون الطرق، الإشارات الرأسية","url":"https://aci.gov.it/codice-della-strada/art-39/"}
+      ]
+    }
+  ]
+}

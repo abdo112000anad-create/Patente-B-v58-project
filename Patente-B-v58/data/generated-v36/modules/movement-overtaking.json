@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "module_id": "movement-overtaking",
+  "lessons": [
+    {
+      "lesson_order": 1,
+      "heading_it": "Guidare a destra, guidare con riguardo",
+      "heading_ar": "السير يمينًا مع مراعاة الجميع",
+      "body_it": "La circolazione richiede attenzione verso tutti gli utenti: occorre evitare pericolo e intralcio e contribuire alla sicurezza comune. In base all’articolo 143, il veicolo procede normalmente sulla parte destra della carreggiata e vicino al margine destro, anche quando la strada è libera. Se vi sono più corsie nello stesso senso, si usa quella libera più a destra, salvo diversa segnalazione. Nei centri abitati si può scegliere la corsia più adatta alla direzione da prendere al successivo incrocio, rispettando le regole applicabili. Questa è una parafrasi didattica, non il testo letterale della legge.",
+      "body_ar": "السير على الطريق يتطلب الانتباه لكل مستخدميه: يجب تجنب الخطر وتعطيل المرور والمساهمة في السلامة العامة. وفقًا للمادة 143، تسير المركبة عادةً في الجزء الأيمن من الطريق وبالقرب من حافته اليمنى، حتى عندما يكون الطريق خاليًا. إذا وُجدت حارات متعددة في الاتجاه نفسه، تُستخدم الحارة الأيمن الأكثر خلوًا، ما لم توجد إشارة مختلفة. داخل المناطق السكنية يمكن اختيار الحارة الأنسب للاتجاه المراد سلوكه عند التقاطع التالي، مع احترام القواعد المعمول بها. هذا شرح تعليمي بالمعنى وليس نص القانون حرفيًا.",
+      "core_it": ["In marcia, tieni normalmente la destra.", "Evita pericolo e intralcio per gli altri."],
+      "core_ar": ["أثناء السير، التزم عادةً بالجانب الأيمن.", "تجنب تعريض الآخرين للخطر أو تعطيلهم."],
+      "key_points": [
+        {"title_it":"Sicurezza comune","title_ar":"السلامة المشتركة","it":"Ogni utente deve comportarsi senza creare pericolo o intralcio.","ar":"على كل مستخدم للطريق أن يتصرف من دون خلق خطر أو تعطيل."},
+        {"title_it":"Posizione ordinaria","title_ar":"الموضع المعتاد","it":"La regola generale è circolare sulla parte destra, vicino al margine.","ar":"القاعدة العامة هي السير في الجزء الأيمن بالقرب من الحافة."},
+        {"title_it":"Più corsie","title_ar":"تعدد الحارات","it":"Salvo diversa segnalazione, si percorre la corsia libera più a destra.","ar":"ما لم توجد إشارة مختلفة، تُسلك الحارة الأيمن الأكثر خلوًا."},
+        {"title_it":"Scelta nei centri abitati","title_ar":"اختيار الحارة داخل المناطق السكنية","it":"La corsia può essere scelta in rapporto alla direzione da prendere all’incrocio, nel rispetto delle regole.","ar":"يمكن اختيار الحارة بحسب الاتجاه المراد عند التقاطع، مع احترام القواعد."}
+      ],
+      "trap_words": [],
+      "numbers": [],
+      "common_mistakes": [
+        {"mistake_it":"Restare a sinistra solo perché la corsia è libera.","mistake_ar":"البقاء في الحارة اليسرى لمجرد أنها خالية.","why_it":"La corsia libera più a destra è la regola generale, salvo segnalazioni e manovre consentite.","why_ar":"الحارة الأيمن الأكثر خلوًا هي القاعدة العامة، مع مراعاة الإشارات والمناورات المسموح بها."},
+        {"mistake_it":"Pensare che la strada libera elimini il dovere di prudenza.","mistake_ar":"الاعتقاد بأن خلو الطريق يلغي واجب الحذر.","why_it":"Il principio di sicurezza riguarda sempre tutti gli utenti.","why_ar":"مبدأ السلامة يظل واجبًا على جميع مستخدمي الطريق."}
+      ],
+      "quick_check": [
+        {"statement_it":"La regola ordinaria prevede di circolare a destra, vicino al margine.","statement_ar":"القاعدة المعتادة هي السير يمينًا بالقرب من الحافة.","answer":"VERO","explanation_it":"È la posizione indicata in via generale dall’articolo 143.","explanation_ar":"هذا هو موضع السير المحدد كقاعدة عامة في المادة 143."},
+        {"statement_it":"Su una strada libera si può ignorare ogni regola di posizione.","statement_ar":"إذا كان الطريق خاليًا يمكن تجاهل كل قواعد موضع السير.","answer":"FALSO","explanation_it":"La regola generale sulla posizione vale anche quando la strada è libera.","explanation_ar":"تظل القاعدة العامة لموضع السير قائمة حتى عندما يكون الطريق خاليًا."},
+        {"statement_it":"La sicurezza della circolazione riguarda soltanto chi guida un’automobile.","statement_ar":"سلامة المرور تخص سائقي السيارات فقط.","answer":"FALSO","explanation_it":"Il principio generale riguarda gli utenti della strada.","explanation_ar":"المبدأ العام يشمل مستخدمي الطريق."}
+      ],
+      "example_it":"Su una strada con più corsie nello stesso senso, il conducente usa di regola la corsia libera più a destra, salvo che una manovra consentita o la segnaletica richiedano diversamente.",
+      "example_ar":"على طريق متعدد الحارات في الاتجاه نفسه، يستخدم السائق عادةً الحارة الأيمن الأكثر خلوًا، إلا إذا اقتضت مناورة مسموح بها أو الإشارات خلاف ذلك.",
+      "pitfall_it":"Non confondere la possibilità di scegliere una corsia per preparare una svolta con un diritto di restare sempre a sinistra.",
+      "pitfall_ar":"لا تخلط بين إمكانية اختيار حارة استعدادًا للانعطاف وبين حق البقاء دائمًا في اليسار.",
+      "legal_sources": [
+        {"article":"Art. 140 e 143 D.Lgs. 285/1992","title_it":"Principio della circolazione e posizione dei veicoli","title_ar":"مبدأ السير وموضع المركبات","url":"https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285!vig="},
+        {"article":"Art. 143 D.Lgs. 285/1992","title_it":"ACI — Posizione dei veicoli sulla carreggiata","title_ar":"ACI — موضع المركبات على الطريق","url":"https://aci.gov.it/codice-della-strada/art-143/"}
+      ]
+    },
+    {
+      "lesson_order": 2,
+      "heading_it": "Prima controlla, poi cambia direzione",
+      "heading_ar": "تحقق أولًا ثم غيّر اتجاهك",
+      "body_it": "Prima di cambiare direzione o corsia, svoltare, immettersi nel traffico o fermarsi, il conducente deve verificare che la manovra non crei pericolo o intralcio. Deve considerare posizione, distanza e direzione degli altri utenti e segnalare l’intenzione con sufficiente anticipo. Gli indicatori vanno mantenuti attivi per tutta la manovra e spenti quando è completata: segnalare non sostituisce il controllo di sicurezza né attribuisce automaticamente la precedenza. Per svoltare a destra ci si tiene il più vicino possibile al margine destro. È una sintesi didattica dell’articolo 154.",
+      "body_ar": "قبل تغيير الاتجاه أو الحارة، أو الانعطاف أو الاندماج في حركة المرور أو التوقف، يجب على السائق التأكد من أن المناورة لن تخلق خطرًا أو تعطيلًا. وعليه مراعاة موضع مستخدمي الطريق الآخرين وبعدهم واتجاههم، والتنبيه إلى نيته بوقت كافٍ. تُبقى إشارات الاتجاه فعّالة طوال المناورة وتُطفأ بعد اكتمالها؛ فالإشارة لا تغني عن التحقق من السلامة ولا تمنح الأولوية تلقائيًا. عند الانعطاف يمينًا، ينبغي الاقتراب قدر الإمكان من الحافة اليمنى. هذا ملخص تعليمي للمادة 154.",
+      "core_it": ["Controlla gli altri prima di manovrare.", "Segnala per tempo: l’indicatore non dà precedenza."],
+      "core_ar": ["تحقق من الآخرين قبل المناورة.", "نبّه مبكرًا: الإشارة لا تمنح أولوية المرور."],
+      "key_points": [
+        {"title_it":"Controllo","title_ar":"التحقق","it":"Valuta posizione, distanza e direzione degli altri utenti.","ar":"راعِ موضع مستخدمي الطريق الآخرين وبعدهم واتجاههم."},
+        {"title_it":"Segnalazione anticipata","title_ar":"التنبيه المبكر","it":"Indica l’intenzione con sufficiente anticipo e continua a segnalare durante la manovra.","ar":"أعلن نيتك بوقت كافٍ واستمر في التنبيه أثناء المناورة."},
+        {"title_it":"Nessuna precedenza automatica","title_ar":"لا أولوية تلقائية","it":"L’indicatore comunica l’intenzione ma non sostituisce la verifica di sicurezza.","ar":"إشارة الاتجاه تعلن النية لكنها لا تحل محل التحقق من السلامة."},
+        {"title_it":"Svolta a destra","title_ar":"الانعطاف يمينًا","it":"Per svoltare a destra, avvicinati al margine destro.","ar":"عند الانعطاف يمينًا، اقترب من الحافة اليمنى."}
+      ],
+      "trap_words": [],
+      "numbers": [],
+      "common_mistakes": [
+        {"mistake_it":"Attivare l’indicatore e iniziare subito la manovra senza controllare.","mistake_ar":"تشغيل الإشارة وبدء المناورة فورًا من دون تحقق.","why_it":"La legge richiede sia l’accertamento di sicurezza sia la segnalazione anticipata.","why_ar":"تتطلب القاعدة التحقق من السلامة والتنبيه المسبق معًا."},
+        {"mistake_it":"Spegnere l’indicatore prima che la manovra sia completata.","mistake_ar":"إطفاء الإشارة قبل اكتمال المناورة.","why_it":"La segnalazione deve continuare per tutta la durata della manovra.","why_ar":"يجب أن يستمر التنبيه طوال مدة المناورة."}
+      ],
+      "quick_check": [
+        {"statement_it":"La segnalazione anticipata sostituisce il controllo della sicurezza.","statement_ar":"التنبيه المسبق يغني عن التحقق من السلامة.","answer":"FALSO","explanation_it":"L’articolo 154 richiede entrambe le cautele.","explanation_ar":"تتطلب المادة 154 كلا الإجراءين الاحتياطيين."},
+        {"statement_it":"Per svoltare a destra, il conducente si tiene vicino al margine destro.","statement_ar":"للانعطاف يمينًا، يقترب السائق من الحافة اليمنى.","answer":"VERO","explanation_it":"È la condotta descritta dall’articolo 154.","explanation_ar":"هذا هو السلوك الوارد في المادة 154."},
+        {"statement_it":"L’indicatore di direzione attribuisce da solo la precedenza.","statement_ar":"إشارة الاتجاه وحدها تمنح أولوية المرور.","answer":"FALSO","explanation_it":"La segnalazione comunica l’intenzione, ma non autorizza una manovra pericolosa.","explanation_ar":"الإشارة تعلن النية لكنها لا تبيح مناورة خطرة."}
+      ],
+      "example_it":"Prima di spostarsi a destra, il conducente controlla che non vi siano utenti nel percorso, segnala per tempo e attende se la manovra causerebbe pericolo o intralcio.",
+      "example_ar":"قبل الانتقال إلى اليمين، يتحقق السائق من خلو المسار من المستخدمين، وينبّه مبكرًا، وينتظر إذا كانت المناورة ستسبب خطرًا أو تعطيلًا.",
+      "pitfall_it":"La freccia non è un’autorizzazione: la manovra resta subordinata alla sicurezza e alla considerazione degli altri utenti.",
+      "pitfall_ar":"إشارة الاتجاه ليست تصريحًا؛ تظل المناورة مشروطة بالسلامة ومراعاة مستخدمي الطريق الآخرين.",
+      "legal_sources": [
+        {"article":"Art. 154 D.Lgs. 285/1992","title_it":"Cambiamento di direzione o di corsia o altre manovre","title_ar":"تغيير الاتجاه أو الحارة ومناورات أخرى","url":"https://aci.gov.it/codice-della-strada/art-154/"},
+        {"article":"D.Lgs. 285/1992, testo vigente","title_it":"Normattiva — Codice della strada","title_ar":"Normattiva — قانون الطرق","url":"https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285!vig="}
+      ]
+    },
+    {
+      "lesson_order": 3,
+      "heading_it": "Sorpassare solo quando c’è spazio sicuro",
+      "heading_ar": "لا تتجاوز إلا مع توافر مساحة آمنة",
+      "body_it": "Prima di sorpassare, il conducente verifica che visibilità e spazio consentano di completare la manovra senza pericolo o intralcio; controlla inoltre che chi precede non abbia segnalato un sorpasso e che nessuno dietro lo abbia già iniziato. Di regola ci si porta a sinistra, si supera mantenendo un’adeguata distanza laterale e si rientra a destra appena possibile senza creare rischio. La legge prevede divieti e casi particolari, quindi questi criteri non sono un elenco completo. Nel sorpasso di una bicicletta serve distanza laterale adeguata; almeno 1,5 metri quando le condizioni della strada lo consentono, non come permesso a sorpassare senza sicurezza.",
+      "body_ar": "قبل التجاوز، يتحقق السائق من أن الرؤية والمساحة تسمحان بإتمام المناورة من دون خطر أو تعطيل؛ ويتأكد أيضًا من أن المركبة أمامه لم تعلن نيتها التجاوز، وأن أحدًا خلفه لم يبدأ التجاوز بالفعل. تكون المناورة عادةً من اليسار، مع ترك مسافة جانبية مناسبة، ثم العودة إلى اليمين متى أمكن من دون خلق خطر. يحدد القانون محظورات وحالات خاصة، لذلك فهذه المعايير ليست قائمة كاملة. عند تجاوز دراجة، يجب ترك مسافة جانبية مناسبة؛ وتكون 1.5 متر على الأقل عندما تسمح ظروف الطريق، وليس ذلك إذنًا بالتجاوز من دون أمان.",
+      "core_it": ["Sorpassa solo se puoi completare la manovra in sicurezza.", "Per le biciclette, 1,5 m dove le condizioni lo consentono."],
+      "core_ar": ["لا تتجاوز إلا إذا أمكن إتمام المناورة بأمان.", "للدراجات: 1.5 متر حيثما تسمح ظروف الطريق."],
+      "key_points": [
+        {"title_it":"Valutazione preventiva","title_ar":"التحقق قبل المناورة","it":"Controlla visibilità, spazio libero e manovre degli altri conducenti.","ar":"تحقق من الرؤية والمساحة الخالية ومناورات السائقين الآخرين."},
+        {"title_it":"Lato ordinario","title_ar":"الجانب المعتاد","it":"Il sorpasso si effettua di regola a sinistra.","ar":"يكون التجاوز عادةً من اليسار."},
+        {"title_it":"Distanza laterale","title_ar":"المسافة الجانبية","it":"Mantieni una distanza adeguata e rientra senza creare pericolo o intralcio.","ar":"اترك مسافة جانبية مناسبة وعُد إلى مسارك من دون خلق خطر أو تعطيل."},
+        {"title_it":"Sorpasso delle biciclette","title_ar":"تجاوز الدراجات","it":"La soglia di almeno 1,5 m vale ove le condizioni della strada lo consentano.","ar":"تُراعى مسافة لا تقل عن 1.5 متر حيثما تسمح ظروف الطريق."},
+        {"title_it":"Casi particolari","title_ar":"حالات خاصة","it":"I divieti e le deroghe legali sono più dettagliati di questo riepilogo.","ar":"المحظورات والاستثناءات القانونية أكثر تفصيلًا من هذا الملخص."}
+      ],
+      "trap_words": [
+        {"term_it":"ove le condizioni della strada lo consentano","meaning_ar":"حيثما تسمح ظروف الطريق","why_it":"La distanza di almeno 1,5 m per le biciclette è formulata con questa condizione; non elimina il requisito generale di sicurezza.","why_ar":"صيغت مسافة 1.5 متر للدراجة مع هذا الشرط؛ ولا يلغي ذلك وجوب الأمان العام.","example_it":"Se non c’è spazio sicuro per lasciare la distanza, attendi invece di forzare il sorpasso.","example_ar":"إذا لم توجد مساحة آمنة لترك المسافة، فانتظر بدل فرض التجاوز."}
+      ],
+      "numbers": [
+        {"value":"1,5 m","context_it":"Distanza laterale minima nel sorpasso di una bicicletta, ove le condizioni della strada lo consentano.","context_ar":"المسافة الجانبية الدنيا عند تجاوز دراجة، حيثما تسمح ظروف الطريق."}
+      ],
+      "common_mistakes": [
+        {"mistake_it":"Pensare che 1,5 m autorizzino sempre a sorpassare una bicicletta.","mistake_ar":"الاعتقاد بأن 1.5 متر تبيح دائمًا تجاوز الدراجة.","why_it":"La misura si applica ove le condizioni lo consentano e non cancella l’obbligo di sicurezza.","why_ar":"تُطبق المسافة حيثما تسمح الظروف ولا تلغي واجب الأمان."},
+        {"mistake_it":"Iniziare il sorpasso senza controllare chi segue o la strada libera davanti.","mistake_ar":"بدء التجاوز دون التحقق ممن خلفك أو من خلو الطريق أمامك.","why_it":"L’articolo 148 richiede verifiche preventive e spazio sufficiente per completare la manovra.","why_ar":"تتطلب المادة 148 تحققًا مسبقًا ومساحة كافية لإتمام المناورة."}
+      ],
+      "quick_check": [
+        {"statement_it":"Prima di sorpassare, occorre verificare che vi siano visibilità e spazio sufficienti.","statement_ar":"قبل التجاوز يجب التحقق من كفاية الرؤية والمساحة.","answer":"VERO","explanation_it":"Sono controlli preventivi richiesti dall’articolo 148.","explanation_ar":"هذه تحققات مسبقة تقتضيها المادة 148."},
+        {"statement_it":"La distanza di 1,5 m permette di sorpassare anche quando la manovra è pericolosa.","statement_ar":"مسافة 1.5 متر تبيح التجاوز حتى عندما تكون المناورة خطرة.","answer":"FALSO","explanation_it":"La distanza vale ove le condizioni lo consentano e non autorizza una manovra insicura.","explanation_ar":"تُراعى المسافة حيثما تسمح الظروف ولا تبيح مناورة غير آمنة."},
+        {"statement_it":"Di regola, il sorpasso si effettua a sinistra.","statement_ar":"يكون التجاوز عادةً من اليسار.","answer":"VERO","explanation_it":"La regola generale dell’articolo 148 prevede il passaggio a sinistra, con casi particolari disciplinati dalla legge.","explanation_ar":"القاعدة العامة في المادة 148 هي التجاوز من اليسار، مع وجود حالات خاصة ينظمها القانون."}
+      ],
+      "example_it":"Una bicicletta procede davanti e un veicolo arriva in senso opposto: il conducente attende finché spazio e visibilità consentono un sorpasso sicuro, rispettando la distanza laterale richiesta dalle condizioni.",
+      "example_ar":"تسير دراجة أمامك وتقترب مركبة من الاتجاه المقابل: ينتظر السائق حتى تسمح المساحة والرؤية بتجاوز آمن، مع ترك المسافة الجانبية التي تقتضيها الظروف.",
+      "pitfall_it":"Non trasformare la distanza di 1,5 m in un’autorizzazione automatica: la sicurezza viene prima del sorpasso.",
+      "pitfall_ar":"لا تحوّل مسافة 1.5 متر إلى إذن تلقائي؛ فالأمان يسبق التجاوز.",
+      "legal_sources": [
+        {"article":"Art. 148, commi 2–3 e 9-bis, D.Lgs. 285/1992","title_it":"Sorpasso","title_ar":"التجاوز","url":"https://aci.gov.it/codice-della-strada/art-148/"},
+        {"article":"D.Lgs. 285/1992, testo vigente","title_it":"Normattiva — Codice della strada","title_ar":"Normattiva — قانون الطرق","url":"https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285!vig="},
+        {"article":"Comunicazione ministeriale del 14 dicembre 2024","title_it":"MIT — Sicurezza stradale e sorpasso dei ciclisti","title_ar":"وزارة النقل — السلامة وتجاوز راكبي الدراجات","url":"https://www.mit.gov.it/comunicazione/news/sicurezza-stradale-e-vigore-il-decreto-con-modifiche-al-codice-della-strada"}
+      ]
+    },
+    {
+      "lesson_order": 4,
+      "heading_it": "Lascia spazio per fermarti",
+      "heading_ar": "اترك مسافة تتيح لك التوقف",
+      "body_it": "Durante la marcia, mantieni dal veicolo che precede una distanza sufficiente a consentire l’arresto tempestivo e a evitare collisioni. L’articolo 149 stabilisce questo criterio, non un unico valore valido per ogni velocità e situazione. Nella valutazione pratica considera le condizioni del traffico e della strada e lascia spazio adeguato; se la visuale o l’aderenza sono ridotte, rallentare e aumentare lo spazio è una cautela didattica utile, non una distanza numerica fissata per legge. La distanza deve essere tale da permettere di reagire e fermarsi senza urtare chi precede.",
+      "body_ar": "أثناء السير، اترك بينك وبين المركبة التي أمامك مسافة كافية تتيح التوقف في الوقت المناسب وتجنب الاصطدام. تقرر المادة 149 هذا المعيار، ولا تحدد رقمًا واحدًا صالحًا لكل سرعة وظرف. عند التقدير العملي، راعِ حركة المرور وحالة الطريق واترك مجالًا مناسبًا؛ وإذا قلت الرؤية أو التماسك، فإن تخفيف السرعة وزيادة المسافة احتياط تعليمي مفيد، وليس مسافة رقمية يفرضها القانون. يجب أن تكون المسافة كافية للتصرف والتوقف من دون الاصطدام بالمركبة التي أمامك.",
+      "core_it": ["Lascia spazio per fermarti senza collisioni.", "La legge non indica un unico valore per ogni situazione."],
+      "core_ar": ["اترك مجالًا يسمح بالتوقف من دون اصطدام.", "لا يحدد القانون رقمًا واحدًا لكل الظروف."],
+      "key_points": [
+        {"title_it":"Criterio legale","title_ar":"المعيار القانوني","it":"La distanza deve permettere l’arresto tempestivo ed evitare collisioni.","ar":"يجب أن تتيح المسافة التوقف في الوقت المناسب وتجنب الاصطدام."},
+        {"title_it":"Nessun numero universale","title_ar":"لا رقم موحد لكل الحالات","it":"L’articolo 149 non fissa un’unica distanza per ogni velocità e situazione.","ar":"لا تحدد المادة 149 مسافة واحدة لكل سرعة وظرف."},
+        {"title_it":"Valuta le condizioni","title_ar":"راعِ الظروف","it":"Considera traffico e condizioni della strada nella condotta di guida.","ar":"راعِ حركة المرور وظروف الطريق أثناء القيادة."},
+        {"title_it":"Adatta la prudenza","title_ar":"كيّف الحذر","it":"Ridurre la velocità e lasciare più spazio in condizioni difficili è un consiglio didattico prudenziale.","ar":"تخفيف السرعة وترك مجال أكبر في الظروف الصعبة احتياط تعليمي."}
+      ],
+      "trap_words": [],
+      "numbers": [],
+      "common_mistakes": [
+        {"mistake_it":"Memorizzare una distanza numerica come obbligo universale per tutte le auto.","mistake_ar":"حفظ مسافة رقمية باعتبارها واجبًا عامًا لكل السيارات.","why_it":"Il criterio dell’articolo 149 è funzionale: arresto tempestivo ed evitare collisioni.","why_ar":"معيار المادة 149 عملي: التوقف في الوقت المناسب وتجنب الاصطدام."},
+        {"mistake_it":"Mantenere lo stesso spazio anche quando le condizioni cambiano.","mistake_ar":"الإبقاء على المسافة نفسها حتى عندما تتغير الظروف.","why_it":"La guida prudente richiede di valutare traffico e strada, senza attribuire alla legge una misura non indicata.","why_ar":"تتطلب القيادة الحذرة مراعاة المرور والطريق، من دون نسبة رقم للقانون لم يحدده."}
+      ],
+      "quick_check": [
+        {"statement_it":"La distanza deve consentire l’arresto tempestivo ed evitare collisioni.","statement_ar":"يجب أن تتيح المسافة التوقف في الوقت المناسب وتجنب الاصطدام.","answer":"VERO","explanation_it":"È il criterio indicato dall’articolo 149, comma 1.","explanation_ar":"هذا هو المعيار الوارد في المادة 149، الفقرة الأولى."},
+        {"statement_it":"L’articolo 149 stabilisce una distanza unica valida per ogni strada e velocità.","statement_ar":"تحدد المادة 149 مسافة واحدة صالحة لكل طريق وسرعة.","answer":"FALSO","explanation_it":"La disposizione richiede una distanza sufficiente in rapporto alla possibilità di fermarsi ed evitare collisioni.","explanation_ar":"تطلب القاعدة مسافة كافية للتوقف وتجنب الاصطدام، ولا تضع رقمًا موحدًا لكل الحالات."},
+        {"statement_it":"La distanza di sicurezza è necessaria soltanto quando piove.","statement_ar":"مسافة الأمان مطلوبة فقط عند المطر.","answer":"FALSO","explanation_it":"Il dovere di mantenere la distanza vale durante la marcia; le condizioni influenzano la prudenza necessaria.","explanation_ar":"واجب ترك مسافة قائم أثناء السير؛ وتؤثر الظروف في مقدار الحذر اللازم."}
+      ],
+      "example_it":"Nel traffico che rallenta, il conducente evita di avvicinarsi troppo all’auto davanti e mantiene lo spazio necessario per arrestarsi senza urtarla.",
+      "example_ar":"عندما تخف حركة المرور سرعتها، يتجنب السائق الاقتراب أكثر من اللازم من السيارة أمامه، ويترك المجال اللازم للتوقف من دون الاصطدام بها.",
+      "pitfall_it":"Non confondere un consiglio prudenziale, come aumentare lo spazio con scarsa aderenza, con un valore numerico universale scritto nell’articolo.",
+      "pitfall_ar":"لا تخلط بين احتياط تعليمي مثل زيادة المسافة عند ضعف التماسك وبين رقم موحد منصوص عليه في المادة.",
+      "legal_sources": [
+        {"article":"Art. 149, comma 1, D.Lgs. 285/1992","title_it":"Distanza di sicurezza tra veicoli","title_ar":"مسافة الأمان بين المركبات","url":"https://aci.gov.it/codice-della-strada/art-149/"},
+        {"article":"D.Lgs. 285/1992, testo vigente","title_it":"Normattiva — Codice della strada","title_ar":"Normattiva — قانون الطرق","url":"https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285!vig="}
+      ]
+    }
+  ]
+}

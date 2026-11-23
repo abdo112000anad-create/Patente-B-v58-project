@@ -1,0 +1,329 @@
+{
+  "schema_version": 1,
+  "kind": "Patente B legal numbers reference dataset",
+  "legal_check_date": "2026-11-15",
+  "count": 40,
+  "sources_note": "Fonti ufficiali aperte direttamente: Normattiva (testo vigente art.142), ACI (testi degli articoli indicati), MIT (pagina Patente B) e Gazzetta Ufficiale (Legge 177/2024, data efficacia). La Gazzetta è solo fonte di controllo temporale e non supporta singoli valori del Codice.",
+  "entries": [
+    {
+      "value": "130 km/h",
+      "category": "Limite generale: autostrade",
+      "rule_it": "Limite massimo ordinario per le autostrade.",
+      "rule_ar": "الحد الأقصى العام على الطرق السريعة.",
+      "article": "Art. 142, commi 1 e 5",
+      "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "110 km/h",
+      "category": "Limite generale: extraurbane principali",
+      "rule_it": "Limite massimo ordinario sulle strade extraurbane principali.",
+      "rule_ar": "الحد الأقصى العام على الطرق الرئيسية خارج المدن.",
+      "article": "Art. 142, commi 1 e 5",
+      "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "90 km/h",
+      "category": "Limite generale: extraurbane secondarie e locali",
+      "rule_it": "Limite massimo ordinario sulle strade extraurbane secondarie e locali.",
+      "rule_ar": "الحد الأقصى العام على الطرق الثانوية والمحلية خارج المدن.",
+      "article": "Art. 142, commi 1 e 5",
+      "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "50 km/h",
+      "category": "Limite generale: centri abitati",
+      "rule_it": "Limite massimo ordinario nei centri abitati; il limite può essere elevato solo nei casi segnalati previsti dalla legge.",
+      "rule_ar": "الحد الأقصى العام داخل المناطق المأهولة؛ ولا يُرفع إلا في الحالات المعلنة التي يجيزها القانون.",
+      "article": "Art. 142, commi 1 e 5",
+      "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "70 km/h",
+      "category": "Eccezione urbana segnalata",
+      "rule_it": "Su strade urbane con caratteristiche idonee il limite può essere elevato fino a 70 km/h, previa apposita segnalazione.",
+      "rule_ar": "يجوز رفع الحد على طرق حضرية ذات خصائص مناسبة إلى 70 كم/س كحد أقصى، بعد وضع الإشارات المطلوبة.",
+      "article": "Art. 142, commi 1 e 5",
+      "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "150 km/h",
+      "category": "Eccezione autostradale segnalata",
+      "rule_it": "Elevabile fino a 150 km/h solo su autostrade con tre corsie più emergenza per senso, apparecchiature omologate e condizioni di traffico, meteo e incidentalità idonee, previa segnalazione.",
+      "rule_ar": "يجوز رفعه إلى 150 كم/س فقط على طريق سريع بثلاث حارات وحارة طوارئ لكل اتجاه، مع أجهزة معتمدة وتوافر شروط المرور والطقس والحوادث والإشارات.",
+      "article": "Art. 142, commi 1 e 5",
+      "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "110 km/h",
+      "category": "Precipitazioni: autostrade",
+      "rule_it": "Con precipitazioni di qualsiasi natura il massimo autostradale è 110 km/h; resta fermo l’obbligo di adeguare la velocità all’art.141.",
+      "rule_ar": "عند أي هطول، الحد الأقصى على الطريق السريع 110 كم/س؛ ويبقى واجب ملاءمة السرعة للمادة 141.",
+      "article": "Art. 142, commi 1 e 5",
+      "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "90 km/h",
+      "category": "Precipitazioni: extraurbane principali",
+      "rule_it": "Con precipitazioni di qualsiasi natura il massimo sulle extraurbane principali è 90 km/h; resta fermo l’art.141.",
+      "rule_ar": "عند أي هطول، الحد الأقصى على الطرق الرئيسية خارج المدن 90 كم/س؛ وتظل المادة 141 واجبة التطبيق.",
+      "article": "Art. 142, commi 1 e 5",
+      "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "45 km/h",
+      "category": "Ciclomotori",
+      "rule_it": "I ciclomotori non possono superare 45 km/h.",
+      "rule_ar": "لا يجوز للدراجات النارية الخفيفة تجاوز 45 كم/س.",
+      "article": "Art. 142, comma 3",
+      "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "50 km/h",
+      "category": "Merci pericolose classe 1, fuori abitato",
+      "rule_it": "Solo veicoli trasportanti carichi di merci pericolose classe 1, fuori dai centri abitati.",
+      "rule_ar": "للمركبات المحملة ببضائع خطرة من الفئة 1 خارج المناطق المأهولة فقط.",
+      "article": "Art. 142, comma 3",
+      "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "30 km/h",
+      "category": "Merci pericolose classe 1, in abitato",
+      "rule_it": "Solo veicoli trasportanti carichi di merci pericolose classe 1, nei centri abitati.",
+      "rule_ar": "للمركبات المحملة ببضائع خطرة من الفئة 1 داخل المناطق المأهولة فقط.",
+      "article": "Art. 142, comma 3",
+      "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "40 km/h",
+      "category": "Macchine agricole/operatrici su pneumatici",
+      "rule_it": "Massimo se montate su pneumatici o sistemi equipollenti.",
+      "rule_ar": "الحد للآلات الزراعية/التشغيلية ذات الإطارات أو ما يعادلها.",
+      "article": "Art. 142, comma 3",
+      "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "15 km/h",
+      "category": "Macchine agricole/operatrici non su pneumatici",
+      "rule_it": "Massimo negli altri casi previsti dalla lettera c).",
+      "rule_ar": "الحد في الحالات الأخرى المنصوص عليها للآلات الزراعية/التشغيلية.",
+      "article": "Art. 142, comma 3",
+      "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "80 km/h",
+      "category": "Quadricicli, fuori abitato",
+      "rule_it": "Massimo fuori dai centri abitati.",
+      "rule_ar": "الحد الأقصى للمركبات رباعية العجلات خارج المناطق المأهولة.",
+      "article": "Art. 142, comma 3",
+      "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "70 km/h",
+      "category": "Complessi auto-rimorchio, fuori abitato",
+      "rule_it": "Treni costituiti da autoveicolo e rimorchio delle categorie richiamate dall’art.54: fuori abitato.",
+      "rule_ar": "لتركيبات سيارة ومقطورة من الأنواع المحال إليها بالمادة 54 خارج المناطق المأهولة.",
+      "article": "Art. 142, comma 3",
+      "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "80 km/h",
+      "category": "Complessi auto-rimorchio, autostrada",
+      "rule_it": "Stesse categorie di complessi, in autostrada.",
+      "rule_ar": "للتركيبات نفسها على الطرق السريعة.",
+      "article": "Art. 142, comma 3",
+      "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "80 km/h",
+      "category": "Autobus/filobus oltre 8 t, fuori abitato",
+      "rule_it": "Veicoli con massa complessiva a pieno carico superiore a 8 t, fuori abitato.",
+      "rule_ar": "للحافلات/الترولي باص التي تتجاوز كتلتها الإجمالية المحملة 8 أطنان خارج المناطق المأهولة.",
+      "article": "Art. 142, comma 3",
+      "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "100 km/h",
+      "category": "Autobus/filobus oltre 8 t, autostrada",
+      "rule_it": "Veicoli con massa complessiva a pieno carico superiore a 8 t, in autostrada.",
+      "rule_ar": "للحافلات/الترولي باص التي تتجاوز كتلتها الإجمالية المحملة 8 أطنان على الطريق السريع.",
+      "article": "Art. 142, comma 3",
+      "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "80 km/h",
+      "category": "Merci oltre 3,5 t fino a 12 t, fuori abitato",
+      "rule_it": "Autoveicoli per merci/altri usi, massa a pieno carico >3,5 t e ≤12 t, fuori abitato.",
+      "rule_ar": "لمركبات البضائع/الاستخدامات الأخرى بكتلة محملة أكثر من 3.5 وحتى 12 طنًا خارج المناطق المأهولة.",
+      "article": "Art. 142, comma 3",
+      "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "100 km/h",
+      "category": "Merci oltre 3,5 t fino a 12 t, autostrada",
+      "rule_it": "Stessa fascia di massa, in autostrada.",
+      "rule_ar": "لفئة الكتلة نفسها على الطريق السريع.",
+      "article": "Art. 142, comma 3",
+      "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "70 km/h",
+      "category": "Merci oltre 12 t, fuori abitato",
+      "rule_it": "Autoveicoli per merci/altri usi con massa a pieno carico >12 t, fuori abitato.",
+      "rule_ar": "لمركبات البضائع/الاستخدامات الأخرى التي تتجاوز 12 طنًا خارج المناطق المأهولة.",
+      "article": "Art. 142, comma 3",
+      "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "80 km/h",
+      "category": "Merci oltre 12 t, autostrada",
+      "rule_it": "Stessa fascia di massa, in autostrada.",
+      "rule_ar": "لفئة الكتلة نفسها على الطريق السريع.",
+      "article": "Art. 142, comma 3",
+      "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "70 km/h",
+      "category": "Autocarri oltre 5 t adibiti a persone, fuori abitato",
+      "rule_it": "Solo autocarri oltre 5 t usati per trasporto di persone ai sensi dell’art.82(6), fuori abitato.",
+      "rule_ar": "للشاحنات التي تتجاوز 5 أطنان والمستخدمة لنقل أشخاص وفق المادة 82(6)، خارج المناطق المأهولة.",
+      "article": "Art. 142, comma 3",
+      "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "80 km/h",
+      "category": "Autocarri oltre 5 t adibiti a persone, autostrada",
+      "rule_it": "Stessa categoria, in autostrada.",
+      "rule_ar": "للفئة نفسها على الطريق السريع.",
+      "article": "Art. 142, comma 3",
+      "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "40 km/h",
+      "category": "Mezzi d’opera a pieno carico, in abitato",
+      "rule_it": "Massimo per mezzi d’opera viaggianti a pieno carico nei centri abitati.",
+      "rule_ar": "الحد لمركبات الأشغال المحملة بالكامل داخل المناطق المأهولة.",
+      "article": "Art. 142, comma 3",
+      "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "60 km/h",
+      "category": "Mezzi d’opera a pieno carico, fuori abitato",
+      "rule_it": "Massimo per mezzi d’opera viaggianti a pieno carico fuori dai centri abitati.",
+      "rule_ar": "الحد لمركبات الأشغال المحملة بالكامل خارج المناطق المأهولة.",
+      "article": "Art. 142, comma 3",
+      "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "0 g/l",
+      "category": "Tasso zero: conducenti under 21",
+      "rule_it": "Per conducenti di età inferiore a 21 anni è vietato guidare dopo aver assunto alcol; il comma 2 sanziona il valore accertato >0 e ≤0,5 g/l.",
+      "rule_ar": "لمن هم دون 21 سنة يُحظر القيادة بعد تناول الكحول؛ وتقرر الفقرة 2 عقوبة عند ثبوت نسبة أكبر من صفر وحتى 0.5 غ/ل.",
+      "article": "Art. 186-bis, commi 1(a), 2",
+      "source_url": "https://aci.gov.it/codice-della-strada/art-186-bis/"
+    },
+    {
+      "value": "0 g/l",
+      "category": "Tasso zero: primi tre anni patente B",
+      "rule_it": "Per i primi tre anni dal conseguimento della patente B vale il divieto speciale; non estenderlo a tutti i conducenti B per tutta la vita.",
+      "rule_ar": "خلال السنوات الثلاث الأولى من الحصول على رخصة B يسري الحظر الخاص؛ ولا يُعمم على جميع حاملي B طوال الوقت.",
+      "article": "Art. 186-bis, commi 1(a), 2",
+      "source_url": "https://aci.gov.it/codice-della-strada/art-186-bis/"
+    },
+    {
+      "value": "0 g/l",
+      "category": "Tasso zero: trasporto professionale e categorie veicolo enumerate",
+      "rule_it": "Il regime speciale riguarda le attività di trasporto e i veicoli elencati tassativamente dall’art.186-bis(1)(b)-(d).",
+      "rule_ar": "ينطبق نظام الصفر الخاص على أنشطة النقل والمركبات المعددة تحديدًا في المادة 186 مكرر، الفقرة 1(ب-د).",
+      "article": "Art. 186-bis, commi 1(b)-(d), 2",
+      "source_url": "https://aci.gov.it/codice-della-strada/art-186-bis/"
+    },
+    {
+      "value": ">0 e ≤0,5 g/l",
+      "category": "Fascia speciale: categorie art.186-bis",
+      "rule_it": "Per i conducenti dell’art.186-bis(1), un valore accertato superiore a zero e non superiore a 0,5 g/l comporta la sanzione amministrativa prevista; non è la regola generale per ogni conducente.",
+      "rule_ar": "للفئات المحددة بالمادة 186 مكرر(1)، النسبة المثبتة الأكبر من صفر وحتى 0.5 غ/ل تستوجب الجزاء الإداري؛ وهذه ليست قاعدة عامة لكل السائقين.",
+      "article": "Art. 186-bis, comma 2",
+      "source_url": "https://aci.gov.it/codice-della-strada/art-186-bis/"
+    },
+    {
+      "value": ">0,5 e ≤0,8 g/l",
+      "category": "Fascia generale di ebbrezza",
+      "rule_it": "Art.186(2)(a): oltre 0,5 e fino a 0,8 g/l, salvo regimi speciali e conseguenze ulteriori previste dalla legge.",
+      "rule_ar": "المادة 186(2)(أ): أكثر من 0.5 وحتى 0.8 غ/ل، مع مراعاة الأنظمة الخاصة والآثار القانونية الإضافية.",
+      "article": "Art. 186, comma 2(a)",
+      "source_url": "https://aci.gov.it/codice-della-strada/art-186/"
+    },
+    {
+      "value": ">0,8 e ≤1,5 g/l",
+      "category": "Fascia penale intermedia",
+      "rule_it": "Art.186(2)(b): oltre 0,8 e fino a 1,5 g/l.",
+      "rule_ar": "المادة 186(2)(ب): أكثر من 0.8 وحتى 1.5 غ/ل.",
+      "article": "Art. 186, comma 2(b)",
+      "source_url": "https://aci.gov.it/codice-della-strada/art-186/"
+    },
+    {
+      "value": ">1,5 g/l",
+      "category": "Fascia penale superiore",
+      "rule_it": "Art.186(2)(c): valore superiore a 1,5 g/l; si applicano le conseguenze indicate dalla norma.",
+      "rule_ar": "المادة 186(2)(ج): نسبة تتجاوز 1.5 غ/ل؛ وتطبق الآثار المنصوص عليها.",
+      "article": "Art. 186, comma 2(c)",
+      "source_url": "https://aci.gov.it/codice-della-strada/art-186/"
+    },
+    {
+      "value": ">1,5 g/l",
+      "category": "Revoca: conducenti art.186-bis, comma 1(d)",
+      "rule_it": "Per i conducenti della sola categoria speciale del comma 1(d), l’accertamento >1,5 g/l comporta la revoca prevista, salva la clausola di rinvio all’art.186(2)(c).",
+      "rule_ar": "للسائقين في الفئة الخاصة المحددة بالفقرة 1(د)، ثبوت نسبة تتجاوز 1.5 غ/ل يستتبع سحب الرخصة وفق النص، مع مراعاة الإحالة للمادة 186(2)(ج).",
+      "article": "Art. 186-bis, comma 5",
+      "source_url": "https://aci.gov.it/codice-della-strada/art-186-bis/"
+    },
+    {
+      "value": "100 m",
+      "category": "Distanza tra veicoli con divieto di sorpasso per categorie",
+      "rule_it": "Fuori dai centri abitati, tra veicoli soggetti a divieto di sorpasso limitato ad alcune categorie; non si applica su tratti con almeno due corsie per senso.",
+      "rule_ar": "خارج المناطق المأهولة، بين مركبات يسري عليها منع تجاوز مقتصر على بعض الفئات؛ ولا تطبق على مقاطع فيها حارتان أو أكثر لكل اتجاه.",
+      "article": "Art. 149, comma 2",
+      "source_url": "https://aci.gov.it/codice-della-strada/art-149/"
+    },
+    {
+      "value": "20 m",
+      "category": "Distanza da spazzaneve/spargitrici in funzione",
+      "rule_it": "Distanza minima quando operano macchine sgombraneve o spargitrici; non è una distanza generale dal veicolo che precede.",
+      "rule_ar": "المسافة الدنيا عند عمل كاسحات الثلوج أو ناثرات المواد؛ وليست مسافة عامة عن المركبة الأمامية.",
+      "article": "Art. 149, comma 3",
+      "source_url": "https://aci.gov.it/codice-della-strada/art-149/"
+    },
+    {
+      "value": "1,5 m",
+      "category": "Sorpasso velocipedi: distanza laterale",
+      "rule_it": "Almeno 1,5 m ove le condizioni della strada lo consentano, insieme alla valutazione di velocità e ingombro; non autorizza sorpassi insicuri.",
+      "rule_ar": "مسافة جانبية لا تقل عن 1.5 م متى سمحت ظروف الطريق، مع مراعاة السرعة والحجم؛ ولا تبيح تجاوزًا غير آمن.",
+      "article": "Art. 148, comma 9-bis",
+      "source_url": "https://aci.gov.it/codice-della-strada/art-148/"
+    },
+    {
+      "value": "500 m",
+      "category": "Coda in autostrada: accesso corsia emergenza per uscire",
+      "rule_it": "In caso di ingorgo, il transito in corsia d’emergenza è consentito solo per uscire, a partire dal preavviso posto a 500 m dallo svincolo.",
+      "rule_ar": "عند الازدحام، يسمح بالسير في حارة الطوارئ للخروج فقط ابتداءً من لوحة الإنذار الواقعة على بعد 500 م من المخرج.",
+      "article": "Art. 176, comma 4",
+      "source_url": "https://aci.gov.it/codice-della-strada/art-176/"
+    },
+    {
+      "value": "3 ore",
+      "category": "Sosta di emergenza autostradale",
+      "rule_it": "Non può protrarsi oltre tre ore; la regola riguarda la sosta d’emergenza nei casi previsti dall’articolo.",
+      "rule_ar": "لا يجوز أن تتجاوز وقفة الطوارئ ثلاث ساعات؛ وهذا خاص بوقفة الطوارئ في الحالات التي تحددها المادة.",
+      "article": "Art. 176, comma 6",
+      "source_url": "https://aci.gov.it/codice-della-strada/art-176/"
+    },
+    {
+      "value": "24 ore",
+      "category": "Sosta in pertinenze autostradali",
+      "rule_it": "Divieto di lasciare il veicolo in sosta oltre 24 ore nelle aree di servizio/parcheggio e pertinenze indicate, con eccezioni per parcheggi alberghieri o analoghe aree attrezzate.",
+      "rule_ar": "يُحظر ترك المركبة متوقفة لأكثر من 24 ساعة في مناطق الخدمة/الوقوف ومرافق الطريق المحددة، مع استثناء مواقف الفنادق أو المرافق المماثلة.",
+      "article": "Art. 175, comma 9",
+      "source_url": "https://aci.gov.it/codice-della-strada/art-175/"
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "term_it": "sempre",
+      "meaning_ar": "دائمًا",
+      "why_it": "È un quantificatore assoluto: va controllato rispetto al comma e alle eccezioni applicabili; la sua presenza non rende da sola falsa la frase.",
+      "why_ar": "دي كلمة تعميم؛ لازم نراجع الفقرة والاستثناءات اللي تنطبق. وجودها لوحده ما يخليش الجملة غلط تلقائيًا.",
+      "example_it": "Il conducente deve sempre conservare il controllo del proprio veicolo.",
+      "example_ar": "لازم السائق يحافظ دائمًا على السيطرة على مركبته.",
+      "legal_reference": {
+        "article": "Art. 141, comma 2",
+        "title_it": "Velocità",
+        "title_ar": "السرعة",
+        "url": "https://aci.gov.it/codice-della-strada/art-141/"
+      }
+    },
+    {
+      "term_it": "mai",
+      "meaning_ar": "أبدًا / مطلقًا",
+      "why_it": "Esprime una negazione assoluta; occorre verificare che il divieto legale non abbia eccezioni o un ambito più ristretto. Non basta la parola per decidere Vero/Falso.",
+      "why_ar": "بتنفي الفعل بشكل مطلق؛ لازم نتأكد إن الحظر القانوني ما لوش استثناء أو نطاق أضيق. الكلمة وحدها مش كفاية للحكم صح أو غلط.",
+      "example_it": "Il conducente non deve mai gareggiare in velocità.",
+      "example_ar": "لا يجوز للسائق أبدًا أن يتسابق في السرعة.",
+      "legal_reference": {
+        "article": "Art. 141, comma 5",
+        "title_it": "Velocità",
+        "title_ar": "السرعة",
+        "url": "https://aci.gov.it/codice-della-strada/art-141/"
+      }
+    },
+    {
+      "term_it": "può",
+      "meaning_ar": "يمكن / يجوز",
+      "why_it": "Può indicare una possibilità o un'autorizzazione, non un obbligo; bisogna identificare soggetto e condizioni della facoltà.",
+      "why_ar": "ممكن تدل على إمكانية أو سماح، مش على واجب؛ راجع مين صاحب الحق وإيه شروطه.",
+      "example_it": "Nelle strade urbane a senso unico la sosta può essere consentita anche lungo il margine sinistro, se resta spazio sufficiente al transito.",
+      "example_ar": "في الشوارع الحضرية ذات الاتجاه الواحد، ممكن يُسمح بالوقوف على الحافة اليسرى كمان، بشرط بقاء مساحة كافية للمرور.",
+      "legal_reference": {
+        "article": "Art. 157, comma 4",
+        "title_it": "Arresto, fermata e sosta dei veicoli",
+        "title_ar": "توقف المركبات ووقوفها",
+        "url": "https://aci.gov.it/codice-della-strada/art-157/"
+      }
+    },
+    {
+      "term_it": "deve",
+      "meaning_ar": "يجب عليه / لازم",
+      "why_it": "Segnala normalmente un dovere, ma l'obbligo va letto insieme al soggetto, alla situazione e alle condizioni previste dalla disposizione.",
+      "why_ar": "غالبًا بتشير لواجب، لكن لازم نقرأها مع الشخص المقصود والحالة والشروط اللي حددها النص.",
+      "example_it": "Durante la fermata il conducente deve essere presente e pronto a riprendere la marcia.",
+      "example_ar": "أثناء التوقف المؤقت، لازم السائق يكون موجود وجاهز يكمل السير.",
+      "legal_reference": {
+        "article": "Art. 157, comma 1, lettera b",
+        "title_it": "Arresto, fermata e sosta dei veicoli",
+        "title_ar": "توقف المركبات ووقوفها",
+        "url": "https://aci.gov.it/codice-della-strada/art-157/"
+      }
+    },
+    {
+      "term_it": "solo",
+      "meaning_ar": "فقط",
+      "why_it": "Restringe la regola a una condizione esclusiva; confronta attentamente la frase con l'intero elenco di casi previsto dalla norma.",
+      "why_ar": "بتحصر القاعدة في حالة واحدة؛ قارن العبارة بكل الحالات اللي النص ذكرها.",
+      "example_it": "La sosta sul margine sinistro è consentita solo nelle strade urbane a senso unico e se restano le condizioni previste.",
+      "example_ar": "يُسمح بالوقوف على الحافة اليسرى فقط في الشوارع الحضرية ذات الاتجاه الواحد، ومع توافر الشروط المحددة.",
+      "legal_reference": {
+        "article": "Art. 157, comma 1, lettera d",
+        "title_it": "Arresto, fermata e sosta dei veicoli",
+        "title_ar": "توقف المركبات ووقوفها",
+        "url": "https://aci.gov.it/codice-della-strada/art-157/"
+      }
+    },
+    {
+      "term_it": "almeno",
+      "meaning_ar": "على الأقل",
+      "why_it": "Fissa una soglia minima, non un valore esatto; controlla unità, oggetto e contesto cui la soglia si applica.",
+      "why_ar": "بتحدد حد أدنى، مش رقمًا دقيقًا لازم يساويه؛ راجع الوحدة والشيء والسياق المقصود.",
+      "example_it": "In assenza di marciapiede rialzato, deve restare uno spazio per i pedoni non inferiore a un metro.",
+      "example_ar": "لو مفيش رصيف مرتفع، لازم تفضل مساحة للمشاة ما تقلش عن متر.",
+      "legal_reference": {
+        "article": "Art. 157, comma 2",
+        "title_it": "Arresto, fermata e sosta dei veicoli",
+        "title_ar": "توقف المركبات ووقوفها",
+        "url": "https://aci.gov.it/codice-della-strada/art-157/"
+      }
+    },
+    {
+      "term_it": "salvo",
+      "meaning_ar": "إلا إذا / مع مراعاة",
+      "why_it": "Introduce una riserva o un'eccezione: individuare esattamente quale regola viene derogata e in quali casi.",
+      "why_ar": "بتدخل استثناء أو تحفظ؛ حدّد بالضبط القاعدة اللي عليها الاستثناء والحالات اللي ينطبق فيها.",
+      "example_it": "Alla precedenza a destra si applica la regola generale, salvo diversa segnalazione.",
+      "example_ar": "الأصل إعطاء الأولوية للقادم من اليمين، إلا إذا وُجدت إشارة مختلفة.",
+      "legal_reference": {
+        "article": "Art. 145, comma 2",
+        "title_it": "Precedenza",
+        "title_ar": "أولوية المرور",
+        "url": "https://aci.gov.it/codice-della-strada/art-145/"
+      }
+    },
+    {
+      "term_it": "diversa",
+      "meaning_ar": "مختلفة",
+      "why_it": "In formule come «salvo diversa segnalazione» rinvia a un segnale che modifica la regola generale; non va separata dalla condizione che la precede.",
+      "why_ar": "في تركيب «إلا إذا كانت الإشارة مختلفة» بتشير لإشارة تغيّر القاعدة العامة؛ ما ينفعش نفصلها عن الشرط اللي قبلها.",
+      "example_it": "Alla precedenza per chi proviene da destra si applica la regola generale, salvo diversa segnalazione.",
+      "example_ar": "تُطبَّق قاعدة أولوية القادم من اليمين، إلا لو فيه إشارة مختلفة.",
+      "legal_reference": {
+        "article": "Art. 145, comma 2",
+        "title_it": "Precedenza",
+        "title_ar": "أولوية المرور",
+        "url": "https://aci.gov.it/codice-della-strada/art-145/"
+      }
+    },
+    {
+      "term_it": "anche",
+      "meaning_ar": "أيضًا / حتى",
+      "why_it": "Aggiunge un caso o amplia la frase; verifica a quale regola si aggiunge e se il testo mantiene limiti o condizioni.",
+      "why_ar": "بتضيف حالة أو توسّع العبارة؛ شوف بتتضاف على أنهي قاعدة وهل لسه فيه شروط أو حدود.",
+      "example_it": "La fermata può essere temporanea anche in un'area in cui la sosta non è ammessa.",
+      "example_ar": "ممكن يكون التوقف مؤقتًا حتى في مكان ممنوع فيه الوقوف.",
+      "legal_reference": {
+        "article": "Art. 157, comma 1, lettera b",
+        "title_it": "Arresto, fermata e sosta dei veicoli",
+        "title_ar": "توقف المركبات ووقوفها",
+        "url": "https://aci.gov.it/codice-della-strada/art-157/"
+      }
+    },
+    {
+      "term_it": "quando",
+      "meaning_ar": "عندما / إذا",
+      "why_it": "Collega la regola a una situazione; la verità dipende dal verificarsi della condizione, non dalla sola parola.",
+      "why_ar": "بتربط القاعدة بحالة معينة؛ صحة الجملة بتعتمد على تحقق الشرط، مش على الكلمة لوحدها.",
+      "example_it": "Quando due veicoli stanno per impegnare un'intersezione, si dà precedenza a chi proviene da destra, salvo diversa segnalazione.",
+      "example_ar": "لما مركبتين يكونوا داخلين على تقاطع، تُعطى الأولوية للقادم من اليمين، إلا إذا وُجدت إشارة مختلفة.",
+      "legal_reference": {
+        "article": "Art. 145, comma 2",
+        "title_it": "Precedenza",
+        "title_ar": "أولوية المرور",
+        "url": "https://aci.gov.it/codice-della-strada/art-145/"
+      }
+    },
+    {
+      "term_it": "prima",
+      "meaning_ar": "قبل",
+      "why_it": "Stabilisce un ordine o un punto temporale/spaziale; nelle domande di precedenza può cambiare il luogo in cui occorre fermarsi.",
+      "why_ar": "بتحدد ترتيبًا أو نقطة زمنية/مكانية؛ في أسئلة الأولوية ممكن تغيّر المكان اللي لازم المركبة تقف عنده.",
+      "example_it": "Quando è prescritto da un apposito segnale, il conducente si ferma alla striscia di arresto prima di immettersi nell'intersezione.",
+      "example_ar": "لما تكون فيه إشارة خاصة بتطلب كده، السائق يقف عند خط التوقف قبل دخول التقاطع.",
+      "legal_reference": {
+        "article": "Art. 145, comma 5",
+        "title_it": "Precedenza",
+        "title_ar": "أولوية المرور",
+        "url": "https://aci.gov.it/codice-della-strada/art-145/"
+      }
+    },
+    {
+      "term_it": "senza",
+      "meaning_ar": "من غير / دون",
+      "why_it": "Indica l'assenza di un requisito o di una condotta; controlla se la norma richiede invece una cautela o una condizione specifica.",
+      "why_ar": "بتفيد غياب شرط أو تصرف؛ راجع إذا كان النص بيشترط احتياطًا أو حالة معينة.",
+      "example_it": "Il conducente non deve effettuare una manovra senza essersi assicurato di non creare pericolo o intralcio.",
+      "example_ar": "ما ينفعش السائق يعمل مناورة من غير ما يتأكد إنها مش هتسبب خطر أو تعطيل.",
+      "legal_reference": {
+        "article": "Art. 154, comma 1, lettera a",
+        "title_it": "Cambiamento di direzione o di corsia o altre manovre",
+        "title_ar": "تغيير الاتجاه أو الحارة ومناورات أخرى",
+        "url": "https://aci.gov.it/codice-della-strada/art-154/"
+      }
+    },
+    {
+      "term_it": "obbligo",
+      "meaning_ar": "واجب / إلزام",
+      "why_it": "Designa un dovere giuridico, ma va letto con il verbo e con i presupposti che delimitano chi deve fare cosa e quando.",
+      "why_ar": "معناها واجب قانوني، لكن لازم تتقري مع الفعل والشروط اللي بتحدد مين يعمل إيه وإمتى.",
+      "example_it": "Negli sbocchi da luoghi non soggetti a pubblico passaggio vi è l'obbligo di arrestarsi e dare la precedenza a chi circola sulla strada.",
+      "example_ar": "عند الخروج من مكان غير مفتوح للمرور العام، فيه واجب الوقوف وإعطاء الأولوية لمستخدمي الطريق.",
+      "legal_reference": {
+        "article": "Art. 145, comma 6",
+        "title_it": "Precedenza",
+        "title_ar": "أولوية المرور",
+        "url": "https://aci.gov.it/codice-della-strada/art-145/"
+      }
+    },
+    {
+      "term_it": "vietato",
+      "meaning_ar": "ممنوع",
+      "why_it": "Esprime un divieto, ma il comma e il campo di applicazione contano: evitare di estendere il divieto oltre i casi descritti.",
+      "why_ar": "بتعبّر عن حظر، لكن الفقرة ونطاق تطبيقها مهمين؛ ما نعممش الحظر على حالات خارج النص.",
+      "example_it": "È vietato impegnare un'intersezione se non si può proseguire e sgomberare l'area in breve tempo.",
+      "example_ar": "ممنوع دخول التقاطع لو مش ممكن تكمل وتُخلي منطقة المناورة خلال وقت قصير.",
+      "legal_reference": {
+        "article": "Art. 145, comma 7",
+        "title_it": "Precedenza",
+        "title_ar": "أولوية المرور",
+        "url": "https://aci.gov.it/codice-della-strada/art-145/"
+      }
+    },
+    {
+      "term_it": "arresto",
+      "meaning_ar": "توقف بسبب متطلبات حركة المرور",
+      "why_it": "È una categoria tecnica distinta da fermata e sosta; confonderle può cambiare la classificazione giuridica della situazione.",
+      "why_ar": "مصطلح فني مختلف عن fermata وsosta؛ الخلط بينهم ممكن يغيّر التصنيف القانوني للحالة.",
+      "example_it": "Per arresto si intende l'interruzione della marcia dovuta a esigenze della circolazione.",
+      "example_ar": "arresto هو انقطاع سير المركبة بسبب متطلبات حركة المرور.",
+      "legal_reference": {
+        "article": "Art. 157, comma 1, lettera a",
+        "title_it": "Arresto, fermata e sosta dei veicoli",
+        "title_ar": "توقف المركبات ووقوفها",
+        "url": "https://aci.gov.it/codice-della-strada/art-157/"
+      }
+    },
+    {
+      "term_it": "fermata",
+      "meaning_ar": "توقف مؤقت لركوب أو نزول أشخاص أو لغرض قصير جدًا",
+      "why_it": "La definizione ammette una sospensione temporanea anche dove la sosta non è ammessa, ma richiede breve durata e presenza del conducente pronto a ripartire.",
+      "why_ar": "التعريف يسمح بتوقف مؤقت حتى في مكان غير مسموح فيه بالوقوف، لكن يشترط مدة قصيرة وبقاء السائق جاهزًا للتحرك.",
+      "example_it": "Durante la fermata il conducente resta presente e pronto a riprendere la marcia.",
+      "example_ar": "أثناء التوقف المؤقت، يفضل السائق موجود وجاهز يكمل السير.",
+      "legal_reference": {
+        "article": "Art. 157, comma 1, lettera b",
+        "title_it": "Arresto, fermata e sosta dei veicoli",
+        "title_ar": "توقف المركبات ووقوفها",
+        "url": "https://aci.gov.it/codice-della-strada/art-157/"
+      }
+    },
+    {
+      "term_it": "sosta",
+      "meaning_ar": "وقوف المركبة لمدة ممتدة مع إمكانية ابتعاد السائق",
+      "why_it": "La definizione dipende dalla durata protratta e dalla possibilità che il conducente si allontani; non va parafrasata aggiungendo che sia necessariamente volontaria.",
+      "why_ar": "التعريف مرتبط باستمرار الوقوف وإمكانية ابتعاد السائق؛ ما نضيفش من عندنا شرط إنها لازم تكون بإرادته.",
+      "example_it": "Per sosta si intende la sospensione della marcia protratta nel tempo, con possibilità di allontanamento del conducente.",
+      "example_ar": "sosta تعني استمرار توقف المركبة مدة، مع إمكانية ابتعاد السائق.",
+      "legal_reference": {
+        "article": "Art. 157, comma 1, lettera c",
+        "title_it": "Arresto, fermata e sosta dei veicoli",
+        "title_ar": "توقف المركبات ووقوفها",
+        "url": "https://aci.gov.it/codice-della-strada/art-157/"
+      }
+    },
+    {
+      "term_it": "destra",
+      "meaning_ar": "اليمين",
+      "why_it": "La direzione è decisiva per la regola generale di precedenza, ma la legge contempla diversa segnalazione e casi specifici: non è una regola senza condizioni.",
+      "why_ar": "الاتجاه مهم في قاعدة الأولوية العامة، لكن القانون بيذكر الإشارات المختلفة وحالات خاصة؛ مش قاعدة بلا شروط.",
+      "example_it": "All'intersezione, salvo diversa segnalazione, si dà precedenza a chi proviene da destra.",
+      "example_ar": "عند التقاطع، تُعطى الأولوية للقادم من اليمين، إلا إذا وُجدت إشارة مختلفة.",
+      "legal_reference": {
+        "article": "Art. 145, comma 2",
+        "title_it": "Precedenza",
+        "title_ar": "أولوية المرور",
+        "url": "https://aci.gov.it/codice-della-strada/art-145/"
+      }
+    },
+    {
+      "term_it": "anticipo",
+      "meaning_ar": "مسبقًا / بوقت كافٍ",
+      "why_it": "«Con sufficiente anticipo» impone di segnalare prima della manovra con un anticipo sufficiente; la norma non fissa qui un numero universale di secondi.",
+      "why_ar": "«بوقت كافٍ» معناها الإشارة قبل المناورة بمدة مناسبة؛ المادة هنا ما بتحددش عدد ثوانٍ ثابتًا لكل الحالات.",
+      "example_it": "Chi intende cambiare corsia deve segnalare con sufficiente anticipo la propria intenzione.",
+      "example_ar": "اللي ناوي يغيّر الحارة لازم يعلن نيته بإشارة قبلها بوقت كافٍ.",
+      "legal_reference": {
+        "article": "Art. 154, comma 1, lettera b",
+        "title_it": "Cambiamento di direzione o di corsia o altre manovre",
+        "title_ar": "تغيير الاتجاه أو الحارة ومناورات أخرى",
+        "url": "https://aci.gov.it/codice-della-strada/art-154/"
+      }
+    },
+    {
+      "term_it": "prevedibile",
+      "meaning_ar": "متوقَّع / يمكن توقعه",
+      "why_it": "Delimita il tipo di ostacolo davanti al quale il conducente deve poter arrestare il veicolo; non equivale a qualsiasi evento immaginabile.",
+      "why_ar": "بتحدد نوع العائق اللي لازم السائق يقدر يقف قبله؛ مش معناها أي حدث ممكن يتخيله الشخص.",
+      "example_it": "Il conducente deve poter arrestare tempestivamente il veicolo entro il proprio campo di visibilità e dinanzi a qualsiasi ostacolo prevedibile.",
+      "example_ar": "لازم السائق يقدر يوقف المركبة بسرعة ضمن مجال رؤيته وقبل أي عائق يمكن توقعه.",
+      "legal_reference": {
+        "article": "Art. 141, comma 2",
+        "title_it": "Velocità",
+        "title_ar": "السرعة",
+        "url": "https://aci.gov.it/codice-della-strada/art-141/"
+      }
+    }
+  ]
+}

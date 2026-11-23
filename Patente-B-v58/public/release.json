@@ -1,0 +1,9 @@
+{
+  "version": 58,
+  "entry": "/app.bundle.js?v=58",
+  "bundleSha256": "cd943c4051cb6c339db756ebb9f24f507f294f74b487035960abb69751e6bbe8",
+  "lessonsSha256": "2466e8f55d4b9be679f0915ce38f7422ed5e8d5e55cd5ab729831ed44e3009a4",
+  "lessonSupportSha256": "e7b232af362a825e76d649047bdd77983744691a72f41d8ee9f692119e65ebce",
+  "questionBankSha256": "0b092118291a1e2d08f8a6c39cc2d80bb4cd3341830b09a359e07a698f7bd45d",
+  "dictionarySha256": "2541cc70a1723377a26e285601d0c1284b9e705ad6a5f65fbdf01d7c062f82c2"
+}

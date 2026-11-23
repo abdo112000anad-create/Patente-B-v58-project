@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "module_id": "documents-liability",
+  "lessons": [
+    {
+      "lesson_order": 1,
+      "heading_it": "La patente: categoria, validità e condizioni per guidare",
+      "heading_ar": "رخصة القيادة: الفئة والصلاحية وشروط القيادة",
+      "body_it": "La patente consente di guidare i veicoli compresi nella categoria indicata, nel rispetto delle condizioni e delle eventuali limitazioni personali riportate. Prima di partire, controlla che la categoria sia adatta al veicolo e che il titolo sia valido; non basta avere una tessera se non abilita a quel mezzo. Le regole sulle categorie e sui requisiti sono nel Codice della strada, mentre il MIT riassume i veicoli associati alla patente B e distingue la patente ordinaria dal codice B96 nei casi descritti. Le condizioni possono dipendere dal singolo conducente e dal veicolo: per un caso concreto, verifica il documento e la normativa aggiornata, senza dedurre diritti da una descrizione generale.",
+      "body_ar": "رخصة القيادة بتسمح بقيادة المركبات الداخلة ضمن الفئة المكتوبة عليها، مع الالتزام بالشروط والقيود الشخصية إن وُجدت. قبل التحرك، اتأكد إن فئة الرخصة مناسبة للمركبة وإنها سارية؛ مجرد وجود بطاقة مش كفاية لو ما بتسمحش بقيادة الوسيلة دي. قواعد الفئات والمتطلبات موجودة في قانون المرور، ووزارة النقل بتلخص المركبات المرتبطة برخصة B وبتفرّق بين الرخصة العادية ورمز B96 في الحالات المذكورة. الشروط ممكن تختلف حسب السائق والمركبة؛ في الحالة العملية راجع الرخصة والقواعد المحدّثة، وما تستنتجش صلاحية القيادة من شرح عام.",
+      "core_it": ["La categoria deve corrispondere al veicolo.", "Controlla validità e limitazioni prima di guidare."],
+      "core_ar": ["لازم فئة الرخصة تناسب المركبة.", "راجع الصلاحية والقيود قبل القيادة."],
+      "key_points": [
+        {"title_it":"Categoria","title_ar":"الفئة","it":"La tessera non autorizza automaticamente a guidare ogni veicolo.","ar":"البطاقة مش معناها تلقائيًا إنك تقدر تسوق أي مركبة."},
+        {"title_it":"Validità","title_ar":"الصلاحية","it":"Verifica che il titolo sia valido prima di metterti alla guida.","ar":"اتأكد إن الرخصة سارية قبل ما تسوق."},
+        {"title_it":"Limitazioni","title_ar":"القيود","it":"Rispetta le condizioni personali indicate sul titolo quando presenti.","ar":"التزم بالشروط الشخصية المكتوبة على الرخصة لو موجودة."},
+        {"title_it":"Informazione ufficiale","title_ar":"المعلومة الرسمية","it":"Per i veicoli ammessi alla categoria B consulta le indicazioni MIT aggiornate.","ar":"راجع إرشادات وزارة النقل المحدّثة لمعرفة المركبات المسموح بها لفئة B."}
+      ],
+      "trap_words": [],
+      "numbers": [],
+      "common_mistakes": [
+        {"mistake_it":"Pensare che il possesso della tessera basti per qualunque mezzo.","mistake_ar":"الاعتقاد إن امتلاك بطاقة الرخصة يكفي لقيادة أي مركبة.","why_it":"L’abilitazione dipende dalla categoria pertinente e dalle condizioni applicabili.","why_ar":"صلاحية القيادة مرتبطة بالفئة المناسبة والشروط المنطبقة."},
+        {"mistake_it":"Ignorare le limitazioni personali riportate sulla patente.","mistake_ar":"تجاهل القيود الشخصية المكتوبة على الرخصة.","why_it":"La patente va usata rispettando le condizioni associate al conducente.","why_ar":"لازم استخدام الرخصة مع الالتزام بالشروط المرتبطة بالسائق."}
+      ],
+      "quick_check": [
+        {"statement_it":"Una patente valida abilita automaticamente a guidare qualsiasi categoria di veicolo.","statement_ar":"الرخصة السارية بتسمح تلقائيًا بقيادة أي فئة من المركبات.","answer":"FALSO","explanation_it":"La categoria deve essere corrispondente al veicolo.","explanation_ar":"لازم فئة الرخصة تكون مناسبة للمركبة."},
+        {"statement_it":"Prima di guidare è utile verificare anche le limitazioni indicate sulla patente.","statement_ar":"من المفيد مراجعة القيود المكتوبة على الرخصة قبل القيادة.","answer":"VERO","explanation_it":"Le condizioni applicabili non si esauriscono nel possesso della tessera.","explanation_ar":"الشروط المنطبقة مش بتتوقف عند مجرد امتلاك البطاقة."},
+        {"statement_it":"Le informazioni generali sostituiscono il controllo della propria abilitazione.","statement_ar":"المعلومات العامة تغني عن مراجعة صلاحية رخصتك الشخصية.","answer":"FALSO","explanation_it":"Occorre verificare il proprio titolo e la normativa applicabile al caso.","explanation_ar":"لازم تراجع رخصتك والقواعد المنطبقة على حالتك."}
+      ],
+      "example_it":"Prima di usare un veicolo diverso dal solito, la conducente controlla categoria e limitazioni sulla patente e consulta le indicazioni ufficiali se ha dubbi.",
+      "example_ar":"قبل ما تستخدم مركبة مختلفة عن المعتاد، تراجع السائقة فئة الرخصة وقيودها، وتستشير الإرشادات الرسمية لو عندها شك.",
+      "pitfall_it":"Non confondere il possesso materiale della patente con l’abilitazione a guidare proprio quel veicolo.",
+      "pitfall_ar":"ما تخلطش بين وجود بطاقة الرخصة معاك وبين إنها تخوّلك قيادة المركبة دي تحديدًا.",
+      "legal_sources": [
+        {"article":"D.Lgs. 285/1992, art. 116 e seguenti","title_it":"Codice della strada: patenti e abilitazioni","title_ar":"قانون المرور: رخص القيادة والصلاحيات","url":"https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art116!vig="},
+        {"article":"Patente B","title_it":"MIT — Veicoli guidabili con la patente B","title_ar":"وزارة النقل — المركبات التي تسمح رخصة B بقيادتها","url":"https://www.mit.gov.it/conseguimento-patente-b"}
+      ]
+    },
+    {
+      "lesson_order": 2,
+      "heading_it": "Documenti a bordo e controlli stradali",
+      "heading_ar": "وثائق المركبة والتفتيش المروري",
+      "body_it": "L’articolo 180 elenca i documenti che il conducente deve avere con sé per circolare con un veicolo a motore, tra cui il documento di circolazione, la patente adeguata e il certificato assicurativo, secondo il tipo di veicolo e le disposizioni applicabili. L’articolo 192 stabilisce che chi circola deve fermarsi all’invito degli addetti ai servizi di polizia stradale quando sono in uniforme o muniti dell’apposito segnale distintivo. Su loro richiesta, il conducente esibisce i documenti prescritti dalla legge. Non è corretto trasformare questa regola in un obbligo indistinto di seguire ogni richiesta: conta la specifica previsione normativa. Le modalità e le eccezioni vanno verificate nel testo vigente.",
+      "body_ar": "المادة 180 بتحدد الوثائق اللي لازم تكون مع سائق المركبة الآلية أثناء السير، ومنها وثيقة تسجيل المركبة والرخصة المناسبة وشهادة التأمين، بحسب نوع المركبة والقواعد المنطبقة. والمادة 192 بتلزم مستعملي الطريق بالوقوف عند طلب أعوان الشرطة المرورية المختصين لما يكونوا بالزي الرسمي أو حاملين العلامة المميزة. وبناءً على طلبهم، يبرز السائق الوثائق اللي القانون بيوجب وجودها. مش دقيق إننا نحوّل القاعدة دي لالتزام عام باتباع أي طلب؛ المهم هو الحكم القانوني المحدد. راجع النص الساري لمعرفة الطرق والاستثناءات المنطبقة.",
+      "core_it": ["Porta i documenti prescritti per il veicolo e la guida.", "Fermati all’invito qualificato ed esibisci quanto richiesto dalla legge."],
+      "core_ar": ["خلي معاك الوثائق المطلوبة للمركبة والقيادة.", "قف عند الطلب المحدد قانونًا وقدّم الوثائق الواجبة."],
+      "key_points": [
+        {"title_it":"Documento del veicolo","title_ar":"وثيقة المركبة","it":"La documentazione di circolazione richiesta dipende dal veicolo e dalle norme applicabili.","ar":"وثيقة السير المطلوبة بتتحدد حسب المركبة والقواعد المنطبقة."},
+        {"title_it":"Patente","title_ar":"الرخصة","it":"La patente deve essere quella prescritta per il veicolo condotto.","ar":"لازم تكون الرخصة مناسبة للمركبة اللي بتسوقها."},
+        {"title_it":"Fermata al controllo","title_ar":"الوقوف عند التفتيش","it":"L’obbligo dell’art. 192 riguarda l’invito degli addetti qualificati nelle condizioni indicate.","ar":"واجب الوقوف في المادة 192 يتعلق بطلب الأعوان المختصين في الحالات المذكورة."},
+        {"title_it":"Esibizione","title_ar":"إبراز الوثائق","it":"Su richiesta si esibiscono i documenti che le norme impongono di avere con sé.","ar":"عند الطلب، أبرز الوثائق اللي القواعد بتلزمك تحملها."}
+      ],
+      "trap_words": [
+        {"term_it":"esibire","meaning_ar":"يُبرز أو يقدّم للاطلاع","why_it":"Nel contesto dell’art. 192 indica mostrare i documenti richiesti, non consegnare ogni documento senza richiesta.","why_ar":"في سياق المادة 192 معناها إظهار الوثائق المطلوبة، مش تسليم كل ورقة من غير طلب.","example_it":"Su richiesta dell’agente, esibisce la patente prescritta.","example_ar":"بناءً على طلب العون، يبرز الرخصة المطلوبة."}
+      ],
+      "numbers": [],
+      "common_mistakes": [
+        {"mistake_it":"Credere che la sola patente sostituisca i documenti del veicolo.","mistake_ar":"الاعتقاد إن الرخصة وحدها بتغني عن وثائق المركبة.","why_it":"L’articolo 180 distingue più documenti prescritti.","why_ar":"المادة 180 بتذكر أكتر من وثيقة مطلوبة."},
+        {"mistake_it":"Descrivere l’art. 192 come obbligo di obbedire a qualunque richiesta senza condizioni.","mistake_ar":"وصف المادة 192 كأنها بتلزمك بتنفيذ أي طلب بلا شروط.","why_it":"Il dovere di fermarsi e quello di esibire documenti hanno condizioni espresse.","why_ar":"واجب الوقوف وواجب إبراز الوثائق مرتبطان بشروط محددة في النص."}
+      ],
+      "quick_check": [
+        {"statement_it":"L’art. 192 collega la fermata all’invito degli addetti qualificati nelle condizioni indicate.","statement_ar":"المادة 192 بتربط الوقوف بطلب الأعوان المختصين في الحالات المحددة.","answer":"VERO","explanation_it":"La disposizione menziona uniforme o apposito segnale distintivo.","explanation_ar":"النص بيذكر الزي الرسمي أو العلامة المميزة."},
+        {"statement_it":"Il certificato assicurativo sostituisce sempre la patente e il documento di circolazione.","statement_ar":"شهادة التأمين بتحل دايمًا محل الرخصة ووثيقة المركبة.","answer":"FALSO","explanation_it":"L’art. 180 elenca documenti distinti secondo il veicolo e la situazione.","explanation_ar":"المادة 180 بتذكر وثائق مختلفة بحسب المركبة والحالة."},
+        {"statement_it":"I documenti prescritti si esibiscono su richiesta degli agenti indicati dalla norma.","statement_ar":"تُبرز الوثائق المطلوبة عند طلب الأعوان اللي بتحددهم القاعدة.","answer":"VERO","explanation_it":"È quanto prevede l’art. 192, comma 2.","explanation_ar":"ده اللي بتنص عليه المادة 192، الفقرة 2."}
+      ],
+      "example_it":"Durante un controllo, un agente in uniforme invita il conducente a fermarsi e chiede la patente e il documento di circolazione prescritti; il conducente si arresta in sicurezza e li esibisce.",
+      "example_ar":"أثناء التفتيش، عون بالزي الرسمي بيطلب من السائق الوقوف وبيطلب الرخصة ووثيقة المركبة المطلوبة؛ السائق بيقف بأمان وبيبرزهم.",
+      "pitfall_it":"Non estendere l’obbligo dell’art. 192 oltre le condizioni e i documenti previsti dalla disposizione.",
+      "pitfall_ar":"ما توسّعش واجب المادة 192 لأبعد من الشروط والوثائق اللي النص بيحددها.",
+      "legal_sources": [
+        {"article":"D.Lgs. 285/1992, art. 180","title_it":"ACI — Possesso dei documenti di circolazione e di guida","title_ar":"ACI — حيازة وثائق السير والقيادة","url":"https://aci.gov.it/codice-della-strada/art-180/"},
+        {"article":"D.Lgs. 285/1992, art. 192","title_it":"ACI — Obblighi verso funzionari, ufficiali e agenti","title_ar":"ACI — الالتزامات تجاه الموظفين والضباط والأعوان","url":"https://aci.gov.it/codice-della-strada/art-192/"}
+      ]
+    },
+    {
+      "lesson_order": 3,
+      "heading_it": "Responsabilità e conseguenze delle violazioni",
+      "heading_ar": "المسؤولية ونتائج المخالفات",
+      "body_it": "Dopo un fatto stradale possono rilevare piani diversi, da valutare secondo le circostanze e le norme applicabili. La responsabilità civile riguarda il risarcimento del danno secondo il diritto civile; quella penale presuppone che ricorrano gli elementi di un reato previsto dalla legge. Una violazione amministrativa può comportare la sanzione stabilita dal Codice della strada, senza diventare per questo automaticamente un reato. In determinate situazioni la legge prevede inoltre responsabilità solidale di soggetti specifici, con condizioni ed eccezioni: non si può attribuirla indistintamente a chiunque. Accertamento, contestazione, notificazione e pagamento seguono regole procedurali. L’esito dipende dai fatti e dalla disciplina vigente; importi e misure accessorie vanno controllati nella fonte ufficiale aggiornata.",
+      "body_ar": "بعد واقعة مرورية، ممكن تظهر أنواع مختلفة من المسؤولية، وده بيتحدد حسب الظروف والقواعد المنطبقة. المسؤولية المدنية بتتعلق بتعويض الضرر وفق القانون المدني؛ أما الجنائية فبتفترض إن الواقعة استوفت عناصر جريمة منصوص عليها في القانون. المخالفة الإدارية ممكن تؤدي للجزاء اللي بيحدده قانون المرور، لكنها مش بتتحول تلقائيًا لجريمة. وفي حالات محددة، القانون بيرتب مسؤولية تضامنية على أشخاص بعينهم بشروط واستثناءات؛ ما ينفعش ننسبها لأي شخص من غير تمييز. إثبات المخالفة وتحريرها وإخطار المعني ودفع الجزاء ليهم إجراءات قانونية. النتيجة بتتوقف على الوقائع والقواعد السارية؛ راجع المصدر الرسمي المحدّث لأي مبلغ أو تدبير إضافي.",
+      "core_it": ["Civile, penale e amministrativa non sono sinonimi.", "Le conseguenze dipendono dai fatti e dalla legge vigente."],
+      "core_ar": ["المسؤولية المدنية والجنائية والإدارية مش مترادفات.", "النتائج بتتحدد حسب الوقائع والقانون الساري."],
+      "key_points": [
+        {"title_it":"Civile","title_ar":"مدنية","it":"Può riguardare il risarcimento del danno secondo le regole applicabili.","ar":"ممكن تتعلق بتعويض الضرر وفق القواعد المنطبقة."},
+        {"title_it":"Penale","title_ar":"جنائية","it":"Richiede che il fatto costituisca un reato previsto dalla legge.","ar":"بتتطلب إن الفعل يكون جريمة منصوص عليها في القانون."},
+        {"title_it":"Amministrativa","title_ar":"إدارية","it":"Le violazioni amministrative comportano le conseguenze stabilite dalla normativa.","ar":"المخالفات الإدارية بيترتب عليها النتائج اللي بتحددها القواعد."},
+        {"title_it":"Procedura","title_ar":"الإجراءات","it":"Accertamento e notificazione seguono procedure e termini previsti.","ar":"إثبات المخالفة والإخطار بيخضعوا لإجراءات ومواعيد مقررة."}
+      ],
+      "trap_words": [],
+      "numbers": [],
+      "common_mistakes": [
+        {"mistake_it":"Trattare ogni infrazione stradale come reato.","mistake_ar":"اعتبار كل مخالفة مرورية جريمة.","why_it":"La responsabilità penale richiede una fattispecie di reato prevista dalla legge.","why_ar":"المسؤولية الجنائية بتحتاج إلى جريمة محددة في القانون."},
+        {"mistake_it":"Supporre che il pagamento di una sanzione cancelli ogni possibile conseguenza civile o penale.","mistake_ar":"الاعتقاد إن دفع الجزاء بيلغي كل نتيجة مدنية أو جنائية محتملة.","why_it":"I diversi piani di responsabilità hanno presupposti distinti.","why_ar":"كل نوع من المسؤولية له شروطه المختلفة."}
+      ],
+      "quick_check": [
+        {"statement_it":"Ogni violazione amministrativa del Codice della strada è necessariamente un reato.","statement_ar":"كل مخالفة إدارية لقانون المرور تُعد بالضرورة جريمة.","answer":"FALSO","explanation_it":"Una violazione amministrativa non diventa automaticamente un reato.","explanation_ar":"المخالفة الإدارية مش بتتحول تلقائيًا لجريمة."},
+        {"statement_it":"La responsabilità civile può riguardare il risarcimento del danno.","statement_ar":"المسؤولية المدنية ممكن تتعلق بتعويض الضرر.","answer":"VERO","explanation_it":"Il risarcimento è un possibile profilo della responsabilità civile.","explanation_ar":"التعويض جانب ممكن من المسؤولية المدنية."},
+        {"statement_it":"La responsabilità solidale si attribuisce automaticamente a chiunque sia vicino al conducente.","statement_ar":"المسؤولية التضامنية بتتقَرر تلقائيًا على أي شخص قريب من السائق.","answer":"FALSO","explanation_it":"La legge la prevede per soggetti e condizioni determinati.","explanation_ar":"القانون بيحدد أشخاصًا وشروطًا معينة للمسؤولية التضامنية."}
+      ],
+      "example_it":"Dopo una collisione, il danno può porre una questione civile; se i fatti integrano un reato può esaminarsi anche il profilo penale, mentre un’apposita infrazione può avere conseguenze amministrative.",
+      "example_ar":"بعد تصادم، الضرر ممكن يثير مسألة مدنية؛ ولو الوقائع بتكوّن جريمة ممكن يتبحث الجانب الجنائي كمان، ومخالفة مستقلة ممكن يكون لها جزاء إداري.",
+      "pitfall_it":"Non confondere risarcimento, reato e sanzione amministrativa: possono avere presupposti e percorsi diversi.",
+      "pitfall_ar":"ما تخلطش بين التعويض والجريمة والجزاء الإداري؛ لكل واحد شروط وإجراءات مختلفة.",
+      "legal_sources": [
+        {"article":"D.Lgs. 285/1992, artt. 194–224, in particolare 196 e 200–202","title_it":"Normattiva — Codice della strada, sanzioni amministrative","title_ar":"Normattiva — قانون المرور والجزاءات الإدارية","url":"https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285!vig="},
+        {"article":"Codice civile, art. 2054","title_it":"Normattiva — Responsabilità per la circolazione dei veicoli","title_ar":"Normattiva — المسؤولية عن حركة المركبات","url":"https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art2054!vig="}
+      ]
+    },
+    {
+      "lesson_order": 4,
+      "heading_it": "R.C.A.: copertura obbligatoria e garanzie facoltative",
+      "heading_ar": "تأمين المسؤولية تجاه الغير والتغطيات الاختيارية",
+      "body_it": "L’articolo 193 del Codice della strada vieta di mettere in circolazione i veicoli soggetti all’obbligo senza copertura assicurativa per la responsabilità civile verso terzi, secondo le norme vigenti. La disposizione attribuisce al proprietario l’onere di verificare la copertura anche quando il veicolo sia, a qualsiasi titolo, nella legittima disponibilità di un’altra persona fisica o giuridica. Questa responsabilità di controllo non va ristretta al solo caso in cui il proprietario consegni personalmente le chiavi. Le garanzie aggiuntive, per esempio per danni al proprio veicolo o assistenza, sono diverse dalla copertura obbligatoria e dipendono dal contratto. Ambito, eccezioni e conseguenze vanno verificati nelle fonti assicurative e stradali aggiornate; qui non si indicano importi sanzionatori.",
+      "body_ar": "المادة 193 من قانون المرور بتحظر تسيير المركبات الخاضعة للواجب من غير تغطية تأمينية للمسؤولية المدنية تجاه الغير، وفق القواعد السارية. والمادة بتحمّل المالك واجب التحقق من التغطية حتى لو كانت المركبة، لأي سبب، في الحيازة القانونية لشخص طبيعي أو اعتباري تاني. ما ينفعش نقصر واجب التحقق على الحالة اللي المالك بنفسه بيسلّم فيها المفاتيح. التغطيات الإضافية، زي تغطية ضرر السيارة نفسها أو المساعدة، مختلفة عن التأمين الإلزامي وبتتحدد حسب العقد. لازم مراجعة المصادر التأمينية والمرورية المحدّثة لمعرفة النطاق والاستثناءات والنتائج؛ الشرح هنا ما بيذكرش مبالغ جزاءات.",
+      "core_it": ["La R.C.A. tutela la responsabilità civile verso terzi.", "Il proprietario verifica la copertura anche in caso di disponibilità altrui."],
+      "core_ar": ["تأمين R.C.A. بيغطي المسؤولية المدنية تجاه الغير.", "المالك بيتحقق من التغطية حتى لو غيره حائز المركبة قانونًا."],
+      "key_points": [
+        {"title_it":"Copertura obbligatoria","title_ar":"التغطية الإلزامية","it":"I veicoli soggetti all’obbligo non circolano senza copertura verso terzi.","ar":"المركبات الخاضعة للواجب ما تسيرش من غير تغطية تجاه الغير."},
+        {"title_it":"Verifica del proprietario","title_ar":"تحقق المالك","it":"Il proprietario controlla che non circoli senza copertura anche se un altro ha legittima disponibilità.","ar":"المالك بيتأكد إنها ما تسيرش بلا تغطية حتى لو شخص تاني حائزها قانونًا."},
+        {"title_it":"Garanzie aggiuntive","title_ar":"تغطيات إضافية","it":"Danni propri e assistenza sono garanzie distinte, regolate dal contratto.","ar":"تغطية ضرر السيارة أو المساعدة ضمانات منفصلة ينظمها العقد."},
+        {"title_it":"Verifica normativa","title_ar":"مراجعة القواعد","it":"Ambito, eccezioni e sanzioni vanno controllati nella disciplina aggiornata.","ar":"راجع القواعد المحدّثة لمعرفة النطاق والاستثناءات والجزاءات."}
+      ],
+      "trap_words": [
+        {"term_it":"responsabilità civile verso terzi","meaning_ar":"المسؤولية المدنية تجاه الغير","why_it":"Indica il rischio coperto dalla R.C.A. obbligatoria, non automaticamente i danni al proprio veicolo.","why_ar":"ده الخطر اللي بيغطيه تأمين R.C.A. الإلزامي، مش بالضرورة أضرار سيارتك نفسها.","example_it":"La R.C.A. riguarda la responsabilità verso terzi; una garanzia per danni propri è distinta.","example_ar":"تأمين R.C.A. متعلق بالمسؤولية تجاه الغير؛ وتغطية ضرر سيارتك منفصلة."}
+      ],
+      "numbers": [],
+      "common_mistakes": [
+        {"mistake_it":"Limitare il dovere del proprietario al caso in cui consegni personalmente il veicolo.","mistake_ar":"قصر واجب المالك على الحالة اللي يسلّم فيها المركبة بنفسه.","why_it":"L’art. 193 include anche la legittima disponibilità del veicolo da parte di altri.","why_ar":"المادة 193 بتشمل كمان حيازة شخص تاني للمركبة بشكل قانوني."},
+        {"mistake_it":"Credere che una garanzia per danni propri sostituisca la R.C.A.","mistake_ar":"الاعتقاد إن تغطية ضرر السيارة نفسها بتحل محل R.C.A.","why_it":"Le coperture hanno oggetti diversi e le garanzie aggiuntive dipendono dal contratto.","why_ar":"التغطيات بتغطي أمور مختلفة، والتغطيات الإضافية بتعتمد على العقد."}
+      ],
+      "quick_check": [
+        {"statement_it":"L’art. 193 richiede copertura per la responsabilità civile verso terzi ai veicoli soggetti all’obbligo.","statement_ar":"المادة 193 بتطلب تغطية المسؤولية المدنية تجاه الغير للمركبات الخاضعة للواجب.","answer":"VERO","explanation_it":"È il principio espresso dal comma 1, ferme le disposizioni applicabili.","explanation_ar":"ده المبدأ الوارد في الفقرة الأولى، مع مراعاة القواعد المنطبقة."},
+        {"statement_it":"Il proprietario deve verificare la copertura soltanto se consegna personalmente il veicolo.","statement_ar":"المالك لازم يتحقق من التغطية بس لو سلّم المركبة بنفسه.","answer":"FALSO","explanation_it":"La norma contempla anche la legittima disponibilità del veicolo da parte di un’altra persona.","explanation_ar":"النص بيشمل كمان حالة الحيازة القانونية للمركبة بواسطة شخص آخر."},
+        {"statement_it":"La garanzia per danni al proprio veicolo è necessariamente identica alla R.C.A. obbligatoria.","statement_ar":"تغطية ضرر السيارة نفسها مطابقة بالضرورة لتأمين R.C.A. الإلزامي.","answer":"FALSO","explanation_it":"Le garanzie aggiuntive sono distinte e dipendono dalle condizioni contrattuali.","explanation_ar":"التغطيات الإضافية منفصلة وبتعتمد على شروط العقد."}
+      ],
+      "example_it":"La proprietaria presta l’auto a una persona che ne ha la legittima disponibilità: verifica comunque che il veicolo non circoli senza copertura R.C.A.; l’eventuale protezione per danni alla propria auto resta una garanzia separata.",
+      "example_ar":"مالكة بتدي السيارة لشخص تاني بقت المركبة في حيازته القانونية؛ تفضل تتحقق إن العربية ما تسيرش من غير R.C.A.، وأي تغطية لضرر سيارتها بتفضل ضمان منفصل.",
+      "pitfall_it":"Non confondere la copertura obbligatoria verso terzi con le garanzie facoltative previste dal contratto.",
+      "pitfall_ar":"ما تخلطش بين التغطية الإلزامية تجاه الغير والتغطيات الاختيارية اللي بيحددها العقد.",
+      "legal_sources": [
+        {"article":"D.Lgs. 285/1992, art. 193","title_it":"ACI — Obbligo dell’assicurazione di responsabilità civile","title_ar":"ACI — إلزامية تأمين المسؤولية المدنية","url":"https://aci.gov.it/codice-della-strada/art-193/"},
+        {"article":"D.Lgs. 209/2005, art. 122","title_it":"Normattiva — Obbligo di assicurazione per la responsabilità civile","title_ar":"Normattiva — واجب التأمين عن المسؤولية المدنية","url":"https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209~art122!vig="}
+      ]
+    }
+  ]
+}

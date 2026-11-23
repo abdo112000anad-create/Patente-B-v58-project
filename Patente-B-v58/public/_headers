@@ -1,0 +1,19 @@
+/*
+  x-content-type-options: nosniff
+  referrer-policy: strict-origin-when-cross-origin
+  content-security-policy: default-src 'self'; script-src 'self' 'sha256-QLGZ7eSbcCpGx/YaLNnyncZQYNj3DsoZd5jSTABiar4=' https://apis.google.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self' data:; connect-src 'self' https://identitytoolkit.googleapis.com https://securetoken.googleapis.com https://firestore.googleapis.com https://www.googleapis.com https://apis.google.com https://patente-b-arabic.firebaseapp.com; frame-src https://patente-b-arabic.firebaseapp.com; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'
+  cross-origin-opener-policy: same-origin-allow-popups
+  permissions-policy: camera=(), geolocation=(), microphone=()
+  x-frame-options: DENY
+  x-app-version: 58
+  cache-control: no-cache
+
+/manifest.webmanifest
+  content-type: application/manifest+json; charset=utf-8
+
+/app.bundle.js
+  content-type: text/javascript; charset=utf-8
+
+/sw.js
+  content-type: text/javascript; charset=utf-8
+  service-worker-allowed: /

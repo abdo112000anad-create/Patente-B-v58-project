@@ -1,0 +1,22 @@
+.topbar-actions .account-trigger{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px}
+.topbar-actions .account-trigger span{display:inline!important}
+.account-dialog{max-height:min(90vh,820px);overflow:auto;overscroll-behavior:contain;text-align:start}
+.account-dialog [hidden]{display:none!important}
+.account-dialog h2{margin-top:16px;padding-inline-end:32px}
+.account-dialog button,.account-dialog input{min-height:44px;font-size:1rem}
+.account-dialog .account-form{display:grid;gap:12px;margin:16px 0}
+.account-dialog label{display:grid;gap:7px;font-size:1rem;font-weight:700;color:#183453}
+.account-dialog input{width:100%;padding:12px;border:1px solid #adbdcf;border-radius:12px;background:#142733;color:#142b46;font-family:inherit}
+.account-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:16px 0}
+.account-actions button,.account-form button{line-height:1.6;white-space:normal}
+.account-dialog .account-privacy{padding:14px;background:#142733;color:#183453;border-radius:12px;font-size:.95rem;line-height:1.9}
+.account-email{font:600 1rem/1.8 system-ui,sans-serif;overflow-wrap:anywhere;text-align:left}
+.account-status,.account-error,.account-sync-state{line-height:1.8}
+.account-error:empty,.account-status:empty{display:none}
+.account-error{color:#9b2424;font-weight:700}
+.account-delete-confirm{border:1px solid #cf8b8b;background:#142733;border-radius:12px;padding:14px;margin-top:14px}
+.account-danger{border:1px solid #b33434;border-radius:12px;background:#142733;color:#922424;padding:10px 12px;font-family:inherit;font-weight:700;cursor:pointer}
+.account-dialog button:disabled,.account-dialog input:disabled{opacity:.58;cursor:wait}
+.account-dialog button:focus-visible,.account-dialog input:focus-visible{outline:3px solid #155bc8;outline-offset:3px}
+@media(max-width:680px){.account-dialog{max-height:calc(100dvh - 24px);padding:20px;width:calc(100% - 20px)}.account-actions{grid-template-columns:1fr}.topbar-actions .account-trigger{padding:8px 9px}.account-form button{width:100%}}
+@media(prefers-reduced-motion:reduce){.account-dialog *{scroll-behavior:auto!important;animation:none!important;transition:none!important}}

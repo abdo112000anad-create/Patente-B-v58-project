@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "module_id": "speed-stopping-highways",
+  "lessons": [
+    {
+      "lesson_order": 1,
+      "heading_it": "Velocità sicura e limiti: due regole da distinguere",
+      "heading_ar": "السرعة الآمنة والحدود: قاعدتان مختلفتان",
+      "body_it": "L’articolo 141 richiede di scegliere una velocità che tenga conto del veicolo, del carico, della strada, del traffico e delle altre circostanze. Il conducente deve mantenere il controllo e poter arrestare tempestivamente il veicolo entro il proprio campo di visibilità, davanti a un ostacolo prevedibile. Il limite massimo indicato o previsto dall’articolo 142 non è una velocità da raggiungere: rispettarlo non sostituisce l’obbligo di adeguare l’andatura alle condizioni. Limiti diversi su specifici tratti dipendono dagli atti e dalla segnaletica previsti dalla legge, non cambiano automaticamente per pioggia o traffico. La disciplina comprende condizioni particolari; qui non si elencano tutti i limiti applicabili a ogni veicolo.",
+      "body_ar": "تطلب المادة 141 اختيار سرعة تراعي المركبة وحمولتها والطريق والمرور وبقية الظروف. لازم السائق يفضل مسيطر على المركبة ويقدر يوقفها بسرعة مناسبة داخل حدود مجال رؤيته، قبل عائق متوقع. الحد الأقصى المكتوب أو المقرر في المادة 142 مش سرعة لازم توصل لها؛ احترامه ما يغنيش عن تعديل السرعة حسب الظروف. الحدود المختلفة على مقاطع معينة بتتحدد بقرارات وإشارات ينص عليها القانون، ومش بتتغير تلقائيًا بسبب المطر أو الزحمة. وفيه أحكام خاصة حسب الحالة؛ الشرح هنا مش بيعدّد كل الحدود الممكنة لكل نوع مركبة.",
+      "core_it": ["Il limite massimo non è una velocità-obiettivo.", "La velocità va adattata e deve consentire l’arresto nel campo visibile."],
+      "core_ar": ["الحد الأقصى مش سرعة مستهدفة.", "عدّل السرعة بحيث تقدر توقف داخل مجال الرؤية."],
+      "key_points": [
+        {"title_it":"Adeguamento","title_ar":"ملاءمة السرعة","it":"Considera strada, veicolo, traffico e circostanze.","ar":"راعِ الطريق والمركبة والمرور والظروف المحيطة."},
+        {"title_it":"Campo visivo","title_ar":"مجال الرؤية","it":"Devi poter arrestare il veicolo entro ciò che vedi.","ar":"لازم تقدر توقف المركبة داخل المسافة اللي شايفها."},
+        {"title_it":"Limite massimo","title_ar":"الحد الأقصى","it":"È un tetto, non un invito a viaggiare a quella velocità.","ar":"هو حد أعلى، مش دعوة للسير بالسرعة دي."},
+        {"title_it":"Limiti diversi","title_ar":"حدود مختلفة","it":"Su tratti specifici rilevano i provvedimenti e la segnaletica previsti.","ar":"في مقاطع معينة تُراعى القرارات والإشارات المقررة قانونًا."}
+      ],
+      "trap_words": [{"term_it":"limite massimo","meaning_ar":"حد أقصى","why_it":"Non significa velocità sempre adeguata.","why_ar":"مش معناه إن السرعة مناسبة في كل الظروف.","example_it":"Il limite massimo può essere troppo alto per la visibilità presente.","example_ar":"الحد الأقصى ممكن يكون أعلى من المناسب مع الرؤية الحالية."}],
+      "numbers": [],
+      "common_mistakes": [
+        {"mistake_it":"Pensare che rispettare il limite basti sempre.","mistake_ar":"الاعتقاد إن الالتزام بالحد كفاية دايمًا.","why_it":"L’articolo 141 richiede anche velocità adeguata e controllo.","why_ar":"المادة 141 بتطلب كمان سرعة مناسبة وسيطرة على المركبة."},
+        {"mistake_it":"Credere che la pioggia cambi automaticamente ogni limite segnalato.","mistake_ar":"الاعتقاد إن المطر بيغيّر تلقائيًا كل حد على اللوحة.","why_it":"Le condizioni impongono prudenza; limiti diversi seguono regole e segnaletica.","why_ar":"الظروف تفرض الحذر؛ أما الحدود المختلفة فلها قواعد وإشارات."}
+      ],
+      "quick_check": [
+        {"statement_it":"Il limite massimo è sempre la velocità più adatta alle condizioni.","statement_ar":"الحد الأقصى هو دايمًا السرعة الأنسب للظروف.","answer":"FALSO","explanation_it":"La velocità va adeguata anche sotto il limite.","explanation_ar":"لازم تعدّل السرعة حسب الظروف حتى لو كنت تحت الحد."},
+        {"statement_it":"Il conducente deve poter arrestarsi entro il proprio campo di visibilità.","statement_ar":"لازم السائق يقدر يوقف داخل مجال رؤيته.","answer":"VERO","explanation_it":"È il principio espresso dall’articolo 141.","explanation_ar":"ده من المبادئ الواردة في المادة 141."},
+        {"statement_it":"Pioggia e traffico modificano automaticamente i limiti indicati.","statement_ar":"المطر والزحمة بيغيّروا تلقائيًا الحدود المكتوبة على الإشارات.","answer":"FALSO","explanation_it":"Non modificano automaticamente il limite; richiedono di adeguare la velocità.","explanation_ar":"ما بيغيّروش الحد تلقائيًا، لكن لازم السرعة تتناسب مع الظروف."}
+      ],
+      "example_it":"Con visibilità ridotta, rallenti quanto serve per poter arrestare l’auto nello spazio visibile, anche se non hai raggiunto il limite massimo.",
+      "example_ar":"لو الرؤية ضعيفة، هدّي بالقدر اللي يخليك تقدر توقف العربية داخل المسافة اللي شايفها، حتى لو ما وصلتش للحد الأقصى.",
+      "pitfall_it":"Non confondere il limite stabilito con la velocità prudente richiesta dalle condizioni concrete.",
+      "pitfall_ar":"ما تخلطش بين الحد القانوني والسرعة الآمنة اللي تفرضها الظروف الفعلية.",
+      "legal_sources":[{"article":"141","title_it":"Velocità","title_ar":"السرعة","url":"https://aci.gov.it/codice-della-strada/art-141/"},{"article":"142","title_it":"Limiti di velocità","title_ar":"حدود السرعة","url":"https://aci.gov.it/codice-della-strada/art-142/"}]
+    },
+    {
+      "lesson_order": 2,
+      "heading_it": "Pericoli sulla strada e passaggi a livello",
+      "heading_ar": "مخاطر الطريق وممرات السكك الحديدية",
+      "body_it": "Avvicinandoti a un passaggio a livello, usa particolare prudenza e segui i segnali. Non impegnare quello protetto se le barriere sono chiuse, si stanno chiudendo o aprendo, oppure sono attivi i dispositivi luminosi o acustici. Non entrare se non puoi proseguire e liberare rapidamente l’attraversamento. Se il veicolo si arresta sui binari o resta intrappolato, cerca di portarlo fuori; quando ciò è materialmente impossibile, fai quanto possibile per evitare pericoli e avvisa in tempo utile i conducenti dei veicoli su rotaia. Se un guasto o un carico caduto ingombra la carreggiata, libera il transito per quanto possibile e segnala il pericolo. Non improvvisare manovre insicure.",
+      "body_ar": "وأنت قرب ممر سكة حديد، خليك حذر واتبع الإشارات. ما تدخلش الممر المحمي لو الحواجز مقفولة أو بتتقفل أو بتتفتح، أو لو إشارات الضوء أو الصوت شغالة. ما تدخلش لو مش هتقدر تكمل وتفضّي الممر بسرعة. لو المركبة وقفت على القضبان أو اتحشرت، حاول تطلعها؛ ولو ده مستحيل فعليًا، اعمل كل اللي تقدر عليه لتجنب الخطر ونبّه سائقي المركبات على السكة في الوقت المناسب. لو عطل أو حمولة واقعة عطّلت جسم الطريق، خلّي المرور يعدّي قدر الإمكان وحذّر من الخطر. ما تعملش مناورات غير آمنة.",
+      "core_it":["Entra solo se puoi liberare rapidamente il passaggio.","Se resti sui binari, avvisa tempestivamente i conducenti ferroviari quando non puoi spostarti."],
+      "core_ar":["ما تدخلش الممر إلا لو تقدر تفضّيه بسرعة.","لو اتعطلت على القضبان ومش قادر تتحرك، نبّه سائقي القطار في الوقت المناسب."],
+      "key_points":[
+        {"title_it":"Prudenza","title_ar":"الحذر","it":"Avvicinati seguendo le indicazioni presenti.","ar":"اقرب للممر بحذر واتبع الإشارات الموجودة."},
+        {"title_it":"Barriere e segnali","title_ar":"الحواجز والإشارات","it":"Non attraversare nelle condizioni di divieto previste.","ar":"ما تعدّيش في الحالات اللي القانون بيمنع فيها العبور."},
+        {"title_it":"Passaggio libero","title_ar":"إخلاء الممر","it":"Non entrare se non puoi sgomberarlo in breve tempo.","ar":"ما تدخلش لو مش هتقدر تفضّي الممر بسرعة."},
+        {"title_it":"Ostacolo","title_ar":"العائق","it":"Rimuovi l’ingombro se possibile e segnala il pericolo.","ar":"أزل العائق لو أمكن، ونبّه مستخدمي الطريق للخطر."}
+      ],
+      "trap_words": [{"term_it":"sgomberare","meaning_ar":"يفضّي الممر","why_it":"Non basta poter entrare: occorre poter uscire rapidamente.","why_ar":"مش كفاية إنك تقدر تدخل؛ لازم تقدر تخرج بسرعة.","example_it":"Una coda oltre i binari impedisce di sgomberare il passaggio.","example_ar":"زحمة بعد القضبان مانعة إنك تفضّي الممر."}],
+      "numbers":[],
+      "common_mistakes":[
+        {"mistake_it":"Entrare perché la barriera è ancora alzata senza controllare il segnale.","mistake_ar":"الدخول لمجرد إن الحاجز لسه مرفوع من غير متابعة الإشارة.","why_it":"I dispositivi attivi possono comunque vietare l’attraversamento.","why_ar":"ممكن تكون إشارات التحذير شغالة رغم إن الحاجز لسه مرفوع."},
+        {"mistake_it":"Impegnare il passaggio senza spazio per uscirne.","mistake_ar":"دخول الممر من غير مساحة كفاية للخروج منه.","why_it":"La legge vieta di impegnarlo se non puoi sgomberarlo rapidamente.","why_ar":"القانون بيمنع دخول الممر لو مش هتقدر تفضّيه بسرعة."}
+      ],
+      "quick_check":[
+        {"statement_it":"Si può entrare se il traffico impedisce di liberare rapidamente i binari.","statement_ar":"ينفع تدخل لو الزحمة هتمنعك تفضّي القضبان بسرعة.","answer":"FALSO","explanation_it":"Non si deve impegnare il passaggio senza poterlo sgomberare in breve tempo.","explanation_ar":"ما ينفعش تدخل الممر لو مش هتقدر تفضّيه بسرعة."},
+        {"statement_it":"Se il veicolo è intrappolato e non può essere spostato, occorre fare il possibile per evitare pericoli e avvisare in tempo i conducenti ferroviari.","statement_ar":"لو المركبة اتحشرت ومش ممكن تتحرك، لازم تعمل الممكن لتجنب الخطر وتنبه سائقي القطار في الوقت المناسب.","answer":"VERO","explanation_it":"È quanto prevede l’articolo 147 per l’impossibilità materiale.","explanation_ar":"ده مضمون المادة 147 في حالة الاستحالة الفعلية."},
+        {"statement_it":"Un ostacolo sulla carreggiata va lasciato senza segnalarlo se non si può rimuovere subito.","statement_ar":"لو ماقدرتش تشيل عائق من الطريق فورًا، سيبه من غير تحذير.","answer":"FALSO","explanation_it":"L’articolo 161 richiede di segnalare il pericolo e adottare cautele.","explanation_ar":"المادة 161 بتطلب التحذير من الخطر واتخاذ الاحتياطات اللازمة."}
+      ],
+      "example_it":"Una coda blocca lo spazio dopo i binari: aspetti prima del passaggio finché puoi attraversare senza restare fermo sui binari.",
+      "example_ar":"الزحمة قافلة المساحة بعد القضبان: استنى قبل الممر لحد ما تقدر تعدّي من غير ما تقف فوق القضبان.",
+      "pitfall_it":"La barriera aperta non autorizza a entrare se non puoi liberare rapidamente il passaggio.",
+      "pitfall_ar":"كون الحاجز مفتوح ما يسمحش بالدخول لو مش هتقدر تفضّي الممر بسرعة.",
+      "legal_sources":[{"article":"147","title_it":"Comportamento ai passaggi a livello","title_ar":"السلوك عند ممرات السكك الحديدية","url":"https://aci.gov.it/codice-della-strada/art-147/"},{"article":"161","title_it":"Ingombro della carreggiata","title_ar":"العوائق في جسم الطريق","url":"https://aci.gov.it/codice-della-strada/art-161/"}]
+    },
+    {
+      "lesson_order":3,
+      "heading_it":"Arresto, fermata e sosta: significati e posizione",
+      "heading_ar":"arresto وfermata وsosta: المعنى وموضع المركبة",
+      "body_it":"Il Codice distingue tre situazioni. L’arresto interrompe la marcia per esigenze della circolazione. La fermata è temporanea, per far salire o scendere persone o per un’esigenza brevissima: il conducente resta presente e pronto a ripartire, senza intralciare. La sosta dura più a lungo e consente al conducente di allontanarsi; la definizione non la limita a una scelta volontaria. Fuori dai centri abitati, fermata e sosta si effettuano fuori dalla carreggiata; se è impossibile, il veicolo va accostato il più possibile a destra, parallelo e nel senso di marcia. Salvo diversa segnalazione ed eccezioni, questa è anche la posizione ordinaria. Prima di aprire una porta o scendere, verifica che non crei pericolo o intralcio. Segnala la partenza in sicurezza.",
+      "body_ar":"القانون بيفرق بين 3 حالات. arresto هو انقطاع السير بسبب احتياجات حركة المرور. fermata توقف مؤقت عشان حد يركب أو ينزل أو لحاجة قصيرة جدًا؛ السائق يفضل موجود وجاهز يتحرك من غير تعطيل. sosta توقف لمدة أطول مع إمكانية إن السائق يبعد؛ والتعريف مش بيشترط إنها تكون باختياره. خارج المناطق المأهولة، fermata وsosta بيكونوا خارج جسم الطريق؛ ولو ده مستحيل، تتوقف المركبة أقرب ما يمكن لليمين، موازية للطريق وباتجاه السير. دي كمان الوضع المعتاد، مع مراعاة الإشارات والاستثناءات. قبل فتح الباب أو النزول، اتأكد إنك مش بتسبب خطر أو تعطيل. وعند الانطلاق، أشّر ونفّذ المناورة بأمان.",
+      "core_it":["Arresto: esigenze del traffico; fermata: breve e con conducente presente; sosta: protratta.","Fuori dai centri abitati, fermata e sosta fuori carreggiata; se impossibile, vicino al margine destro."],
+      "core_ar":["arresto لحركة المرور؛ fermata قصيرة والسائق حاضر؛ sosta لمدة أطول.","خارج المناطق المأهولة، توقف خارج جسم الطريق؛ ولو مستحيل، قرب الحافة اليمنى."],
+      "key_points":[
+        {"title_it":"Arresto","title_ar":"arresto","it":"Interruzione dovuta alle esigenze della circolazione.","ar":"انقطاع السير بسبب احتياجات حركة المرور."},
+        {"title_it":"Fermata","title_ar":"fermata","it":"Breve sospensione; il conducente resta pronto a ripartire.","ar":"توقف قصير والسائق موجود وجاهز للتحرك."},
+        {"title_it":"Sosta","title_ar":"sosta","it":"Sospensione protratta con possibilità di allontanarsi.","ar":"توقف ممتد مع إمكانية ابتعاد السائق."},
+        {"title_it":"Fuori dai centri","title_ar":"خارج المناطق المأهولة","it":"Fuori carreggiata; se impossibile, vicino a destra e paralleli al margine.","ar":"خارج جسم الطريق؛ ولو مستحيل، قرب اليمين وبموازاة الحافة."}
+      ],
+      "trap_words":[{"term_it":"fermata","meaning_ar":"توقف قصير","why_it":"Richiede presenza e prontezza del conducente.","why_ar":"السائق لازم يفضل موجود وجاهز يتحرك.","example_it":"Ti fermi brevemente per far salire una persona.","example_ar":"وقفت وقت قصير عشان شخص يركب."},{"term_it":"sosta","meaning_ar":"وقوف/ركن ممتد","why_it":"La definizione ammette che il conducente possa allontanarsi.","why_ar":"التعريف بيسمح إن السائق يبعد عن المركبة.","example_it":"Lasci l’auto ferma e ti allontani.","example_ar":"ركنت العربية ومشيت بعيد عنها."}],
+      "numbers":[],
+      "common_mistakes":[
+        {"mistake_it":"Usare fermata e sosta come sinonimi.","mistake_ar":"استخدام fermata وsosta كأنهم نفس المعنى.","why_it":"Durata e presenza del conducente le distinguono.","why_ar":"المدة ووجود السائق بيفرقوا بينهم."},
+        {"mistake_it":"Dire che la sosta è sempre necessariamente volontaria.","mistake_ar":"القول إن sosta لازم تكون اختيارية دايمًا.","why_it":"Questa condizione non fa parte della definizione dell’articolo 157.","why_ar":"الشرط ده مش موجود في تعريف المادة 157."}
+      ],
+      "quick_check":[
+        {"statement_it":"Durante la fermata il conducente deve essere presente e pronto a ripartire.","statement_ar":"أثناء fermata لازم السائق يكون موجود وجاهز يتحرك.","answer":"VERO","explanation_it":"È un elemento della definizione dell’articolo 157.","explanation_ar":"ده جزء من تعريف المادة 157."},
+        {"statement_it":"La sosta è definita come necessariamente volontaria.","statement_ar":"تعريف sosta بيشترط إنها تكون اختيارية.","answer":"FALSO","explanation_it":"La definizione riguarda durata e possibilità di allontanamento.","explanation_ar":"التعريف بيركز على المدة وإمكانية ابتعاد السائق."},
+        {"statement_it":"Fuori dai centri abitati, se è possibile, la fermata va fatta fuori dalla carreggiata.","statement_ar":"خارج المناطق المأهولة، لو أمكن لازم fermata تكون خارج جسم الطريق.","answer":"VERO","explanation_it":"L’articolo 157 prevede questa regola e disciplina il caso d’impossibilità.","explanation_ar":"المادة 157 بتقرر القاعدة دي وبتوضح التصرف لو تعذّر تطبيقها."}
+      ],
+      "example_it":"Al semaforo rosso l’auto subisce un arresto; per far salire rapidamente una persona effettui una fermata; lasciarla per un periodo più lungo è sosta.",
+      "example_ar":"عند الإشارة الحمراء العربية في حالة arresto؛ ولو وقفت بسرعة عشان حد يركب فدي fermata؛ ولو سبت العربية واقفة مدة أطول فدي sosta.",
+      "pitfall_it":"Non attribuire alla sosta un requisito di volontarietà che la definizione non indica.",
+      "pitfall_ar":"ما تضيفش لتعريف sosta شرط إنها تكون اختيارية، لأن النص ما بيقولش كده.",
+      "legal_sources":[{"article":"157","title_it":"Arresto, fermata e sosta dei veicoli","title_ar":"توقف المركبات ووقوفها","url":"https://aci.gov.it/codice-della-strada/art-157/"},{"article":"154","title_it":"Cambiamento di direzione o di corsia o altre manovre","title_ar":"تغيير الاتجاه أو الحارة ومناورات أخرى","url":"https://aci.gov.it/codice-della-strada/art-154/"}]
+    },
+    {
+      "lesson_order":4,
+      "heading_it":"Guasto e veicolo fermo: rendersi visibili",
+      "heading_ar":"العطل والمركبة المتوقفة: خليك واضح للآخرين",
+      "body_it":"Se un guasto o un altro evento ferma il veicolo, cerca di ridurre l’ingombro e rendere sicuro il transito, quando puoi farlo senza pericolo. L’articolo 162 prevede, fuori dai centri abitati, la presegnalazione di veicoli fermi sulla carreggiata nelle condizioni indicate: di notte se mancano o non funzionano le luci posteriori richieste, e anche di giorno se il veicolo non è visibile da distanza sufficiente. L’obbligo descritto non riguarda velocipedi, ciclomotori a due ruote e motocicli. Durante la presegnalazione e quando si scende nei casi previsti, si usano dispositivi retroriflettenti. In autostrada, segui l’articolo 176: se il veicolo non può raggiungere lo spazio d’emergenza, colloca il triangolo dietro di esso alla distanza prevista. La regola ha condizioni specifiche.",
+      "body_ar":"لو عطل أو سبب تاني وقف المركبة، حاول تقلل تعطيل الطريق وتأمّن المرور، بشرط إن ده ما يعرّضكش للخطر. المادة 162 بتطلب التحذير المسبق خارج المناطق المأهولة في حالات محددة: بالليل لو الأنوار الخلفية المطلوبة ناقصة أو مش شغالة، وكمان بالنهار لو المركبة مش باينة من مسافة كافية. الواجب المذكور ما يشملش الدراجات الهوائية والدراجات ذات المحرك ذات العجلتين والدراجات النارية. أثناء وضع التحذير وعند النزول في الحالات المحددة، تُستخدم وسائل عاكسة. على الطريق السريع، اتبع المادة 176: لو المركبة مش قادرة توصل لمساحة الطوارئ، حط المثلث خلفها بالمسافة المقررة. القاعدة ليها شروط محددة.",
+      "core_it":["Il triangolo dipende dalle condizioni previste, non da ogni sosta.","In autostrada, impossibilità di raggiungere gli spazi d’emergenza: triangolo a distanza prescritta."],
+      "core_ar":["المثلث مطلوب حسب شروط محددة، مش عند كل توقف.","على الطريق السريع، لو تعذّر الوصول لمساحة الطوارئ، يوضع المثلث بالمسافة المقررة."],
+      "key_points":[
+        {"title_it":"Ridurre l’ingombro","title_ar":"تقليل تعطيل الطريق","it":"Libera il transito per quanto possibile e senza esporti a pericoli.","ar":"خلّي المرور يعدّي قدر الإمكان من غير ما تعرّض نفسك للخطر."},
+        {"title_it":"Fuori dai centri","title_ar":"خارج المناطق المأهولة","it":"La presegnalazione dipende da visibilità e luci nelle condizioni di legge.","ar":"التحذير المسبق مرتبط بالرؤية والأنوار وفق الحالات القانونية."},
+        {"title_it":"Eccezioni","title_ar":"استثناءات","it":"L’articolo 162 esclude velocipedi, ciclomotori a due ruote e motocicli dall’obbligo descritto.","ar":"المادة 162 تستثني الدراجات الهوائية وذات المحرك ذات العجلتين والدراجات النارية من الواجب المذكور."},
+        {"title_it":"Autostrada","title_ar":"الطريق السريع","it":"L’articolo 176 disciplina il triangolo quando non si può raggiungere lo spazio d’emergenza.","ar":"المادة 176 بتنظم وضع المثلث لو تعذّر الوصول لمساحة الطوارئ."}
+      ],
+      "trap_words":[{"term_it":"presegnalazione","meaning_ar":"تحذير مسبق","why_it":"È richiesto in condizioni determinate, non per qualunque arresto.","why_ar":"مطلوب في حالات معينة، مش عند أي توقف.","example_it":"Un veicolo poco visibile di giorno fuori dal centro può richiedere segnalazione.","example_ar":"مركبة مش باينة كفاية بالنهار خارج المنطقة المأهولة قد يلزم التحذير منها."}],
+      "numbers":[],
+      "common_mistakes":[
+        {"mistake_it":"Affermare che il triangolo sia obbligatorio per ogni veicolo fermo.","mistake_ar":"القول إن المثلث مطلوب لكل مركبة متوقفة.","why_it":"Gli articoli 162 e 176 indicano condizioni ed esclusioni.","why_ar":"المادتان 162 و176 بتذكر شروطًا واستثناءات."},
+        {"mistake_it":"Dimenticare l’ulteriore caso autostradale del veicolo fermo senza poter raggiungere gli spazi appositi.","mistake_ar":"نسيان حالة الطريق السريع لما المركبة ما تقدرش توصل لمساحة الطوارئ.","why_it":"L’articolo 176, comma 8, tratta anche questo caso.","why_ar":"المادة 176 فقرة 8 بتتناول الحالة دي كمان."}
+      ],
+      "quick_check":[
+        {"statement_it":"L’articolo 162 descrive un obbligo di presegnalazione applicabile senza eccezioni a ogni veicolo.","statement_ar":"المادة 162 بتفرض التحذير المسبق على كل المركبات من غير استثناء.","answer":"FALSO","explanation_it":"Esclude velocipedi, ciclomotori a due ruote e motocicli dall’obbligo descritto.","explanation_ar":"بتستثني الدراجات الهوائية وذات المحرك ذات العجلتين والدراجات النارية من الواجب المذكور."},
+        {"statement_it":"Fuori dai centri abitati, la visibilità insufficiente di giorno è una delle condizioni per presegnalare il veicolo fermo sulla carreggiata.","statement_ar":"خارج المناطق المأهولة، ضعف الرؤية نهارًا من حالات التحذير المسبق من المركبة المتوقفة على الطريق.","answer":"VERO","explanation_it":"L’articolo 162 menziona la visibilità a distanza sufficiente anche di giorno.","explanation_ar":"المادة 162 بتذكر عدم وضوح المركبة من مسافة كافية حتى بالنهار."},
+        {"statement_it":"In autostrada il triangolo è previsto anche quando il veicolo non può raggiungere la corsia o piazzola d’emergenza.","statement_ar":"على الطريق السريع، المثلث مطلوب كمان لو المركبة مش قادرة توصل لحارة أو مساحة الطوارئ.","answer":"VERO","explanation_it":"È uno dei casi indicati dall’articolo 176, comma 8.","explanation_ar":"دي واحدة من الحالات المذكورة في المادة 176 فقرة 8."}
+      ],
+      "example_it":"Un guasto lascia l’auto sulla carreggiata autostradale e non è possibile spostarla nello spazio d’emergenza: applica la segnalazione prevista dall’articolo 176.",
+      "example_ar":"عطل خلّى العربية على جسم طريق سريع ومش ممكن تنقلها لمساحة الطوارئ: طبّق التحذير المطلوب في المادة 176.",
+      "pitfall_it":"Non estendere l’obbligo del triangolo oltre condizioni, eccezioni e casi specifici verificati.",
+      "pitfall_ar":"ما تعمّمش واجب المثلث خارج الشروط والاستثناءات والحالات المحددة اللي تم التحقق منها.",
+      "legal_sources":[{"article":"162","title_it":"Segnalazione di veicolo fermo","title_ar":"التحذير من مركبة متوقفة","url":"https://aci.gov.it/codice-della-strada/art-162/"},{"article":"176","title_it":"Comportamenti sulle autostrade e strade extraurbane principali","title_ar":"السلوك على الطرق السريعة والطرق الرئيسية خارج المدن","url":"https://aci.gov.it/codice-della-strada/art-176/"}]
+    },
+    {
+      "lesson_order":5,
+      "heading_it":"Autostrada: ingresso, corsie e uscita",
+      "heading_ar":"الطريق السريع: الدخول والحارات والخروج",
+      "body_it":"Sulle strade comprese nel campo dell’articolo 176, per entrare si usa la corsia di accelerazione e si dà precedenza ai veicoli già in marcia. Per uscire ci si porta tempestivamente sulla corsia destra e si imbocca quella di decelerazione dal suo inizio; il cambio di corsia va segnalato. La corsia d’emergenza non è una corsia ordinaria: si usa per arrestarsi o riprendere la marcia nei casi previsti. Sulle carreggiate, rampe e svincoli sono vietate inversione e marcia contromano; la retromarcia è vietata anche sulla corsia d’emergenza, salvo manovre necessarie nelle aree di servizio o parcheggio. L’eccezione riguarda solo la retromarcia. In emergenza, sposta il veicolo appena possibile nello spazio indicato. Se superi l’uscita, prosegui verso la successiva.",
+      "body_ar":"على الطرق اللي بتنطبق عليها المادة 176، عند الدخول استخدم حارة التسارع وادي الأولوية للمركبات اللي ماشية بالفعل. للخروج، انتقل بدري للحارة اليمنى وخد حارة التباطؤ من أولها؛ ولازم تشير قبل تغيير الحارة. حارة الطوارئ مش حارة للسير العادي: استخدامها للتوقف أو استئناف السير في الحالات المقررة. على جسم الطريق والمنحدرات ومخارج الطرق، عكس الاتجاه والسير عكسه ممنوعان؛ والرجوع للخلف ممنوع حتى في حارة الطوارئ، باستثناء المناورات الضرورية داخل مناطق الخدمة أو الانتظار. الاستثناء خاص بالرجوع للخلف فقط. في الطوارئ، انقل المركبة للمساحة المحددة بأسرع ما يمكن. لو فاتك المخرج، كمّل للمخرج اللي بعده.",
+      "core_it":["Ingresso: corsia di accelerazione e precedenza a chi è già in marcia.","Uscita: corsia destra, poi decelerazione dall’inizio; niente inversioni o retromarcia fuori dall’eccezione stretta."],
+      "core_ar":["الدخول: حارة تسارع وإعطاء الأولوية للمركبات الموجودة.","الخروج: الحارة اليمنى ثم التباطؤ من بدايته؛ لا عكس اتجاه ولا رجوع للخلف إلا بالاستثناء المحدد."],
+      "key_points":[
+        {"title_it":"Ingresso","title_ar":"الدخول","it":"Usa la corsia di accelerazione e dai precedenza al traffico già presente.","ar":"استخدم حارة التسارع وادي الأولوية لحركة المرور الموجودة."},
+        {"title_it":"Uscita","title_ar":"الخروج","it":"Raggiungi per tempo la corsia destra e la corsia di decelerazione dal suo inizio.","ar":"انتقل بدري لليمين ثم لحارة التباطؤ من أولها."},
+        {"title_it":"Segnalazione","title_ar":"الإشارة","it":"Segnala tempestivamente il cambiamento di corsia.","ar":"أشّر بدري قبل تغيير الحارة."},
+        {"title_it":"Retromarcia","title_ar":"الرجوع للخلف","it":"Il limitato caso ammesso riguarda manovre necessarie in aree di servizio o parcheggio.","ar":"الاستثناء المحدود يخص المناورات الضرورية بمناطق الخدمة أو الانتظار."}
+      ],
+      "trap_words":[{"term_it":"retromarcia","meaning_ar":"رجوع للخلف","why_it":"Non va confusa con l’inversione: l’eccezione testuale riguarda solo la retromarcia.","why_ar":"ما تخلطهاش بعكس الاتجاه؛ الاستثناء في النص خاص بالرجوع للخلف بس.","example_it":"L’eccezione in un’area di servizio non autorizza a invertire il senso di marcia.","example_ar":"استثناء الرجوع للخلف في منطقة خدمة ما يسمحش بعكس اتجاه السير."}],
+      "numbers":[],
+      "common_mistakes":[
+        {"mistake_it":"Usare la corsia d’emergenza per avanzare nel traffico ordinario.","mistake_ar":"استخدام حارة الطوارئ للتقدم في الزحمة العادية.","why_it":"L’articolo 176 ne limita l’uso ai casi previsti.","why_ar":"المادة 176 بتحصر استخدامها في الحالات المقررة."},
+        {"mistake_it":"Pensare che l’eccezione per la retromarcia permetta anche l’inversione.","mistake_ar":"الاعتقاد إن استثناء الرجوع للخلف يسمح كمان بعكس الاتجاه.","why_it":"Il testo separa i divieti e l’eccezione riguarda solo le manovre di retromarcia indicate.","why_ar":"النص بيفصل بين الحظرين والاستثناء خاص بمناورات الرجوع للخلف المذكورة."}
+      ],
+      "quick_check":[
+        {"statement_it":"Per immettersi, si usa la corsia di accelerazione e si dà precedenza ai veicoli in circolazione.","statement_ar":"للدخول، استخدم حارة التسارع وادي الأولوية للمركبات اللي ماشية.","answer":"VERO","explanation_it":"È l’obbligo indicato dall’articolo 176, comma 2.","explanation_ar":"ده الواجب المذكور في المادة 176 فقرة 2."},
+        {"statement_it":"Se si supera l’uscita, è corretto fare retromarcia sulla corsia d’emergenza.","statement_ar":"لو فاتك المخرج، الصح ترجع للخلف في حارة الطوارئ.","answer":"FALSO","explanation_it":"La retromarcia è vietata; si prosegue verso l’uscita successiva.","explanation_ar":"الرجوع للخلف ممنوع؛ كمّل للمخرج التالي."},
+        {"statement_it":"L’eccezione per manovre di retromarcia nelle aree di servizio autorizza anche l’inversione.","statement_ar":"استثناء الرجوع للخلف في مناطق الخدمة بيسمح كمان بعكس الاتجاه.","answer":"FALSO","explanation_it":"L’eccezione normativa riguarda la retromarcia, non l’inversione o il contromano.","explanation_ar":"الاستثناء القانوني خاص بالرجوع للخلف، مش بعكس الاتجاه أو السير عكسه."}
+      ],
+      "example_it":"Hai oltrepassato lo svincolo: continui fino a quello successivo, senza fermarti sulla carreggiata né fare retromarcia.",
+      "example_ar":"عدّيت المخرج: كمّل للمخرج اللي بعده من غير ما توقف على جسم الطريق أو ترجع للخلف.",
+      "pitfall_it":"Non trasformare l’eccezione circoscritta alla retromarcia in un permesso di inversione o contromano.",
+      "pitfall_ar":"ما تحوّلش الاستثناء المحدود للرجوع للخلف إلى إذن بعكس الاتجاه أو السير عكسه.",
+      "legal_sources":[{"article":"176","title_it":"Comportamenti durante la circolazione sulle autostrade e sulle strade extraurbane principali","title_ar":"السلوك أثناء السير على الطرق السريعة والطرق الرئيسية خارج المدن","url":"https://aci.gov.it/codice-della-strada/art-176/"},{"article":"175","title_it":"Condizioni e limitazioni della circolazione sulle autostrade e sulle strade extraurbane principali","title_ar":"شروط وقيود السير على الطرق السريعة والطرق الرئيسية خارج المدن","url":"https://aci.gov.it/codice-della-strada/art-175/"},{"article":"154","title_it":"Cambiamento di direzione o di corsia o altre manovre","title_ar":"تغيير الاتجاه أو الحارة ومناورات أخرى","url":"https://aci.gov.it/codice-della-strada/art-154/"}]
+    }
+  ]
+}

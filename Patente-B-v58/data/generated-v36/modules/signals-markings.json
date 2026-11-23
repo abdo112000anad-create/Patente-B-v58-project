@@ -1,0 +1,410 @@
+{
+  "schema_version": 1,
+  "module_id": "signals-markings",
+  "lessons": [
+    {
+      "lesson_order": 1,
+      "heading_it": "Linee e simboli sulla carreggiata",
+      "heading_ar": "الخطوط والرموز على جسم الطريق",
+      "body_it": "La segnaletica orizzontale regola la circolazione e comunica indicazioni o prescrizioni con linee, attraversamenti, frecce e simboli. In generale, la linea longitudinale continua non va oltrepassata; quelle che delimitano corsie di emergenza sono escluse da questa regola. La linea discontinua può essere oltrepassata rispettando tutte le altre norme. Se continua e discontinua sono affiancate, chi procede dal lato della discontinua può oltrepassarle, ma ciò non autorizza automaticamente il sorpasso. Una linea trasversale continua segna il punto in cui fermarsi per rispettare il semaforo o altre prescrizioni; quella discontinua indica il limite prima del quale arrestarsi, se necessario, per dare precedenza. Agli attraversamenti si dà precedenza ai pedoni e ai ciclisti che attraversano o stanno per farlo.",
+      "body_ar": "تساعد العلامات الأفقية على تنظيم المرور وتوجيه مستعملي الطريق، وتنقل أوامر أو معلومات. وقد تشمل خطوطًا طولية وعرضية، ومعابر وأسهمًا ورموزًا وحدود أماكن الوقوف. بوجه عام، لا يجوز عبور الخط الطولي المتصل؛ ومن الاستثناءات أن الخطوط التي تحدد حارات الطوارئ مستثناة من هذه القاعدة. ويمكن عبور الخطوط المتقطعة بشرط احترام بقية قواعد السير. وإذا جاور خط متصل خطًا متقطعًا، جاز لمن يسير من جهة الخط المتقطع عبور الخطوط؛ لكن ذلك لا يمنح تلقائيًا إذنًا بالتجاوز. ويحدد الخط العرضي المتصل موضع الوقوف امتثالًا للضوء أو للأوامر الأخرى التي يذكرها القانون؛ أما المتقطع فيحدد الحد الذي يجب الوقوف قبله عند الحاجة لإعطاء الأولوية. عند المعابر، تُعطى الأولوية للمشاة، ولراكبي الدراجات عند معابر الدراجات، إذا كانوا يعبرون أو يستعدون للعبور.",
+      "core_it": "La linea continua, salvo le eccezioni previste, non si oltrepassa. Attraversare una linea non equivale ad avere diritto di sorpassare.",
+      "core_ar": "لا يُعبر الخط المتصل إلا ضمن الاستثناءات المقررة. عبور الخط لا يعني أن مناورة التجاوز مسموحة.",
+      "key_points": [
+        {
+          "title_it": "Funzione",
+          "title_ar": "الوظيفة",
+          "it": "Le linee e i simboli organizzano il traffico e danno indicazioni.",
+          "ar": "تنظم الخطوط والرموز المرور وتقدم معلومات."
+        },
+        {
+          "title_it": "Continua",
+          "title_ar": "الخط المتصل",
+          "it": "In generale segna un limite da non oltrepassare, fatte salve le eccezioni previste.",
+          "ar": "يحدد عمومًا حدًا لا يُعبر، مع مراعاة الاستثناءات المقررة."
+        },
+        {
+          "title_it": "Discontinua",
+          "title_ar": "الخط المتقطع",
+          "it": "Può essere oltrepassata se sono rispettate tutte le altre norme.",
+          "ar": "يمكن عبوره مع احترام جميع القواعد الأخرى."
+        },
+        {
+          "title_it": "Linee affiancate",
+          "title_ar": "الخطوط المتجاورة",
+          "it": "Dal lato della discontinua è possibile oltrepassare le linee, senza automatica autorizzazione al sorpasso.",
+          "ar": "يمكن العبور من جهة المتقطع، من دون إذن تلقائي بالتجاوز."
+        },
+        {
+          "title_it": "Attraversamenti",
+          "title_ar": "المعابر",
+          "it": "Si dà precedenza ai pedoni e ai ciclisti nei rispettivi attraversamenti quando attraversano o stanno per farlo.",
+          "ar": "تُعطى الأولوية للمشاة وراكبي الدراجات في معابرهم عند العبور أو الاستعداد له."
+        }
+      ],
+      "trap_words": [
+        {
+          "term_it": "oltrepassare",
+          "meaning_ar": "يعبر / يتجاوز خطًا",
+          "why_it": "Indica il passaggio oltre la linea, non necessariamente un sorpasso di veicoli.",
+          "why_ar": "تعني اجتياز الخط، وليس بالضرورة تجاوز مركبة أخرى.",
+          "example_it": "Può oltrepassare la linea dal lato discontinuo, ma deve valutare separatamente il sorpasso.",
+          "example_ar": "يمكنه عبور الخط من جهة المتقطع، لكن عليه تقييم مناورة التجاوز على حدة."
+        }
+      ],
+      "numbers": [],
+      "common_mistakes": [
+        {
+          "mistake_it": "Pensare che una linea discontinua autorizzi sempre qualsiasi manovra.",
+          "mistake_ar": "الاعتقاد أن الخط المتقطع يبيح دائمًا أي مناورة.",
+          "why_it": "Restano da rispettare tutte le altre regole della circolazione.",
+          "why_ar": "تظل بقية قواعد السير واجبة الاحترام."
+        },
+        {
+          "mistake_it": "Confondere il passaggio oltre una linea con il sorpasso.",
+          "mistake_ar": "الخلط بين عبور الخط ومناورة التجاوز.",
+          "why_it": "Sono concetti distinti: il rispetto della linea non basta a rendere lecito il sorpasso.",
+          "why_ar": "هما أمران مختلفان؛ احترام حكم الخط وحده لا يجعل التجاوز مشروعًا."
+        }
+      ],
+      "quick_check": [
+        {
+          "statement_it": "Una linea discontinua può essere oltrepassata soltanto rispettando le altre norme.",
+          "statement_ar": "يمكن عبور الخط المتقطع بشرط احترام بقية القواعد.",
+          "answer": "VERO",
+          "explanation_it": "L'articolo 40 subordina il suo attraversamento al rispetto delle altre norme di circolazione.",
+          "explanation_ar": "تربط المادة 40 عبور الخط المتقطع باحترام بقية قواعد السير."
+        },
+        {
+          "statement_it": "Dal lato della linea continua, una linea discontinua affiancata autorizza sempre a oltrepassare entrambe.",
+          "statement_ar": "من جهة الخط المتصل، يبيح الخط المتقطع المجاور دائمًا عبور الخطين.",
+          "answer": "FALSO",
+          "explanation_it": "La possibilità descritta riguarda chi procede dal lato della linea discontinua.",
+          "explanation_ar": "الإمكانية المذكورة تخص من يسير من جهة الخط المتقطع."
+        },
+        {
+          "statement_it": "La possibilità di oltrepassare le linee affiancate equivale da sola al permesso di sorpassare.",
+          "statement_ar": "إمكانية عبور الخطين المتجاورين تعني وحدها السماح بالتجاوز.",
+          "answer": "FALSO",
+          "explanation_it": "L'attraversamento della linea non costituisce da solo autorizzazione al sorpasso.",
+          "explanation_ar": "عبور الخط لا يشكل وحده إذنًا بمناورة التجاوز."
+        }
+      ],
+      "example_it": "Su una strada, una linea continua è affiancata da una discontinua sul lato della tua corsia: puoi valutare il passaggio solo se ti trovi dal lato discontinuo e se ogni altra regola consente la manovra; ciò non rende automaticamente lecito sorpassare.",
+      "example_ar": "على طريق، يجاور خطًا متصلًا خط متقطع من جهة مسارك: لا تفكر في العبور إلا إذا كنت من جهة الخط المتقطع وكانت بقية القواعد تسمح بالمناورة؛ فهذا لا يجعل التجاوز مشروعًا تلقائيًا.",
+      "pitfall_it": "Non trasformare la possibilità di oltrepassare una linea nel permesso generale di sorpassare. Fai attenzione anche alle linee di margine e alle eccezioni specifiche previste per alcune linee.",
+      "pitfall_ar": "لا تحوّل إمكانية عبور خط إلى إذن عام بالتجاوز. وانتبه أيضًا إلى خطوط الحافة والاستثناءات المحددة لبعض الخطوط.",
+      "legal_sources": [
+        {
+          "article": "Art. 40, commi 1–11",
+          "title_it": "Codice della strada — Segnali orizzontali",
+          "title_ar": "قانون الطرق — العلامات الأفقية",
+          "url": "https://aci.gov.it/codice-della-strada/art-40/"
+        }
+      ]
+    },
+    {
+      "lesson_order": 2,
+      "heading_it": "Semafori: colori, frecce e prudenza",
+      "heading_ar": "إشارات المرور الضوئية: الألوان والأسهم والحذر",
+      "body_it": "Nel semaforo ordinario, rosso significa arresto, giallo preavviso di arresto e verde via libera. Con il giallo non superare il punto di arresto, salvo che tu sia troppo vicino per fermarti in sicurezza; allora libera prudentemente l'incrocio. Il verde non consente di entrare se non puoi sgomberare l'intersezione prima del rosso. Dà precedenza ai pedoni e ai ciclisti con via libera; chi svolta dà precedenza ai veicoli provenienti da destra e a quelli della corrente in cui entra. Con il rosso non superare la linea; se manca, non impegnare l'incrocio o l'attraversamento. Le frecce valgono nella direzione indicata. Con il giallo lampeggiante procedi a velocità moderata, con particolare prudenza e rispettando la precedenza.",
+      "body_ar": "في إشارة المركبات العادية، يعني الأحمر التوقف، والأصفر إنذارًا بالتوقف، والأخضر السماح بالمرور. عند الأصفر لا تتجاوز نقطة التوقف، إلا إذا كانت المركبة قريبة جدًا بحيث لا يمكنها التوقف بأمان كافٍ؛ وعندها يجب إخلاء التقاطع بحذر. لا يسمح الأخضر بدخول التقاطع إذا لم تكن متأكدًا من إمكان إخلائه قبل ظهور الأحمر. وحتى مع الأخضر، تُعطى الأولوية للمشاة وراكبي الدراجات الذين لديهم سماح متزامن؛ كما يعطي المنعطف الأولوية للمركبات القادمة من اليمين وللمركبات في تيار السير الذي سيدخل إليه. عند الأحمر لا تتجاوز خط التوقف؛ وإن لم يوجد، فلا تدخل التقاطع أو معبر المشاة ولا تتجاوز الإشارة. وتسري الأسهم الضوئية على المركبات المتجهة في الاتجاه الذي يشير إليه السهم. أما الأصفر الوامض فيسمح بالتقدم بسرعة معتدلة وحذر خاص، مع احترام قواعد الأولوية.",
+      "core_it": "Rosso: arresto; giallo: preavviso di arresto. Verde: via libera solo se puoi impegnare e liberare l'incrocio correttamente.",
+      "core_ar": "الأحمر: توقف؛ الأصفر: إنذار بالتوقف. الأخضر يسمح بالمرور بشرط إمكان دخول التقاطع وإخلائه على نحو سليم.",
+      "key_points": [
+        {
+          "title_it": "Rosso",
+          "title_ar": "الأحمر",
+          "it": "Non superare la linea di arresto; se manca, non impegnare l'incrocio o l'attraversamento.",
+          "ar": "لا تتجاوز خط التوقف؛ وإن لم يوجد فلا تدخل التقاطع أو المعبر."
+        },
+        {
+          "title_it": "Giallo",
+          "title_ar": "الأصفر",
+          "it": "Preannuncia l'arresto; prosegui solo se fermarti non è più sufficientemente sicuro.",
+          "ar": "ينذر بالتوقف؛ لا تواصل إلا إذا لم يعد التوقف آمنًا بما يكفي."
+        },
+        {
+          "title_it": "Verde",
+          "title_ar": "الأخضر",
+          "it": "Non entrare se non puoi liberare l'intersezione prima del rosso.",
+          "ar": "لا تدخل إذا لم تستطع إخلاء التقاطع قبل الأحمر."
+        },
+        {
+          "title_it": "Svolta",
+          "title_ar": "الانعطاف",
+          "it": "Chi svolta deve considerare gli altri veicoli e dare la precedenza nei casi previsti.",
+          "ar": "على من ينعطف مراعاة المركبات الأخرى وإعطاء الأولوية في الحالات المقررة."
+        },
+        {
+          "title_it": "Giallo lampeggiante",
+          "title_ar": "الأصفر الوامض",
+          "it": "Procedi a velocità moderata e con particolare prudenza, rispettando la precedenza.",
+          "ar": "تقدم بسرعة معتدلة وحذر خاص مع احترام الأولوية."
+        }
+      ],
+      "trap_words": [
+        {
+          "term_it": "preavviso di arresto",
+          "meaning_ar": "إنذار أو تنبيه إلى التوقف",
+          "why_it": "Il giallo non è un invito ad accelerare: annuncia l'arresto, con una limitata eccezione di sicurezza.",
+          "why_ar": "الأصفر ليس دعوة للإسراع؛ بل ينذر بالتوقف مع استثناء محدود متعلق بالأمان.",
+          "example_it": "Al giallo, fermati se puoi farlo in sicurezza.",
+          "example_ar": "عند الأصفر، توقف إذا أمكنك ذلك بأمان."
+        }
+      ],
+      "numbers": [],
+      "common_mistakes": [
+        {
+          "mistake_it": "Accelerare quando compare il giallo per passare prima del rosso.",
+          "mistake_ar": "الإسراع عند ظهور الأصفر للعبور قبل الأحمر.",
+          "why_it": "Il giallo preannuncia l'arresto; la prosecuzione è prevista solo quando fermarsi non è sufficientemente sicuro.",
+          "why_ar": "الأصفر ينذر بالتوقف؛ ولا يُستكمل السير إلا إذا لم يكن التوقف آمنًا بما يكفي."
+        },
+        {
+          "mistake_it": "Entrare con il verde anche quando il traffico impedisce di liberare l'incrocio.",
+          "mistake_ar": "دخول التقاطع مع الأخضر رغم أن الازدحام سيمنع إخلاءه.",
+          "why_it": "La luce verde non autorizza a impegnare l'area se non si può sgomberarla prima del rosso.",
+          "why_ar": "لا يسمح الأخضر بدخول التقاطع إذا تعذر إخلاؤه قبل الأحمر."
+        }
+      ],
+      "quick_check": [
+        {
+          "statement_it": "Il giallo significa via libera e invita ad accelerare.",
+          "statement_ar": "يعني الأصفر السماح بالمرور ويدعو إلى الإسراع.",
+          "answer": "FALSO",
+          "explanation_it": "Il giallo è preavviso di arresto.",
+          "explanation_ar": "الأصفر إنذار بالتوقف."
+        },
+        {
+          "statement_it": "Con il verde non si deve impegnare un incrocio che non si può liberare prima del rosso.",
+          "statement_ar": "مع الأخضر يجب عدم دخول تقاطع لا يمكن إخلاؤه قبل الأحمر.",
+          "answer": "VERO",
+          "explanation_it": "La regola del verde richiede di poter sgomberare l'area prima dell'accensione del rosso.",
+          "explanation_ar": "تشترط قاعدة الأخضر إمكان إخلاء التقاطع قبل ظهور الأحمر."
+        },
+        {
+          "statement_it": "Il giallo lampeggiante richiede prudenza e il rispetto delle regole di precedenza.",
+          "statement_ar": "يتطلب الأصفر الوامض الحذر واحترام قواعد الأولوية.",
+          "answer": "VERO",
+          "explanation_it": "L'articolo 41 consente di procedere a velocità moderata e con particolare prudenza, rispettando la precedenza.",
+          "explanation_ar": "تسمح المادة 41 بالتقدم بسرعة معتدلة وحذر خاص مع احترام الأولوية."
+        }
+      ],
+      "example_it": "Ti avvicini a un incrocio con il giallo e puoi fermarti senza rischio: arrestati prima della linea. Se sei troppo vicino per fermarti con sufficiente sicurezza, libera l'area con prudenza. Con il verde, attendi se il traffico davanti non ti permetterebbe di sgombrare l'incrocio.",
+      "example_ar": "تقترب من تقاطع والضوء أصفر ويمكنك التوقف من دون خطر: توقف قبل الخط. إذا كنت قريبًا جدًا بحيث لا تستطيع التوقف بأمان كافٍ، فأخلِ التقاطع بحذر. ومع الأخضر، انتظر إذا كان المرور أمامك لن يسمح بإخلاء التقاطع.",
+      "pitfall_it": "Non trattare il verde come precedenza assoluta e non ignorare la direzione delle frecce di corsia. Quando il semaforo è anomalo o spento, la norma richiede particolare prudenza; non presumere che gli altri flussi siano fermi.",
+      "pitfall_ar": "لا تعتبر الأخضر أولوية مطلقة، ولا تتجاهل اتجاه أسهم المسارات. وعند تعطل الإشارة أو انطفائها، يوجب القانون حذرًا خاصًا؛ فلا تفترض أن تيارات المرور الأخرى متوقفة.",
+      "legal_sources": [
+        {
+          "article": "Art. 41, commi 2–3 e 9–12, 17–18",
+          "title_it": "Codice della strada — Segnali luminosi",
+          "title_ar": "قانون الطرق — الإشارات الضوئية",
+          "url": "https://aci.gov.it/codice-della-strada/art-41/"
+        }
+      ]
+    },
+    {
+      "lesson_order": 3,
+      "heading_it": "Segnali dell'agente e indicatori degli ostacoli",
+      "heading_ar": "إشارات شرطي المرور والعلامات الدالة على العوائق",
+      "body_it": "Quando un agente dirige la circolazione, segui senza indugio le sue indicazioni, che prevalgono sulle altre prescrizioni stradali. Un braccio alzato verticalmente richiama l'attenzione e comporta arresto, salvo per chi non possa più fermarsi in sicurezza; chi è già nell'incrocio non deve arrestarsi lì. Con un braccio o entrambe le braccia distesi orizzontalmente, si arresta il traffico proveniente da direzioni che intersecano quella indicata, mentre è consentito procedere nella direzione del braccio. A braccia abbassate, la posizione frontale o posteriore dell'agente comporta arresto; dai lati è consentito passare. La segnaletica complementare può evidenziare tracciato, curve, punti critici e ostacoli sulla carreggiata o accanto. Strisce e pannelli rendono visibile l'ostacolo, ma non stabiliscono precedenza né autorizzano un percorso vietato.",
+      "body_ar": "عندما ينظم شرطي المرور الحركة، يجب اتباع إشاراته فورًا؛ فإشاراته تتقدم على الأوامر الأخرى الخاصة بالطريق. رفع ذراع واحدة رأسيًا يطلب الانتباه ويقتضي التوقف، باستثناء من لم يعد قادرًا على التوقف بأمان؛ وإذا كانت المركبة داخل التقاطع بالفعل فلا تتوقف فيه. وعند مد ذراع واحدة أو الذراعين أفقيًا، يتوقف المرور القادم من الاتجاهات التي تتقاطع مع الاتجاه الذي يشير إليه الذراع، بينما يسمح بالسير في اتجاه الذراع. وعندما يكون الذراعان منخفضين، يقتضي وجود الشرطي أمام المركبة أو خلفها التوقف، ويسمح بالمرور من جانبيه. ويمكن للعلامات التكميلية إظهار مسار الطريق أو المنحنيات والنقاط الحرجة والعوائق على جسم الطريق أو بمحاذاته. وتُظهر الخطوط أو اللوحات وجود العائق؛ لكنها لا تحدد وحدها أولوية المرور ولا تبيح مسارًا محظورًا.",
+      "core_it": "Le indicazioni dell'agente prevalgono sugli altri segnali. Gli indicatori rendono visibili gli ostacoli, ma non creano da soli una precedenza.",
+      "core_ar": "تتقدم إشارات الشرطي على بقية الإشارات. تُظهر علامات العوائق وجودها، لكنها لا تنشئ وحدها أولوية مرور.",
+      "key_points": [
+        {
+          "title_it": "Ordine dell'agente",
+          "title_ar": "أمر الشرطي",
+          "it": "Va seguito senza indugio e prevale sulle altre prescrizioni stradali.",
+          "ar": "يجب اتباعه فورًا ويتقدم على الأوامر الأخرى للطريق."
+        },
+        {
+          "title_it": "Braccio verticale",
+          "title_ar": "الذراع الرأسي",
+          "it": "Richiama l'attenzione e ordina l'arresto, con la specifica eccezione di sicurezza.",
+          "ar": "يطلب الانتباه والتوقف، مع استثناء الأمان المحدد."
+        },
+        {
+          "title_it": "Braccia orizzontali",
+          "title_ar": "الذراع الأفقي",
+          "it": "Arresto per le direzioni che intersecano quella indicata; via libera nella direzione indicata.",
+          "ar": "توقف للاتجاهات المتقاطعة مع الاتجاه المشار إليه، وسماح بالسير في الاتجاه المشار إليه."
+        },
+        {
+          "title_it": "Ostacoli",
+          "title_ar": "العوائق",
+          "it": "La segnaletica complementare può evidenziare ostacoli e punti critici.",
+          "ar": "يمكن للعلامات التكميلية إظهار العوائق والنقاط الحرجة."
+        },
+        {
+          "title_it": "Nessun permesso implicito",
+          "title_ar": "لا إذن ضمني",
+          "it": "Una striscia o un pannello che evidenzia un ostacolo non autorizza un percorso vietato.",
+          "ar": "الخط أو اللوحة التي تظهر عائقًا لا تبيح طريقًا محظورًا."
+        }
+      ],
+      "trap_words": [],
+      "numbers": [],
+      "common_mistakes": [
+        {
+          "mistake_it": "Seguire il semaforo anche quando l'agente impartisce un'indicazione diversa.",
+          "mistake_ar": "اتباع الإشارة الضوئية رغم أن الشرطي يعطي توجيهًا مختلفًا.",
+          "why_it": "Le indicazioni dell'agente prevalgono sulle altre prescrizioni della circolazione.",
+          "why_ar": "تتقدم إشارات الشرطي على أوامر السير الأخرى."
+        },
+        {
+          "mistake_it": "Dedurre dalla segnalazione di un ostacolo che si possa passare in qualunque direzione.",
+          "mistake_ar": "استنتاج أن علامة العائق تسمح بالسير في أي اتجاه.",
+          "why_it": "La segnalazione rende noto l'ostacolo, ma non autorizza da sola un percorso vietato.",
+          "why_ar": "تُظهر العلامة وجود العائق لكنها لا تبيح وحدها مسارًا محظورًا."
+        }
+      ],
+      "quick_check": [
+        {
+          "statement_it": "Le indicazioni impartite dall'agente prevalgono sulle altre prescrizioni stradali.",
+          "statement_ar": "تتقدم إشارات شرطي المرور على الأوامر الأخرى للطريق.",
+          "answer": "VERO",
+          "explanation_it": "È la gerarchia indicata dall'articolo 43.",
+          "explanation_ar": "هذا هو ترتيب الأولوية الذي تقرره المادة 43."
+        },
+        {
+          "statement_it": "Un pannello che evidenzia un ostacolo autorizza sempre a usare qualsiasi percorso alternativo.",
+          "statement_ar": "تسمح لوحة تُظهر عائقًا دائمًا باستخدام أي مسار بديل.",
+          "answer": "FALSO",
+          "explanation_it": "La segnalazione dell'ostacolo non autorizza da sola un percorso vietato.",
+          "explanation_ar": "إظهار العائق لا يبيح وحده سلوك مسار محظور."
+        },
+        {
+          "statement_it": "Con l'agente di fronte o alle spalle, la posizione a braccia abbassate indica arresto.",
+          "statement_ar": "عندما يكون الشرطي أمامك أو خلفك، تعني وضعية الذراعين المنخفضين التوقف.",
+          "answer": "VERO",
+          "explanation_it": "Secondo l'articolo 43, da fronte e retro la posizione comporta arresto; dai lati consente il passaggio.",
+          "explanation_ar": "وفق المادة 43، تعني الوضعية التوقف لمن أمامه أو خلفه، وتسمح بالمرور لمن على جانبيه."
+        }
+      ],
+      "example_it": "A un incrocio il semaforo è verde, ma l'agente ti mostra il braccio in una posizione che impone l'arresto alla tua direzione: segui l'agente. Se una barriera segnala un ostacolo, non oltrepassarla né scegliere una deviazione vietata senza indicazioni che la consentano.",
+      "example_ar": "عند تقاطع، الضوء أخضر لكن الشرطي يعطيك إشارة تقتضي التوقف في اتجاهك: اتبع إشارة الشرطي. وإذا أظهر حاجز وجود عائق، فلا تتجاوزه ولا تختَر تحويلة محظورة من دون تعليمات تسمح بها.",
+      "pitfall_it": "Prima individua quale parte dell'agente stai osservando e quali direzioni interseca il braccio; non confondere il lato da cui guardi con la direzione indicata. La descrizione delle strisce e dei pannelli qui resta limitata alla funzione di evidenziare l'ostacolo.",
+      "pitfall_ar": "حدّد أولًا أي جانب من الشرطي تراه وأي اتجاهات يتقاطع معها الذراع؛ ولا تخلط بين الجهة التي تنظر منها والاتجاه الذي يشير إليه. ويقتصر وصف الخطوط واللوحات هنا على وظيفة إظهار العائق.",
+      "legal_sources": [
+        {
+          "article": "Art. 43",
+          "title_it": "Codice della strada — Segnalazioni degli agenti del traffico",
+          "title_ar": "قانون الطرق — إشارات رجال المرور",
+          "url": "https://aci.gov.it/codice-della-strada/art-43/"
+        },
+        {
+          "article": "Art. 42",
+          "title_it": "Codice della strada — Segnali complementari",
+          "title_ar": "قانون الطرق — العلامات التكميلية",
+          "url": "https://aci.gov.it/codice-della-strada/art-42/"
+        },
+        {
+          "article": "Art. 40, comma 2",
+          "title_it": "Codice della strada — Segnali orizzontali",
+          "title_ar": "قانون الطرق — العلامات الأفقية",
+          "url": "https://aci.gov.it/codice-della-strada/art-40/"
+        }
+      ]
+    },
+    {
+      "lesson_order": 4,
+      "heading_it": "Cantieri: leggere la segnaletica temporanea",
+      "heading_ar": "مواقع الأشغال: قراءة الإشارات المؤقتة",
+      "body_it": "Durante i lavori, segnali e delimitazioni temporanei possono regolare la circolazione. Il Codice richiede a chi esegue lavori o deposita materiali nelle aree di transito o sosta di adottare e mantenere efficienti le cautele necessarie per sicurezza e fluidità; il personale esposto al traffico deve essere reso visibile. Il conducente osserva l'avviso, i segnali del cantiere e la fine delle prescrizioni, seguendo il percorso temporaneo. Se questo modifica la circolazione ordinaria, non affidarti alle vecchie linee. Rispetta i segnali e fai attenzione ai lavoratori e agli altri utenti. I lavori non autorizzano da soli a superare barriere o divieti.",
+      "body_ar": "عند وجود أعمال طريق، قد تُنظَّم الحركة بإشارات وحدود مؤقتة. ويلزم قانون الطرق من ينفذ الأعمال أو يودع مواد في مناطق مرور المركبات أو وقوفها باتخاذ احتياطات السلامة وانسياب الحركة والمحافظة على كفاءتها نهارًا وليلًا؛ كما يجب إظهار العاملين المعرضين لحركة المرور. وتشرح اللائحة والدليل الفني الوزاري الوسائل والنماذج التي تُختار بحسب الطريق والظرف الفعلي. وعلى السائق ملاحظة التحذير وإشارات تحديد موضع العمل وإشارات انتهاء القيود، واتباع المسار المؤقت المعلن. إذا غيّرت الإشارات المؤقتة تنظيم السير المعتاد، فلا تعتمد على الخطوط القديمة حين ينظم موقع العمل الحركة بطريقة مختلفة. خفف السرعة وفق الأوامر المعلنة وانتبه للعاملين والمركبات الأخرى ومستعملي الطريق الأكثر عرضة للخطر. وجود أعمال الطريق لا يمنح وحده إذنًا بتجاوز الحواجز أو إشارات المنع.",
+      "core_it": "Segui la sequenza temporanea e il percorso indicato. I lavori non autorizzano a ignorare barriere o divieti.",
+      "core_ar": "اتبع تسلسل الإشارات المؤقتة والمسار المحدد. وجود الأعمال لا يبيح تجاهل الحواجز أو الممنوعات.",
+      "key_points": [
+        {
+          "title_it": "Sicurezza",
+          "title_ar": "السلامة",
+          "it": "Le cautele per il cantiere devono essere mantenute efficienti di giorno e di notte.",
+          "ar": "يجب الحفاظ على كفاءة احتياطات موقع العمل نهارًا وليلًا."
+        },
+        {
+          "title_it": "Visibilità",
+          "title_ar": "الوضوح",
+          "it": "Il personale esposto al traffico deve essere reso visibile.",
+          "ar": "يجب جعل العاملين المعرضين لحركة المرور ظاهرين."
+        },
+        {
+          "title_it": "Sequenza",
+          "title_ar": "تسلسل الإشارات",
+          "it": "Osserva l'avviso, la posizione del cantiere e la fine delle prescrizioni.",
+          "ar": "لاحظ التحذير وموضع العمل وإشارات انتهاء القيود."
+        },
+        {
+          "title_it": "Percorso temporaneo",
+          "title_ar": "المسار المؤقت",
+          "it": "Segui l'itinerario indicato quando il cantiere organizza diversamente la circolazione.",
+          "ar": "اتبع المسار المعلن عندما ينظم موقع العمل الحركة على نحو مختلف."
+        },
+        {
+          "title_it": "Barriere",
+          "title_ar": "الحواجز",
+          "it": "La presenza dei lavori non autorizza a ignorare barriere o divieti.",
+          "ar": "وجود الأعمال لا يسمح بتجاهل الحواجز أو إشارات المنع."
+        }
+      ],
+      "trap_words": [],
+      "numbers": [],
+      "common_mistakes": [
+        {
+          "mistake_it": "Seguire le vecchie strisce ignorando il percorso temporaneo chiaramente segnalato.",
+          "mistake_ar": "اتباع الخطوط القديمة مع تجاهل المسار المؤقت الموضح بوضوح.",
+          "why_it": "La segnaletica del cantiere può organizzare la circolazione in modo diverso da quella ordinaria.",
+          "why_ar": "قد تنظم إشارات موقع العمل الحركة بطريقة مختلفة عن التنظيم المعتاد."
+        },
+        {
+          "mistake_it": "Considerare i lavori un'autorizzazione automatica a superare una barriera.",
+          "mistake_ar": "اعتبار أعمال الطريق إذنًا تلقائيًا بتجاوز حاجز.",
+          "why_it": "Occorre rispettare le prescrizioni e i limiti esposti; la presenza del cantiere non li annulla.",
+          "why_ar": "يجب احترام الأوامر والحدود المعلنة؛ فوجود موقع العمل لا يلغيها."
+        }
+      ],
+      "quick_check": [
+        {
+          "statement_it": "Il personale esposto al traffico nell'area dei lavori deve essere reso visibile.",
+          "statement_ar": "يجب جعل العاملين المعرضين لحركة المرور في موقع العمل ظاهرين.",
+          "answer": "VERO",
+          "explanation_it": "L'articolo 21 richiede che il personale esposto al traffico sia reso visibile di giorno e di notte.",
+          "explanation_ar": "توجب المادة 21 إظهار العاملين المعرضين لحركة المرور نهارًا وليلًا."
+        },
+        {
+          "statement_it": "Se il cantiere modifica la circolazione, il conducente deve sempre seguire le vecchie linee permanenti.",
+          "statement_ar": "إذا غيّر موقع العمل تنظيم السير، يجب على السائق دائمًا اتباع الخطوط الدائمة القديمة.",
+          "answer": "FALSO",
+          "explanation_it": "Il conducente deve osservare il percorso temporaneo indicato quando regola diversamente la circolazione.",
+          "explanation_ar": "على السائق اتباع المسار المؤقت المعلن عندما ينظم الحركة على نحو مختلف."
+        },
+        {
+          "statement_it": "La presenza di lavori permette da sola di oltrepassare una barriera o un divieto.",
+          "statement_ar": "يسمح وجود أعمال الطريق وحده بتجاوز حاجز أو إشارة منع.",
+          "answer": "FALSO",
+          "explanation_it": "I lavori non annullano le prescrizioni e i divieti esposti.",
+          "explanation_ar": "لا تلغي أعمال الطريق الأوامر وإشارات المنع المعلنة."
+        }
+      ],
+      "example_it": "Una manutenzione chiude parte della corsia e una sequenza di segnali temporanei guida il traffico attorno all'area. Segui le indicazioni esposte e non continuare sulle linee ordinarie se il percorso temporaneo ne dispone uno diverso; non oltrepassare una barriera per abbreviare il tragitto.",
+      "example_ar": "أغلقت أعمال الصيانة جزءًا من المسار، وتوجه مجموعة من الإشارات المؤقتة المرور حول المنطقة. اتبع التعليمات المعلنة ولا تواصل السير وفق الخطوط المعتادة إذا حدد المسار المؤقت طريقًا مختلفًا؛ ولا تتجاوز حاجزًا لاختصار الطريق.",
+      "pitfall_it": "Non dedurre dal fatto che il cantiere sembri inattivo che le prescrizioni siano cessate. Cerca le indicazioni temporanee di fine prescrizione e segui le istruzioni dell'agente, se presente.",
+      "pitfall_ar": "لا تستنتج من أن موقع العمل يبدو غير نشط أن القيود قد انتهت. ابحث عن إشارات انتهاء الأوامر المؤقتة واتبع تعليمات الشرطي إن وُجد.",
+      "legal_sources": [
+        {
+          "article": "Art. 21",
+          "title_it": "Codice della strada — Opere, depositi e cantieri stradali",
+          "title_ar": "قانون الطرق — الأعمال والمخازن ومواقع الأشغال على الطرق",
+          "url": "https://aci.gov.it/codice-della-strada/art-21/"
+        },
+        {
+          "article": "D.M. 10 luglio 2002, disciplinare tecnico",
+          "title_it": "MIT — Segnalamento temporaneo dei cantieri stradali",
+          "title_ar": "وزارة البنية التحتية والنقل — الإشارات المؤقتة لمواقع الأشغال",
+          "url": "https://www.mit.gov.it/sites/default/files/media/normativa/2016-02/Decreto_Ministeriale_10-07-2002_all_1.pdf"
+        }
+      ]
+    }
+  ]
+}

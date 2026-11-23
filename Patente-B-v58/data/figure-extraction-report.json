@@ -1,0 +1,12 @@
+{
+  "question_count": 7020,
+  "source_pdf": "/tmp/patente-ab.pdf",
+  "source_pdf_pages": 586,
+  "linked_question_rows": 3922,
+  "unique_figure_files": 407,
+  "reference_questions_without_extracted_image": 1,
+  "unmapped_ids_sample": [
+    24728
+  ],
+  "image_directory": "/workspace/app/public/quiz-images"
+}

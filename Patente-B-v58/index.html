@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="ar" dir="ltr" data-app-version="58">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b171d">
+  <meta name="description" content="Corso completo per la patente italiana B, in italiano con traduzione araba. منهج رخصة القيادة الإيطالية، بالإيطالية مع الترجمة العربية.">
+  <title>Patente B بالعربي | Italiano · العربية</title>
+  <link rel="icon" href="/app-icon-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="/app-icon-192.png" sizes="192x192">
+  <link rel="manifest" href="/manifest.webmanifest?v=57" crossorigin="use-credentials">
+  <link rel="preload" href="/fonts/Cairo-Variable.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/src/styles.css?v=20261025.6">
+  <link rel="stylesheet" href="/src/rebuild.css?v=20261122.1">
+  <link rel="stylesheet" href="/src/v24.css?v=20261102.1">
+  <link rel="stylesheet" href="/src/account-ui.css?v=33">
+  <link rel="stylesheet" href="/src/v29-theme.css?v=29.0.0">
+  <link rel="stylesheet" href="/src/theme-dark.css?v=49.0.0">
+  <link rel="stylesheet" href="/src/refactor-v38.css?v=49.0.0">
+  <link rel="stylesheet" href="/src/v40-audio.css?v=55.0.0">
+  <link rel="stylesheet" href="/src/v50-contrast.css?v=55">
+  <link rel="stylesheet" href="/src/v52-dark-overhaul.css?v=55">
+  <link rel="stylesheet" href="/src/v53-mobile-nav.css?v=55">
+  <link rel="stylesheet" href="/src/v57-learning-path.css?v=58">
+</head>
+<body data-audio-backend="web-speech">
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#home" data-view="home" aria-label="Patente B بالعربي — المنهج الكامل">
+        <span class="brand-name"><span lang="it" dir="ltr">Patente B</span><small lang="ar" dir="rtl">بالعربي</small></span>
+      </a>
+    </header>
+
+    <div class="layout">
+      <aside class="side-nav" aria-label="Navigazione principale · التنقل الرئيسي">
+        <div class="nav-label"><span lang="it">IL TUO PERCORSO</span><small lang="ar">مسارك الدراسي</small></div>
+        <button class="nav-item active" data-view="home"><span class="nav-glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H6.5A2.5 2.5 0 0 0 4 21V5.5Z"/><path d="M4 6h13M8 9h7M8 12h7"/></svg></span><span class="nav-pair"><b lang="it">Corso</b><small lang="ar">المنهج</small></span></button>
+        <button class="nav-item" data-view="review"><span class="nav-glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12a8 8 0 1 0 2.3-5.7L4 8.5"/><path d="M4 4v4.5h4.5M12 7v5l3 2"/></svg></span><span class="nav-pair"><b lang="it">Ripasso</b><small lang="ar">مراجعة</small></span></button>
+        <button class="nav-item" data-view="bank"><span class="nav-glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H6.5A2.5 2.5 0 0 0 4 21V5.5Z"/><path d="M8 8h8M8 11h8M8 14h5"/></svg></span><span class="nav-pair"><b lang="it">Quiz</b><small lang="ar">الأسئلة</small></span><em id="navCount">—</em></button>
+        <button class="nav-item" data-view="simulation"><span class="nav-glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4.5h6v3H9zM8 12h8M8 16h5"/></svg></span><span class="nav-pair"><b lang="it">Simulazione</b><small lang="ar">المحاكاة</small></span></button>
+        <button class="nav-item" data-view="profile"><span class="nav-glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.5"/><path d="M5 21v-1.5a7 7 0 0 1 14 0V21"/></svg></span><span class="nav-pair"><b lang="it">Profilo</b><small lang="ar">الملف الشخصي</small></span></button>
+        <div class="sidebar-note"><span class="route-stamp">B</span><p lang="it" dir="ltr">Prima capisci.<br>Poi guida.</p><small lang="ar" dir="rtl">افهم القاعدة أولًا، ثم قد بأمان.</small></div>
+      </aside>
+
+      <main id="main" tabindex="-1">
+        <div class="loading-state welcome-loading" role="status" aria-live="polite">
+          <span class="sr-only" lang="ar" dir="rtl">جارٍ تحميل محتوى التطبيق</span>
+          <span class="spinner" aria-hidden="true"></span>
+        </div>
+      </main>
+    </div>
+
+    <div id="profileControlStore" hidden>
+      <div class="text-size-control" role="group" aria-label="Dimensione del testo · حجم النص">
+        <button id="smallerText" class="icon-button text-size-button" type="button" aria-label="Riduci testo · تصغير النص" title="Riduci testo · تصغير النص">A−</button>
+        <button id="largerText" class="icon-button text-size-button" type="button" aria-label="Ingrandisci testo · تكبير النص" title="Ingrandisci testo · تكبير النص">A+</button>
+      </div>
+      <button id="themeToggle" class="icon-button theme-toggle" type="button" aria-label="Attiva la modalità scura · تفعيل الوضع الداكن" aria-pressed="false" title="Attiva la modalità scura · تفعيل الوضع الداكن">☾</button>
+      <span class="online-indicator" id="connectivityIndicator"><i></i><span class="connectivity-label"><span id="connectivityStatus" lang="it" dir="ltr">Online</span><small id="connectivityDetail" lang="ar" dir="rtl" aria-live="polite">متصل · دون اتصال: جارٍ التحقق</small></span></span>
+      <button id="progressBackupButton" class="icon-button source-button" type="button" disabled aria-label="Backup progressi · نسخ التقدم"><svg class="toolbar-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 17v3h14v-3"/></svg><span lang="it">Backup</span><small lang="ar">نسخ التقدم</small></button>
+      <button id="openSources" class="icon-button source-button" type="button" aria-label="Fonti ufficiali · المصادر الرسمية"><svg class="toolbar-icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3.5 12h17M12 3c2.2 2.4 3.2 5.4 3.2 9s-1 6.6-3.2 9c-2.2-2.4-3.2-5.4-3.2-9S9.8 5.4 12 3Z"/></svg><span lang="it">Fonti</span><small lang="ar">المصادر</small></button>
+      <button id="privacyOptionsButton" class="icon-button source-button" type="button" aria-label="Privacy options · خيارات الخصوصية" hidden><svg class="toolbar-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3 19 6v5c0 4.5-2.8 7.8-7 10-4.2-2.2-7-5.5-7-10V6l7-3Z"/><path d="m9 12 2 2 4-4"/></svg><span lang="it">Privacy</span><small lang="ar">الخصوصية</small></button>
+    </div>
+    <nav class="mobile-nav" aria-label="Navigazione · التنقل">
+      <button class="active" data-view="home"><span class="nav-glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3.5 5.5C6.4 4.2 9.1 4.3 12 6v14c-2.9-1.7-5.6-1.8-8.5-.5z"/><path d="M20.5 5.5C17.6 4.2 14.9 4.3 12 6v14c2.9-1.7 5.6-1.8 8.5-.5z"/><path d="M12 6v14"/></svg></span><b lang="it">Corso</b><small lang="ar">المنهج</small></button>
+      <button data-view="review"><span class="nav-glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12a8 8 0 1 0 2.3-5.7L4 8.5"/><path d="M4 4v4.5h4.5M12 7v5l3 2"/></svg></span><b lang="it">Ripasso</b><small lang="ar">مراجعة</small></button>
+      <button data-view="bank"><span class="nav-glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 3.5h10l4 4V20H5z"/><path d="M15 3.5v4h4"/><path d="M9 11a3 3 0 0 1 6 0c0 1.8-3 2.1-3 4"/><path d="M12 18h.01"/></svg></span><b lang="it">Quiz</b><small lang="ar">الأسئلة</small></button>
+      <button data-view="simulation"><span class="nav-glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="14" r="7"/><path d="M10 2h4M12 7v7l3 2M17.5 8l1.7-1.7"/></svg></span><b lang="it">Simulazione</b><small lang="ar">المحاكاة</small></button>
+      <button data-view="profile"><span class="nav-glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.5"/><path d="M5 21v-1.5a7 7 0 0 1 14 0V21"/></svg></span><b lang="it">Profilo</b><small lang="ar">الملف الشخصي</small></button>
+    </nav>
+    <button id="backToTop" class="back-to-top" type="button" aria-label="Torna all’inizio · عودة إلى الأعلى" title="Torna all’inizio · عودة إلى الأعلى" hidden><span aria-hidden="true">↑</span><small lang="ar">أعلى</small></button>
+  </div>
+
+  <dialog id="welcomeDialog" class="source-dialog welcome-dialog" aria-labelledby="welcomeDialogTitle">
+    <div class="welcome-dialog-brand"><img src="/app-icon-192.png" width="64" height="64" alt=""><span class="brand-name"><span lang="it" dir="ltr">Patente B</span><small lang="ar" dir="rtl">بالعربي</small></span></div>
+    <h1 id="welcomeDialogTitle"><span lang="it">Impara con il tuo account o come ospite</span><small lang="ar" dir="rtl">ابدأ بحسابك أو كضيف</small></h1>
+    <p><span lang="it">Le lezioni, il glossario e i quiz restano disponibili per lo studio locale.</span><span lang="ar" dir="rtl">تظل الدروس والقاموس والأسئلة متاحة للدراسة محليًا.</span></p>
+    <button id="welcomeGoogle" class="quiet-button welcome-choice" type="button" disabled aria-describedby="welcomeGoogleNote"><span lang="it">Continua con Google</span><small lang="ar">المتابعة باستخدام Google</small></button>
+    <p id="welcomeGoogleNote" class="welcome-google-note"><span lang="it">Non configurato nella build locale di test; nessun accesso Google o sincronizzazione reale è attivo.</span><span lang="ar" dir="rtl">غير مهيّأ في نسخة الاختبار المحلية؛ لا يعمل تسجيل دخول Google أو مزامنة حقيقية.</span></p>
+    <button id="welcomeGuest" class="primary-button welcome-choice" type="button"><span lang="it">Continua come ospite</span><small lang="ar">المتابعة كضيف</small></button>
+  </dialog>
+
+  <dialog id="sourceDialog" class="source-dialog">
+    <form method="dialog"><button class="dialog-close" aria-label="Chiudi · إغلاق">×</button></form>
+    <div class="eyebrow"><span lang="it">FONTI E METODO</span><small lang="ar">المصادر والمنهجية</small></div>
+    <h2><span lang="it">Domande ufficiali; traduzione didattica</span><small lang="ar">أسئلة رسمية؛ والترجمة للتعلّم</small></h2>
+    <p><span lang="it">Il testo italiano e le risposte Vero/Falso provengono dal PDF italiano Patente AB (categorie A e B) pubblicato sul Portale dell'Automobilista. Ogni domanda conserva il proprio codice e la pagina di riferimento.</span><span lang="ar" dir="rtl">نص الأسئلة الإيطالية وإجاباتها مأخوذ من ملف Patente AB المشترك للفئتين A وB على بوابة السائق الإيطالية؛ ويحتفظ كل سؤال بمعرّفه ورقم الصفحة.</span></p>
+    <p><span lang="it">Le spiegazioni e le traduzioni sono materiali didattici non ufficiali e possono richiedere verifica. In caso di dubbio, consulta la fonte italiana vigente e un istruttore qualificato.</span><span lang="ar" dir="rtl">الشروح والترجمات مواد تعليمية غير رسمية وقد تحتاج إلى التحقق. عند الشك، راجع المصدر الإيطالي النافذ ومدربًا مؤهلًا.</span></p>
+    <p class="exam-criteria"><span lang="it">Simulazione: 30 domande · 20 minuti · massimo 3 errori.</span><span lang="ar" dir="rtl">المحاكاة: 30 سؤالًا · 20 دقيقة · 3 أخطاء كحد أقصى.</span></p>
+    <a id="officialSource" class="text-link" href="#" target="_blank" rel="noopener noreferrer"><span lang="it">Apri la banca ufficiale ↗</span><small lang="ar">فتح بنك الأسئلة الرسمي</small></a>
+    <a id="officialPortalPage" class="text-link" href="#" target="_blank" rel="noopener noreferrer"><span lang="it">Pagina ufficiale dei quiz ↗</span><small lang="ar">صفحة بنك الأسئلة الرسمية</small></a>
+    <a class="text-link secondary-link" href="https://www.ilportaledellautomobilista.it/web/portale-automobilista/foglio-rosa-e-prove-new" target="_blank" rel="noopener noreferrer"><span lang="it">Informazioni sull'esame ↗</span><small lang="ar">معلومات الامتحان على البوابة الرسمية</small></a>
+    <p id="sourceVersion" class="source-version"></p>
+    <p id="sourceCheckDates" class="source-version"><span lang="it">Pagine ufficiali dell'esame e dei quiz controllate: 14 novembre 2026. Le 50 sintesi didattiche e le fonti citate sono state aggiornate il 15 novembre 2026; questo non equivale a una verifica completa di ogni norma vigente.</span><span lang="ar" dir="rtl">تم فحص صفحتي الامتحان وبنك الأسئلة الرسميتين في 14 نوفمبر 2026. حُدّثت الملخصات التعليمية الخمسون ومصادرها المذكورة في 15 نوفمبر 2026؛ وهذا لا يعني مراجعة قانونية شاملة لكل القواعد النافذة.</span></p>
+  </dialog>
+
+  <dialog id="progressBackupDialog" class="source-dialog progress-backup-dialog">
+    <form method="dialog"><button class="dialog-close" aria-label="Chiudi · إغلاق">×</button></form>
+    <div class="eyebrow"><span lang="it">I TUOI PROGRESSI</span><small lang="ar">تقدمك الدراسي</small></div>
+    <h2><span lang="it">Backup e ripristino</span><small lang="ar">نسخ التقدم واستعادته</small></h2>
+    <p><span lang="it">Il backup JSON è una copia locale e non viene caricato come file. L’account facoltativo sincronizza separatamente i progressi con Firebase. Se importi un backup in un account connesso, anche quei progressi vengono sincronizzati. Una prova non completata resta su questo dispositivo.</span><span lang="ar" dir="rtl">ملف JSON نسخة محلية ولا يُرفع كملف. الحساب الاختياري يزامن التقدم بصورة منفصلة عبر Firebase. عند استيراد نسخة داخل حساب مسجّل، يُزامَن تقدمها أيضًا. الاختبار غير المكتمل يبقى على هذا الجهاز فقط.</span></p>
+    <div class="progress-backup-actions">
+      <button id="exportProgress" class="primary-button" type="button"><span lang="it">Esporta i progressi</span><small lang="ar">تصدير التقدم</small></button>
+      <button id="importProgress" class="quiet-button" type="button"><span lang="it">Importa un backup</span><small lang="ar">استيراد نسخة احتياطية</small></button>
+    </div>
+    <input id="importProgressInput" type="file" accept="application/json,.json" hidden>
+    <p id="progressBackupStatus" class="progress-backup-status" role="status" aria-live="polite"><span lang="it">I progressi vengono salvati nel browser, se disponibile.</span><span lang="ar" dir="rtl">يُحفظ التقدم في المتصفح عند توفر التخزين.</span></p>
+  </dialog>
+
+  <dialog id="examSetupDialog" class="source-dialog exam-setup-dialog">
+    <form method="dialog"><button class="dialog-close" aria-label="Chiudi · إغلاق">×</button></form>
+    <div class="eyebrow"><span lang="it">SIMULAZIONE ACCESSIBILE</span><small lang="ar">محاكاة مرنة للتدريب</small></div>
+    <h2><span lang="it">Scegli come esercitarti</span><small lang="ar" dir="rtl">اختر طريقة التدريب المناسبة لك</small></h2>
+    <p><span lang="it">La simulazione standard resta 30 domande in 20 minuti. L'esercitazione adattata qui sotto è solo per lo studio e non determina un accomodamento ufficiale.</span><span lang="ar" dir="rtl">تبقى المحاكاة القياسية 30 سؤالًا في 20 دقيقة. الخيارات الإضافية أدناه للتدريب فقط ولا تحدد التسهيلات الرسمية للامتحان.</span></p>
+    <label class="exam-setting-row" for="examTimerMinutes"><span><span lang="it">Tempo per l'esercitazione</span><small lang="ar" dir="rtl">وقت التدريب</small></span><select id="examTimerMinutes"><option value="20">20 min · standard</option><option value="30">30 min · studio</option><option value="40">40 min · studio</option></select></label>
+    <p class="accessibility-source-note"><span lang="it">La pagina ufficiale menziona tempo aggiuntivo e supporto audio per candidati DSA, ma non indica un'unica durata aggiuntiva valida per tutti. Consulta le regole applicabili alla tua situazione.</span><span lang="ar" dir="rtl">تذكر الصفحة الرسمية وقتًا إضافيًا ودعمًا صوتيًا لذوي عسر القراءة، لكنها لا تحدد مدة إضافية واحدة للجميع. راجع القواعد المنطبقة على حالتك.</span></p>
+    <div class="exam-setup-actions"><button id="startStandardExam" class="primary-button" type="button"><span lang="it">Avvia esame standard · 20 min</span><small lang="ar">ابدأ المحاكاة القياسية · 20 دقيقة</small></button><button id="startAdjustedExam" class="quiet-button" type="button"><span lang="it">Avvia esercitazione con queste opzioni</span><small lang="ar">ابدأ التدريب بهذه الخيارات</small></button></div>
+  </dialog>
+
+  <aside id="wordTranslationTooltip" class="word-translation-tooltip" role="dialog" aria-modal="false" aria-labelledby="translationTooltipWord" aria-live="polite" hidden>
+    <button id="translationTooltipClose" class="translation-tooltip-close" type="button" aria-label="Close translation · إغلاق الترجمة">×</button>
+    <div class="translation-tooltip-head"><strong id="translationTooltipWord" lang="it" dir="ltr"></strong><button id="translationTooltipAudio" class="translation-tooltip-audio" type="button" data-tts-locale="it-IT" aria-label="Pronounce the Italian word · نطق الكلمة الإيطالية"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9v6h4l5 4V5L7 9H3Z"/><path d="M16 9a4 4 0 0 1 0 6M18.5 6.5a7.5 7.5 0 0 1 0 11"/></svg></button></div>
+    <p id="translationTooltipArabic" lang="ar" dir="rtl"></p>
+    <small id="translationTooltipNote" lang="ar" dir="rtl"></small>
+  </aside>
+
+  <div id="speechPlaybackBar" class="speech-playback-bar" role="region" aria-label="مشغل الصوت" hidden>
+    <button id="speechToggle" class="speech-control-button" type="button" aria-pressed="false" aria-label="تشغيل الصوت">
+      <svg id="speechIconPlay" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+      <svg id="speechIconPause" viewBox="0 0 24 24" aria-hidden="true" hidden><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+    </button>
+    <progress id="speechProgress" class="speech-progress" max="1" value="0" aria-label="تقدم الصوت"></progress>
+    <button id="speechStop" class="speech-control-button" type="button" aria-label="إيقاف الصوت"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="6" width="12" height="12" rx="1.5"/></svg></button>
+    <span class="speech-rate-control" title="سرعة النطق بالإيطالية"><span class="speech-rate-language" aria-hidden="true">سرعة</span><span class="speech-rate-value" aria-label="سرعة الصوت الإيطالي">0.8×</span></span>
+    <div id="speechPlaybackNotice" class="speech-playback-notice" hidden><span id="speechPlaybackStatus" role="status" aria-live="polite"></span></div>
+  </div>
+
+  <dialog id="lessonUnlockDialog" class="source-dialog lesson-unlock-dialog">
+    <form method="dialog"><button class="dialog-close" aria-label="Chiudi · إغلاق">×</button></form>
+    <div class="eyebrow"><span lang="it">LEZIONE EXTRA · ANNUNCIO DI PROVA</span><small lang="ar">درس إضافي · إعلان اختباري</small></div>
+    <h2><span lang="it">Sblocca questa lezione per la sessione</span><small lang="ar" dir="rtl">افتح هذا الدرس لهذه الجلسة</small></h2>
+    <p id="lessonUnlockLesson" class="lesson-unlock-title" lang="it" dir="ltr"></p>
+    <p id="lessonUnlockLessonArabic" class="lesson-unlock-title" lang="ar" dir="rtl"></p>
+    <p><span lang="it">Le prime cinque lezioni sono sempre gratuite. Un annuncio Google di prova completato può aprire soltanto questa lezione e le sue attività per la sessione corrente; la chiusura dell’app rimuove l’accesso. Se non ricevi la ricompensa, la lezione resta bloccata.</span><span lang="ar" dir="rtl">أول خمسة دروس مجانية دائمًا. إكمال إعلان Google اختباري قد يفتح هذا الدرس وحده وأنشطته خلال الجلسة الحالية؛ إغلاق التطبيق ينهي الوصول. إذا لم تُمنح المكافأة، يبقى الدرس مقفلًا.</span></p>
+    <p id="lessonUnlockStatus" class="lesson-unlock-status" role="status" aria-live="polite"><span lang="it">Gli annunci di prova sono disponibili solo nella build Android di test.</span><span lang="ar" dir="rtl">الإعلانات الاختبارية متاحة فقط في نسخة Android التجريبية.</span></p>
+    <div class="lesson-unlock-actions"><button id="watchRewardedLesson" class="primary-button" type="button" hidden><span lang="it">Guarda l’annuncio di prova</span><small lang="ar">شاهد الإعلان الاختباري</small></button><button class="quiet-button" type="submit"><span lang="it">Non ora</span><small lang="ar">ليس الآن</small></button></div>
+    <p class="lesson-unlock-disclaimer"><span lang="it">Solo unità pubblicitarie di test ufficiali Google: nessun annuncio live o pagamento è configurato. Le scelte sulla privacy sono gestite da Google UMP quando richiesto.</span><span lang="ar" dir="rtl">تُستخدم معرّفات إعلانات Google الاختبارية الرسمية فقط؛ لا توجد إعلانات حية أو مدفوعات مهيأة. يدير Google UMP خيارات الخصوصية عند الحاجة.</span></p>
+  </dialog>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script id="bootGuard"></script>
+<script defer src="/runtime-config.js?v=57"></script>
+<script id="appBundle" defer src="/app.bundle.js?v=57"></script>
+</body>
+</html>

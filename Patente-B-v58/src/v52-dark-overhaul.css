@@ -1,0 +1,324 @@
+/* v52: consistent dark palette across every screen, including OS light mode. */
+:root {
+  color-scheme: dark;
+  --ink: #e2edef;
+  --ink2: #c4d8dc;
+  --deep: #b8e5df;
+  --deep2: #91d7cf;
+  --cream: #0b171d;
+  --paper: #111f26;
+  --white: #16262d;
+  --line: #304851;
+  --muted: #a3b7bc;
+  --gold: #58d5c1;
+  --signal: #58d5c1;
+  --green: #8bd9ac;
+  --red: #ef9b93;
+  --sage: #1b3534;
+  --danger: #402729;
+  --surface: #16262d;
+  --surface-soft: #1b3037;
+  --nav-active: #203a3c;
+  --nav-active-ink: #d9f1ed;
+  --v50-surface: #16262d;
+  --v50-surface-raised: #1b3037;
+  --v50-text: #e2edef;
+  --v50-muted: #a3b7bc;
+  --v50-border: #304851;
+  --v50-accent: #58d5c1;
+  --v50-player-height: 70px;
+  --v50-mobile-nav-clearance: calc(66px + max(7px, env(safe-area-inset-bottom)));
+  background: #0b171d;
+  color: #e2edef;
+}
+
+html,
+body,
+.app-shell,
+.layout,
+main {
+  background-color: #0b171d !important;
+  color: #e2edef;
+}
+
+.topbar,
+.mobile-nav {
+  background: rgba(11, 23, 29, .97) !important;
+  color: #e2edef !important;
+  border-color: #304851 !important;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, .28) !important;
+}
+
+.brand-mark {
+  background: linear-gradient(145deg, #1d353c, #14272e) !important;
+  border-color: #38545c !important;
+}.back-to-top{
+  background: #162a31 !important;
+  color: #e2edef !important;
+  border-color: #304851 !important;
+}
+
+.course-unit-number,
+.quick-study-steps article > strong {
+  background: #20383e !important;
+  color: #d8e8ea !important;
+  border-color: #3a5960 !important;
+}
+
+.brand,
+.brand-name,
+.brand-name b,
+.page-heading h1,
+.section-head h2,
+.lesson-content > h2,
+.lesson-test > h2,
+.lesson-sources > h2,
+.lesson-card-main > strong,
+.lesson-section-heading h2,
+.lesson-test-question legend,
+.result-card h1,
+.stat-number,
+.question-row .q-it,
+.italian-question,
+.quiz-index,
+.exam-clock,
+.course-progress strong,
+.course-progress > b {
+  color: #e2edef !important;
+}
+
+.home-hero,
+.lesson-hero,
+.toast {
+  background: radial-gradient(ellipse at 90% 0%, rgba(56, 147, 143, .22), transparent 36rem), linear-gradient(135deg, #10262e, #14373d 58%, #16433e) !important;
+  color: #e2edef !important;
+  border-color: #35565a !important;
+}
+
+.home-hero :where(h1, p, .hero-kicker, .hero-route small),
+.lesson-hero :where(h1, p, .eyebrow, .lesson-objectives span),
+.toast {
+  color: #e2edef !important;
+}
+
+:root :is(
+  .lesson-image img,
+  .lesson-visual img,
+  .figure-panel img,
+  .lesson-illustration img,
+  .course-unit-number,
+  .lesson-row-mark,
+  .course-unit-heading,
+  .question-id,
+  .progress-track,
+  .mastery-track,
+  .course-track,
+  .speech-progress,
+  .audio-button.speech-paused,
+  .lesson-animation-scene
+) {
+  background-color: #102027 !important;
+}
+
+.source-button,
+.topbar .source-button,
+.icon-button.secondary-button,
+.search-row button,
+.answer-button:hover,
+.exam-clock {
+  background: #20383e !important;
+  color: #e2edef !important;
+  border-color: #3a5960 !important;
+}
+
+.nav-item {
+  color: #bfd0d4 !important;
+}
+.nav-item:hover,
+.nav-item.active {
+  background: #203a3c !important;
+  color: #e2edef !important;
+  border-color: #3a5c5d !important;
+}
+.nav-item.active .nav-glyph,
+.mobile-nav button.active .nav-glyph {
+  background: #58d5c1 !important;
+  color: #0b2528 !important;
+}
+.mobile-nav button {
+  color: #aabfc4 !important;
+}
+.mobile-nav button.active {
+  background: #203a3c !important;
+  color: #e2edef !important;
+}
+
+:root :is(
+  .correct-choice,
+  .answer-button.correct-choice,
+  .lesson-option.option-correct,
+  .feedback.good,
+  .quick-check-feedback.is-correct,
+  .result-seal,
+  .lesson-row-mark.is-done,
+  .is-complete .course-lesson-number
+) {
+  background: #193b31 !important;
+  color: #c8f0d8 !important;
+  border-color: #3a6b56 !important;
+}
+:root :is(
+  .correct-choice,
+  .answer-button.correct-choice,
+  .lesson-option.option-correct,
+  .feedback.good,
+  .quick-check-feedback.is-correct,
+  .result-seal,
+  .lesson-row-mark.is-done,
+  .is-complete .course-lesson-number
+) :where(*) {
+  color: #c8f0d8 !important;
+}
+
+:root :is(
+  .wrong-choice,
+  .answer-button.wrong-choice,
+  .lesson-option.option-wrong,
+  .feedback.bad,
+  .quick-check-feedback:not(.is-correct),
+  .result-seal.fail,
+  .exam-clock.urgent,
+  .lesson-pitfall
+) {
+  background: #392629 !important;
+  color: #f1c2bd !important;
+  border-color: #71464b !important;
+}
+:root :is(
+  .wrong-choice,
+  .answer-button.wrong-choice,
+  .lesson-option.option-wrong,
+  .feedback.bad,
+  .quick-check-feedback:not(.is-correct),
+  .result-seal.fail,
+  .exam-clock.urgent,
+  .lesson-pitfall
+) :where(*) {
+  color: #f1c2bd !important;
+}
+
+.primary-button,
+.icon-button,
+.route-stamp,
+.course-teaser-mark {
+  background: #58d5c1 !important;
+  color: #0b2528 !important;
+  border-color: #58d5c1 !important;
+}
+.primary-button:hover:not(:disabled),
+.icon-button:hover:not(:disabled) {
+  background: #76e2d0 !important;
+  color: #0b2528 !important;
+}
+#speechToggle:hover {
+  background: #76e2d0 !important;
+  color: #0b2528 !important;
+}
+.secondary-button,
+.small-button,
+.audio-button,
+.video-pending-button,
+.answer-button,
+.lesson-option,
+.search-row input,
+.filters select,
+input,
+select,
+textarea {
+  color: #e2edef !important;
+  border-color: #344e57 !important;
+}
+input::placeholder,
+textarea::placeholder {
+  color: #9bb2b8 !important;
+  opacity: 1;
+}
+
+:root :is(.sidebar-note, .source-footnote, .course-teaser, .lesson-card, .lesson-content, .lesson-test, .review-card, .search-result) a,
+.text-link,
+.lesson-sources a,
+.lesson-video-status a {
+  color: #81d9cf !important;
+}
+
+.lesson-section,
+.lesson-sources li,
+.lesson-footer-nav,
+.answer-area,
+.review-item,
+.lesson-test-question {
+  border-color: #304851 !important;
+}
+.lesson-body,
+.lesson-card-intro,
+.lesson-card-meta,
+.lesson-card-topline,
+.lesson-number-list li,
+.lesson-source-note,
+.lesson-visual figcaption p[lang="ar"],
+.lesson-visual figcaption > small,
+.topic-info small,
+.topic-count,
+.stat-label,
+.stat-number small,
+.course-progress span,
+.quiz-mode,
+.quiz-id,
+.answer-instruction,
+.translation-label,
+.translation-note,
+.lesson-video-status p,
+.daily-goal-card p,
+.lesson-number-list li,
+.inline-sentence-translation small {
+  color: #a3b7bc !important;
+}
+
+.lesson-animation-scene {
+  background: radial-gradient(ellipse at top, #1d3b40, #13252c 72%) !important;
+  border-color: #345058 !important;
+}
+.lesson-animation-stage {
+  background: #172e34 !important;
+  color: #e2edef !important;
+  border-color: #38535a !important;
+}
+.lesson-animation-stage :where(strong, p),
+.lesson-animation-note {
+  color: #cfdee1 !important;
+}
+.skeleton {
+  background: linear-gradient(100deg, #1b3037 22%, #273d44 40%, #1b3037 62%) !important;
+}
+.skeleton-card {
+  background: #16262d !important;
+  border-color: #304851 !important;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+summary:focus-visible {
+  outline-color: #74dfcf !important;
+}
+::selection {
+  color: #0b2528;
+  background: #75dfcf;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root[data-theme="system"] {
+    color-scheme: dark;
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "module_id": "exam-supplement-driver",
+  "lessons": [
+    {
+      "lesson_order": 1,
+      "heading_it": "Osservare per tempo e reagire con prudenza",
+      "heading_ar": "راقب بدري واتصرف بحذر",
+      "body_it": "Guidare richiede di osservare continuamente la strada, i segnali e gli altri utenti, così da riconoscere per tempo una situazione che può diventare pericolosa. Il tempo di reazione è l’intervallo tra la percezione del pericolo e l’inizio della risposta del conducente; durante quell’intervallo il veicolo continua a muoversi. Distrazione e stanchezza possono rendere meno efficace l’attenzione: evita quindi di affidarti a una strada che sembra libera e mantieni un margine adeguato. L’articolo 141 richiede di conservare il controllo e di poter arrestare tempestivamente il veicolo entro il campo visibile, davanti agli ostacoli prevedibili.",
+      "body_ar": "القيادة محتاجة تتابع الطريق والعلامات وباقي مستخدمي الطريق باستمرار، عشان تلاحظ بدري موقف ممكن يبقى خطر. زمن الاستجابة هو الفترة بين ما تدرك الخطر وبين ما تبدأ تتصرف؛ وخلالها المركبة بتفضل ماشية. التشتت والتعب ممكن يضعفوا الانتباه، عشان كده ما تعتمدش على إن الطريق باين فاضي، وخلي عندك هامش أمان مناسب. المادة 141 بتطلب من السائق يفضل مسيطر على المركبة ويكون قادر يوقفها في الوقت المناسب جوه مجال رؤيته، وقبل العوائق اللي ممكن توقعها.",
+      "core_it": ["Osserva la strada e anticipa i rischi.", "Mantieni controllo e spazio per fermarti nel visibile."],
+      "core_ar": ["راقب الطريق وتوقّع المخاطر.", "حافظ على السيطرة ومسافة تسمح بالتوقف في الجزء المرئي."],
+      "key_points": [
+        {"title_it":"Osservazione","title_ar":"الملاحظة","it":"Controlla strada, segnali e utenti con continuità.","ar":"تابع الطريق والعلامات ومستخدمي الطريق باستمرار."},
+        {"title_it":"Percezione","title_ar":"إدراك الخطر","it":"Individua presto ciò che può richiedere una manovra.","ar":"لاحظ بدري ما قد يتطلب مناورة."},
+        {"title_it":"Reazione","title_ar":"الاستجابة","it":"Il veicolo percorre spazio anche mentre il conducente reagisce.","ar":"المركبة بتقطع مسافة حتى وإنت بتستجيب."},
+        {"title_it":"Controllo","title_ar":"السيطرة","it":"La velocità deve consentire controllo e arresto tempestivo nel visibile.","ar":"لازم السرعة تسمح بالسيطرة والتوقف في الوقت المناسب ضمن مجال الرؤية."}
+      ],
+      "trap_words": [{"term_it":"campo di visibilità","meaning_ar":"مجال الرؤية","why_it":"Indica lo spazio che il conducente riesce a vedere, non tutta la strada oltre una curva o un ostacolo.","why_ar":"هو الجزء اللي السائق قادر يشوفه، مش الطريق كله ورا ملف أو عائق.","example_it":"In curva, riduci la velocità se non vedi oltre il tratto immediato.","example_ar":"في الملف، هدي لو مش شايف الجزء اللي بعده."}],
+      "numbers": [{"value":"141","context_it":"Articolo del Codice della strada sul controllo e sulla velocità adeguata.","context_ar":"رقم مادة قانون الطرق عن السيطرة والسرعة المناسبة."}],
+      "common_mistakes": [
+        {"mistake_it":"Pensare che una strada apparentemente libera escluda ogni rischio.","mistake_ar":"الاعتقاد إن الطريق اللي باين فاضي مفيهوش خطر.","why_it":"Un pericolo può comparire nel campo visivo mentre il conducente è già in movimento.","why_ar":"ممكن يظهر خطر في مجال الرؤية وإنت ماشي بالفعل."},
+        {"mistake_it":"Confondere percezione e arresto immediato.","mistake_ar":"الخلط بين ملاحظة الخطر والتوقف الفوري.","why_it":"La risposta inizia dopo la percezione e occorre conservare spazio utile.","why_ar":"التصرف بيبدأ بعد إدراك الخطر ولازم تسيب مساحة كافية."}
+      ],
+      "quick_check": [
+        {"statement_it":"Durante il tempo di reazione il veicolo continua a muoversi.","statement_ar":"المركبة بتفضل تتحرك خلال زمن الاستجابة.","answer":"VERO","explanation_it":"La reazione non è istantanea: il veicolo percorre ancora spazio.","explanation_ar":"الاستجابة مش لحظية؛ المركبة بتقطع مسافة كمان."},
+        {"statement_it":"L’articolo 141 consente di ignorare gli ostacoli prevedibili se la strada sembra libera.","statement_ar":"المادة 141 بتسمح بتجاهل العوائق المتوقعة لو الطريق باين فاضي.","answer":"FALSO","explanation_it":"Richiede controllo e capacità di arrestarsi davanti agli ostacoli prevedibili entro il visibile.","explanation_ar":"بتطلب السيطرة والقدرة على التوقف قبل العوائق المتوقعة ضمن مجال الرؤية."},
+        {"statement_it":"La velocità va valutata anche rispetto alla visibilità.","statement_ar":"لازم تتحدد السرعة كمان حسب مدى الرؤية.","answer":"VERO","explanation_it":"L’articolo 141 include visibilità e altre circostanze nella valutazione della velocità.","explanation_ar":"المادة 141 بتدخل الرؤية والظروف التانية في تقدير السرعة."}
+      ],
+      "example_it":"Avvicinandoti a un attraversamento con visuale parzialmente coperta, rallenta in anticipo e osserva con attenzione.",
+      "example_ar":"لما تقرب من ممر مشاة والرؤية محجوبة جزئيًا، هدي بدري وراقب كويس.",
+      "pitfall_it":"Non aspettare di vedere completamente il pericolo prima di adattare la guida.",
+      "pitfall_ar":"ما تستناش لحد ما تشوف الخطر كامل عشان تظبط قيادتك.",
+      "legal_sources":[{"article":"Art. 141","title_it":"Velocità","title_ar":"السرعة","url":"https://aci.gov.it/codice-della-strada/art-141/"}]
+    },
+    {
+      "lesson_order": 2,
+      "heading_it": "Spazio di arresto e aderenza",
+      "heading_ar": "مسافة التوقف والتماسك",
+      "body_it": "Per arrestarsi, il veicolo percorre spazio mentre il conducente reagisce e altro spazio durante la frenata: insieme formano lo spazio di arresto. La distanza di sicurezza dal veicolo che precede deve permettere un arresto tempestivo ed evitare collisioni, ma non corrisponde a un valore universale valido in ogni situazione. Velocità, visibilità, fondo stradale, veicolo e condizioni del traffico incidono sul margine necessario. L’articolo 141 impone di adeguare la velocità alle circostanze; l’articolo 149 disciplina la distanza tra veicoli. Riduci la velocità prima del tratto rischioso ed evita manovre brusche, senza presumere che una formula fissa garantisca sempre sicurezza.",
+      "body_ar": "عشان المركبة تقف، بتقطع مسافة أثناء استجابة السائق، وبعدها مسافة تانية وقت الفرملة؛ والاتنين مع بعض هما مسافة التوقف. مسافة الأمان عن المركبة اللي قدامك لازم تسمح بالتوقف في الوقت المناسب وتمنع التصادم، لكنها مش رقم ثابت ينفع لكل موقف. السرعة والرؤية وسطح الطريق والمركبة وحالة المرور كلها بتأثر على المسافة المطلوبة. المادة 141 بتلزم بملاءمة السرعة للظروف، والمادة 149 بتنظم المسافة بين المركبات. هدي قبل الجزء الخطر وتجنب الحركات المفاجئة، وما تفترضش إن معادلة ثابتة تضمن الأمان دايمًا.",
+      "core_it":["Lo spazio di arresto comprende reazione e frenata.","La distanza di sicurezza varia con le condizioni."],
+      "core_ar":["مسافة التوقف فيها مسافة الاستجابة والفرملة.","مسافة الأمان بتختلف حسب الظروف."],
+      "key_points":[
+        {"title_it":"Reazione","title_ar":"الاستجابة","it":"È lo spazio percorso prima che inizi la frenata.","ar":"هي المسافة المقطوعة قبل بدء الفرملة."},
+        {"title_it":"Frenata","title_ar":"الفرملة","it":"Si aggiunge allo spazio percorso durante la reazione.","ar":"بتضاف للمسافة المقطوعة أثناء الاستجابة."},
+        {"title_it":"Distanza di sicurezza","title_ar":"مسافة الأمان","it":"Deve consentire l’arresto tempestivo ed evitare urti col veicolo che precede.","ar":"لازم تسمح بالتوقف في الوقت المناسب وتجنب الاصطدام بالمركبة الأمامية."},
+        {"title_it":"Aderenza","title_ar":"التماسك","it":"Il fondo e le condizioni incidono sul controllo e sulla guida prudente.","ar":"سطح الطريق وظروفه بيأثروا على السيطرة والقيادة الحذرة."}
+      ],
+      "trap_words":[{"term_it":"spazio di arresto","meaning_ar":"مسافة التوقف","why_it":"Non coincide con la sola distanza di frenata: comprende anche lo spazio della reazione.","why_ar":"مش هي مسافة الفرملة لوحدها؛ بتشمل كمان مسافة الاستجابة.","example_it":"Prima di una curva, considera che la risposta del conducente richiede spazio.","example_ar":"قبل الملف، خليك فاكر إن استجابة السائق بتحتاج مسافة."}],
+      "numbers":[{"value":"141 e 149","context_it":"Articoli consultati per velocità adeguata e distanza di sicurezza.","context_ar":"المادتان المرجعيتان للسرعة المناسبة ومسافة الأمان."}],
+      "common_mistakes":[
+        {"mistake_it":"Usare una distanza mnemonica come garanzia in ogni condizione.","mistake_ar":"اعتبار قاعدة حفظ لمسافة معينة ضمانًا في كل الظروف.","why_it":"La distanza richiesta dipende dalla situazione e deve consentire l’arresto tempestivo.","why_ar":"المسافة المطلوبة بتعتمد على الموقف ولازم تسمح بالتوقف في الوقت المناسب."},
+        {"mistake_it":"Considerare soltanto la frenata e non la reazione.","mistake_ar":"حساب الفرملة بس وتجاهل الاستجابة.","why_it":"Il veicolo continua a percorrere spazio prima dell’inizio della frenata.","why_ar":"المركبة بتكمل مسافة قبل ما الفرملة تبدأ."}
+      ],
+      "quick_check":[
+        {"statement_it":"Lo spazio di arresto comprende lo spazio percorso durante la reazione.","statement_ar":"مسافة التوقف بتشمل المسافة المقطوعة أثناء الاستجابة.","answer":"VERO","explanation_it":"Alla distanza di frenata si aggiunge quella percorsa prima della frenata.","explanation_ar":"مسافة الاستجابة بتتضاف لمسافة الفرملة."},
+        {"statement_it":"La distanza di sicurezza è un valore identico in ogni situazione.","statement_ar":"مسافة الأمان رقم واحد ثابت في كل المواقف.","answer":"FALSO","explanation_it":"Deve essere sufficiente all’arresto tempestivo nelle condizioni concrete.","explanation_ar":"لازم تكون كافية للتوقف في الوقت المناسب حسب الظروف الفعلية."},
+        {"statement_it":"L’articolo 149 collega la distanza di sicurezza alla prevenzione delle collisioni col veicolo che precede.","statement_ar":"المادة 149 بتربط مسافة الأمان بتجنب الاصطدام بالمركبة الأمامية.","answer":"VERO","explanation_it":"Il testo richiede una distanza che garantisca l’arresto tempestivo ed eviti urti.","explanation_ar":"النص بيطلب مسافة تسمح بالتوقف في الوقت المناسب وتجنب التصادم."}
+      ],
+      "example_it":"Su una strada bagnata in discesa, aumenta il margine e affronta la curva dopo aver già ridotto la velocità.",
+      "example_ar":"على طريق مبتل ونازل، زوّد المسافة وادخل المنحنى بعد ما تكون هديت السرعة بالفعل.",
+      "pitfall_it":"Non entrare in curva confidando che una frenata tardiva compensi una velocità non adeguata.",
+      "pitfall_ar":"ما تدخلش الملف معتمدًا إن فرملة متأخرة هتعوض سرعة مش مناسبة.",
+      "legal_sources":[{"article":"Art. 141","title_it":"Velocità","title_ar":"السرعة","url":"https://aci.gov.it/codice-della-strada/art-141/"},{"article":"Art. 149","title_it":"Distanza di sicurezza tra veicoli","title_ar":"مسافة الأمان بين المركبات","url":"https://aci.gov.it/codice-della-strada/art-149/"}]
+    },
+    {
+      "lesson_order": 3,
+      "heading_it":"Strade e gallerie: guida secondo il tratto",
+      "heading_ar":"الطرق والأنفاق: قيادة تناسب الطريق",
+      "body_it":"Le strade urbane, extraurbane e autostrade possono avere accessi, corsie e regole differenti: segui la segnaletica del tratto e adatta la condotta alle condizioni effettive. In galleria mantieni una distanza adeguata, osserva luci, indicazioni e uscite di emergenza, senza improvvisare manovre. Come indicazione prudenziale, evita inversioni o retromarce e non fermarti senza necessità; un’emergenza richiede di seguire le istruzioni e le procedure indicate sul posto. Le specifiche disposizioni degli articoli 175 e 176 riguardano le strade individuate dalla legge: l’articolo 176 disciplina determinate manovre sulle carreggiate, rampe e svincoli. Non estendere automaticamente quei divieti a ogni galleria.",
+      "body_ar":"الطرق داخل المدن وخارجها والطرق السريعة ممكن تختلف في المداخل والحارات والقواعد؛ اتبع العلامات الخاصة بالطريق وظبط تصرفك حسب الظروف الفعلية. جوه النفق حافظ على مسافة مناسبة، وراقب الإضاءة والإرشادات ومخارج الطوارئ، وما ترتجلش مناورات. كإجراء احترازي، تجنب عكس الاتجاه أو الرجوع للخلف وما توقفش من غير ضرورة؛ ولو حصل طارئ، اتبع التعليمات والإجراءات المعروضة في المكان. الأحكام المحددة في المادتين 175 و176 تخص الطرق اللي القانون حددها؛ والمادة 176 بتنظم مناورات معينة على جسم الطريق والمنحدرات ومخارج الطرق. ما تعممش المحظورات دي تلقائيًا على كل نفق.",
+      "core_it":["Segui segnaletica e condizioni del tratto.","I divieti specifici non si estendono automaticamente a ogni galleria."],
+      "core_ar":["اتبع علامات الطريق وظروفه.","المحظورات المحددة ما تنطبقش تلقائيًا على كل نفق."],
+      "key_points":[
+        {"title_it":"Tipi di strada","title_ar":"أنواع الطرق","it":"Accessi e regole possono variare: leggi la segnaletica.","ar":"المداخل والقواعد ممكن تختلف؛ اقرأ العلامات."},
+        {"title_it":"Dentro la galleria","title_ar":"داخل النفق","it":"Mantieni attenzione, distanza e velocità adeguate.","ar":"حافظ على الانتباه والمسافة والسرعة المناسبة."},
+        {"title_it":"Emergenza","title_ar":"الطوارئ","it":"Segui le indicazioni e le procedure presenti sul posto.","ar":"اتبع الإرشادات والإجراءات الموجودة في المكان."},
+        {"title_it":"Ambito legale","title_ar":"نطاق الحكم القانوني","it":"Gli artt. 175–176 riguardano strade individuate; l’art. 176 menziona carreggiate, rampe e svincoli.","ar":"المادتان 175 و176 تخصان طرقًا محددة؛ والمادة 176 بتذكر جسم الطريق والمنحدرات ومخارج الطرق."}
+      ],
+      "trap_words":[{"term_it":"svincoli","meaning_ar":"مخارج واتصالات الطرق","why_it":"È un termine del testo normativo distinto dal riferimento generico a qualsiasi galleria.","why_ar":"مصطلح قانوني محدد، مش إشارة عامة لأي نفق.","example_it":"L’articolo 176 nomina carreggiate, rampe e svincoli nel proprio ambito.","example_ar":"المادة 176 بتذكر جسم الطريق والمنحدرات ومخارج الطرق ضمن نطاقها."}],
+      "numbers":[{"value":"175–176","context_it":"Articoli sulle autostrade e su determinate strade extraurbane.","context_ar":"مادتان عن الطرق السريعة وطرق محددة خارج المدن."}],
+      "common_mistakes":[
+        {"mistake_it":"Dire che ogni divieto dell’articolo 176 vale indistintamente in qualunque galleria.","mistake_ar":"القول إن كل محظورات المادة 176 تنطبق على أي نفق بلا تمييز.","why_it":"La norma definisce uno specifico ambito stradale e specifiche aree di applicazione.","why_ar":"النص بيحدد نطاق طرق ومناطق تطبيق بعينها."},
+        {"mistake_it":"Trattare la galleria come un tratto senza segnaletica o procedure proprie.","mistake_ar":"التعامل مع النفق كأنه جزء طريق بلا علامات أو إجراءات خاصة.","why_it":"Le indicazioni e le condizioni del tratto vanno osservate con attenzione.","why_ar":"لازم تتابع إرشادات وظروف الجزء ده من الطريق."}
+      ],
+      "quick_check":[
+        {"statement_it":"L’articolo 176 menziona carreggiate, rampe e svincoli nel proprio ambito.","statement_ar":"المادة 176 بتذكر جسم الطريق والمنحدرات ومخارج الطرق ضمن نطاقها.","answer":"VERO","explanation_it":"Il comma 1 descrive questi luoghi sulle strade cui rinvia l’articolo.","explanation_ar":"الفقرة الأولى بتذكر الأماكن دي على الطرق اللي المادة بتحيل إليها."},
+        {"statement_it":"Le restrizioni dell’articolo 176 si possono attribuire automaticamente a ogni galleria.","statement_ar":"ينفع ننسب قيود المادة 176 تلقائيًا لكل نفق.","answer":"FALSO","explanation_it":"Il campo normativo è riferito alle strade specificate, non a qualsiasi galleria indistintamente.","explanation_ar":"نطاق النص مرتبط بطرق محددة، مش بكل نفق بلا تمييز."},
+        {"statement_it":"In galleria è prudente seguire la segnaletica e le istruzioni di emergenza presenti.","statement_ar":"من الحذر داخل النفق اتباع العلامات وتعليمات الطوارئ الموجودة.","answer":"VERO","explanation_it":"Sono indicazioni operative del tratto da osservare senza improvvisare manovre.","explanation_ar":"دي إرشادات تشغيلية للطريق لازم تتبعها من غير ارتجال مناورات."}
+      ],
+      "example_it":"Prima di entrare in galleria, leggi i segnali; se il traffico si arresta, mantieni la calma e segui le indicazioni esposte.",
+      "example_ar":"قبل دخول النفق اقرأ العلامات؛ ولو المرور وقف، اهدى واتبع الإرشادات المعروضة.",
+      "pitfall_it":"Non trasformare un consiglio prudenziale in una pretesa regola legale universale.",
+      "pitfall_ar":"ما تحولش نصيحة الحذر لحكم قانوني عام ينطبق في كل الحالات.",
+      "legal_sources":[{"article":"Artt. 175–176","title_it":"Circolazione sulle autostrade e strade extraurbane principali","title_ar":"السير على الطرق السريعة والطرق الرئيسية خارج المدن","url":"https://aci.gov.it/codice-della-strada/art-176/"}]
+    },
+    {
+      "lesson_order":4,
+      "heading_it":"Pedoni, ciclisti e motociclisti: attenzione reciproca",
+      "heading_ar":"المشاة وراكبو الدراجات والموتوسيكلات: انتباه متبادل",
+      "body_it":"Pedoni, ciclisti, persone con mobilità ridotta e motociclisti possono essere meno facili da individuare o più esposti agli effetti di una manovra. Avvicinati con prudenza, osserva attraversamenti e incroci e riduci la velocità quando la situazione lo richiede. L’articolo 191 stabilisce obblighi specifici dei conducenti nei confronti dei pedoni, compresa la precedenza nei casi previsti e la prevenzione di pericoli ragionevolmente prevedibili per bambini o anziani. Prima di svoltare, controlla che nessuno si trovi sulla traiettoria; verifica anche gli specchi e le zone non direttamente visibili. Non presumere che gli altri abbiano visto il veicolo o possano evitarlo.",
+      "body_ar":"المشاة وراكبو الدراجات والأشخاص محدودو الحركة وراكبو الموتوسيكلات ممكن يكونوا أصعب في الملاحظة أو أكثر تعرضًا لنتائج المناورة. قرّب بحذر، وراقب ممرات المشاة والتقاطعات، وخفف السرعة لما الموقف يحتاج. المادة 191 بتحدد واجبات خاصة على السائق تجاه المشاة، منها إعطاؤهم الأولوية في الحالات المذكورة ومنع الأخطار اللي ممكن توقعها بشكل معقول على الأطفال أو كبار السن. قبل ما تلف، اتأكد إن مفيش حد في مسار المركبة؛ وبص كمان في المرايات والمناطق اللي مش باينة مباشرة. ما تفترضش إن الآخرين شافوا المركبة أو يقدروا يتفادوها.",
+      "core_it":["Anticipa la presenza di utenti più esposti.","Controlla attraversamenti, traiettoria e zone non visibili."],
+      "core_ar":["توقع وجود مستخدمين أكثر عرضة للخطر.","افحص ممرات المشاة ومسار المركبة والمناطق المحجوبة."],
+      "key_points":[
+        {"title_it":"Pedoni","title_ar":"المشاة","it":"Rispetta gli obblighi di precedenza previsti e guida con prudenza.","ar":"احترم واجبات الأولوية المقررة وسُق بحذر."},
+        {"title_it":"Bambini e anziani","title_ar":"الأطفال وكبار السن","it":"Previeni pericoli ragionevolmente prevedibili nella situazione concreta.","ar":"امنع الأخطار المتوقعة بشكل معقول في الموقف الفعلي."},
+        {"title_it":"Ciclisti e motociclisti","title_ar":"راكبو الدراجات والموتوسيكلات","it":"Osserva la loro posizione prima di svoltare o cambiare traiettoria.","ar":"لاحظ مكانهم قبل اللف أو تغيير المسار."},
+        {"title_it":"Manovre","title_ar":"المناورات","it":"Controlla specchi e spazi non direttamente visibili.","ar":"افحص المرايات والمساحات اللي مش باينة مباشرة."}
+      ],
+      "trap_words":[{"term_it":"immediate prossimità","meaning_ar":"المناطق القريبة مباشرة","why_it":"L’articolo 191 usa questa espressione nel descrivere alcuni obblighi verso i pedoni presso gli attraversamenti.","why_ar":"المادة 191 بتستخدم التعبير ده لوصف بعض واجبات السائق تجاه المشاة قرب المعابر.","example_it":"Avvicinandoti a un attraversamento, osserva anche chi è nelle immediate vicinanze.","example_ar":"وأنت قرب معبر، راقب كمان اللي موجودين في المنطقة القريبة مباشرة."}],
+      "numbers":[{"value":"191","context_it":"Articolo sui conducenti nei confronti dei pedoni.","context_ar":"رقم المادة الخاصة بسلوك السائقين تجاه المشاة."}],
+      "common_mistakes":[
+        {"mistake_it":"Concentrarsi soltanto sulle auto e non cercare chi attraversa o procede accanto.","mistake_ar":"التركيز على العربيات بس وعدم ملاحظة اللي بيعبر أو ماشي جنب المركبة.","why_it":"Gli utenti vulnerabili possono trovarsi sulla traiettoria o in zone poco evidenti.","why_ar":"مستخدمو الطريق الأكثر عرضة للخطر ممكن يكونوا في مسار المركبة أو مكان صعب ملاحظته."},
+        {"mistake_it":"Presumere che il pedone possa sempre fermarsi o correggere il proprio movimento.","mistake_ar":"افتراض إن المشاة يقدروا دايمًا يقفوا أو يغيروا حركتهم.","why_it":"Il conducente deve rispettare gli obblighi previsti e prevenire i pericoli prevedibili.","why_ar":"السائق لازم يحترم الواجبات المقررة ويمنع الأخطار المتوقعة."}
+      ],
+      "quick_check":[
+        {"statement_it":"L’articolo 191 riguarda il comportamento dei conducenti nei confronti dei pedoni.","statement_ar":"المادة 191 بتتناول سلوك السائقين تجاه المشاة.","answer":"VERO","explanation_it":"È il titolo e l’oggetto della disposizione consultata.","explanation_ar":"ده عنوان وموضوع النص اللي تمت مراجعته."},
+        {"statement_it":"Prima di svoltare basta controllare la sola strada davanti al veicolo.","statement_ar":"قبل اللف يكفي فحص الطريق قدام المركبة بس.","answer":"FALSO","explanation_it":"Occorre osservare anche traiettoria, specchi e zone non direttamente visibili.","explanation_ar":"لازم تراقب كمان مسار المركبة والمرايات والمناطق المحجوبة."},
+        {"statement_it":"La prudenza verso i pedoni comprende la prevenzione di alcuni pericoli prevedibili per bambini e anziani.","statement_ar":"الحذر تجاه المشاة يشمل منع بعض الأخطار المتوقعة على الأطفال وكبار السن.","answer":"VERO","explanation_it":"L’articolo 191 richiama la prevenzione dei pericoli ragionevolmente prevedibili.","explanation_ar":"المادة 191 بتذكر منع الأخطار اللي يمكن توقعها بشكل معقول."}
+      ],
+      "example_it":"Prima di svoltare a destra, controlla attraversamento e lato del veicolo per individuare un ciclista o un pedone.",
+      "example_ar":"قبل ما تلف يمين، افحص المعبر وجانب المركبة عشان تلاحظ أي راكب دراجة أو مشاة.",
+      "pitfall_it":"Non interpretare l’assenza di un pedone visibile davanti come prova che il lato sia libero.",
+      "pitfall_ar":"ما تعتبرش إن عدم ظهور مشاة قدامك دليل إن الجانب فاضي.",
+      "legal_sources":[{"article":"Art. 191","title_it":"Comportamento dei conducenti nei confronti dei pedoni","title_ar":"سلوك السائقين تجاه المشاة","url":"https://aci.gov.it/codice-della-strada/art-191/"},{"article":"Art. 141","title_it":"Velocità","title_ar":"السرعة","url":"https://aci.gov.it/codice-della-strada/art-141/"}]
+    },
+    {
+      "lesson_order":5,
+      "heading_it":"Campo visivo e punti ciechi",
+      "heading_ar":"مجال الرؤية والنقاط العمياء",
+      "body_it":"Il campo visivo del conducente non coincide con ogni spazio attorno al veicolo: montanti, carrozzeria e altri utenti possono nascondere una parte della scena. Gli specchi aiutano, ma non mostrano necessariamente tutte le zone laterali o posteriori. Prima di cambiare corsia o svoltare, controlla gli specchi e verifica con attenzione lo spazio che resta fuori dalla visione diretta, senza distogliere a lungo lo sguardo dalla strada. Considera anche la posizione di motocicli e biciclette, che possono trovarsi accanto al veicolo. Se non hai verificato che la manovra sia sicura, attendi; segnala per tempo l’intenzione e procedi soltanto quando lo spazio è libero.",
+      "body_ar":"مجال رؤية السائق مش بيشمل كل المساحة حوالين المركبة؛ القوائم والهيكل ومستخدمي الطريق التانيين ممكن يحجبوا جزء من المشهد. المرايات بتساعد، لكنها مش بالضرورة بتعرض كل المناطق الجانبية أو الخلفية. قبل تغيير الحارة أو اللف، افحص المرايات واتأكد بحذر من المساحة اللي مش باينة مباشرة، من غير ما تسيب نظرك بعيد عن الطريق فترة طويلة. خد بالك كمان من مكان الموتوسيكلات والدراجات اللي ممكن تكون جنب المركبة. لو ما اتأكدتش إن المناورة آمنة، استنى؛ أعلن نيتك بدري وما تتحركش إلا لما المساحة تبقى خالية.",
+      "core_it":["Gli specchi non eliminano tutti i punti ciechi.","Prima di cambiare corsia o svoltare, controlla lo spazio non visibile."],
+      "core_ar":["المرايات ما بتلغي كل النقاط العمياء.","قبل تغيير الحارة أو اللف، افحص المساحة غير المرئية."],
+      "key_points":[
+        {"title_it":"Campo visivo","title_ar":"مجال الرؤية","it":"Parte della scena può essere nascosta da veicolo o altri utenti.","ar":"جزء من المشهد ممكن يتحجب بسبب المركبة أو مستخدمي الطريق."},
+        {"title_it":"Specchi","title_ar":"المرايات","it":"Sono utili ma non garantiscono la visione completa di ogni lato.","ar":"مفيدة لكنها مش بتضمن رؤية كاملة لكل جانب."},
+        {"title_it":"Controllo","title_ar":"الفحص","it":"Prima della manovra verifica con attenzione le zone non visibili direttamente.","ar":"قبل المناورة افحص بحذر المناطق اللي مش باينة مباشرة."},
+        {"title_it":"Tempo","title_ar":"التوقيت","it":"Segnala per tempo e procedi soltanto quando la manovra è sicura.","ar":"أعلن نيتك بدري وما تتحركش إلا لما المناورة تبقى آمنة."}
+      ],
+      "trap_words":[{"term_it":"punto cieco","meaning_ar":"نقطة عمياء","why_it":"È una zona che può non comparire negli specchi o nella visione diretta.","why_ar":"هي مساحة ممكن ما تظهرش في المرايات أو في الرؤية المباشرة.","example_it":"Un motociclo può trovarsi accanto all’auto senza essere evidente nello specchio.","example_ar":"ممكن موتوسيكل يكون جنب العربية ومش واضح في المراية."}],
+      "numbers":[],
+      "common_mistakes":[
+        {"mistake_it":"Cambiare corsia affidandosi solo agli specchi.","mistake_ar":"تغيير الحارة بالاعتماد على المرايات بس.","why_it":"Gli specchi possono lasciare zone laterali o posteriori non visibili.","why_ar":"المرايات ممكن تسيب مناطق جانبية أو خلفية مش ظاهرة."},
+        {"mistake_it":"Controllare la zona cieca così a lungo da perdere l’attenzione sulla strada.","mistake_ar":"فحص النقطة العمياء مدة طويلة لدرجة فقدان الانتباه للطريق.","why_it":"Il controllo va fatto con attenzione senza distogliere a lungo lo sguardo dalla scena di marcia.","why_ar":"لازم تفحص بحذر من غير ما تبعد نظرك عن الطريق فترة طويلة."}
+      ],
+      "quick_check":[
+        {"statement_it":"Gli specchi mostrano necessariamente ogni zona attorno al veicolo.","statement_ar":"المرايات بتعرض بالضرورة كل المناطق حوالين المركبة.","answer":"FALSO","explanation_it":"Possono restare aree non visibili direttamente o negli specchi.","explanation_ar":"ممكن تفضل مناطق مش باينة مباشرة أو في المرايات."},
+        {"statement_it":"Prima di cambiare corsia è opportuno verificare le zone non visibili direttamente.","statement_ar":"من المناسب فحص المناطق غير المرئية مباشرة قبل تغيير الحارة.","answer":"VERO","explanation_it":"La verifica riduce il rischio di non individuare chi è accanto al veicolo.","explanation_ar":"الفحص بيقلل احتمال عدم ملاحظة اللي جنب المركبة."},
+        {"statement_it":"La lezione consiglia di mantenere a lungo lo sguardo lontano dalla strada.","statement_ar":"الدرس بينصح بإبعاد النظر عن الطريق فترة طويلة.","answer":"FALSO","explanation_it":"Il controllo va eseguito senza distogliere a lungo lo sguardo dalla strada.","explanation_ar":"الفحص يتعمل من غير إبعاد النظر عن الطريق فترة طويلة."}
+      ],
+      "example_it":"Prima di svoltare, controlla specchi e spazio laterale; se non puoi verificare che sia libero, aspetta.",
+      "example_ar":"قبل اللف افحص المرايات والمساحة الجانبية؛ لو مش قادر تتأكد إنها فاضية، استنى.",
+      "pitfall_it":"Non passare direttamente dal controllo dello specchio alla manovra senza valutare la zona non visibile.",
+      "pitfall_ar":"ما تنتقلش من فحص المراية للمناورة فورًا من غير ما تراجع المنطقة المحجوبة.",
+      "legal_sources":[{"article":"Art. 141","title_it":"Velocità","title_ar":"السرعة","url":"https://aci.gov.it/codice-della-strada/art-141/"}]
+    },
+    {
+      "lesson_order":6,
+      "heading_it":"Superfici scivolose e traiettoria regolare",
+      "heading_ar":"الأسطح الزلقة وخط السير الثابت",
+      "body_it":"Tombini metallici, segnaletica dipinta, binari, ghiaia, foglie o residui sulla carreggiata possono rendere meno sicuro il passaggio, soprattutto se il fondo è bagnato. Osserva la strada in anticipo e adatta la velocità prima di raggiungere il tratto; attraversalo con una traiettoria regolare, evitando accelerazioni, frenate o sterzate improvvise. La prudenza è particolarmente importante in curva e quando il veicolo è inclinato, come può accadere ai motocicli. Non esiste in questa spiegazione una velocità numerica valida per ogni superficie: le condizioni concrete e la visibilità richiedono valutazione. Mantieni il controllo e non fare movimenti bruschi sopra una zona potenzialmente scivolosa.",
+      "body_ar":"أغطية الصرف المعدنية وعلامات الدهان والسكك والحصى والورق أو بقايا الطريق ممكن تخلي المرور أقل أمانًا، خصوصًا لو السطح مبلول. راقب الطريق بدري وظبط السرعة قبل ما توصل للجزء ده؛ وعدّي بخط سير ثابت، وتجنب التسارع أو الفرملة أو اللف المفاجئ. الحذر مهم أكتر في الملفات ولما المركبة تكون مائلة، زي ما ممكن يحصل مع الموتوسيكلات. الشرح ده ما بيحددش سرعة رقمية مناسبة لكل سطح؛ لازم تقيّم الظروف الفعلية والرؤية. حافظ على السيطرة وما تعملش حركة مفاجئة فوق جزء ممكن يكون زلق.",
+      "core_it":["Individua per tempo i tratti potenzialmente scivolosi.","Adatta la velocità prima e attraversa senza movimenti bruschi."],
+      "core_ar":["لاحظ بدري الأجزاء المحتمل تكون زلقة.","ظبط السرعة قبلها وعدّي من غير حركات مفاجئة."],
+      "key_points":[
+        {"title_it":"Superficie","title_ar":"سطح الطريق","it":"Metallo, segnaletica, binari e residui meritano attenzione.","ar":"المعدن والعلامات والسكك والبقايا محتاجين انتباه."},
+        {"title_it":"Pioggia","title_ar":"المطر","it":"Un fondo bagnato richiede una valutazione prudente della guida.","ar":"السطح المبلول محتاج تقدير حذر للقيادة."},
+        {"title_it":"Preparazione","title_ar":"الاستعداد","it":"Adatta la velocità prima di raggiungere la zona.","ar":"ظبط السرعة قبل الوصول للمنطقة."},
+        {"title_it":"Traiettoria","title_ar":"خط السير","it":"Evita comandi bruschi mentre attraversi il tratto.","ar":"تجنب الأوامر المفاجئة أثناء عبور الجزء."}
+      ],
+      "trap_words":[{"term_it":"aderenza","meaning_ar":"تماسك الإطارات بالطريق","why_it":"Descrive la presa sul fondo e non una garanzia che la ruota non scivoli.","why_ar":"بتوصف تماسك الإطار بسطح الطريق، مش ضمان إن العجلة مش هتزحلق.","example_it":"Una superficie bagnata può richiedere una guida più prudente.","example_ar":"السطح المبلول ممكن يحتاج قيادة أكثر حذرًا."}],
+      "numbers":[],
+      "common_mistakes":[
+        {"mistake_it":"Frenare o sterzare bruscamente proprio sopra una superficie potenzialmente scivolosa.","mistake_ar":"الفرملة أو اللف المفاجئ فوق سطح ممكن يكون زلق.","why_it":"La lezione raccomanda di anticipare l’adattamento e mantenere una traiettoria regolare.","why_ar":"الدرس بينصح بضبط القيادة مسبقًا والحفاظ على خط سير ثابت."},
+        {"mistake_it":"Attribuire a ogni tipo di superficie una velocità numerica universale.","mistake_ar":"تحديد سرعة رقمية واحدة لكل أنواع الأسطح.","why_it":"Il giudizio dipende dalle condizioni concrete e dalla visibilità.","why_ar":"التقدير بيعتمد على الظروف الفعلية ومدى الرؤية."}
+      ],
+      "quick_check":[
+        {"statement_it":"È prudente osservare il tratto e adattare la velocità prima di raggiungerlo.","statement_ar":"من الحذر مراقبة الجزء وضبط السرعة قبل الوصول إليه.","answer":"VERO","explanation_it":"Prepararsi prima evita di dover reagire bruscamente sopra la superficie.","explanation_ar":"الاستعداد بدري بيجنبك رد فعل مفاجئ فوق السطح."},
+        {"statement_it":"La spiegazione stabilisce una velocità numerica uguale per ogni superficie scivolosa.","statement_ar":"الشرح بيحدد سرعة رقمية واحدة لكل سطح زلق.","answer":"FALSO","explanation_it":"La velocità va valutata secondo condizioni e visibilità concrete.","explanation_ar":"لازم تقدّر السرعة حسب الظروف الفعلية والرؤية."},
+        {"statement_it":"Sopra un tratto potenzialmente scivoloso è consigliabile evitare manovre brusche.","statement_ar":"من الأفضل تجنب المناورات المفاجئة فوق جزء يحتمل يكون زلق.","answer":"VERO","explanation_it":"La traiettoria regolare e i comandi graduali sono il consiglio didattico del testo.","explanation_ar":"خط السير الثابت والأوامر الهادية هي النصيحة التعليمية في الشرح."}
+      ],
+      "example_it":"Avvicinandoti a binari bagnati in curva, riduci prima la velocità e attraversali con traiettoria regolare.",
+      "example_ar":"لما تقرب من قضبان مبلولة في ملف، هدي السرعة قبلها وعدّي بخط سير ثابت.",
+      "pitfall_it":"Non correggere bruscamente la traiettoria proprio sopra un tombino o una striscia bagnata.",
+      "pitfall_ar":"ما تغيرش خط سيرك فجأة فوق غطاء صرف أو خط مبلول.",
+      "legal_sources":[{"article":"Art. 141","title_it":"Velocità","title_ar":"السرعة","url":"https://aci.gov.it/codice-della-strada/art-141/"}]
+    }
+  ]
+}

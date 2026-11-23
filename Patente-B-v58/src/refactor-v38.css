@@ -1,0 +1,256 @@
+/* v38: high-contrast, system-font bilingual UI without external assets. */
+:root {
+  color-scheme: light;
+  --ink: #111827;
+  --ink2: #1f2937;
+  --paper: #142733;
+  --white: #142733;
+  --muted: #475569;
+  --line: #cbd5e1;
+  --deep: #142733;
+  --deep2: #142733;
+  --green: #142733;
+  --red: #b91c1c;
+  --signal: #2edbc0;
+  --surface: #142733;
+  --surface-soft: #142733;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #142733;
+  color: #111827;
+}
+html, body { background: #142733; color: #111827; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+[lang="it"] { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+[lang="ar"], [dir="rtl"] { direction: rtl; text-align: right; line-height: 1.5; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+:root:not([data-theme="dark"]) [lang="ar"], :root:not([data-theme="dark"]) [dir="rtl"] { color: #475569 !important; }
+
+.primary-button, .secondary-button, .quiet-button, .small-button, .audio-button,
+.icon-button, .speech-control-button, .lesson-animation-step, .mobile-nav button,
+.nav-item, .translation-tooltip-audio, .translation-tooltip-close {
+  box-shadow: 0 3px 0 rgba(15, 23, 42, .20), 0 5px 12px rgba(15, 23, 42, .10);
+  font-weight: 750;
+}
+.primary-button { background: #142733; color: #c8e5ea; border: 1px solid #2e5c6b; }
+.primary-button [lang="ar"], .primary-button [dir="rtl"] { color: inherit !important; }
+.quiet-button, .small-button { color: #111827; background: #142733; border: 1px solid #94a3b8; }
+.quiet-button [lang="ar"], .small-button [lang="ar"] { color: inherit !important; }
+.audio-button { color: #c8e5ea; background: #ecfdf5; border-color: #6b9b88; }
+button:disabled { box-shadow: none; opacity: .72; }
+
+.word-translation-tooltip[hidden] { display: none !important; }
+.word-translation-tooltip {
+  position: fixed; z-index: 45; width: min(360px, calc(100vw - 20px)); max-height: min(55vh, 360px);
+  overflow: auto; padding: 15px 17px 14px; border: 2px solid #2e5c6b; border-radius: 14px;
+  background: #142733; color: #111827; box-shadow: 0 12px 35px rgba(15, 23, 42, .28);
+}
+.translation-tooltip-close { position: absolute; top: 7px; left: 8px; min-width: 32px; min-height: 32px; border: 1px solid #94a3b8; border-radius: 50%; background: #142733; color: #111827; font-size: 20px; line-height: 1; }
+.translation-tooltip-head { display: flex; align-items: center; gap: 8px; padding-left: 34px; }
+.translation-tooltip-head strong { font-size: 1rem; color: #111827; overflow-wrap: anywhere; }
+.translation-tooltip-audio { display: grid; place-items: center; width: 38px; height: 38px; flex: 0 0 38px; border: 1px solid #2e5c6b; border-radius: 11px; background: #142733; color: #c8e5ea; }
+.translation-tooltip-audio svg { width: 22px; height: 22px; fill: currentColor; stroke: currentColor; }
+#translationTooltipArabic { margin: 9px 0 5px; font-size: 1rem; font-weight: 750; line-height: 1.5; color: #1f2937; overflow-wrap: anywhere; }
+#translationTooltipNote { display: block; color: #475569; font-size: .78rem; line-height: 1.5; }
+.inline-sentence-translation { border: 1px solid #2e5c6b; border-inline-start: 4px solid #2e5c6b; border-radius: 10px; background: #142733; color: #111827; padding: 10px 12px; margin: 8px 0; box-shadow: 0 3px 8px rgba(15, 23, 42, .08); }
+.inline-sentence-translation span { display: block; line-height: 1.5; }
+.inline-sentence-translation small { display: block; margin-top: 5px; color: #475569; line-height: 1.5; }
+.wt-word { cursor: pointer; touch-action: pan-y; text-decoration: underline dotted #c8e5ea; text-underline-offset: 3px; }
+.wt-word:focus-visible { outline: 3px solid #338091; outline-offset: 2px; border-radius: 3px; }
+
+.similar-groups-list { display: grid; gap: 14px; }
+.similar-group-card { min-width: 0; padding: 16px; border: 1px solid #94a3b8; border-radius: 15px; background: #142733; box-shadow: 0 5px 14px rgba(15, 23, 42, .09); }
+.similar-group-card > header { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 8px; color: #111827; font-weight: 800; }
+.similar-group-intro { margin: 0 0 12px; color: #334155; line-height: 1.5; }
+.similar-variant-picker { display: grid; gap: 5px; margin: 10px 0 14px; color: #111827; font-weight: 750; }
+.similar-variant-picker small { color: #475569; }
+.similar-variant-picker select { width: 100%; min-width: 0; padding: 10px; border: 1px solid #64748b; border-radius: 9px; background: #142733; color: #111827; }
+.similar-comparison-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 12px; }
+.similar-comparison-statement { min-width: 0; padding: 12px; border: 1px solid #94a3b8; border-radius: 12px; background: #142733; }
+.similar-comparison-statement > header { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
+.similar-comparison-statement > header strong { min-width: 0; color: #111827; font-size: .9rem; line-height: 1.5; }
+.similar-answer-pill { display: inline-flex; flex: 0 0 auto; flex-direction: column; gap: 2px; padding: 5px 8px; border: 1px solid currentColor; border-radius: 9px; font-weight: 800; }
+.similar-answer-pill small { font-size: .68rem; line-height: 1.5; }
+.similar-answer-pill.is-true { color: #c8e5ea; background: #142733; }
+.similar-answer-pill.is-false { color: #991b1b; background: #142733; }
+.similar-diff-text { margin: 11px 0 7px; color: #111827; font-size: 1rem; font-weight: 650; line-height: 1.7; overflow-wrap: anywhere; }
+.diff-token { display: inline; border-radius: 3px; padding: 0 1px; font-weight: 800; }
+.diff-removed { color: #991b1b; background: #142733; text-decoration: line-through; text-decoration-thickness: 1px; }
+.diff-added { color: #c8e5ea; background: #142733; text-decoration: underline; text-decoration-thickness: 2px; }
+.diff-no-change small { display: block; margin-top: 6px; color: #475569; font-size: .75rem; font-weight: 500; }
+.similar-translation { margin: 6px 0 9px; color: #334155; font-size: .9rem; line-height: 1.5; }
+.similar-comparison-statement .question-figure { margin: 9px 0; }
+.similar-comparison-statement .question-figure-img { width: min(100%, 240px); height: auto; max-height: 180px; object-fit: contain; }
+.similar-comparison-statement > .text-link { display: inline-block; margin: 2px 0; }
+.similar-diff-legend { display: flex; flex-wrap: wrap; gap: 9px 16px; margin: 11px 0; color: #334155; font-size: .78rem; }
+.similar-diff-legend > span { display: inline-flex; align-items: center; gap: 5px; }
+.similar-explanation { margin-top: 10px; padding: 11px 13px; border: 1px solid #2e5c6b; border-inline-start: 4px solid #2e5c6b; border-radius: 10px; background: #193543; color: #422006; }
+.similar-explanation strong { display: block; color: #422006; line-height: 1.5; }
+.similar-explanation p { margin: 5px 0 0; color: #422006; font-size: .83rem; line-height: 1.6; }
+.similar-group-meta { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; color: #334155; font-size: .78rem; }
+
+.speech-rate-control { display: grid; gap: 2px; justify-items: center; min-width: 72px; color: #111827; font-size: .72rem; font-weight: 800; }
+.speech-rate-control small { color: #475569; }
+.speech-rate-control select { max-width: 78px; padding: 5px 7px; border: 1px solid #64748b; border-radius: 8px; background: #142733; color: #111827; }
+.speech-rate-note { flex-basis: 100%; color: #475569; font-size: .7rem; line-height: 1.5; }
+
+/* Stage emphasis follows the three system-voice narration segments. These remain 2D SVG illustrations. */
+.lesson-animation-svg .focus-concept, .lesson-animation-svg .focus-example, .lesson-animation-svg .focus-warning { opacity: .43; scale: 1; transform-box: fill-box; transform-origin: center; transition: opacity .35s ease, scale .35s ease, filter .35s ease; }
+.lesson-animation[data-step="0"] .lesson-animation-svg .focus-concept,
+.lesson-animation[data-step="1"] .lesson-animation-svg .focus-example,
+.lesson-animation[data-step="2"] .lesson-animation-svg .focus-warning { opacity: 1; scale: 1.07; filter: drop-shadow(0 0 5px rgba(22, 179, 185, 72)); }
+.lesson-animation:not(.is-motion-playing) .lesson-animation-svg .focus-concept,
+.lesson-animation:not(.is-motion-playing) .lesson-animation-svg .focus-example,
+.lesson-animation:not(.is-motion-playing) .lesson-animation-svg .focus-warning { transition: none; }
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --ink: #c8e5ea; --ink2: #e5e7eb; --paper: #05070a; --white: #11151b;
+  --muted: #d1d5db; --line: #4b5563; --deep: #34d399; --deep2: #6ee7b7;
+  --green: #34d399; --red: #142733; --signal: #2edbc0; --surface: #11151b; --surface-soft: #1f2937;
+}
+:root[data-theme="dark"], :root[data-theme="dark"] body { background: #05070a !important; color: #c8e5ea; }
+:root[data-theme="dark"] [lang="ar"], :root[data-theme="dark"] [dir="rtl"] { color: #d1d5db !important; }
+:root[data-theme="dark"] .word-translation-tooltip,
+:root[data-theme="dark"] .similar-group-card { background: #11151b; color: #c8e5ea; border-color: #6b7280; }
+:root[data-theme="dark"] .word-translation-tooltip strong,
+:root[data-theme="dark"] #translationTooltipArabic,
+:root[data-theme="dark"] .similar-comparison-statement > header strong,
+:root[data-theme="dark"] .similar-diff-text { color: #c8e5ea; }
+:root[data-theme="dark"] #translationTooltipNote,
+:root[data-theme="dark"] .similar-group-intro,
+:root[data-theme="dark"] .similar-translation,
+:root[data-theme="dark"] .similar-diff-legend,
+:root[data-theme="dark"] .speech-rate-note { color: #d1d5db; }
+:root[data-theme="dark"] .similar-comparison-statement { background: #1f2937; border-color: #6b7280; }
+:root[data-theme="dark"] .similar-variant-picker select,
+:root[data-theme="dark"] .speech-rate-control select { background: #11151b; color: #c8e5ea; border-color: #9ca3af; }
+:root[data-theme="dark"] .primary-button { background: #142733; color: #c8e5ea; border-color: #34d399; }
+:root[data-theme="dark"] .quiet-button, :root[data-theme="dark"] .small-button { background: #1f2937; color: #c8e5ea; border-color: #6b7280; }
+:root[data-theme="dark"] .audio-button { background: #12362d; color: #d1fae5; border-color: #34d399; }
+:root[data-theme="dark"] .primary-button [lang="ar"], :root[data-theme="dark"] .quiet-button [lang="ar"], :root[data-theme="dark"] .small-button [lang="ar"] { color: inherit !important; }
+:root[data-theme="dark"] .inline-sentence-translation { background: #12362d; color: #c8e5ea; border-color: #34d399; }
+:root[data-theme="dark"] .inline-sentence-translation small { color: #d1d5db; }
+:root[data-theme="dark"] .similar-explanation { background: #422006; border-color: #338091; }
+:root[data-theme="dark"] .similar-explanation strong, :root[data-theme="dark"] .similar-explanation p { color: #2edbc0; }
+
+@media (prefers-color-scheme: dark) {
+  :root[data-theme="system"] {
+    color-scheme: dark;
+    --ink: #c8e5ea; --ink2: #e5e7eb; --paper: #05070a; --white: #11151b;
+    --muted: #d1d5db; --line: #4b5563; --deep: #34d399; --deep2: #6ee7b7;
+    --green: #34d399; --red: #142733; --signal: #2edbc0; --surface: #11151b; --surface-soft: #1f2937;
+  }
+  :root[data-theme="system"], :root[data-theme="system"] body { background: #05070a !important; color: #c8e5ea; }
+  :root[data-theme="system"] [lang="ar"], :root[data-theme="system"] [dir="rtl"] { color: #d1d5db !important; }
+  :root[data-theme="system"] .word-translation-tooltip, :root[data-theme="system"] .similar-group-card { background: #11151b; color: #c8e5ea; border-color: #6b7280; }
+  :root[data-theme="system"] .word-translation-tooltip strong, :root[data-theme="system"] #translationTooltipArabic, :root[data-theme="system"] .similar-comparison-statement > header strong, :root[data-theme="system"] .similar-diff-text { color: #c8e5ea; }
+  :root[data-theme="system"] #translationTooltipNote, :root[data-theme="system"] .similar-group-intro, :root[data-theme="system"] .similar-translation, :root[data-theme="system"] .similar-diff-legend, :root[data-theme="system"] .speech-rate-note { color: #d1d5db; }
+  :root[data-theme="system"] .similar-comparison-statement { background: #1f2937; border-color: #6b7280; }
+  :root[data-theme="system"] .similar-variant-picker select, :root[data-theme="system"] .speech-rate-control select { background: #11151b; color: #c8e5ea; border-color: #9ca3af; }
+  :root[data-theme="system"] .primary-button { background: #142733; color: #c8e5ea; border-color: #34d399; }
+  :root[data-theme="system"] .quiet-button, :root[data-theme="system"] .small-button { background: #1f2937; color: #c8e5ea; border-color: #6b7280; }
+  :root[data-theme="system"] .audio-button { background: #12362d; color: #d1fae5; border-color: #34d399; }
+  :root[data-theme="system"] .primary-button [lang="ar"], :root[data-theme="system"] .quiet-button [lang="ar"], :root[data-theme="system"] .small-button [lang="ar"] { color: inherit !important; }
+  :root[data-theme="system"] .inline-sentence-translation { background: #12362d; color: #c8e5ea; border-color: #34d399; }
+  :root[data-theme="system"] .inline-sentence-translation small { color: #d1d5db; }
+  :root[data-theme="system"] .similar-explanation { background: #422006; border-color: #338091; }
+  :root[data-theme="system"] .similar-explanation strong, :root[data-theme="system"] .similar-explanation p { color: #2edbc0; }
+}
+@media (max-width: 680px) {
+  .similar-comparison-grid { grid-template-columns: minmax(0, 1fr); }
+  .similar-group-card { padding: 12px; }
+  .similar-comparison-statement { padding: 10px; }
+  .speech-rate-control { min-width: 56px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .lesson-animation-svg .focus-concept, .lesson-animation-svg .focus-example, .lesson-animation-svg .focus-warning { transition: none !important; scale: 1 !important; }
+}
+
+/* Keep incomplete media features unavailable rather than misrepresenting them. */
+.lesson-animation-unavailable { display:grid; place-items:center; gap:8px; min-height:130px; padding:16px; border:2px dashed #64748b; border-radius:14px; background:#142733; color:#1f2937; text-align:center; }
+.lesson-animation-unavailable strong { font-size:.95rem; line-height:1.5; }
+.lesson-animation-unavailable span { line-height:1.5; }
+.lesson-animation-audio-unavailable { margin:8px 0 0; color:#475569; font-size:.82rem; line-height:1.5; }
+:root[data-theme="dark"] .lesson-animation-unavailable { background:#11151b; color:#c8e5ea; border-color:#9ca3af; }
+:root[data-theme="dark"] .lesson-animation-audio-unavailable { color:#d1d5db; }
+@media(prefers-color-scheme:dark){:root[data-theme="system"] .lesson-animation-unavailable{background:#11151b;color:#c8e5ea;border-color:#9ca3af}:root[data-theme="system"] .lesson-animation-audio-unavailable{color:#d1d5db}}
+
+.audio-button:disabled, #translationTooltipAudio:disabled { opacity:.5; filter:grayscale(.7); cursor:not-allowed; box-shadow:none; }
+
+/* Alpha typography and lesson video CTA: local system fonts only, no remote font fetch. */
+body { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+.pair-ar, [lang="ar"] { font-family: system-ui, "Noto Sans Arabic", "Noto Naskh Arabic", sans-serif; direction: rtl; text-align: right; line-height: 1.5; }
+.lesson-video-cta { display:grid; gap:12px; margin:20px 0; padding:18px; border:1px solid #94a3b8; border-radius:18px; background:#142733; color:#111827; box-shadow:0 5px 14px rgba(15,23,42,.12); }
+.lesson-video-cta .eyebrow { color:#334155; }
+.lesson-video-cta-link { display:inline-flex; align-items:center; justify-content:center; min-height:52px; padding:12px 18px; border:2px solid #2e5c6b; border-radius:14px; background:#142733; color:#c8e5ea; font-weight:800; text-decoration:none; text-align:center; box-shadow:0 4px 0 #338091; }
+.lesson-video-cta-link:focus-visible { outline:3px solid #338091; outline-offset:3px; }
+.lesson-video-cta-link:disabled { background:#64748b; border-color:#475569; color:#c8e5ea; box-shadow:none; opacity:.72; cursor:not-allowed; }
+:root[data-theme="dark"] .lesson-video-cta { background:#0b0f14; color:#c8e5ea; border-color:#94a3b8; }
+:root[data-theme="dark"] .lesson-video-cta .eyebrow { color:#e2e8f0; }
+@media(prefers-color-scheme:dark){:root[data-theme="system"] .lesson-video-cta{background:#0b0f14;color:#c8e5ea;border-color:#94a3b8}:root[data-theme="system"] .lesson-video-cta .eyebrow{color:#e2e8f0}}
+
+@font-face{font-family:"Cairo";src:url("/fonts/Cairo-Variable.ttf") format("truetype");font-weight:200 900;font-style:normal;font-display:swap}
+body{font-family:"Cairo",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.pair-ar,[lang="ar"]{font-family:"Cairo",system-ui,"Noto Sans Arabic",sans-serif;direction:rtl;text-align:right;line-height:1.55}
+/* High-contrast, tactile controls. */
+.primary-button,.small-button,.quiet-button,.audio-button,.icon-button{min-height:44px;border:2px solid #475569;border-radius:12px;font-weight:800;transition:transform .08s ease,box-shadow .08s ease}
+.primary-button{background:#142733!important;color:#c8e5ea!important;border-color:#2e5c6b!important;box-shadow:0 4px 0 #338091,0 6px 10px rgba(15,23,42,.18)!important}
+.small-button,.quiet-button,.audio-button{background:#e2e8f0!important;color:#111827!important;border-color:#475569!important;box-shadow:0 4px 0 #64748b,0 6px 10px rgba(15,23,42,.12)!important}
+.icon-button{box-shadow:0 4px 0 #338091,0 6px 10px rgba(15,23,42,.16)}
+button:not(:disabled):active,.lesson-video-cta-link:not(:disabled):active{transform:translateY(3px);box-shadow:0 1px 0 currentColor!important}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #338091;outline-offset:3px}
+:root[data-theme="dark"] .small-button,:root[data-theme="dark"] .quiet-button,:root[data-theme="dark"] .audio-button{background:#1f2937!important;color:#c8e5ea!important;border-color:#94a3b8!important;box-shadow:0 4px 0 #0b0f14,0 6px 10px rgba(0,0,0,.3)!important}
+:root[data-theme="dark"] .primary-button{background:#142733!important;color:#c8e5ea!important}
+
+
+/* v39: active local-device speech, readable yellow cards, and obvious published-video links. */
+.audio-button:not(:disabled) { background:#142733 !important; color:#c8e5ea !important; border:2px solid #2e5c6b !important; box-shadow:0 4px 0 #338091,0 6px 10px rgba(15,23,42,.18) !important; }
+.audio-button:not(:disabled) [lang], .audio-button:not(:disabled) small { color:inherit !important; }
+.audio-button:not(:disabled):hover { background:#142733 !important; }
+.audio-button.speaking { background:#d1fae5 !important; color:#c8e5ea !important; border-color:#2e5c6b !important; }
+.translation-tooltip-audio:not(:disabled) { background:#142733 !important; color:#c8e5ea !important; border:2px solid #2e5c6b !important; }
+.speech-playback-bar[hidden] { display:none !important; }
+.speech-playback-bar { position:fixed; z-index:45; inset-inline-end:12px; bottom:12px; display:flex; flex-wrap:wrap; align-items:center; gap:8px; width:min(520px,calc(100vw - 24px)); padding:12px; border:2px solid #2e5c6b; border-radius:16px; background:#142733; color:#111827; box-shadow:0 12px 35px rgba(15,23,42,.24); }
+.speech-playback-label { flex:1 1 100%; color:#111827; font-weight:800; }
+.speech-control-button { display:inline-flex; align-items:center; justify-content:center; min-width:74px; min-height:44px; padding:8px 12px; border:2px solid #2e5c6b; border-radius:11px; background:#142733; color:#c8e5ea; font-weight:800; }
+.speech-control-button [lang], .speech-control-button small { color:inherit !important; }
+.speech-stop-button { background:#193543 !important; color:#422006 !important; border-color:#2e5c6b !important; box-shadow:0 4px 0 #92400e !important; }
+.speech-stop-button [lang], .speech-stop-button small { color:inherit !important; }
+.speech-rate-control { color:#111827; }
+.speech-rate-control small { color:#334155; }
+.speech-rate-note { display:block; flex-basis:100%; color:#334155; font-size:.72rem; line-height:1.55; }
+.speech-rate-note span { display:block; }
+.lesson-video-status .lesson-video-status-link { display:flex; width:fit-content; max-width:100%; min-height:50px; align-items:center; justify-content:center; margin-top:10px; padding:11px 16px; border:2px solid #2e5c6b; border-radius:13px; background:#142733; color:#c8e5ea !important; font-weight:850; line-height:1.45; text-decoration:none; box-shadow:0 4px 0 #338091,0 6px 10px rgba(15,23,42,.16); }
+.lesson-video-status .lesson-video-status-link [lang], .lesson-video-status .lesson-video-status-link small { color:inherit !important; }
+.lesson-video-status .lesson-video-status-link:focus-visible { outline:3px solid #338091; outline-offset:3px; }
+.lesson-video-upcoming-status { padding:12px 14px; border:1px dashed #64748b; border-radius:12px; background:#142733; color:#1f2937; font-weight:750; }
+.lesson-video-upcoming-status [lang] { color:inherit !important; }
+.recommendation-banner, .notice-banner, .lesson-warning-block, .lesson-core-idea { background:#193543 !important; color:#422006 !important; border-color:#2e5c6b !important; }
+.recommendation-banner .pair-it, .recommendation-banner .pair-ar, .notice-banner .pair-it, .notice-banner .pair-ar,
+.lesson-warning-block .pair-it, .lesson-warning-block .pair-ar, .lesson-warning-block h2,
+.lesson-core-idea .pair-it, .lesson-core-idea .pair-ar, .lesson-core-idea h2 { color:#422006 !important; }
+:root[data-theme="dark"] .audio-button:not(:disabled) { background:#0f766e !important; color:#c8e5ea !important; border-color:#5eead4 !important; box-shadow:0 4px 0 #338091,0 6px 10px rgba(0,0,0,.3) !important; }
+:root[data-theme="dark"] .audio-button.speaking { background:#134e4a !important; color:#c8e5ea !important; border-color:#5eead4 !important; }
+:root[data-theme="dark"] .translation-tooltip-audio:not(:disabled), :root[data-theme="dark"] .speech-control-button:not(.speech-stop-button) { background:#0f766e !important; color:#c8e5ea !important; border-color:#5eead4 !important; }
+:root[data-theme="dark"] .speech-playback-bar { background:#11151b; color:#c8e5ea; border-color:#5eead4; }
+:root[data-theme="dark"] .speech-playback-label, :root[data-theme="dark"] .speech-rate-control, :root[data-theme="dark"] .speech-rate-note { color:#c8e5ea; }
+:root[data-theme="dark"] .speech-rate-control small { color:#d1d5db; }
+:root[data-theme="dark"] .recommendation-banner, :root[data-theme="dark"] .notice-banner, :root[data-theme="dark"] .lesson-warning-block, :root[data-theme="dark"] .lesson-core-idea { background:#163b47 !important; color:#2edbc0 !important; border-color:#338091 !important; }
+:root[data-theme="dark"] .recommendation-banner .pair-it, :root[data-theme="dark"] .recommendation-banner .pair-ar,
+:root[data-theme="dark"] .notice-banner .pair-it, :root[data-theme="dark"] .notice-banner .pair-ar,
+:root[data-theme="dark"] .lesson-warning-block .pair-it, :root[data-theme="dark"] .lesson-warning-block .pair-ar, :root[data-theme="dark"] .lesson-warning-block h2,
+:root[data-theme="dark"] .lesson-core-idea .pair-it, :root[data-theme="dark"] .lesson-core-idea .pair-ar, :root[data-theme="dark"] .lesson-core-idea h2 { color:#2edbc0 !important; }
+:root[data-theme="dark"] .lesson-video-upcoming-status { background:#1f2937; color:#c8e5ea; border-color:#9ca3af; }
+@media(prefers-color-scheme:dark) {
+  :root[data-theme="system"] .audio-button:not(:disabled) { background:#0f766e !important; color:#c8e5ea !important; border-color:#5eead4 !important; box-shadow:0 4px 0 #338091,0 6px 10px rgba(0,0,0,.3) !important; }
+  :root[data-theme="system"] .audio-button.speaking { background:#134e4a !important; color:#c8e5ea !important; border-color:#5eead4 !important; }
+  :root[data-theme="system"] .translation-tooltip-audio:not(:disabled), :root[data-theme="system"] .speech-control-button:not(.speech-stop-button) { background:#0f766e !important; color:#c8e5ea !important; border-color:#5eead4 !important; }
+  :root[data-theme="system"] .speech-playback-bar { background:#11151b; color:#c8e5ea; border-color:#5eead4; }
+  :root[data-theme="system"] .speech-playback-label, :root[data-theme="system"] .speech-rate-control, :root[data-theme="system"] .speech-rate-note { color:#c8e5ea; }
+  :root[data-theme="system"] .speech-rate-control small { color:#d1d5db; }
+  :root[data-theme="system"] .recommendation-banner, :root[data-theme="system"] .notice-banner, :root[data-theme="system"] .lesson-warning-block, :root[data-theme="system"] .lesson-core-idea { background:#163b47 !important; color:#2edbc0 !important; border-color:#338091 !important; }
+  :root[data-theme="system"] .recommendation-banner .pair-it, :root[data-theme="system"] .recommendation-banner .pair-ar,
+  :root[data-theme="system"] .notice-banner .pair-it, :root[data-theme="system"] .notice-banner .pair-ar,
+  :root[data-theme="system"] .lesson-warning-block .pair-it, :root[data-theme="system"] .lesson-warning-block .pair-ar, :root[data-theme="system"] .lesson-warning-block h2,
+  :root[data-theme="system"] .lesson-core-idea .pair-it, :root[data-theme="system"] .lesson-core-idea .pair-ar, :root[data-theme="system"] .lesson-core-idea h2 { color:#2edbc0 !important; }
+  :root[data-theme="system"] .lesson-video-upcoming-status { background:#1f2937; color:#c8e5ea; border-color:#9ca3af; }
+}
+@media(max-width:760px) { .speech-playback-bar { bottom:calc(78px + env(safe-area-inset-bottom)); inset-inline:12px; width:auto; } }

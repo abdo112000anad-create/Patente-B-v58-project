@@ -1,0 +1,218 @@
+{
+  "schema_version": 1,
+  "module_id": "exam-supplement-vehicle",
+  "lessons": [
+    {
+      "lesson_order": 1,
+      "heading_it": "Documenti a bordo e titolo di guida",
+      "heading_ar": "وثائق المركبة ورخصة القيادة",
+      "body_it": "Prima di metterti alla guida, verifica che la patente sia valida per la categoria del veicolo e che a bordo siano disponibili i documenti richiesti. L’articolo 180 distingue, secondo il mezzo e l’uso, il documento di circolazione, la patente oppure l’autorizzazione per esercitarsi, il certificato assicurativo obbligatorio e, nei casi previsti, ulteriori autorizzazioni o attestati. Non ridurre l’elenco a due documenti: possono valere requisiti diversi per veicoli o impieghi particolari. La forma documentale e le modalità di verifica possono cambiare; consulta le istruzioni ufficiali correnti prima di usare un mezzo diverso o trainare un rimorchio. Questa è una sintesi didattica, non una trascrizione normativa.",
+      "body_ar": "قبل قيادة المركبة، تحقق من أن رخصتك سارية للفئة المناسبة وأن الوثائق المطلوبة متاحة معك. تميّز المادة 180، بحسب نوع المركبة واستخدامها، بين وثيقة السير ورخصة القيادة أو تصريح التدريب وشهادة التأمين الإلزامي، وقد تلزم تصاريح أو شهادات إضافية في حالات محددة. لا تختزل القائمة في وثيقتين؛ فقد تختلف المتطلبات للمركبات أو الاستخدامات الخاصة. وقد تتغير الصيغ المقبولة للوثائق وطرق التحقق منها؛ لذلك راجع التعليمات الرسمية الحالية قبل استخدام مركبة مختلفة أو جر مقطورة. هذا ملخص تعليمي وليس نقلًا حرفيًا للقانون.",
+      "core_it": ["Verifica patente, categoria e documenti richiesti.", "Le formalità dipendono dal veicolo e dall’uso."],
+      "core_ar": ["تحقق من الرخصة والفئة والوثائق المطلوبة.", "تختلف الإجراءات حسب المركبة واستخدامها."],
+      "key_points": [
+        {"title_it":"Patente appropriata","title_ar":"الرخصة المناسبة","it":"Deve corrispondere alla categoria del veicolo.","ar":"يجب أن تناسب فئة المركبة."},
+        {"title_it":"Documento di circolazione","title_ar":"وثيقة السير","it":"È tra i documenti indicati secondo il tipo di mezzo.","ar":"من الوثائق المطلوبة بحسب نوع المركبة."},
+        {"title_it":"Assicurazione","title_ar":"التأمين","it":"Il certificato assicurativo obbligatorio rientra nell’elenco dell’articolo 180.","ar":"ترد شهادة التأمين الإلزامي ضمن قائمة المادة 180."},
+        {"title_it":"Requisiti ulteriori","title_ar":"متطلبات إضافية","it":"Autorizzazioni o attestati possono essere necessari in casi specifici.","ar":"قد تلزم تصاريح أو شهادات في حالات خاصة."}
+      ],
+      "trap_words": [{"term_it":"corrispondente","meaning_ar":"المناسبة أو المطابقة","why_it":"La patente deve valere per la categoria del mezzo, non semplicemente essere posseduta.","why_ar":"يجب أن تخول الرخصة قيادة فئة المركبة، لا أن تكون موجودة فحسب.","example_it":"Controllo che la categoria della patente corrisponda al veicolo.","example_ar":"أتحقق من أن فئة الرخصة تناسب المركبة."}],
+      "numbers": [],
+      "common_mistakes": [
+        {"mistake_it":"Pensare che bastino sempre patente e carta di circolazione.","mistake_ar":"الاعتقاد بأن الرخصة ووثيقة السير تكفيان دائمًا.","why_it":"L’articolo 180 elenca anche assicurazione e, nei casi previsti, altri documenti.","why_ar":"تذكر المادة 180 التأمين ووثائق أخرى في الحالات المحددة."},
+        {"mistake_it":"Ritenere che la patente B autorizzi ogni veicolo o combinazione.","mistake_ar":"اعتبار رخصة B تصريحًا بقيادة أي مركبة أو مجموعة.","why_it":"Categoria, condizioni e documenti del mezzo vanno verificati separatamente.","why_ar":"يجب التحقق من الفئة والشروط ووثائق المركبة كلٌّ على حدة."}
+      ],
+      "quick_check": [
+        {"statement_it":"La patente deve essere valida per la categoria del veicolo.","statement_ar":"يجب أن تكون الرخصة صالحة لفئة المركبة.","answer":"VERO","explanation_it":"L’articolo 180 richiede la patente valida per la corrispondente categoria.","explanation_ar":"تطلب المادة 180 رخصة صالحة للفئة المقابلة."},
+        {"statement_it":"L’articolo 180 richiede soltanto la patente e nessun altro documento.","statement_ar":"لا تطلب المادة 180 إلا الرخصة دون أي وثيقة أخرى.","answer":"FALSO","explanation_it":"La disposizione elenca anche altri documenti secondo il veicolo e l’uso.","explanation_ar":"تذكر المادة وثائق أخرى بحسب المركبة واستخدامها."},
+        {"statement_it":"Le formalità possono dipendere dall’uso del veicolo.","statement_ar":"قد تختلف الإجراءات بحسب استخدام المركبة.","answer":"VERO","explanation_it":"La disposizione contempla autorizzazioni collegate all’impiego del mezzo.","explanation_ar":"تتناول المادة تصاريح مرتبطة باستخدام المركبة."}
+      ],
+      "example_it":"Prima di usare l’auto di un’altra persona, verifico la categoria della mia patente e controllo quali documenti devono accompagnare quel veicolo.",
+      "example_ar":"قبل استخدام سيارة شخص آخر، أتحقق من فئة رخصتي وأراجع الوثائق التي يجب أن تكون مع تلك المركبة.",
+      "pitfall_it":"Non dedurre dai soli documenti che conosci che ogni mezzo o impiego abbia requisiti identici.",
+      "pitfall_ar":"لا تستنتج من الوثائق التي تعرفها أن كل مركبة أو استخدام له المتطلبات نفسها.",
+      "legal_sources":[{"article":"Art. 180","title_it":"Possesso dei documenti di circolazione e di guida","title_ar":"حيازة وثائق السير والقيادة","url":"https://aci.gov.it/codice-della-strada/art-180/"},{"article":"Patente B","title_it":"Pagina MIT sul conseguimento della patente B","title_ar":"صفحة وزارة النقل عن الحصول على رخصة B","url":"https://www.mit.gov.it/conseguimento-patente-b"}]
+    },
+    {
+      "lesson_order": 2,
+      "heading_it": "Aprire la portiera e uscire con attenzione",
+      "heading_ar": "فتح الباب والنزول بحذر",
+      "body_it": "La discesa comincia prima di aprire la portiera: scegli un luogo dove fermata e uscita siano consentite e non creino intralcio. Controlla gli specchi e osserva direttamente la strada, perché biciclette, motocicli o altri veicoli possono arrivare da dietro. Apri soltanto quando hai verificato che il movimento non costituisca pericolo o ostacolo; una volta uscito, richiudi la porta senza indugio. Se viaggiano con te altre persone, avvisale di attendere il controllo prima di aprire, specialmente quando non possono vedere bene il traffico laterale. La regola pratica è osservare, valutare e solo dopo agire. È una spiegazione per lo studio, non una formula letterale della legge.",
+      "body_ar":"يبدأ النزول قبل فتح الباب: اختر مكانًا يسمح بالتوقف والخروج ولا يسبب إعاقة. افحص المرايا وانظر مباشرة إلى الطريق، فقد تقترب من الخلف دراجات أو دراجات نارية أو مركبات أخرى. لا تفتح إلا بعد التحقق من أن الحركة لن تسبب خطرًا أو عائقًا؛ وبعد النزول أغلق الباب فورًا. إذا كان معك ركاب، فنبههم إلى انتظار التحقق قبل فتح الباب، خصوصًا عندما لا يستطيعون رؤية حركة المرور الجانبية جيدًا. القاعدة العملية هي أن تلاحظ وتقيّم ثم تتصرف. هذا شرح دراسي وليس صياغة حرفية للقانون.",
+      "core_it":["Osserva il traffico prima di aprire la porta.","Esci solo senza creare pericolo o intralcio."],
+      "core_ar":["راقب المرور قبل فتح الباب.","انزل دون التسبب في خطر أو إعاقة."],
+      "key_points":[
+        {"title_it":"Luogo idoneo","title_ar":"مكان مناسب","it":"La fermata e la discesa non devono intralciare il traffico.","ar":"يجب ألا يعيق التوقف والنزول حركة المرور."},
+        {"title_it":"Controllo visivo","title_ar":"الفحص البصري","it":"Specchi e osservazione diretta aiutano a rilevare chi sopraggiunge.","ar":"تساعد المرايا والنظر المباشر على ملاحظة القادمين."},
+        {"title_it":"Portiera","title_ar":"باب المركبة","it":"Aprila quando non causa pericolo o ostacolo.","ar":"افتحه عندما لا يسبب خطرًا أو عائقًا."},
+        {"title_it":"Passeggeri","title_ar":"الركاب","it":"Invitali ad attendere il controllo prima di aprire.","ar":"اطلب منهم انتظار التحقق قبل الفتح."}
+      ],
+      "trap_words":[{"term_it":"intralcio","meaning_ar":"إعاقة أو تعطيل","why_it":"Il controllo riguarda sia il pericolo sia l’ostacolo alla circolazione.","why_ar":"يشمل التحقق الخطر وكذلك إعاقة حركة المرور.","example_it":"Aspetto che la portiera non crei intralcio alla bicicletta in arrivo.","example_ar":"أنتظر حتى لا يعيق الباب دراجة قادمة."}],
+      "numbers":[],
+      "common_mistakes":[
+        {"mistake_it":"Aprire appena il veicolo si è fermato.","mistake_ar":"فتح الباب بمجرد توقف المركبة.","why_it":"Un utente può sopraggiungere nello spazio accanto al veicolo.","why_ar":"قد يقترب مستخدم للطريق بمحاذاة المركبة."},
+        {"mistake_it":"Affidarsi solo allo specchio senza osservare l’ambiente.","mistake_ar":"الاعتماد على المرآة وحدها دون ملاحظة المحيط.","why_it":"Il controllo deve permettere di accertare che l’uscita sia sicura.","why_ar":"ينبغي أن يتيح التحقق التأكد من سلامة النزول."}
+      ],
+      "quick_check":[
+        {"statement_it":"Prima di aprire, è opportuno controllare chi arriva da dietro.","statement_ar":"من المناسب التحقق ممن يقترب من الخلف قبل الفتح.","answer":"VERO","explanation_it":"Il controllo evita di aprire davanti a un utente sopraggiungente.","explanation_ar":"يمنع التحقق فتح الباب أمام مستخدم قادم."},
+        {"statement_it":"La portiera può essere aperta anche se crea un ostacolo, purché l’auto sia ferma.","statement_ar":"يمكن فتح الباب حتى لو سبب عائقًا ما دامت السيارة متوقفة.","answer":"FALSO","explanation_it":"L’articolo 157, comma 7, vieta di aprire senza evitare pericolo o intralcio.","explanation_ar":"تحظر المادة 157(7) الفتح دون تجنب الخطر أو الإعاقة."},
+        {"statement_it":"Anche i passeggeri dovrebbero attendere il controllo prima di uscire.","statement_ar":"ينبغي للركاب أيضًا انتظار التحقق قبل النزول.","answer":"VERO","explanation_it":"È una precauzione coerente con l’obbligo di evitare pericolo e intralcio.","explanation_ar":"هذا احتياط يتفق مع واجب تجنب الخطر والإعاقة."}
+      ],
+      "example_it":"Accosto vicino a una pista ciclabile, guardo nello specchio e mi assicuro che non arrivi nessuno prima di aprire la portiera.",
+      "example_ar":"أتوقف قرب مسار للدراجات، وأنظر في المرآة وأتأكد من عدم اقتراب أحد قبل فتح الباب.",
+      "pitfall_it":"La sosta del veicolo non rende automaticamente sicura l’apertura della portiera.",
+      "pitfall_ar":"توقف المركبة لا يجعل فتح الباب آمنًا تلقائيًا.",
+      "legal_sources":[{"article":"Art. 157, comma 7","title_it":"Arresto, fermata e sosta dei veicoli","title_ar":"توقف المركبات والوقوف","url":"https://aci.gov.it/codice-della-strada/art-157/"}]
+    },
+    {
+      "lesson_order":3,
+      "heading_it":"Trasportare persone e sistemare il carico",
+      "heading_ar":"نقل الركاب وترتيب الحمولة",
+      "body_it":"Il numero di persone trasportate deve rispettare i posti previsti per il veicolo; chi viaggia non deve ostacolare i movimenti del conducente né ridurne la visibilità. Colloca e fissa gli oggetti in modo che non cadano o si disperdano, non compromettano la stabilità, non limitino la visuale e non coprano luci o targhe. Rispetta la massa e la sagoma indicate per il mezzo. Se il carico sporge, occorre adottare cautele per non mettere in pericolo gli altri; per la sporgenza longitudinale l’articolo 164 prevede l’apposita segnalazione con pannelli retroriflettenti. Non si deve generalizzare tale segnalazione a ogni sporgenza. Peso e disposizione possono influire sulla stabilità e sulla frenata: controlla i dati del veicolo.",
+      "body_ar":"يجب أن يلتزم عدد الركاب بالمقاعد المقررة للمركبة؛ وألا يعيق الركاب حركة السائق أو يقللوا رؤيته. ضع الأشياء وثبتها بحيث لا تسقط أو تتناثر، ولا تضر بثبات المركبة، ولا تحجب الرؤية أو الأضواء أو لوحة التسجيل. التزم بالكتلة والأبعاد المحددة للمركبة. إذا برزت الحمولة، فاتخذ الاحتياطات اللازمة حتى لا تعرض الآخرين للخطر؛ وبالنسبة للبروز الطولي، تنص المادة 164 على وضع لوحات عاكسة خاصة. لا تعمم وجوب هذه اللوحات على كل أنواع البروز. قد يؤثر الوزن وطريقة التوزيع في الثبات والكبح؛ لذلك راجع بيانات المركبة.",
+      "core_it":["Fissa il carico e non ostacolare la guida.","La segnalazione speciale riguarda la sporgenza longitudinale."],
+      "core_ar":["ثبّت الحمولة ولا تعق القيادة.","تتعلق اللوحات الخاصة بالبروز الطولي."],
+      "key_points":[
+        {"title_it":"Posti disponibili","title_ar":"المقاعد المتاحة","it":"Non trasportare persone oltre i posti previsti.","ar":"لا تنقل أشخاصًا فوق عدد المقاعد المقرر."},
+        {"title_it":"Libertà e visibilità","title_ar":"حرية الحركة والرؤية","it":"Passeggeri e oggetti non devono ostacolare il conducente.","ar":"يجب ألا يعيق الركاب أو الأغراض السائق."},
+        {"title_it":"Carico stabile","title_ar":"حمولة ثابتة","it":"Fissa gli oggetti per evitare caduta o dispersione.","ar":"ثبّت الأشياء لمنع سقوطها أو تناثرها."},
+        {"title_it":"Sporgenza","title_ar":"البروز","it":"Adotta cautele; la segnalazione prescritta qui riguarda il caso longitudinale.","ar":"اتخذ الاحتياطات؛ واللوحات المقررة هنا تخص حالة البروز الطولي."}
+      ],
+      "trap_words":[],"numbers":[],
+      "common_mistakes":[
+        {"mistake_it":"Pensare che basti collocare il carico nel bagagliaio senza fissarlo.","mistake_ar":"الاعتقاد بأن وضع الحمولة في الصندوق يكفي دون تثبيتها.","why_it":"Gli oggetti devono essere sistemati per evitare caduta, dispersione e instabilità.","why_ar":"يجب ترتيب الأشياء لمنع سقوطها أو تناثرها أو الإخلال بالثبات."},
+        {"mistake_it":"Dire che ogni carico sporgente richiede la stessa segnalazione.","mistake_ar":"القول إن كل حمولة بارزة تحتاج الإشارة نفسها.","why_it":"La norma distingue le cautele generali dalla segnalazione della sporgenza longitudinale.","why_ar":"يميز القانون بين الاحتياطات العامة وإشارة البروز الطولي."}
+      ],
+      "quick_check":[
+        {"statement_it":"Il carico va sistemato in modo da non compromettere la stabilità.","statement_ar":"يجب ترتيب الحمولة بحيث لا تضر بثبات المركبة.","answer":"VERO","explanation_it":"È uno dei requisiti dell’articolo 164, comma 1.","explanation_ar":"هذا أحد متطلبات المادة 164(1)."},
+        {"statement_it":"La segnalazione con pannelli dell’articolo 164, comma 6, riguarda in ogni caso qualsiasi sporgenza.","statement_ar":"تخص لوحات المادة 164(6) كل بروز في جميع الحالات.","answer":"FALSO","explanation_it":"Il comma distingue la cautela generale dalla segnalazione della sporgenza longitudinale.","explanation_ar":"تميز الفقرة بين الاحتياط العام وإشارة البروز الطولي."},
+        {"statement_it":"Il carico non deve coprire i dispositivi luminosi o la targa.","statement_ar":"يجب ألا تحجب الحمولة الأضواء أو لوحة التسجيل.","answer":"VERO","explanation_it":"L’articolo 164 richiede che tali dispositivi restino visibili.","explanation_ar":"تطلب المادة 164 بقاء هذه الأضواء واللوحة ظاهرة."}
+      ],
+      "example_it":"Prima di partire con bagagli, li fisso nel vano e controllo che non coprano la visuale, le luci o la targa.",
+      "example_ar":"قبل الانطلاق بالأمتعة، أثبتها داخل المركبة وأتأكد من أنها لا تحجب الرؤية أو الأضواء أو لوحة التسجيل.",
+      "pitfall_it":"Non confondere la cautela richiesta per ogni carico sporgente con la specifica segnalazione longitudinale.",
+      "pitfall_ar":"لا تخلط بين الاحتياط المطلوب لأي حمولة بارزة وبين الإشارة الخاصة بالبروز الطولي.",
+      "legal_sources":[{"article":"Art. 164","title_it":"Sistemazione del carico sui veicoli","title_ar":"ترتيب الحمولة على المركبات","url":"https://aci.gov.it/codice-della-strada/art-164/"},{"article":"Art. 169","title_it":"Trasporto di persone, animali e oggetti sui veicoli a motore","title_ar":"نقل الأشخاص والحيوانات والأشياء في المركبات الآلية","url":"https://aci.gov.it/codice-della-strada/art-169/"},{"article":"Art. 167","title_it":"Trasporti di cose su veicoli a motore e rimorchi","title_ar":"نقل الأشياء في المركبات الآلية والمقطورات","url":"https://aci.gov.it/codice-della-strada/art-167/"}]
+    },
+    {
+      "lesson_order":4,
+      "heading_it":"Controllare il veicolo e riconoscere i guasti",
+      "heading_ar":"فحص المركبة والتعرف إلى الأعطال",
+      "body_it":"Prima di partire, osserva gli elementi che incidono sulla sicurezza: pneumatici e ruote, luci, indicatori, specchi, parabrezza e tergicristalli. Fai attenzione anche a sterzo, sospensioni, freni, cinture, avvisatore acustico e impianto di scarico. Una spia, una perdita, un rumore o una vibrazione insolita possono segnalare un’anomalia, ma non permettono da soli di diagnosticarne la causa. Consulta il manuale del veicolo e, se necessario, un’officina qualificata. Non proseguire quando un difetto compromette la sicurezza. I veicoli a motore e i loro rimorchi devono mantenere l’efficienza richiesta durante la circolazione; rispetta inoltre gli obblighi di revisione applicabili. Questa lezione non sostituisce una verifica tecnica.",
+      "body_ar":"قبل الانطلاق، افحص العناصر المؤثرة في السلامة: الإطارات والعجلات والأضواء والمؤشرات والمرايا والزجاج الأمامي والمسّاحات. وانتبه أيضًا إلى التوجيه والتعليق والفرامل والأحزمة والمنبه ونظام العادم. قد تشير لمبة تحذير أو تسرب أو صوت أو اهتزاز غير معتاد إلى خلل، لكنها لا تكفي وحدها لتشخيص سببه. راجع دليل المركبة، واستعن بورشة مؤهلة عند الحاجة. لا تواصل السير إذا كان العطل يضر بالسلامة. يجب أن تحافظ المركبات الآلية ومقطوراتها على الكفاءة المطلوبة أثناء السير؛ والتزم كذلك بمتطلبات الفحص الفني السارية. لا يحل هذا الدرس محل الفحص الفني المتخصص.",
+      "core_it":["Controlla gli elementi che incidono sulla sicurezza.","Un’anomalia va valutata senza improvvisare riparazioni."],
+      "core_ar":["افحص العناصر المؤثرة في السلامة.","يجب تقييم الخلل دون ارتجال الإصلاح."],
+      "key_points":[
+        {"title_it":"Controllo visivo","title_ar":"فحص بصري","it":"Osserva ruote, pneumatici, luci, specchi e vetri.","ar":"افحص العجلات والإطارات والأضواء والمرايا والزجاج."},
+        {"title_it":"Comandi e impianti","title_ar":"أدوات التحكم والأنظمة","it":"Presta attenzione a freni, sterzo, sospensioni e scarico.","ar":"انتبه إلى الفرامل والتوجيه والتعليق والعادم."},
+        {"title_it":"Segnali di anomalia","title_ar":"علامات الخلل","it":"Spie, perdite e rumori insoliti richiedono attenzione.","ar":"تتطلب اللمبات والتسربات والأصوات غير المعتادة الانتباه."},
+        {"title_it":"Assistenza tecnica","title_ar":"المساعدة الفنية","it":"Consulta manuale e officina, senza sostituirti al tecnico.","ar":"راجع الدليل والورشة دون أن تحل محل الفني."}
+      ],"trap_words":[],"numbers":[],
+      "common_mistakes":[
+        {"mistake_it":"Ignorare una spia o un rumore perché il veicolo continua a muoversi.","mistake_ar":"تجاهل لمبة تحذير أو صوت لأن المركبة ما زالت تتحرك.","why_it":"Un’anomalia può compromettere la sicurezza anche senza arresto immediato.","why_ar":"قد يضر الخلل بالسلامة حتى إن لم تتوقف المركبة فورًا."},
+        {"mistake_it":"Riparare da soli sistemi senza le competenze necessarie.","mistake_ar":"إصلاح الأنظمة ذاتيًا دون الخبرة اللازمة.","why_it":"La spiegazione didattica non sostituisce diagnosi e intervento qualificati.","why_ar":"لا يحل الشرح التعليمي محل التشخيص والعمل الفني المؤهل."}
+      ],
+      "quick_check":[
+        {"statement_it":"Un rumore insolito può essere un segnale da approfondire.","statement_ar":"قد يكون الصوت غير المعتاد علامة تستلزم التحقق.","answer":"VERO","explanation_it":"Può indicare un’anomalia, anche se non ne identifica da solo la causa.","explanation_ar":"قد يدل على خلل، لكنه لا يحدد سببه وحده."},
+        {"statement_it":"L’articolo 79 riguarda l’efficienza dei veicoli a motore e dei rimorchi in circolazione.","statement_ar":"تتناول المادة 79 كفاءة المركبات الآلية ومقطوراتها أثناء السير.","answer":"VERO","explanation_it":"La disposizione indica l’efficienza dei veicoli a motore e dei rimorchi.","explanation_ar":"تتناول المادة كفاءة المركبات الآلية والمقطورات."},
+        {"statement_it":"Il conducente dovrebbe ignorare un difetto che incide sulla sicurezza finché l’auto si muove.","statement_ar":"ينبغي للسائق تجاهل العطل المؤثر في السلامة ما دامت السيارة تتحرك.","answer":"FALSO","explanation_it":"Un difetto che compromette la sicurezza richiede verifica e non va ignorato.","explanation_ar":"العطل الذي يضر بالسلامة يستلزم التحقق ولا ينبغي تجاهله."}
+      ],
+      "example_it":"Se noto una perdita o un’anomalia nei freni, consulto il manuale e faccio controllare il veicolo prima di ripartire.",
+      "example_ar":"إذا لاحظت تسربًا أو خللًا في الفرامل، أراجع دليل المركبة وأفحصها قبل متابعة السير.",
+      "pitfall_it":"Rilevare un sintomo non equivale a conoscere la causa né autorizza una riparazione improvvisata.",
+      "pitfall_ar":"ملاحظة العَرَض لا تعني معرفة السبب ولا تبرر إصلاحًا مرتجلًا.",
+      "legal_sources":[{"article":"Art. 79","title_it":"Efficienza dei veicoli a motore e loro rimorchi in circolazione","title_ar":"كفاءة المركبات الآلية ومقطوراتها أثناء السير","url":"https://aci.gov.it/codice-della-strada/art-79/"},{"article":"Art. 80","title_it":"Revisioni","title_ar":"الفحص الفني الدوري","url":"https://aci.gov.it/codice-della-strada/art-80/"}]
+    },
+    {
+      "lesson_order":5,
+      "heading_it":"Cinture e sistemi di ritenuta per bambini",
+      "heading_ar":"أحزمة الأمان وأنظمة تثبيت الأطفال",
+      "body_it":"Quando il veicolo rientra tra quelli per cui è previsto l’obbligo, conducente e passeggeri usano le cinture durante la marcia e ne mantengono l’efficienza. I bambini di statura inferiore a 1,50 m devono essere assicurati con un sistema di ritenuta omologato e adeguato al loro peso. Segui le istruzioni del produttore e verifica che il sistema sia compatibile con il veicolo. Un seggiolino rivolto all’indietro non va collocato davanti a un airbag frontale attivo: l’airbag deve essere disattivato anche automaticamente in modo adeguato. Il poggiatesta contribuisce alla protezione, ma non sostituisce cintura o sistema per bambini. Le esenzioni previste riguardano categorie e condizioni specifiche, non una generica scelta personale. Sintesi didattica, non consiglio medico.",
+      "body_ar":"عندما تكون المركبة من الفئات التي يشملها الالتزام، يستخدم السائق والركاب الأحزمة أثناء السير ويحافظون على كفاءتها. ويجب تثبيت الأطفال الذين يقل طولهم عن 1.50 متر بنظام معتمد ومناسب لوزنهم. اتبع تعليمات الصانع وتحقق من توافق النظام مع المركبة. لا يوضع مقعد الطفل المواجه للخلف أمام وسادة هوائية أمامية نشطة؛ بل يجب تعطيلها بطريقة مناسبة، ولو آليًا. يساعد مسند الرأس في الحماية، لكنه لا يحل محل الحزام أو نظام تثبيت الطفل. وتتعلق الإعفاءات المنصوص عليها بفئات وشروط محددة، لا باختيار شخصي عام. هذا ملخص تعليمي وليس نصيحة طبية.",
+      "core_it":["Usa cinture e ritenute secondo la categoria del veicolo.","Per i bambini contano omologazione, statura e peso."],
+      "core_ar":["استخدم الأحزمة وأنظمة التثبيت وفق فئة المركبة.","يهم في نظام الطفل الاعتماد والطول والوزن."],
+      "key_points":[
+        {"title_it":"Cinture","title_ar":"الأحزمة","it":"Usale nei veicoli e nelle situazioni previste.","ar":"استخدمها في المركبات والحالات المشمولة."},
+        {"title_it":"Sistema per bambini","title_ar":"نظام تثبيت الطفل","it":"Deve essere omologato e adeguato al peso del bambino sotto 1,50 m.","ar":"يجب أن يكون معتمدًا ومناسبًا لوزن الطفل دون 1.50 متر."},
+        {"title_it":"Airbag frontale","title_ar":"الوسادة الهوائية الأمامية","it":"Non lasciare attivo l’airbag davanti a un seggiolino rivolto all’indietro.","ar":"لا تترك الوسادة نشطة أمام مقعد مواجه للخلف."},
+        {"title_it":"Esenzioni","title_ar":"الإعفاءات","it":"Sono circoscritte alle categorie e condizioni previste dalla legge.","ar":"تقتصر على الفئات والشروط المنصوص عليها."}
+      ],
+      "trap_words":[{"term_it":"omologato","meaning_ar":"معتمد وفق المواصفات","why_it":"Non basta che il dispositivo sembri adatto: la norma richiede un sistema omologato.","why_ar":"لا يكفي أن يبدو النظام مناسبًا؛ بل يشترط القانون نظامًا معتمدًا.","example_it":"Scelgo un sistema omologato e adatto al peso del bambino.","example_ar":"أختار نظامًا معتمدًا ومناسبًا لوزن الطفل."}],
+      "numbers":[{"value":"1,50 m","context_it":"Sotto questa statura è richiesto il sistema di ritenuta per bambini previsto dalla norma.","context_ar":"يلزم نظام تثبيت الأطفال المقرر لمن يقل طولهم عن هذا الحد."}],
+      "common_mistakes":[
+        {"mistake_it":"Scegliere un sistema per bambini senza considerare il peso.","mistake_ar":"اختيار نظام للطفل دون مراعاة الوزن.","why_it":"L’articolo 172 richiede che sia adeguato al peso e omologato.","why_ar":"تشترط المادة 172 أن يكون مناسبًا للوزن ومعتمدًا."},
+        {"mistake_it":"Considerare il poggiatesta un sostituto della cintura.","mistake_ar":"اعتبار مسند الرأس بديلًا عن الحزام.","why_it":"Ha una funzione diversa e non sostituisce i dispositivi di ritenuta.","why_ar":"له وظيفة مختلفة ولا يحل محل أنظمة التثبيت."}
+      ],
+      "quick_check":[
+        {"statement_it":"Per un bambino sotto 1,50 m il sistema deve essere omologato e adeguato al peso.","statement_ar":"يجب أن يكون نظام الطفل دون 1.50 متر معتمدًا ومناسبًا للوزن.","answer":"VERO","explanation_it":"È quanto riassume l’articolo 172, comma 1.","explanation_ar":"هذا ملخص المادة 172(1)."},
+        {"statement_it":"Il poggiatesta sostituisce la cintura di sicurezza.","statement_ar":"يحل مسند الرأس محل حزام الأمان.","answer":"FALSO","explanation_it":"Sono dispositivi con funzioni diverse.","explanation_ar":"لكل منهما وظيفة مختلفة."},
+        {"statement_it":"Un seggiolino rivolto all’indietro può stare davanti a un airbag attivo.","statement_ar":"يمكن وضع مقعد مواجه للخلف أمام وسادة هوائية نشطة.","answer":"FALSO","explanation_it":"La disposizione lo esclude salvo disattivazione adeguata dell’airbag.","explanation_ar":"يُمنع ذلك إلا إذا عُطلت الوسادة بطريقة مناسبة."}
+      ],
+      "example_it":"Prima di partire, controllo che il seggiolino sia fissato secondo le istruzioni e che l’airbag frontale non sia attivo se il seggiolino è rivolto all’indietro.",
+      "example_ar":"قبل الانطلاق، أتحقق من تثبيت مقعد الطفل وفق التعليمات ومن عدم نشاط الوسادة الأمامية إذا كان المقعد مواجهًا للخلف.",
+      "pitfall_it":"Non estendere le esenzioni oltre le categorie e le condizioni specifiche previste.",
+      "pitfall_ar":"لا توسع الإعفاءات إلى ما يتجاوز الفئات والشروط المحددة.",
+      "legal_sources":[{"article":"Art. 172","title_it":"Uso delle cinture di sicurezza e dei sistemi di ritenuta e sicurezza per bambini","title_ar":"استخدام أحزمة الأمان وأنظمة تثبيت الأطفال","url":"https://aci.gov.it/codice-della-strada/art-172/"}]
+    },
+    {
+      "lesson_order":6,
+      "heading_it":"Motocicli: casco e verifiche prima della partenza",
+      "heading_ar":"الدراجات النارية: الخوذة والفحوص قبل الانطلاق",
+      "body_it":"Durante la marcia, conducenti e passeggeri di ciclomotori e motoveicoli devono indossare e allacciare regolarmente un casco protettivo conforme ai tipi omologati. La legge prevede esenzioni specifiche per alcuni veicoli a tre o quattro ruote con carrozzeria chiusa e per determinate configurazioni dotate di cellula di sicurezza, sistemi di ritenuta e dispositivi prescritti: non trasformarle in un’esenzione generale. Prima di partire, controlla pneumatici, luci e indicatori; verifica inoltre, secondo il manuale del mezzo, comandi di emergenza, livello dell’olio e catena quando presente. Assicurati che conducente e passeggero siano sistemati correttamente. Ulteriori capi protettivi possono essere una prudente scelta di sicurezza, ma non presentarli come obbligo generale sulla sola base di questa lezione.",
+      "body_ar":"أثناء السير، يجب على سائقي وركاب الدراجات ذات المحرك والدراجات النارية ارتداء خوذة واقية مطابقة للأنواع المعتمدة وربطها بإحكام. وينص القانون على إعفاءات محددة لبعض المركبات ذات الثلاث أو الأربع عجلات بهيكل مغلق، ولبعض التجهيزات التي تضم خلية أمان وأنظمة تثبيت ومعدات مقررة؛ فلا تحولها إلى إعفاء عام. قبل الانطلاق، افحص الإطارات والأضواء والمؤشرات، وتحقق وفق دليل المركبة من أدوات التحكم في الطوارئ ومستوى الزيت والسلسلة إن وجدت. وتأكد من جلوس السائق والراكب على نحو سليم. قد تكون الملابس الواقية الإضافية اختيارًا احترازيًا حكيمًا، لكن لا تعرضها كالتزام عام استنادًا إلى هذا الدرس وحده.",
+      "core_it":["Casco omologato e allacciato, salvo esenzioni specifiche.","Controlli e comandi si verificano secondo il manuale."],
+      "core_ar":["خوذة معتمدة ومربوطة، عدا الإعفاءات المحددة.","تُفحص المعدات وأدوات التحكم وفق الدليل."],
+      "key_points":[
+        {"title_it":"Casco","title_ar":"الخوذة","it":"Deve essere conforme e regolarmente allacciato durante la marcia.","ar":"يجب أن تكون مطابقة ومربوطة أثناء السير."},
+        {"title_it":"Esenzioni circoscritte","title_ar":"إعفاءات محددة","it":"La norma elenca configurazioni precise, non un’esenzione generale.","ar":"يسرد القانون تجهيزات محددة لا إعفاءً عامًا."},
+        {"title_it":"Controlli","title_ar":"الفحوص","it":"Pneumatici, luci e comandi si controllano prima della partenza.","ar":"افحص الإطارات والأضواء وأدوات التحكم قبل الانطلاق."},
+        {"title_it":"Manuale del mezzo","title_ar":"دليل المركبة","it":"Segui le istruzioni per olio, catena e comandi specifici.","ar":"اتبع تعليمات الزيت والسلسلة وأدوات التحكم الخاصة."}
+      ],"trap_words":[],"numbers":[],
+      "common_mistakes":[
+        {"mistake_it":"Dire che il casco non serve mai su un mezzo con più ruote.","mistake_ar":"القول إن الخوذة لا تلزم أبدًا على مركبة متعددة العجلات.","why_it":"Le esenzioni dipendono da configurazioni definite dall’articolo 171.","why_ar":"تعتمد الإعفاءات على تجهيزات يحددها نص المادة 171."},
+        {"mistake_it":"Presentare ogni capo protettivo come obbligatorio per legge.","mistake_ar":"عرض كل لباس واقٍ على أنه إلزام قانوني.","why_it":"La lezione distingue il casco prescritto dalle ulteriori raccomandazioni.","why_ar":"يميز الدرس بين الخوذة المفروضة والتوصيات الإضافية."}
+      ],
+      "quick_check":[
+        {"statement_it":"Il casco richiesto deve essere omologato e allacciato durante la marcia.","statement_ar":"يجب أن تكون الخوذة المطلوبة معتمدة ومربوطة أثناء السير.","answer":"VERO","explanation_it":"È la regola generale dell’articolo 171, fatte salve le esenzioni specifiche.","explanation_ar":"هذه القاعدة العامة للمادة 171 مع مراعاة الإعفاءات المحددة."},
+        {"statement_it":"Le esenzioni previste per il casco valgono indistintamente per ogni veicolo a tre ruote.","statement_ar":"تنطبق إعفاءات الخوذة بلا تمييز على كل مركبة ذات ثلاث عجلات.","answer":"FALSO","explanation_it":"La norma lega l’esenzione a caratteristiche precise del veicolo.","explanation_ar":"يربط القانون الإعفاء بخصائص محددة للمركبة."},
+        {"statement_it":"La catena va controllata quando è presente, seguendo le istruzioni del mezzo.","statement_ar":"تُفحص السلسلة عند وجودها وفق تعليمات المركبة.","answer":"VERO","explanation_it":"È un controllo pratico dipendente dalla configurazione e dal manuale.","explanation_ar":"هذا فحص عملي يتوقف على تجهيز المركبة ودليلها."}
+      ],
+      "example_it":"Prima di partire in moto, allaccio il casco omologato e controllo luci, pneumatici e gli elementi indicati nel manuale.",
+      "example_ar":"قبل الانطلاق بالدراجة النارية، أربط الخوذة المعتمدة وأفحص الأضواء والإطارات والعناصر المذكورة في الدليل.",
+      "pitfall_it":"Non confondere la raccomandazione di protezioni aggiuntive con un obbligo generale verificato qui.",
+      "pitfall_ar":"لا تخلط بين التوصية بوسائل حماية إضافية وبين التزام عام تم التحقق منه هنا.",
+      "legal_sources":[{"article":"Art. 171","title_it":"Uso del casco protettivo per gli utenti di veicoli a due ruote","title_ar":"استخدام الخوذة الواقية لمستخدمي المركبات ذات العجلتين","url":"https://aci.gov.it/codice-della-strada/art-171/"},{"article":"Art. 170","title_it":"Trasporto di persone e comportamento sui veicoli a due ruote","title_ar":"نقل الأشخاص والسلوك على المركبات ذات العجلتين","url":"https://aci.gov.it/codice-della-strada/art-170/"}]
+    },
+    {
+      "lesson_order":7,
+      "heading_it":"Rimorchi: compatibilità, aggancio e guida",
+      "heading_ar":"المقطورات: التوافق والربط والقيادة",
+      "body_it":"Un rimorchio modifica massa, lunghezza, stabilità e frenata del complesso. Controlla sui documenti le masse massime autorizzate del veicolo e del rimorchio, la massa complessiva e i limiti di traino. La pagina MIT indica che la patente B copre un rimorchio fino a 750 kg e, in determinate combinazioni, un complesso fino a 4.250 kg; se il complesso supera 3.500 kg, è necessaria la prova prevista per ottenere il codice B96. Oltre il campo ammesso, verifica i requisiti della patente BE: non dedurre l’abilitazione dal peso a vuoto. Prima del viaggio controlla aggancio, collegamento elettrico, luci, freni e fissaggio del carico. Guida con gradualità e mantieni distanze adeguate. Per i limiti applicabili, consulta i documenti e le regole aggiornate.",
+      "body_ar":"تغير المقطورة كتلة المجموعة وطولها وثباتها وكبحها. راجع وثائق المركبة والمقطورة لمعرفة الكتل القصوى المسموح بها وكتلة المجموعة وحدود الجر. توضح صفحة وزارة النقل أن رخصة B تشمل مقطورة حتى 750 كغ، وفي مجموعات محددة تشمل مجموعة حتى 4250 كغ؛ وإذا تجاوزت كتلة المجموعة 3500 كغ، يلزم اجتياز الاختبار المقرر للحصول على الرمز B96. إذا تجاوزت المجموعة النطاق المسموح، فتحقق من شروط رخصة BE؛ ولا تستنتج صلاحية الرخصة من الوزن الفارغ وحده. قبل الرحلة افحص وصلة الربط والتوصيل الكهربائي والأضواء والفرامل وتثبيت الحمولة. قد بسلاسة وحافظ على مسافات مناسبة. ولحدود المجموعة المنطبقة، راجع الوثائق والقواعد الحديثة.",
+      "core_it":["Verifica masse autorizzate e abilitazione per la combinazione.","Controlla aggancio, impianti e carico prima di partire."],
+      "core_ar":["تحقق من الكتل المسموحة والرخصة المناسبة للمجموعة.","افحص الوصلة والأنظمة والحمولة قبل الانطلاق."],
+      "key_points":[
+        {"title_it":"Masse autorizzate","title_ar":"الكتل المسموح بها","it":"Leggi i dati del veicolo, del rimorchio e del complesso.","ar":"راجع بيانات المركبة والمقطورة والمجموعة."},
+        {"title_it":"B96","title_ar":"B96","it":"La prova è richiesta quando il complesso supera 3.500 kg nel caso indicato dal MIT.","ar":"يلزم الاختبار عند تجاوز المجموعة 3500 كغ في الحالة التي تحددها الوزارة."},
+        {"title_it":"Controllo dell’aggancio","title_ar":"فحص وصلة الربط","it":"Verifica collegamenti, luci, freni e carico fissato.","ar":"افحص التوصيلات والأضواء والفرامل والحمولة المثبتة."},
+        {"title_it":"Guida prudente","title_ar":"قيادة حذرة","it":"La combinazione richiede manovre graduali e distanze adeguate.","ar":"تتطلب المجموعة مناورات سلسة ومسافات مناسبة."}
+      ],
+      "trap_words":[{"term_it":"complesso","meaning_ar":"مجموعة المركبة والمقطورة","why_it":"La massa complessiva della combinazione non coincide con la sola massa del rimorchio.","why_ar":"كتلة المجموعة لا تساوي كتلة المقطورة وحدها.","example_it":"Controllo la massa del complesso riportata nei dati pertinenti.","example_ar":"أتحقق من كتلة المجموعة في البيانات ذات الصلة."}],
+      "numbers":[{"value":"750 kg","context_it":"La pagina MIT indica questa soglia per il rimorchio nella descrizione della patente B.","context_ar":"تذكر صفحة الوزارة هذا الحد للمقطورة ضمن وصف رخصة B."},{"value":"3.500 kg / 4.250 kg","context_it":"La pagina MIT collega il codice B96 al superamento di 3.500 kg entro la combinazione ammessa fino a 4.250 kg.","context_ar":"تربط صفحة الوزارة رمز B96 بتجاوز 3500 كغ ضمن مجموعة مسموحة حتى 4250 كغ."}],
+      "common_mistakes":[
+        {"mistake_it":"Attribuire alla patente B ordinaria qualsiasi combinazione fino a 4.250 kg.","mistake_ar":"اعتبار رخصة B العادية كافية لأي مجموعة حتى 4250 كغ.","why_it":"Quando la massa complessiva supera 3.500 kg nel caso indicato, serve la prova B96.","why_ar":"عند تجاوز كتلة المجموعة 3500 كغ في الحالة المذكورة، يلزم اختبار B96."},
+        {"mistake_it":"Valutare l’abilitazione usando soltanto il peso a vuoto del rimorchio.","mistake_ar":"تحديد صلاحية الرخصة بالاعتماد على الوزن الفارغ للمقطورة وحده.","why_it":"Contano le masse massime autorizzate e i limiti della combinazione.","why_ar":"العبرة بالكتل القصوى المسموح بها وحدود المجموعة."}
+      ],
+      "quick_check":[
+        {"statement_it":"La pagina MIT indica che per un complesso oltre 3.500 kg nel caso descritto occorre la prova B96.","statement_ar":"تذكر صفحة الوزارة أن المجموعة التي تتجاوز 3500 كغ في الحالة المذكورة تتطلب اختبار B96.","answer":"VERO","explanation_it":"Il MIT specifica la prova e il rilascio del codice B96 per tale condizione.","explanation_ar":"تحدد الوزارة الاختبار والحصول على الرمز B96 لهذه الحالة."},
+        {"statement_it":"Il solo peso a vuoto basta a stabilire se la patente è adeguata.","statement_ar":"يكفي الوزن الفارغ وحده لتحديد ملاءمة الرخصة.","answer":"FALSO","explanation_it":"Vanno considerate masse autorizzate e caratteristiche della combinazione.","explanation_ar":"يجب مراعاة الكتل المسموحة وخصائص المجموعة."},
+        {"statement_it":"Prima di partire è utile controllare aggancio, luci e freni del rimorchio.","statement_ar":"من المفيد فحص وصلة الربط والأضواء والفرامل قبل الانطلاق.","answer":"VERO","explanation_it":"Sono controlli pratici essenziali per la sicurezza del complesso.","explanation_ar":"هذه فحوص عملية أساسية لسلامة المجموعة."}
+      ],
+      "example_it":"Prima di trainare una roulotte, confronto le masse autorizzate sui documenti, verifico il codice necessario e controllo aggancio, luci e freni.",
+      "example_ar":"قبل جر مقطورة سكنية، أقارن الكتل المسموح بها في الوثائق، وأتحقق من الرمز اللازم وأفحص الوصلة والأضواء والفرامل.",
+      "pitfall_it":"Non associare automaticamente la soglia massima alla sola patente B: la condizione B96 va esplicitata.",
+      "pitfall_ar":"لا تربط الحد الأعلى تلقائيًا برخصة B وحدها؛ يجب توضيح شرط B96.",
+      "legal_sources":[{"article":"Patente B e codice B96","title_it":"Veicoli guidabili con patente B","title_ar":"المركبات التي تسمح رخصة B بقيادتها","url":"https://www.mit.gov.it/conseguimento-patente-b"},{"article":"Art. 56","title_it":"Rimorchi","title_ar":"المقطورات","url":"https://aci.gov.it/codice-della-strada/art-56/"},{"article":"Art. 175","title_it":"Condizioni e limitazioni della circolazione sulle autostrade e strade extraurbane principali","title_ar":"شروط وقيود السير على الطرق السريعة والطرق الرئيسية خارج المدن","url":"https://aci.gov.it/codice-della-strada/art-175/"}]
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "module_id": "driver-health-environment",
+  "lessons": [
+    {
+      "lesson_order": 1,
+      "heading_it": "Conducente e idoneità: attenzione, alcol e sostanze",
+      "heading_ar": "السائق والقدرة على القيادة: التركيز والكحول والمواد المخدرة",
+      "body_it": "Guidare richiede attenzione, percezione e controllo del veicolo. Stanchezza, sonnolenza, malessere o una condizione psichica che riduce la concentrazione possono rendere insicura la guida: se non riesci a mantenere il controllo, non partire o interrompi la marcia appena puoi farlo in sicurezza. L’articolo 186 vieta la guida in stato di ebbrezza conseguente all’uso di bevande alcoliche; non equivale a un divieto formulato come guida dopo qualsiasi assunzione. L’articolo 187 disciplina la guida dopo aver assunto sostanze stupefacenti o psicotrope. Per i farmaci, leggi le avvertenze e chiedi un parere sanitario: qui non si formulano indicazioni cliniche. È una sintesi didattica, non una citazione letterale.",
+      "body_ar": "السواقة محتاجة انتباه وإدراك وتحكّم في العربية. التعب أو النعاس أو المرض أو حالة نفسية بتقلل التركيز ممكن تخلي القيادة غير آمنة؛ لو مش قادر تفضل مسيطر على العربية، ما تبدأش أو وقف أول ما تقدر تعمل ده بأمان. المادة 186 بتحظر القيادة في حالة السُكر الناتجة عن تناول مشروبات كحولية؛ وده مش نفس صياغة حظر القيادة بعد أي تناول للكحول. والمادة 187 بتنظم القيادة بعد تناول مواد مخدرة أو مؤثرة نفسيًا. بالنسبة للأدوية، اقرأ التحذيرات واسأل مختصًا صحيًا؛ الشرح هنا مش نصيحة طبية. ده تلخيص تعليمي، مش اقتباس حرفي من القانون.",
+      "core_it": ["Se attenzione o controllo sono compromessi, la guida non è sicura.", "Gli artt. 186 e 187 riguardano fattispecie distinte: ebbrezza e sostanze stupefacenti o psicotrope."],
+      "core_ar": ["لو التركيز أو التحكم متأثر، القيادة مش آمنة.", "المادتان 186 و187 تتناولان حالتين مختلفتين: السُكر والمواد المخدرة أو المؤثرة نفسيًا."],
+      "key_points": [
+        {"title_it":"Attenzione e controllo","title_ar":"التركيز والتحكم","it":"La capacità di guidare richiede attenzione e controllo effettivo.","ar":"القيادة تحتاج انتباهًا وتحكمًا فعليًا في المركبة."},
+        {"title_it":"Stanchezza","title_ar":"التعب","it":"Se la stanchezza impedisce un controllo adeguato, non proseguire.","ar":"لو التعب مانعك من التحكم المناسب، ما تكملش السواقة."},
+        {"title_it":"Alcol","title_ar":"الكحول","it":"L’art. 186 formula il divieto come guida in stato di ebbrezza conseguente all’uso di alcol.","ar":"المادة 186 تصوغ الحظر باعتباره قيادة في حالة سُكر ناتجة عن تناول الكحول."},
+        {"title_it":"Sostanze","title_ar":"المواد المخدرة","it":"L’art. 187 tratta la guida dopo l’assunzione di sostanze stupefacenti o psicotrope.","ar":"المادة 187 تتناول القيادة بعد تناول مواد مخدرة أو مؤثرة نفسيًا."},
+        {"title_it":"Farmaci","title_ar":"الأدوية","it":"Le avvertenze e il parere sanitario aiutano a valutare il rischio individuale; non si presume l’idoneità automatica.","ar":"التحذيرات والرأي الصحي بيساعدوا في تقييم الخطر الشخصي؛ وما نفترضش إن الدواء ما بيأثرش تلقائيًا."}
+      ],
+      "trap_words": [
+        {"term_it":"in stato di ebbrezza","meaning_ar":"في حالة سُكر","why_it":"Non significa semplicemente dopo qualunque assunzione di alcol.","why_ar":"مش معناها ببساطة بعد أي تناول للكحول.","example_it":"L’art. 186 vieta la guida in stato di ebbrezza.","example_ar":"المادة 186 بتحظر القيادة في حالة سُكر."}
+      ],
+      "numbers": [],
+      "common_mistakes": [
+        {"mistake_it":"Dire che l’art. 186 vieta la guida dopo qualsiasi assunzione di alcol.","mistake_ar":"القول إن المادة 186 بتحظر السواقة بعد أي تناول للكحول.","why_it":"La formulazione verificata riguarda la guida in stato di ebbrezza conseguente all’uso di bevande alcoliche.","why_ar":"الصياغة المتحقَّق منها تتعلق بالقيادة في حالة سُكر ناتجة عن تناول مشروبات كحولية."},
+        {"mistake_it":"Pensare che ogni farmaco vieti automaticamente la guida o che una prescrizione garantisca sempre l’idoneità.","mistake_ar":"الاعتقاد إن كل دواء بيمنع السواقة تلقائيًا أو إن الوصفة الطبية تضمن صلاحية القيادة دائمًا.","why_it":"Occorre valutare le avvertenze e chiedere un parere sanitario; questo testo non dà valutazioni cliniche.","why_ar":"لازم مراجعة التحذيرات وسؤال مختص صحي؛ النص ده ما بيقدمش تقييمًا طبيًا."}
+      ],
+      "quick_check": [
+        {"statement_it":"L’art. 186 vieta la guida in stato di ebbrezza conseguente all’uso di bevande alcoliche.","statement_ar":"المادة 186 بتحظر القيادة في حالة سُكر ناتجة عن تناول مشروبات كحولية.","answer":"VERO","explanation_it":"È la formulazione del divieto riportata dall’articolo.","explanation_ar":"دي صياغة الحظر الواردة في المادة."},
+        {"statement_it":"L’art. 187 riguarda la guida dopo aver assunto sostanze stupefacenti o psicotrope.","statement_ar":"المادة 187 بتتناول القيادة بعد تناول مواد مخدرة أو مؤثرة نفسيًا.","answer":"VERO","explanation_it":"La pagina ACI dell’art. 187 descrive questa fattispecie.","explanation_ar":"صفحة المادة 187 لدى ACI بتعرض الحالة دي."},
+        {"statement_it":"La prescrizione di un farmaco dimostra sempre che si può guidare senza valutazioni ulteriori.","statement_ar":"وصفة الدواء بتثبت دايمًا إن القيادة آمنة من غير أي تقييم إضافي.","answer":"FALSO","explanation_it":"Non si può presumere l’idoneità: si devono considerare le avvertenze e chiedere un parere sanitario.","explanation_ar":"ما ينفعش نفترض صلاحية القيادة؛ لازم مراجعة التحذيرات وسؤال مختص صحي."}
+      ],
+      "example_it":"Una persona legge che un medicinale può causare sonnolenza e si sente meno attenta: evita di mettersi alla guida finché non ha chiarito il rischio con un professionista sanitario.",
+      "example_ar":"شخص قرأ إن دواء ممكن يسبب النعاس وحاسس إن تركيزه أقل؛ يتجنب السواقة لحد ما يستوضح الخطر من مختص صحي.",
+      "pitfall_it":"Non confondere la formulazione dell’art. 186 sullo stato di ebbrezza con un divieto generale riferito a qualsiasi assunzione; non sostituire il parere sanitario con supposizioni sui farmaci.",
+      "pitfall_ar":"ما تخلطش بين صياغة المادة 186 عن حالة السُكر وبين حظر عام بعد أي تناول؛ وما تستبدلش الرأي الصحي بتخمينات عن الأدوية.",
+      "legal_sources": [
+        {"article":"Art. 186 Codice della strada","title_it":"ACI — Guida sotto l’influenza dell’alcool","title_ar":"ACI — القيادة تحت تأثير الكحول","url":"https://www.aci.it/fileadmin/cds/art-186.php"},
+        {"article":"Art. 187 Codice della strada","title_it":"ACI — Guida dopo l’assunzione di sostanze stupefacenti","title_ar":"ACI — القيادة بعد تناول مواد مخدرة أو مؤثرة نفسيًا","url":"https://aci.gov.it/codice-della-strada/art-187/"},
+        {"article":"Legge 25 novembre 2024, n. 177","title_it":"MIT — Modifiche al Codice della strada in vigore","title_ar":"وزارة النقل — التعديلات النافذة على قانون الطرق","url":"https://www.mit.gov.it/comunicazione/news/sicurezza-stradale-e-vigore-il-decreto-con-modifiche-al-codice-della-strada"}
+      ]
+    },
+    {
+      "lesson_order": 2,
+      "heading_it": "Prevenire gli incidenti: velocità e prudenza",
+      "heading_ar": "الوقاية من الحوادث: السرعة والحذر",
+      "body_it": "La circolazione sicura richiede che gli utenti non creino pericolo o intralcio e salvaguardino la sicurezza: è il principio generale dell’articolo 140. L’articolo 141 chiede al conducente di regolare la velocità considerando veicolo e carico, strada, traffico, visibilità, condizioni atmosferiche e altre circostanze. Deve mantenere il controllo e potersi arrestare entro il proprio campo di visibilità e davanti agli ostacoli prevedibili. Perciò il limite massimo segnalato non è automaticamente una velocità sicura in ogni situazione. Pioggia, visuale ridotta o traffico possono richiedere di rallentare e aumentare la distanza. Sono applicazioni pratiche del principio, non valori numerici aggiuntivi né nuove regole autonome.",
+      "body_ar":"السير الآمن يقتضي إن مستخدمي الطريق ما يسببوش خطر أو تعطيل ويحافظوا على السلامة؛ وده المبدأ العام في المادة 140. والمادة 141 بتطلب من السائق يضبط السرعة مع مراعاة العربية وحمولتها والطريق والزحمة والرؤية والجو والظروف التانية. لازم يفضل متحكم في المركبة ويقدر يقف داخل مجال الرؤية وقدام العوائق المتوقعة. عشان كده الحد الأقصى المعلن مش معناه إن السرعة دي آمنة تلقائيًا في كل موقف. المطر أو ضعف الرؤية أو الزحمة ممكن يتطلبوا تهدئة السرعة وزيادة المسافة. دي تطبيقات عملية للمبدأ، مش أرقام إضافية ولا قواعد مستقلة جديدة.",
+      "core_it": ["La velocità va adeguata alle condizioni, non soltanto al limite massimo.", "Il conducente deve mantenere il controllo e fermarsi entro il campo visibile."],
+      "core_ar": ["السرعة لازم تناسب الظروف، مش الحد الأقصى وحده.", "لازم السائق يفضل متحكم ويقدر يقف داخل مجال الرؤية."],
+      "key_points": [
+        {"title_it":"Sicurezza comune","title_ar":"السلامة مسؤولية مشتركة","it":"L’art. 140 richiede di non creare pericolo o intralcio e di salvaguardare la sicurezza.","ar":"المادة 140 بتطلب عدم التسبب في خطر أو تعطيل والحفاظ على السلامة."},
+        {"title_it":"Condizioni da valutare","title_ar":"الظروف الواجب مراعاتها","it":"Velocità e controllo si rapportano a veicolo, strada, traffico, visibilità e meteo.","ar":"السرعة والتحكم يرتبطان بالمركبة والطريق والزحمة والرؤية والطقس."},
+        {"title_it":"Campo visibile","title_ar":"مجال الرؤية","it":"Il conducente deve potersi arrestare entro il proprio campo di visibilità.","ar":"لازم السائق يقدر يقف داخل مجال رؤيته."},
+        {"title_it":"Limite massimo","title_ar":"الحد الأقصى","it":"Rispettare il limite massimo non rende sempre adeguata quella velocità.","ar":"الالتزام بالحد الأقصى مش معناه إن السرعة مناسبة في كل الأحوال."}
+      ],
+      "trap_words": [
+        {"term_it":"campo di visibilità","meaning_ar":"مجال الرؤية","why_it":"È lo spazio che il conducente riesce a vedere, non una distanza numerica fissa.","why_ar":"هو المساحة اللي السائق قادر يشوفها، مش مسافة رقمية ثابتة.","example_it":"In una curva cieca, riduce la velocità per poter arrestarsi nello spazio visibile.","example_ar":"في منحنى الرؤية فيه محجوبة، يهدّي عشان يقدر يقف داخل المساحة اللي شايفها."}
+      ],
+      "numbers": [],
+      "common_mistakes": [
+        {"mistake_it":"Ritenere sicuro in ogni circostanza viaggiare al limite massimo indicato.","mistake_ar":"اعتبار السير عند الحد الأقصى المعلن آمنًا في كل الظروف.","why_it":"L’art. 141 richiede di adeguare la velocità alle condizioni e di mantenere la capacità di arresto nel campo visibile.","why_ar":"المادة 141 بتطلب ملاءمة السرعة للظروف والقدرة على التوقف داخل مجال الرؤية."},
+        {"mistake_it":"Trattare prudenza e distanza adeguata come numeri fissati in questa spiegazione.","mistake_ar":"اعتبار الحذر والمسافة المناسبة أرقامًا محددة في الشرح ده.","why_it":"Sono indicazioni applicative; non vengono introdotti valori numerici ulteriori.","why_ar":"دي إرشادات تطبيقية؛ الشرح ما بيضيفش قيم رقمية."}
+      ],
+      "quick_check": [
+        {"statement_it":"L’art. 141 collega la velocità anche alla visibilità e alle condizioni della strada.","statement_ar":"المادة 141 بتربط السرعة كمان بالرؤية وظروف الطريق.","answer":"VERO","explanation_it":"La norma indica visibilità, strada e altre circostanze tra gli elementi da considerare.","explanation_ar":"المادة بتذكر الرؤية والطريق وظروفًا تانية ضمن العناصر الواجب مراعاتها."},
+        {"statement_it":"Il limite massimo è sempre una velocità sicura, qualunque siano le condizioni.","statement_ar":"الحد الأقصى دايمًا سرعة آمنة مهما كانت الظروف.","answer":"FALSO","explanation_it":"La velocità deve essere adeguata e consentire l’arresto entro il campo visibile.","explanation_ar":"السرعة لازم تكون مناسبة وتسمح بالتوقف داخل مجال الرؤية."},
+        {"statement_it":"L’art. 140 richiede agli utenti di non creare pericolo o intralcio alla circolazione.","statement_ar":"المادة 140 بتطلب من مستخدمي الطريق ما يسببوش خطر أو تعطيل للسير.","answer":"VERO","explanation_it":"È il principio generale della circolazione indicato nell’articolo.","explanation_ar":"ده المبدأ العام لحركة المرور المذكور في المادة."}
+      ],
+      "example_it":"Con pioggia intensa e visuale ridotta, il conducente rallenta e lascia più spazio davanti, così da mantenere il controllo e potersi fermare entro ciò che vede.",
+      "example_ar":"مع المطر الشديد وضعف الرؤية، السائق يهدّي ويسيب مسافة أكبر قدامه عشان يفضل متحكم ويقدر يقف داخل المساحة اللي شايفها.",
+      "pitfall_it":"Non confondere il limite massimo con una velocità automaticamente adatta: le condizioni reali e la capacità di arresto restano determinanti.",
+      "pitfall_ar":"ما تخلطش بين الحد الأقصى والسرعة المناسبة تلقائيًا؛ الظروف الفعلية والقدرة على التوقف يفضلوا عاملين أساسيين.",
+      "legal_sources": [
+        {"article":"Artt. 140–141 Codice della strada","title_it":"ACI — Art. 140, principio della circolazione","title_ar":"ACI — المادة 140، مبدأ حركة المرور","url":"https://aci.gov.it/codice-della-strada/art-140/"},
+        {"article":"Art. 141 Codice della strada","title_it":"ACI — Art. 141, velocità","title_ar":"ACI — المادة 141، السرعة","url":"https://aci.gov.it/codice-della-strada/art-141/"}
+      ]
+    },
+    {
+      "lesson_order": 3,
+      "heading_it": "Incidente: fermarsi, assistere e collaborare",
+      "heading_ar": "الحادث: الوقوف وتقديم المساعدة والتعاون",
+      "body_it": "Quando un incidente è comunque ricollegabile al proprio comportamento, l’articolo 189 impone di fermarsi; se qualcuno ha riportato un danno alla persona, occorre prestare l’assistenza necessaria. Le persone coinvolte devono adottare misure idonee a salvaguardare la sicurezza della circolazione. Se vi sono soltanto danni alle cose, i conducenti e gli altri utenti coinvolti devono, ove possibile, evitare intralcio al traffico. In ogni caso i conducenti forniscono le proprie generalità e le informazioni utili alle persone danneggiate. In presenza di feriti o pericoli, chiedere l’intervento dei servizi di emergenza è una cautela pratica. Non diamo istruzioni cliniche: la pagina normativa consultata non stabilisce tecniche di primo soccorso.",
+      "body_ar":"لما يكون الحادث مرتبطًا بأي شكل بتصرف السائق، المادة 189 بتلزمه يقف؛ ولو حد اتصاب، لازم يقدم المساعدة اللازمة. والأشخاص المشاركون في الحادث عليهم اتخاذ إجراءات مناسبة لحماية سلامة حركة المرور. لو فيه أضرار مادية بس، السائقون وباقي مستخدمي الطريق المشاركون لازم، لو أمكن، يتجنبوا تعطيل السير. وفي كل الأحوال، السائقون يقدموا بياناتهم الشخصية والمعلومات المفيدة للمتضررين. لو فيه مصاب أو خطر، طلب تدخل خدمات الطوارئ احتياط عملي. مش بنقدم تعليمات طبية: الصفحة القانونية اللي راجعناها ما بتحددش أساليب إسعاف أولي.",
+      "core_it": ["L’art. 189 richiede di fermarsi e prestare assistenza necessaria ai feriti.", "Sicurezza, informazioni utili e niente consigli medici non verificati."],
+      "core_ar": ["المادة 189 بتطلب الوقوف وتقديم المساعدة اللازمة للمصابين.", "حماية السلامة وتقديم المعلومات المفيدة، من غير نصائح طبية غير متحقَّق منها."],
+      "key_points": [
+        {"title_it":"Fermarsi","title_ar":"الوقوف","it":"Se l’incidente è collegato al proprio comportamento, la norma richiede di fermarsi.","ar":"لو الحادث مرتبط بتصرف السائق، القانون بيطلب منه الوقوف."},
+        {"title_it":"Assistenza","title_ar":"المساعدة","it":"Se vi sono persone ferite, va prestata l’assistenza necessaria.","ar":"لو فيه أشخاص مصابون، لازم تقديم المساعدة اللازمة."},
+        {"title_it":"Sicurezza della circolazione","title_ar":"سلامة حركة المرور","it":"Le persone coinvolte adottano misure idonee a salvaguardarla.","ar":"الأشخاص المشاركون يتخذوا إجراءات مناسبة لحماية سلامة السير."},
+        {"title_it":"Danni materiali","title_ar":"الأضرار المادية","it":"Quando possibile, si evita di intralciare la circolazione.","ar":"لو أمكن، لازم تجنب تعطيل حركة المرور."},
+        {"title_it":"Informazioni","title_ar":"المعلومات","it":"I conducenti forniscono generalità e informazioni utili alle persone danneggiate.","ar":"السائقون يقدموا بياناتهم والمعلومات المفيدة للمتضررين."}
+      ],
+      "trap_words": [
+        {"term_it":"assistenza occorrente","meaning_ar":"المساعدة اللازمة","why_it":"È l’obbligo previsto dalla norma, non un protocollo medico descritto qui.","why_ar":"ده الالتزام الوارد في القانون، مش بروتوكول طبي موضح هنا.","example_it":"In caso di feriti, si presta l’assistenza necessaria e si richiedono soccorsi se opportuno.","example_ar":"لو فيه مصابين، تُقدَّم المساعدة اللازمة وتُطلب الطوارئ عند الحاجة."}
+      ],
+      "numbers": [],
+      "common_mistakes": [
+        {"mistake_it":"Pensare che l’obbligo di fermarsi valga soltanto quando il danno appare grave.","mistake_ar":"الاعتقاد إن واجب الوقوف ينطبق بس لما الضرر يبان خطير.","why_it":"L’art. 189 lega il dovere alla connessione dell’incidente con il proprio comportamento; per danni alle cose disciplina comunque gli obblighi pertinenti.","why_ar":"المادة 189 بتربط الواجب بارتباط الحادث بتصرف السائق؛ وبتحدد كمان الالتزامات في حالة الأضرار المادية."},
+        {"mistake_it":"Presentare il consiglio di non spostare un ferito come regola medica o obbligo espresso dall’art. 189.","mistake_ar":"عرض نصيحة عدم تحريك المصاب كقاعدة طبية أو واجب منصوص عليه في المادة 189.","why_it":"Qui non è stata verificata una fonte medica indipendente e l’articolo consultato non descrive tecniche di soccorso.","why_ar":"ما راجعناش هنا مصدرًا طبيًا مستقلًا، والمادة المفتوحة ما بتشرحش طرق الإسعاف."}
+      ],
+      "quick_check": [
+        {"statement_it":"Se l’incidente è ricollegabile al proprio comportamento, l’art. 189 prevede l’obbligo di fermarsi.","statement_ar":"لو الحادث مرتبط بتصرف السائق، المادة 189 بتقرر واجب الوقوف.","answer":"VERO","explanation_it":"Il comma 1 stabilisce l’obbligo di fermarsi.","explanation_ar":"الفقرة الأولى بتقرر واجب الوقوف."},
+        {"statement_it":"In caso di persone ferite, l’art. 189 richiede l’assistenza occorrente.","statement_ar":"لو فيه أشخاص مصابون، المادة 189 بتطلب تقديم المساعدة اللازمة.","answer":"VERO","explanation_it":"Il comma 1 richiede l’assistenza alle persone che hanno subito danno alla persona.","explanation_ar":"الفقرة الأولى بتطلب مساعدة الأشخاص اللي أصيبوا."},
+        {"statement_it":"La pagina dell’art. 189 consultata fornisce un protocollo clinico completo di primo soccorso.","statement_ar":"صفحة المادة 189 اللي راجعناها بتقدم بروتوكولًا طبيًا كاملًا للإسعافات الأولية.","answer":"FALSO","explanation_it":"La disposizione disciplina obblighi stradali dopo l’incidente, non tecniche cliniche di primo soccorso.","explanation_ar":"المادة بتنظم واجبات المرور بعد الحادث، مش أساليب الإسعاف الطبية."}
+      ],
+      "example_it":"Dopo una collisione collegata alla sua condotta, una conducente si ferma. Nota una persona ferita, chiede soccorso, contribuisce alla sicurezza del luogo e comunica i propri dati e le informazioni utili.",
+      "example_ar":"بعد تصادم مرتبط بتصرفها، سائقة بتقف. تلاحظ شخصًا مصابًا، تطلب المساعدة، تساهم في تأمين المكان وتقدم بياناتها والمعلومات المفيدة.",
+      "pitfall_it":"Non andarsene perché il danno sembra lieve. Non presentare precauzioni generali o consigli clinici come testo dell’art. 189: qui le tecniche mediche non sono state verificate. La cautela di non spostare il ferito salvo pericolo immediato non è stata verificata con una fonte medica indipendente e non va intesa come consiglio clinico.",
+      "pitfall_ar":"ما تمشيش لمجرد إن الضرر شكله بسيط. وما تعرضش الاحتياطات العامة أو النصائح الطبية كأنها نص المادة 189؛ الأساليب الطبية ما اتراجعتش هنا. كمان الاحتياط بعدم تحريك المصاب إلا عند وجود خطر فوري ما اتراجعش بمصدر طبي مستقل، وما يتفهمش كنصيحة طبية.",
+      "legal_sources": [
+        {"article":"Art. 189 Codice della strada","title_it":"ACI — Comportamento in caso di incidente","title_ar":"ACI — السلوك في حالة وقوع حادث","url":"https://aci.gov.it/codice-della-strada/art-189/"}
+      ]
+    },
+    {
+      "lesson_order": 4,
+      "heading_it": "Consumi, rumore e tutela dell’ambiente",
+      "heading_ar": "استهلاك الوقود والضوضاء وحماية البيئة",
+      "body_it": "Uno stile di guida regolare e una manutenzione attenta possono aiutare a contenere i consumi: sono suggerimenti pratici, non valori di legge autonomi. La tutela della strada comprende anche divieti specifici: l’articolo 15 vieta di gettare qualsiasi cosa dai veicoli in movimento. Per i veicoli a motore e i loro rimorchi in circolazione, l’articolo 79 richiede condizioni di efficienza che garantiscano la sicurezza e contengano rumore e inquinamento entro i limiti previsti. L’articolo 155 tratta i rumori molesti causati dal modo di guidare o dalla sistemazione del carico; l’articolo 156 disciplina l’uso dei dispositivi di segnalazione acustica. Questi riferimenti hanno ambiti distinti: non attribuire rumore ed emissioni all’articolo 15.",
+      "body_ar":"أسلوب القيادة المنتظم والصيانة الجيدة ممكن يساعدوا في تقليل الاستهلاك؛ ودي نصائح عملية مش قيم قانونية مستقلة. حماية الطريق تشمل كمان محظورات محددة: المادة 15 بتحظر إلقاء أي شيء من مركبة متحركة. وبالنسبة للمركبات ذات المحرك ومقطوراتها أثناء السير، المادة 79 بتطلب كفاءة تضمن السلامة وتحصر الضوضاء والتلوث ضمن الحدود المقررة. المادة 155 بتتناول الضوضاء المزعجة الناتجة عن طريقة القيادة أو ترتيب الحمولة؛ والمادة 156 بتنظم استخدام أجهزة التنبيه الصوتي. لكل مادة نطاق مختلف؛ ما تنسبش الضوضاء والانبعاثات للمادة 15.",
+      "core_it": ["Consigli sui consumi non sono limiti di legge.", "Artt. 15, 79, 155 e 156 hanno oggetti distinti: rifiuti, efficienza, rumori molesti e segnalazioni acustiche."],
+      "core_ar": ["نصائح تقليل الاستهلاك مش حدود قانونية.", "المواد 15 و79 و155 و156 لكل منها موضوع مختلف: المخلفات والكفاءة والضوضاء والتنبيه الصوتي."],
+      "key_points": [
+        {"title_it":"Consumi","title_ar":"الاستهلاك","it":"Una guida regolare è un suggerimento pratico per contenere i consumi.","ar":"القيادة المنتظمة نصيحة عملية لتقليل الاستهلاك."},
+        {"title_it":"Articolo 15","title_ar":"المادة 15","it":"Vieta di gettare qualsiasi cosa dai veicoli in movimento.","ar":"بتحظر إلقاء أي شيء من المركبات المتحركة."},
+        {"title_it":"Efficienza","title_ar":"الكفاءة","it":"L’art. 79 riguarda efficienza, sicurezza, rumore e inquinamento dei veicoli a motore e rimorchi in circolazione.","ar":"المادة 79 تتعلق بكفاءة وسلامة وضوضاء وتلوث المركبات ذات المحرك ومقطوراتها أثناء السير."},
+        {"title_it":"Rumori molesti","title_ar":"الضوضاء المزعجة","it":"L’art. 155 considera rumori legati alla guida e alla sistemazione del carico.","ar":"المادة 155 بتتناول الضوضاء المرتبطة بالقيادة وترتيب الحمولة."},
+        {"title_it":"Segnalazione acustica","title_ar":"التنبيه الصوتي","it":"L’uso dei dispositivi acustici è trattato dall’art. 156, non dall’art. 15.","ar":"استخدام أجهزة التنبيه الصوتي تنظمه المادة 156، مش المادة 15."}
+      ],
+      "trap_words": [
+        {"term_it":"efficienza","meaning_ar":"الكفاءة وحسن التشغيل","why_it":"L’art. 79 collega l’efficienza del veicolo a sicurezza, rumore e inquinamento entro i limiti previsti.","why_ar":"المادة 79 بتربط كفاءة المركبة بالسلامة والضوضاء والتلوث ضمن الحدود المقررة.","example_it":"La manutenzione contribuisce a mantenere il veicolo efficiente.","example_ar":"الصيانة بتساعد في الحفاظ على كفاءة المركبة."}
+      ],
+      "numbers": [],
+      "common_mistakes": [
+        {"mistake_it":"Attribuire all’art. 15 la disciplina di rumore ed emissioni del veicolo.","mistake_ar":"نسبة تنظيم ضوضاء المركبة وانبعاثاتها للمادة 15.","why_it":"L’art. 15 tratta, fra l’altro, il divieto di gettare oggetti; efficienza e rumori sono trattati da altri articoli.","why_ar":"المادة 15 بتتناول، ضمن أمور أخرى، حظر إلقاء الأشياء؛ أما الكفاءة والضوضاء فتنظمهما مواد أخرى."},
+        {"mistake_it":"Presentare la guida regolare come obbligo numerico specifico di legge per ridurre i consumi.","mistake_ar":"عرض القيادة المنتظمة كالتزام قانوني رقمي محدد لتقليل الاستهلاك.","why_it":"È un consiglio pratico, mentre gli obblighi citati riguardano divieti e requisiti descritti nei rispettivi articoli.","why_ar":"دي نصيحة عملية، أما الالتزامات المذكورة فتتعلق بالمحظورات والمتطلبات الواردة في موادها."}
+      ],
+      "quick_check": [
+        {"statement_it":"L’art. 15 vieta di gettare qualsiasi cosa dai veicoli in movimento.","statement_ar":"المادة 15 بتحظر إلقاء أي شيء من المركبات المتحركة.","answer":"VERO","explanation_it":"Il divieto è riportato nell’art. 15, comma 1, lettera i.","explanation_ar":"الحظر وارد في المادة 15، الفقرة 1، البند i."},
+        {"statement_it":"L’art. 79 riguarda anche il contenimento di rumore e inquinamento entro i limiti previsti per i veicoli a motore e i loro rimorchi in circolazione.","statement_ar":"المادة 79 بتتناول كمان حصر الضوضاء والتلوث ضمن الحدود المقررة للمركبات ذات المحرك ومقطوراتها أثناء السير.","answer":"VERO","explanation_it":"Questo ambito è indicato nel comma 1 dell’articolo.","explanation_ar":"النطاق ده مذكور في الفقرة الأولى من المادة."},
+        {"statement_it":"L’art. 15 è la disposizione che disciplina i rumori molesti causati dal modo di guidare.","statement_ar":"المادة 15 هي اللي بتنظم الضوضاء المزعجة الناتجة عن طريقة القيادة.","answer":"FALSO","explanation_it":"I rumori molesti sono trattati dall’art. 155; l’art. 15 vieta, fra l’altro, di gettare oggetti dai veicoli in movimento.","explanation_ar":"الضوضاء المزعجة تتناولها المادة 155؛ أما المادة 15 فتحظر، ضمن أمور أخرى، إلقاء الأشياء من المركبات المتحركة."}
+      ],
+      "example_it":"Nel traffico, una conducente evita accelerazioni inutili e mantiene il veicolo in buone condizioni. Non getta rifiuti dalla vettura e usa il segnalatore acustico soltanto nel rispetto delle regole applicabili.",
+      "example_ar":"في الزحمة، سائقة بتتجنب التسارع من غير داعي وبتحافظ على حالة العربية. ما بترميش مخلفات من المركبة وبتستخدم جهاز التنبيه الصوتي وفق القواعد المطبقة.",
+      "pitfall_it":"Non confondere un consiglio per contenere i consumi con un obbligo numerico; non attribuire all’art. 15 regole su rumore o emissioni che il testo consultato tratta altrove.",
+      "pitfall_ar":"ما تخلطش بين نصيحة تقليل الاستهلاك والتزام قانوني رقمي؛ وما تنسبش للمادة 15 قواعد الضوضاء أو الانبعاثات اللي بتنظمها مواد تانية.",
+      "legal_sources": [
+        {"article":"Art. 15 Codice della strada","title_it":"ACI — Atti vietati","title_ar":"ACI — الأفعال المحظورة","url":"https://aci.gov.it/codice-della-strada/art-15/"},
+        {"article":"Art. 79 Codice della strada","title_it":"ACI — Efficienza dei veicoli a motore e loro rimorchi","title_ar":"ACI — كفاءة المركبات ذات المحرك ومقطوراتها","url":"https://aci.gov.it/codice-della-strada/art-79/"},
+        {"article":"Art. 155 Codice della strada","title_it":"ACI — Limitazione dei rumori","title_ar":"ACI — الحد من الضوضاء","url":"https://aci.gov.it/codice-della-strada/art-155/"},
+        {"article":"Art. 156 Codice della strada","title_it":"ACI — Uso dei dispositivi di segnalazione acustica e luminosa","title_ar":"ACI — استخدام أجهزة التنبيه الصوتي والضوئي","url":"https://aci.gov.it/codice-della-strada/art-156/"}
+      ]
+    }
+  ]
+}

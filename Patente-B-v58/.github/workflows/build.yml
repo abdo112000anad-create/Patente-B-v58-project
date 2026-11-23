@@ -1,0 +1,44 @@
+name: Build Patente B v58 Android APK
+on: [push, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+          cache: gradle
+      - uses: android-actions/setup-android@v3
+        with:
+          packages: platform-tools
+      - name: Install Android SDK packages
+        run: sdkmanager --install "platform-tools" "platforms;android-36" "build-tools;36.0.0"
+      - name: Install dependencies and test source
+        run: |
+          npm ci
+          npm run build
+          npm test
+      - name: Sync Capacitor and build debug APK
+        run: |
+          npx cap sync android
+          cd android
+          chmod +x gradlew
+          ./gradlew --no-daemon :app:assembleDebug :app:testDebugUnitTest
+      - name: Verify Native TTS service is not queried
+        run: |
+          merged_manifest="$(find android/app/build/intermediates -type f -name AndroidManifest.xml -path '*/merged_manifest*/debug/*' -print -quit)"
+          test -n "$merged_manifest"
+          ! grep -Fq 'android.intent.action.TTS_SERVICE' "$merged_manifest"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: patente-b-v58-debug-apk
+          path: android/app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error

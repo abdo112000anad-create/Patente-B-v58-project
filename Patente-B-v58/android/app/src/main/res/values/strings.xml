@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Patente B</string>
+    <string name="title_activity_main">Patente B</string>
+    <string name="package_name">it.patenteb.sideload.v29</string>
+    <string name="custom_url_scheme">it.patenteb.sideload.v29</string>
+</resources>

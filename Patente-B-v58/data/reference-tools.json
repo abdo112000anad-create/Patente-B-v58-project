@@ -1,0 +1,829 @@
+{
+  "schema_version": 1,
+  "traps": [
+    {
+      "term_it": "sempre",
+      "meaning_ar": "دائمًا",
+      "why_it": "È un quantificatore assoluto: va controllato rispetto al comma e alle eccezioni applicabili; la sua presenza non rende da sola falsa la frase.",
+      "why_ar": "دي كلمة تعميم؛ لازم نراجع الفقرة والاستثناءات اللي تنطبق. وجودها لوحده ما يخليش الجملة غلط تلقائيًا.",
+      "example_it": "Il conducente deve sempre conservare il controllo del proprio veicolo.",
+      "example_ar": "لازم السائق يحافظ دائمًا على السيطرة على مركبته.",
+      "legal_reference": {
+        "article": "Art. 141, comma 2",
+        "title_it": "Velocità",
+        "title_ar": "السرعة",
+        "url": "https://aci.gov.it/codice-della-strada/art-141/"
+      }
+    },
+    {
+      "term_it": "mai",
+      "meaning_ar": "أبدًا / مطلقًا",
+      "why_it": "Esprime una negazione assoluta; occorre verificare che il divieto legale non abbia eccezioni o un ambito più ristretto. Non basta la parola per decidere Vero/Falso.",
+      "why_ar": "بتنفي الفعل بشكل مطلق؛ لازم نتأكد إن الحظر القانوني ما لوش استثناء أو نطاق أضيق. الكلمة وحدها مش كفاية للحكم صح أو غلط.",
+      "example_it": "Il conducente non deve mai gareggiare in velocità.",
+      "example_ar": "لا يجوز للسائق أبدًا أن يتسابق في السرعة.",
+      "legal_reference": {
+        "article": "Art. 141, comma 5",
+        "title_it": "Velocità",
+        "title_ar": "السرعة",
+        "url": "https://aci.gov.it/codice-della-strada/art-141/"
+      }
+    },
+    {
+      "term_it": "può",
+      "meaning_ar": "يمكن / يجوز",
+      "why_it": "Può indicare una possibilità o un'autorizzazione, non un obbligo; bisogna identificare soggetto e condizioni della facoltà.",
+      "why_ar": "ممكن تدل على إمكانية أو سماح، مش على واجب؛ راجع مين صاحب الحق وإيه شروطه.",
+      "example_it": "Nelle strade urbane a senso unico la sosta può essere consentita anche lungo il margine sinistro, se resta spazio sufficiente al transito.",
+      "example_ar": "في الشوارع الحضرية ذات الاتجاه الواحد، ممكن يُسمح بالوقوف على الحافة اليسرى كمان، بشرط بقاء مساحة كافية للمرور.",
+      "legal_reference": {
+        "article": "Art. 157, comma 4",
+        "title_it": "Arresto, fermata e sosta dei veicoli",
+        "title_ar": "توقف المركبات ووقوفها",
+        "url": "https://aci.gov.it/codice-della-strada/art-157/"
+      }
+    },
+    {
+      "term_it": "deve",
+      "meaning_ar": "يجب عليه / لازم",
+      "why_it": "Segnala normalmente un dovere, ma l'obbligo va letto insieme al soggetto, alla situazione e alle condizioni previste dalla disposizione.",
+      "why_ar": "غالبًا بتشير لواجب، لكن لازم نقرأها مع الشخص المقصود والحالة والشروط اللي حددها النص.",
+      "example_it": "Durante la fermata il conducente deve essere presente e pronto a riprendere la marcia.",
+      "example_ar": "أثناء التوقف المؤقت، لازم السائق يكون موجود وجاهز يكمل السير.",
+      "legal_reference": {
+        "article": "Art. 157, comma 1, lettera b",
+        "title_it": "Arresto, fermata e sosta dei veicoli",
+        "title_ar": "توقف المركبات ووقوفها",
+        "url": "https://aci.gov.it/codice-della-strada/art-157/"
+      }
+    },
+    {
+      "term_it": "solo",
+      "meaning_ar": "فقط",
+      "why_it": "Restringe la regola a una condizione esclusiva; confronta attentamente la frase con l'intero elenco di casi previsto dalla norma.",
+      "why_ar": "بتحصر القاعدة في حالة واحدة؛ قارن العبارة بكل الحالات اللي النص ذكرها.",
+      "example_it": "La sosta sul margine sinistro è consentita solo nelle strade urbane a senso unico e se restano le condizioni previste.",
+      "example_ar": "يُسمح بالوقوف على الحافة اليسرى فقط في الشوارع الحضرية ذات الاتجاه الواحد، ومع توافر الشروط المحددة.",
+      "legal_reference": {
+        "article": "Art. 157, comma 1, lettera d",
+        "title_it": "Arresto, fermata e sosta dei veicoli",
+        "title_ar": "توقف المركبات ووقوفها",
+        "url": "https://aci.gov.it/codice-della-strada/art-157/"
+      }
+    },
+    {
+      "term_it": "almeno",
+      "meaning_ar": "على الأقل",
+      "why_it": "Fissa una soglia minima, non un valore esatto; controlla unità, oggetto e contesto cui la soglia si applica.",
+      "why_ar": "بتحدد حد أدنى، مش رقمًا دقيقًا لازم يساويه؛ راجع الوحدة والشيء والسياق المقصود.",
+      "example_it": "In assenza di marciapiede rialzato, deve restare uno spazio per i pedoni non inferiore a un metro.",
+      "example_ar": "لو مفيش رصيف مرتفع، لازم تفضل مساحة للمشاة ما تقلش عن متر.",
+      "legal_reference": {
+        "article": "Art. 157, comma 2",
+        "title_it": "Arresto, fermata e sosta dei veicoli",
+        "title_ar": "توقف المركبات ووقوفها",
+        "url": "https://aci.gov.it/codice-della-strada/art-157/"
+      }
+    },
+    {
+      "term_it": "salvo",
+      "meaning_ar": "إلا إذا / مع مراعاة",
+      "why_it": "Introduce una riserva o un'eccezione: individuare esattamente quale regola viene derogata e in quali casi.",
+      "why_ar": "بتدخل استثناء أو تحفظ؛ حدّد بالضبط القاعدة اللي عليها الاستثناء والحالات اللي ينطبق فيها.",
+      "example_it": "Alla precedenza a destra si applica la regola generale, salvo diversa segnalazione.",
+      "example_ar": "الأصل إعطاء الأولوية للقادم من اليمين، إلا إذا وُجدت إشارة مختلفة.",
+      "legal_reference": {
+        "article": "Art. 145, comma 2",
+        "title_it": "Precedenza",
+        "title_ar": "أولوية المرور",
+        "url": "https://aci.gov.it/codice-della-strada/art-145/"
+      }
+    },
+    {
+      "term_it": "diversa",
+      "meaning_ar": "مختلفة",
+      "why_it": "In formule come «salvo diversa segnalazione» rinvia a un segnale che modifica la regola generale; non va separata dalla condizione che la precede.",
+      "why_ar": "في تركيب «إلا إذا كانت الإشارة مختلفة» بتشير لإشارة تغيّر القاعدة العامة؛ ما ينفعش نفصلها عن الشرط اللي قبلها.",
+      "example_it": "Alla precedenza per chi proviene da destra si applica la regola generale, salvo diversa segnalazione.",
+      "example_ar": "تُطبَّق قاعدة أولوية القادم من اليمين، إلا لو فيه إشارة مختلفة.",
+      "legal_reference": {
+        "article": "Art. 145, comma 2",
+        "title_it": "Precedenza",
+        "title_ar": "أولوية المرور",
+        "url": "https://aci.gov.it/codice-della-strada/art-145/"
+      }
+    },
+    {
+      "term_it": "anche",
+      "meaning_ar": "أيضًا / حتى",
+      "why_it": "Aggiunge un caso o amplia la frase; verifica a quale regola si aggiunge e se il testo mantiene limiti o condizioni.",
+      "why_ar": "بتضيف حالة أو توسّع العبارة؛ شوف بتتضاف على أنهي قاعدة وهل لسه فيه شروط أو حدود.",
+      "example_it": "La fermata può essere temporanea anche in un'area in cui la sosta non è ammessa.",
+      "example_ar": "ممكن يكون التوقف مؤقتًا حتى في مكان ممنوع فيه الوقوف.",
+      "legal_reference": {
+        "article": "Art. 157, comma 1, lettera b",
+        "title_it": "Arresto, fermata e sosta dei veicoli",
+        "title_ar": "توقف المركبات ووقوفها",
+        "url": "https://aci.gov.it/codice-della-strada/art-157/"
+      }
+    },
+    {
+      "term_it": "quando",
+      "meaning_ar": "عندما / إذا",
+      "why_it": "Collega la regola a una situazione; la verità dipende dal verificarsi della condizione, non dalla sola parola.",
+      "why_ar": "بتربط القاعدة بحالة معينة؛ صحة الجملة بتعتمد على تحقق الشرط، مش على الكلمة لوحدها.",
+      "example_it": "Quando due veicoli stanno per impegnare un'intersezione, si dà precedenza a chi proviene da destra, salvo diversa segnalazione.",
+      "example_ar": "لما مركبتين يكونوا داخلين على تقاطع، تُعطى الأولوية للقادم من اليمين، إلا إذا وُجدت إشارة مختلفة.",
+      "legal_reference": {
+        "article": "Art. 145, comma 2",
+        "title_it": "Precedenza",
+        "title_ar": "أولوية المرور",
+        "url": "https://aci.gov.it/codice-della-strada/art-145/"
+      }
+    },
+    {
+      "term_it": "prima",
+      "meaning_ar": "قبل",
+      "why_it": "Stabilisce un ordine o un punto temporale/spaziale; nelle domande di precedenza può cambiare il luogo in cui occorre fermarsi.",
+      "why_ar": "بتحدد ترتيبًا أو نقطة زمنية/مكانية؛ في أسئلة الأولوية ممكن تغيّر المكان اللي لازم المركبة تقف عنده.",
+      "example_it": "Quando è prescritto da un apposito segnale, il conducente si ferma alla striscia di arresto prima di immettersi nell'intersezione.",
+      "example_ar": "لما تكون فيه إشارة خاصة بتطلب كده، السائق يقف عند خط التوقف قبل دخول التقاطع.",
+      "legal_reference": {
+        "article": "Art. 145, comma 5",
+        "title_it": "Precedenza",
+        "title_ar": "أولوية المرور",
+        "url": "https://aci.gov.it/codice-della-strada/art-145/"
+      }
+    },
+    {
+      "term_it": "senza",
+      "meaning_ar": "من غير / دون",
+      "why_it": "Indica l'assenza di un requisito o di una condotta; controlla se la norma richiede invece una cautela o una condizione specifica.",
+      "why_ar": "بتفيد غياب شرط أو تصرف؛ راجع إذا كان النص بيشترط احتياطًا أو حالة معينة.",
+      "example_it": "Il conducente non deve effettuare una manovra senza essersi assicurato di non creare pericolo o intralcio.",
+      "example_ar": "ما ينفعش السائق يعمل مناورة من غير ما يتأكد إنها مش هتسبب خطر أو تعطيل.",
+      "legal_reference": {
+        "article": "Art. 154, comma 1, lettera a",
+        "title_it": "Cambiamento di direzione o di corsia o altre manovre",
+        "title_ar": "تغيير الاتجاه أو الحارة ومناورات أخرى",
+        "url": "https://aci.gov.it/codice-della-strada/art-154/"
+      }
+    },
+    {
+      "term_it": "obbligo",
+      "meaning_ar": "واجب / إلزام",
+      "why_it": "Designa un dovere giuridico, ma va letto con il verbo e con i presupposti che delimitano chi deve fare cosa e quando.",
+      "why_ar": "معناها واجب قانوني، لكن لازم تتقري مع الفعل والشروط اللي بتحدد مين يعمل إيه وإمتى.",
+      "example_it": "Negli sbocchi da luoghi non soggetti a pubblico passaggio vi è l'obbligo di arrestarsi e dare la precedenza a chi circola sulla strada.",
+      "example_ar": "عند الخروج من مكان غير مفتوح للمرور العام، فيه واجب الوقوف وإعطاء الأولوية لمستخدمي الطريق.",
+      "legal_reference": {
+        "article": "Art. 145, comma 6",
+        "title_it": "Precedenza",
+        "title_ar": "أولوية المرور",
+        "url": "https://aci.gov.it/codice-della-strada/art-145/"
+      }
+    },
+    {
+      "term_it": "vietato",
+      "meaning_ar": "ممنوع",
+      "why_it": "Esprime un divieto, ma il comma e il campo di applicazione contano: evitare di estendere il divieto oltre i casi descritti.",
+      "why_ar": "بتعبّر عن حظر، لكن الفقرة ونطاق تطبيقها مهمين؛ ما نعممش الحظر على حالات خارج النص.",
+      "example_it": "È vietato impegnare un'intersezione se non si può proseguire e sgomberare l'area in breve tempo.",
+      "example_ar": "ممنوع دخول التقاطع لو مش ممكن تكمل وتُخلي منطقة المناورة خلال وقت قصير.",
+      "legal_reference": {
+        "article": "Art. 145, comma 7",
+        "title_it": "Precedenza",
+        "title_ar": "أولوية المرور",
+        "url": "https://aci.gov.it/codice-della-strada/art-145/"
+      }
+    },
+    {
+      "term_it": "arresto",
+      "meaning_ar": "توقف بسبب متطلبات حركة المرور",
+      "why_it": "È una categoria tecnica distinta da fermata e sosta; confonderle può cambiare la classificazione giuridica della situazione.",
+      "why_ar": "مصطلح فني مختلف عن fermata وsosta؛ الخلط بينهم ممكن يغيّر التصنيف القانوني للحالة.",
+      "example_it": "Per arresto si intende l'interruzione della marcia dovuta a esigenze della circolazione.",
+      "example_ar": "arresto هو انقطاع سير المركبة بسبب متطلبات حركة المرور.",
+      "legal_reference": {
+        "article": "Art. 157, comma 1, lettera a",
+        "title_it": "Arresto, fermata e sosta dei veicoli",
+        "title_ar": "توقف المركبات ووقوفها",
+        "url": "https://aci.gov.it/codice-della-strada/art-157/"
+      }
+    },
+    {
+      "term_it": "fermata",
+      "meaning_ar": "توقف مؤقت لركوب أو نزول أشخاص أو لغرض قصير جدًا",
+      "why_it": "La definizione ammette una sospensione temporanea anche dove la sosta non è ammessa, ma richiede breve durata e presenza del conducente pronto a ripartire.",
+      "why_ar": "التعريف يسمح بتوقف مؤقت حتى في مكان غير مسموح فيه بالوقوف، لكن يشترط مدة قصيرة وبقاء السائق جاهزًا للتحرك.",
+      "example_it": "Durante la fermata il conducente resta presente e pronto a riprendere la marcia.",
+      "example_ar": "أثناء التوقف المؤقت، يفضل السائق موجود وجاهز يكمل السير.",
+      "legal_reference": {
+        "article": "Art. 157, comma 1, lettera b",
+        "title_it": "Arresto, fermata e sosta dei veicoli",
+        "title_ar": "توقف المركبات ووقوفها",
+        "url": "https://aci.gov.it/codice-della-strada/art-157/"
+      }
+    },
+    {
+      "term_it": "sosta",
+      "meaning_ar": "وقوف المركبة لمدة ممتدة مع إمكانية ابتعاد السائق",
+      "why_it": "La definizione dipende dalla durata protratta e dalla possibilità che il conducente si allontani; non va parafrasata aggiungendo che sia necessariamente volontaria.",
+      "why_ar": "التعريف مرتبط باستمرار الوقوف وإمكانية ابتعاد السائق؛ ما نضيفش من عندنا شرط إنها لازم تكون بإرادته.",
+      "example_it": "Per sosta si intende la sospensione della marcia protratta nel tempo, con possibilità di allontanamento del conducente.",
+      "example_ar": "sosta تعني استمرار توقف المركبة مدة، مع إمكانية ابتعاد السائق.",
+      "legal_reference": {
+        "article": "Art. 157, comma 1, lettera c",
+        "title_it": "Arresto, fermata e sosta dei veicoli",
+        "title_ar": "توقف المركبات ووقوفها",
+        "url": "https://aci.gov.it/codice-della-strada/art-157/"
+      }
+    },
+    {
+      "term_it": "destra",
+      "meaning_ar": "اليمين",
+      "why_it": "La direzione è decisiva per la regola generale di precedenza, ma la legge contempla diversa segnalazione e casi specifici: non è una regola senza condizioni.",
+      "why_ar": "الاتجاه مهم في قاعدة الأولوية العامة، لكن القانون بيذكر الإشارات المختلفة وحالات خاصة؛ مش قاعدة بلا شروط.",
+      "example_it": "All'intersezione, salvo diversa segnalazione, si dà precedenza a chi proviene da destra.",
+      "example_ar": "عند التقاطع، تُعطى الأولوية للقادم من اليمين، إلا إذا وُجدت إشارة مختلفة.",
+      "legal_reference": {
+        "article": "Art. 145, comma 2",
+        "title_it": "Precedenza",
+        "title_ar": "أولوية المرور",
+        "url": "https://aci.gov.it/codice-della-strada/art-145/"
+      }
+    },
+    {
+      "term_it": "anticipo",
+      "meaning_ar": "مسبقًا / بوقت كافٍ",
+      "why_it": "«Con sufficiente anticipo» impone di segnalare prima della manovra con un anticipo sufficiente; la norma non fissa qui un numero universale di secondi.",
+      "why_ar": "«بوقت كافٍ» معناها الإشارة قبل المناورة بمدة مناسبة؛ المادة هنا ما بتحددش عدد ثوانٍ ثابتًا لكل الحالات.",
+      "example_it": "Chi intende cambiare corsia deve segnalare con sufficiente anticipo la propria intenzione.",
+      "example_ar": "اللي ناوي يغيّر الحارة لازم يعلن نيته بإشارة قبلها بوقت كافٍ.",
+      "legal_reference": {
+        "article": "Art. 154, comma 1, lettera b",
+        "title_it": "Cambiamento di direzione o di corsia o altre manovre",
+        "title_ar": "تغيير الاتجاه أو الحارة ومناورات أخرى",
+        "url": "https://aci.gov.it/codice-della-strada/art-154/"
+      }
+    },
+    {
+      "term_it": "prevedibile",
+      "meaning_ar": "متوقَّع / يمكن توقعه",
+      "why_it": "Delimita il tipo di ostacolo davanti al quale il conducente deve poter arrestare il veicolo; non equivale a qualsiasi evento immaginabile.",
+      "why_ar": "بتحدد نوع العائق اللي لازم السائق يقدر يقف قبله؛ مش معناها أي حدث ممكن يتخيله الشخص.",
+      "example_it": "Il conducente deve poter arrestare tempestivamente il veicolo entro il proprio campo di visibilità e dinanzi a qualsiasi ostacolo prevedibile.",
+      "example_ar": "لازم السائق يقدر يوقف المركبة بسرعة ضمن مجال رؤيته وقبل أي عائق يمكن توقعه.",
+      "legal_reference": {
+        "article": "Art. 141, comma 2",
+        "title_it": "Velocità",
+        "title_ar": "السرعة",
+        "url": "https://aci.gov.it/codice-della-strada/art-141/"
+      }
+    }
+  ],
+  "numbers": [
+    {
+      "value": "130 km/h",
+      "category_it": "Limite generale: autostrade",
+      "category_ar": "الحد العام: الطرق السريعة",
+      "rule_it": "Limite massimo ordinario per le autostrade.",
+      "rule_ar": "الحد الأقصى العام على الطرق السريعة.",
+      "article": "Art. 142, commi 1 e 5",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "110 km/h",
+      "category_it": "Limite generale: extraurbane principali",
+      "category_ar": "الحد العام: الطرق الرئيسية خارج المناطق المأهولة",
+      "rule_it": "Limite massimo ordinario sulle strade extraurbane principali.",
+      "rule_ar": "الحد الأقصى العام على الطرق الرئيسية خارج المدن.",
+      "article": "Art. 142, commi 1 e 5",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "90 km/h",
+      "category_it": "Limite generale: extraurbane secondarie e locali",
+      "category_ar": "الحد العام: الطرق الثانوية والمحلية خارج المناطق المأهولة",
+      "rule_it": "Limite massimo ordinario sulle strade extraurbane secondarie e locali.",
+      "rule_ar": "الحد الأقصى العام على الطرق الثانوية والمحلية خارج المدن.",
+      "article": "Art. 142, commi 1 e 5",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "50 km/h",
+      "category_it": "Limite generale: centri abitati",
+      "category_ar": "الحد العام: المناطق المأهولة",
+      "rule_it": "Limite massimo ordinario nei centri abitati; il limite può essere elevato solo nei casi segnalati previsti dalla legge.",
+      "rule_ar": "الحد الأقصى العام داخل المناطق المأهولة؛ ولا يُرفع إلا في الحالات المعلنة التي يجيزها القانون.",
+      "article": "Art. 142, commi 1 e 5",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "70 km/h",
+      "category_it": "Eccezione urbana segnalata",
+      "category_ar": "استثناء معلن داخل المناطق المأهولة",
+      "rule_it": "Su strade urbane con caratteristiche idonee il limite può essere elevato fino a 70 km/h, previa apposita segnalazione.",
+      "rule_ar": "يجوز رفع الحد على طرق حضرية ذات خصائص مناسبة إلى 70 كم/س كحد أقصى، بعد وضع الإشارات المطلوبة.",
+      "article": "Art. 142, commi 1 e 5",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "150 km/h",
+      "category_it": "Eccezione autostradale segnalata",
+      "category_ar": "استثناء معلن على الطريق السريع",
+      "rule_it": "Elevabile fino a 150 km/h solo su autostrade con tre corsie più emergenza per senso, apparecchiature omologate e condizioni di traffico, meteo e incidentalità idonee, previa segnalazione.",
+      "rule_ar": "يجوز رفعه إلى 150 كم/س فقط على طريق سريع بثلاث حارات وحارة طوارئ لكل اتجاه، مع أجهزة معتمدة وتوافر شروط المرور والطقس والحوادث والإشارات.",
+      "article": "Art. 142, commi 1 e 5",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "110 km/h",
+      "category_it": "Precipitazioni: autostrade",
+      "category_ar": "الأمطار: الطرق السريعة",
+      "rule_it": "Con precipitazioni di qualsiasi natura il massimo autostradale è 110 km/h; resta fermo l’obbligo di adeguare la velocità all’art.141.",
+      "rule_ar": "عند أي هطول، الحد الأقصى على الطريق السريع 110 كم/س؛ ويبقى واجب ملاءمة السرعة للمادة 141.",
+      "article": "Art. 142, commi 1 e 5",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "90 km/h",
+      "category_it": "Precipitazioni: extraurbane principali",
+      "category_ar": "الأمطار: الطرق الرئيسية خارج المناطق المأهولة",
+      "rule_it": "Con precipitazioni di qualsiasi natura il massimo sulle extraurbane principali è 90 km/h; resta fermo l’art.141.",
+      "rule_ar": "عند أي هطول، الحد الأقصى على الطرق الرئيسية خارج المدن 90 كم/س؛ وتظل المادة 141 واجبة التطبيق.",
+      "article": "Art. 142, commi 1 e 5",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "45 km/h",
+      "category_it": "Ciclomotori",
+      "category_ar": "الدراجات النارية الخفيفة",
+      "rule_it": "I ciclomotori non possono superare 45 km/h.",
+      "rule_ar": "لا يجوز للدراجات النارية الخفيفة تجاوز 45 كم/س.",
+      "article": "Art. 142, comma 3",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "50 km/h",
+      "category_it": "Merci pericolose classe 1, fuori abitato",
+      "category_ar": "بضائع خطرة من الفئة 1: خارج المناطق المأهولة",
+      "rule_it": "Solo veicoli trasportanti carichi di merci pericolose classe 1, fuori dai centri abitati.",
+      "rule_ar": "للمركبات المحملة ببضائع خطرة من الفئة 1 خارج المناطق المأهولة فقط.",
+      "article": "Art. 142, comma 3",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "30 km/h",
+      "category_it": "Merci pericolose classe 1, in abitato",
+      "category_ar": "بضائع خطرة من الفئة 1: داخل المناطق المأهولة",
+      "rule_it": "Solo veicoli trasportanti carichi di merci pericolose classe 1, nei centri abitati.",
+      "rule_ar": "للمركبات المحملة ببضائع خطرة من الفئة 1 داخل المناطق المأهولة فقط.",
+      "article": "Art. 142, comma 3",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "40 km/h",
+      "category_it": "Macchine agricole/operatrici su pneumatici",
+      "category_ar": "آلات زراعية أو عاملة مزودة بإطارات مطاطية",
+      "rule_it": "Massimo se montate su pneumatici o sistemi equipollenti.",
+      "rule_ar": "الحد للآلات الزراعية/التشغيلية ذات الإطارات أو ما يعادلها.",
+      "article": "Art. 142, comma 3",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "15 km/h",
+      "category_it": "Macchine agricole/operatrici non su pneumatici",
+      "category_ar": "آلات زراعية أو عاملة غير مزودة بإطارات مطاطية",
+      "rule_it": "Massimo negli altri casi previsti dalla lettera c).",
+      "rule_ar": "الحد في الحالات الأخرى المنصوص عليها للآلات الزراعية/التشغيلية.",
+      "article": "Art. 142, comma 3",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "80 km/h",
+      "category_it": "Quadricicli, fuori abitato",
+      "category_ar": "مركبات رباعية العجلات: خارج المناطق المأهولة",
+      "rule_it": "Massimo fuori dai centri abitati.",
+      "rule_ar": "الحد الأقصى للمركبات رباعية العجلات خارج المناطق المأهولة.",
+      "article": "Art. 142, comma 3",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "70 km/h",
+      "category_it": "Complessi auto-rimorchio, fuori abitato",
+      "category_ar": "مجموعات السيارة والمقطورة: خارج المناطق المأهولة",
+      "rule_it": "Treni costituiti da autoveicolo e rimorchio delle categorie richiamate dall’art.54: fuori abitato.",
+      "rule_ar": "لتركيبات سيارة ومقطورة من الأنواع المحال إليها بالمادة 54 خارج المناطق المأهولة.",
+      "article": "Art. 142, comma 3",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "80 km/h",
+      "category_it": "Complessi auto-rimorchio, autostrada",
+      "category_ar": "مجموعات السيارة والمقطورة: طريق سريع",
+      "rule_it": "Stesse categorie di complessi, in autostrada.",
+      "rule_ar": "للتركيبات نفسها على الطرق السريعة.",
+      "article": "Art. 142, comma 3",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "80 km/h",
+      "category_it": "Autobus/filobus oltre 8 t, fuori abitato",
+      "category_ar": "حافلات أو ترولي باص فوق 8 أطنان: خارج المناطق المأهولة",
+      "rule_it": "Veicoli con massa complessiva a pieno carico superiore a 8 t, fuori abitato.",
+      "rule_ar": "للحافلات/الترولي باص التي تتجاوز كتلتها الإجمالية المحملة 8 أطنان خارج المناطق المأهولة.",
+      "article": "Art. 142, comma 3",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "100 km/h",
+      "category_it": "Autobus/filobus oltre 8 t, autostrada",
+      "category_ar": "حافلات أو ترولي باص فوق 8 أطنان: طريق سريع",
+      "rule_it": "Veicoli con massa complessiva a pieno carico superiore a 8 t, in autostrada.",
+      "rule_ar": "للحافلات/الترولي باص التي تتجاوز كتلتها الإجمالية المحملة 8 أطنان على الطريق السريع.",
+      "article": "Art. 142, comma 3",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "80 km/h",
+      "category_it": "Merci oltre 3,5 t fino a 12 t, fuori abitato",
+      "category_ar": "نقل بضائع فوق 3.5 إلى 12 طنًا: خارج المناطق المأهولة",
+      "rule_it": "Autoveicoli per merci/altri usi, massa a pieno carico >3,5 t e ≤12 t, fuori abitato.",
+      "rule_ar": "لمركبات البضائع/الاستخدامات الأخرى بكتلة محملة أكثر من 3.5 وحتى 12 طنًا خارج المناطق المأهولة.",
+      "article": "Art. 142, comma 3",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "100 km/h",
+      "category_it": "Merci oltre 3,5 t fino a 12 t, autostrada",
+      "category_ar": "نقل بضائع فوق 3.5 إلى 12 طنًا: طريق سريع",
+      "rule_it": "Stessa fascia di massa, in autostrada.",
+      "rule_ar": "لفئة الكتلة نفسها على الطريق السريع.",
+      "article": "Art. 142, comma 3",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "70 km/h",
+      "category_it": "Merci oltre 12 t, fuori abitato",
+      "category_ar": "نقل بضائع فوق 12 طنًا: خارج المناطق المأهولة",
+      "rule_it": "Autoveicoli per merci/altri usi con massa a pieno carico >12 t, fuori abitato.",
+      "rule_ar": "لمركبات البضائع/الاستخدامات الأخرى التي تتجاوز 12 طنًا خارج المناطق المأهولة.",
+      "article": "Art. 142, comma 3",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "80 km/h",
+      "category_it": "Merci oltre 12 t, autostrada",
+      "category_ar": "نقل بضائع فوق 12 طنًا: طريق سريع",
+      "rule_it": "Stessa fascia di massa, in autostrada.",
+      "rule_ar": "لفئة الكتلة نفسها على الطريق السريع.",
+      "article": "Art. 142, comma 3",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "70 km/h",
+      "category_it": "Autocarri oltre 5 t adibiti a persone, fuori abitato",
+      "category_ar": "شاحنات فوق 5 أطنان مخصصة لنقل أشخاص: خارج المناطق المأهولة",
+      "rule_it": "Solo autocarri oltre 5 t usati per trasporto di persone ai sensi dell’art.82(6), fuori abitato.",
+      "rule_ar": "للشاحنات التي تتجاوز 5 أطنان والمستخدمة لنقل أشخاص وفق المادة 82(6)، خارج المناطق المأهولة.",
+      "article": "Art. 142, comma 3",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "80 km/h",
+      "category_it": "Autocarri oltre 5 t adibiti a persone, autostrada",
+      "category_ar": "شاحنات فوق 5 أطنان مخصصة لنقل أشخاص: طريق سريع",
+      "rule_it": "Stessa categoria, in autostrada.",
+      "rule_ar": "للفئة نفسها على الطريق السريع.",
+      "article": "Art. 142, comma 3",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "40 km/h",
+      "category_it": "Mezzi d’opera a pieno carico, in abitato",
+      "category_ar": "مركبات عمل بحمولة كاملة: داخل المناطق المأهولة",
+      "rule_it": "Massimo per mezzi d’opera viaggianti a pieno carico nei centri abitati.",
+      "rule_ar": "الحد لمركبات الأشغال المحملة بالكامل داخل المناطق المأهولة.",
+      "article": "Art. 142, comma 3",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "60 km/h",
+      "category_it": "Mezzi d’opera a pieno carico, fuori abitato",
+      "category_ar": "مركبات عمل بحمولة كاملة: خارج المناطق المأهولة",
+      "rule_it": "Massimo per mezzi d’opera viaggianti a pieno carico fuori dai centri abitati.",
+      "rule_ar": "الحد لمركبات الأشغال المحملة بالكامل خارج المناطق المأهولة.",
+      "article": "Art. 142, comma 3",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art142!vig="
+    },
+    {
+      "value": "0 g/l",
+      "category_it": "Tasso zero: conducenti under 21",
+      "category_ar": "نسبة كحول صفرية: السائقون دون 21 عامًا",
+      "rule_it": "Per conducenti di età inferiore a 21 anni è vietato guidare dopo aver assunto alcol; il comma 2 sanziona il valore accertato >0 e ≤0,5 g/l.",
+      "rule_ar": "لمن هم دون 21 سنة يُحظر القيادة بعد تناول الكحول؛ وتقرر الفقرة 2 عقوبة عند ثبوت نسبة أكبر من صفر وحتى 0.5 غ/ل.",
+      "article": "Art. 186-bis, commi 1(a), 2",
+      "url": "https://aci.gov.it/codice-della-strada/art-186-bis/"
+    },
+    {
+      "value": "0 g/l",
+      "category_it": "Tasso zero: primi tre anni patente B",
+      "category_ar": "نسبة كحول صفرية: أول ثلاث سنوات من رخصة B",
+      "rule_it": "Per i primi tre anni dal conseguimento della patente B vale il divieto speciale; non estenderlo a tutti i conducenti B per tutta la vita.",
+      "rule_ar": "خلال السنوات الثلاث الأولى من الحصول على رخصة B يسري الحظر الخاص؛ ولا يُعمم على جميع حاملي B طوال الوقت.",
+      "article": "Art. 186-bis, commi 1(a), 2",
+      "url": "https://aci.gov.it/codice-della-strada/art-186-bis/"
+    },
+    {
+      "value": "0 g/l",
+      "category_it": "Tasso zero: trasporto professionale e categorie veicolo enumerate",
+      "category_ar": "نسبة كحول صفرية: النقل المهني وفئات المركبات المذكورة",
+      "rule_it": "Il regime speciale riguarda le attività di trasporto e i veicoli elencati tassativamente dall’art.186-bis(1)(b)-(d).",
+      "rule_ar": "ينطبق نظام الصفر الخاص على أنشطة النقل والمركبات المعددة تحديدًا في المادة 186 مكرر، الفقرة 1(ب-د).",
+      "article": "Art. 186-bis, commi 1(b)-(d), 2",
+      "url": "https://aci.gov.it/codice-della-strada/art-186-bis/"
+    },
+    {
+      "value": ">0 e ≤0,5 g/l",
+      "category_it": "Fascia speciale: categorie art.186-bis",
+      "category_ar": "نطاق خاص: الفئات المذكورة في المادة 186 مكرر",
+      "rule_it": "Per i conducenti dell’art.186-bis(1), un valore accertato superiore a zero e non superiore a 0,5 g/l comporta la sanzione amministrativa prevista; non è la regola generale per ogni conducente.",
+      "rule_ar": "للفئات المحددة بالمادة 186 مكرر(1)، النسبة المثبتة الأكبر من صفر وحتى 0.5 غ/ل تستوجب الجزاء الإداري؛ وهذه ليست قاعدة عامة لكل السائقين.",
+      "article": "Art. 186-bis, comma 2",
+      "url": "https://aci.gov.it/codice-della-strada/art-186-bis/"
+    },
+    {
+      "value": ">0,5 e ≤0,8 g/l",
+      "category_it": "Fascia generale di ebbrezza",
+      "category_ar": "النطاق العام لنسبة الكحول",
+      "rule_it": "Art.186(2)(a): oltre 0,5 e fino a 0,8 g/l, salvo regimi speciali e conseguenze ulteriori previste dalla legge.",
+      "rule_ar": "المادة 186(2)(أ): أكثر من 0.5 وحتى 0.8 غ/ل، مع مراعاة الأنظمة الخاصة والآثار القانونية الإضافية.",
+      "article": "Art. 186, comma 2(a)",
+      "url": "https://aci.gov.it/codice-della-strada/art-186/"
+    },
+    {
+      "value": ">0,8 e ≤1,5 g/l",
+      "category_it": "Fascia penale intermedia",
+      "category_ar": "النطاق الجنائي المتوسط",
+      "rule_it": "Art.186(2)(b): oltre 0,8 e fino a 1,5 g/l.",
+      "rule_ar": "المادة 186(2)(ب): أكثر من 0.8 وحتى 1.5 غ/ل.",
+      "article": "Art. 186, comma 2(b)",
+      "url": "https://aci.gov.it/codice-della-strada/art-186/"
+    },
+    {
+      "value": ">1,5 g/l",
+      "category_it": "Fascia penale superiore",
+      "category_ar": "النطاق الجنائي الأعلى",
+      "rule_it": "Art.186(2)(c): valore superiore a 1,5 g/l; si applicano le conseguenze indicate dalla norma.",
+      "rule_ar": "المادة 186(2)(ج): نسبة تتجاوز 1.5 غ/ل؛ وتطبق الآثار المنصوص عليها.",
+      "article": "Art. 186, comma 2(c)",
+      "url": "https://aci.gov.it/codice-della-strada/art-186/"
+    },
+    {
+      "value": ">1,5 g/l",
+      "category_it": "Revoca: conducenti art.186-bis, comma 1(d)",
+      "category_ar": "سحب الرخصة: السائقون المشمولون بالمادة 186 مكرر، الفقرة 1(d)",
+      "rule_it": "Per i conducenti della sola categoria speciale del comma 1(d), l’accertamento >1,5 g/l comporta la revoca prevista, salva la clausola di rinvio all’art.186(2)(c).",
+      "rule_ar": "للسائقين في الفئة الخاصة المحددة بالفقرة 1(د)، ثبوت نسبة تتجاوز 1.5 غ/ل يستتبع سحب الرخصة وفق النص، مع مراعاة الإحالة للمادة 186(2)(ج).",
+      "article": "Art. 186-bis, comma 5",
+      "url": "https://aci.gov.it/codice-della-strada/art-186-bis/"
+    },
+    {
+      "value": "100 m",
+      "category_it": "Distanza tra veicoli con divieto di sorpasso per categorie",
+      "category_ar": "المسافة بين المركبات مع منع تجاوز فئات معينة",
+      "rule_it": "Fuori dai centri abitati, tra veicoli soggetti a divieto di sorpasso limitato ad alcune categorie; non si applica su tratti con almeno due corsie per senso.",
+      "rule_ar": "خارج المناطق المأهولة، بين مركبات يسري عليها منع تجاوز مقتصر على بعض الفئات؛ ولا تطبق على مقاطع فيها حارتان أو أكثر لكل اتجاه.",
+      "article": "Art. 149, comma 2",
+      "url": "https://aci.gov.it/codice-della-strada/art-149/"
+    },
+    {
+      "value": "20 m",
+      "category_it": "Distanza da spazzaneve/spargitrici in funzione",
+      "category_ar": "المسافة عن كاسحات الثلوج أو ناشرات المواد أثناء التشغيل",
+      "rule_it": "Distanza minima quando operano macchine sgombraneve o spargitrici; non è una distanza generale dal veicolo che precede.",
+      "rule_ar": "المسافة الدنيا عند عمل كاسحات الثلوج أو ناثرات المواد؛ وليست مسافة عامة عن المركبة الأمامية.",
+      "article": "Art. 149, comma 3",
+      "url": "https://aci.gov.it/codice-della-strada/art-149/"
+    },
+    {
+      "value": "1,5 m",
+      "category_it": "Sorpasso velocipedi: distanza laterale",
+      "category_ar": "تجاوز الدراجات الهوائية: المسافة الجانبية",
+      "rule_it": "Almeno 1,5 m ove le condizioni della strada lo consentano, insieme alla valutazione di velocità e ingombro; non autorizza sorpassi insicuri.",
+      "rule_ar": "مسافة جانبية لا تقل عن 1.5 م متى سمحت ظروف الطريق، مع مراعاة السرعة والحجم؛ ولا تبيح تجاوزًا غير آمن.",
+      "article": "Art. 148, comma 9-bis",
+      "url": "https://aci.gov.it/codice-della-strada/art-148/"
+    },
+    {
+      "value": "500 m",
+      "category_it": "Coda in autostrada: accesso corsia emergenza per uscire",
+      "category_ar": "ازدحام على الطريق السريع: استخدام حارة الطوارئ للخروج",
+      "rule_it": "In caso di ingorgo, il transito in corsia d’emergenza è consentito solo per uscire, a partire dal preavviso posto a 500 m dallo svincolo.",
+      "rule_ar": "عند الازدحام، يسمح بالسير في حارة الطوارئ للخروج فقط ابتداءً من لوحة الإنذار الواقعة على بعد 500 م من المخرج.",
+      "article": "Art. 176, comma 4",
+      "url": "https://aci.gov.it/codice-della-strada/art-176/"
+    },
+    {
+      "value": "3 ore",
+      "category_it": "Sosta di emergenza autostradale",
+      "category_ar": "التوقف الاضطراري على الطريق السريع",
+      "rule_it": "Non può protrarsi oltre tre ore; la regola riguarda la sosta d’emergenza nei casi previsti dall’articolo.",
+      "rule_ar": "لا يجوز أن تتجاوز وقفة الطوارئ ثلاث ساعات؛ وهذا خاص بوقفة الطوارئ في الحالات التي تحددها المادة.",
+      "article": "Art. 176, comma 6",
+      "url": "https://aci.gov.it/codice-della-strada/art-176/"
+    },
+    {
+      "value": "24 ore",
+      "category_it": "Sosta in pertinenze autostradali",
+      "category_ar": "الوقوف في مرافق الطريق السريع",
+      "rule_it": "Divieto di lasciare il veicolo in sosta oltre 24 ore nelle aree di servizio/parcheggio e pertinenze indicate, con eccezioni per parcheggi alberghieri o analoghe aree attrezzate.",
+      "rule_ar": "يُحظر ترك المركبة متوقفة لأكثر من 24 ساعة في مناطق الخدمة/الوقوف ومرافق الطريق المحددة، مع استثناء مواقف الفنادق أو المرافق المماثلة.",
+      "article": "Art. 175, comma 9",
+      "url": "https://aci.gov.it/codice-della-strada/art-175/"
+    }
+  ],
+  "comparisons": [
+    {
+      "term_a_it": "Fermata",
+      "term_a_ar": "التوقف المؤقت (fermata)",
+      "term_b_it": "Sosta",
+      "term_b_ar": "الوقوف/الركن لمدة (sosta)",
+      "difference_it": "La fermata è una sospensione temporanea, anche dove la sosta non è ammessa, per far salire o scendere persone o per un'esigenza brevissima; il conducente resta presente e pronto a ripartire. La sosta dura nel tempo e il conducente può allontanarsi. Non confondere entrambe con l'arresto dovuto alle esigenze della circolazione.",
+      "difference_ar": "الـfermata توقف مؤقت، حتى في موضع لا يسمح بالركن، لصعود أشخاص أو نزولهم أو لحاجة قصيرة جدًا؛ ويبقى السائق حاضرًا ومستعدًا للتحرك. أما الـsosta فتستمر مدةً ويجوز للسائق الابتعاد. ولا يُخلط أيٌّ منهما بالتوقف الذي تفرضه متطلبات حركة المرور.",
+      "example_it": "Lasci una passeggera e resti al volante, pronto a ripartire: è fermata. Parcheggi, spegni il motore e ti allontani: è sosta, se consentita.",
+      "example_ar": "تنزل راكبةً وتبقى خلف المقود مستعدًا للتحرك: هذا fermata. تركن المركبة وتطفئ المحرك وتبتعد: هذا sosta إذا كان مسموحًا.",
+      "article": "Codice della strada, art. 157, comma 1, lettere b-c",
+      "url": "https://aci.gov.it/codice-della-strada/art-157/"
+    },
+    {
+      "term_a_it": "Patente di guida",
+      "term_a_ar": "رخصة القيادة",
+      "term_b_it": "Carta di circolazione (libretto)",
+      "term_b_ar": "وثيقة تسجيل/سير المركبة (libretto)",
+      "difference_it": "La patente abilita una persona a guidare le categorie corrispondenti; la carta di circolazione riguarda il veicolo e i suoi dati. Sono documenti distinti e l'art. 180 li elenca separatamente tra quelli da avere con sé, secondo i casi.",
+      "difference_ar": "رخصة القيادة تخوّل الشخص قيادة الفئات المناسبة؛ أما carta di circolazione فتخص المركبة وبياناتها. هما وثيقتان مختلفتان، وتوردهما المادة 180 كلًّا على حدة ضمن الوثائق المطلوبة بحسب الحالة.",
+      "example_it": "Per guidare l'auto serve una patente valida per la categoria; il libretto dell'auto documenta invece quel veicolo. Una patente non sostituisce il libretto.",
+      "example_ar": "لقيادة السيارة تلزم رخصة سارية للفئة المناسبة؛ أما libretto فيوثق بيانات تلك السيارة. رخصة القيادة لا تحل محل وثيقة المركبة.",
+      "article": "Codice della strada, art. 180, comma 1, lettere a-b",
+      "url": "https://aci.gov.it/codice-della-strada/art-180/"
+    },
+    {
+      "term_a_it": "Arresto",
+      "term_a_ar": "توقف تفرضه حركة المرور (arresto)",
+      "term_b_it": "Fermata",
+      "term_b_ar": "توقف مؤقت (fermata)",
+      "difference_it": "L'arresto è l'interruzione della marcia dovuta alle esigenze della circolazione; la fermata è una sospensione temporanea per salita/discesa o un'esigenza brevissima, con conducente presente e pronto a ripartire.",
+      "difference_ar": "الـarresto انقطاع السير بسبب متطلبات حركة المرور؛ أما الـfermata فتوقف مؤقت لصعود/نزول أشخاص أو لحاجة وجيزة جدًا، مع بقاء السائق حاضرًا ومستعدًا للتحرك.",
+      "example_it": "Ti fermi perché la coda davanti è bloccata: arresto. Ti accosti brevemente per far salire una persona senza intralciare: fermata.",
+      "example_ar": "تتوقف لأن طابور السيارات أمامك متوقف: arresto. تتوقف جانبًا لحظات ليركب شخص من دون إعاقة السير: fermata.",
+      "article": "Codice della strada, art. 157, comma 1, lettere a-b",
+      "url": "https://aci.gov.it/codice-della-strada/art-157/"
+    },
+    {
+      "term_a_it": "Carreggiata",
+      "term_a_ar": "الجزء المخصص لسير المركبات (carreggiata)",
+      "term_b_it": "Corsia",
+      "term_b_ar": "حارة السير (corsia)",
+      "difference_it": "La carreggiata è la parte della strada destinata allo scorrimento dei veicoli e può comprendere una o più corsie; la corsia è una fascia longitudinale larga quanto basta per il transito di una fila di veicoli.",
+      "difference_ar": "الـcarreggiata هي الجزء من الطريق المخصص لسير المركبات وقد يضم حارة واحدة أو أكثر؛ والـcorsia شريط طولي يكفي لمرور صف واحد من المركبات.",
+      "example_it": "Su una carreggiata con due corsie, la carreggiata è l'insieme destinato ai veicoli e ciascuna corsia è una delle fasce longitudinali.",
+      "example_ar": "في carreggiata ذات حارتين، يكون الجزء المخصص للمركبات هو كامل carreggiata، وكل corsia واحدة من الحارتين الطوليتين.",
+      "article": "Codice della strada, art. 3, comma 1, definizioni 7 e 12",
+      "url": "https://aci.gov.it/codice-della-strada/art-3/"
+    },
+    {
+      "term_a_it": "Corsia di marcia",
+      "term_a_ar": "حارة سير عادية",
+      "term_b_it": "Corsia di emergenza",
+      "term_b_ar": "حارة الطوارئ",
+      "difference_it": "La corsia di marcia fa parte della carreggiata ed è normalmente delimitata dalla segnaletica orizzontale. La corsia di emergenza è adiacente alla carreggiata ed è destinata alle soste di emergenza e ai veicoli di soccorso, con movimento pedonale solo eccezionale quando ammesso.",
+      "difference_ar": "حارة السير العادية جزء من carreggiata وتحددها عادةً العلامات الأرضية. أما حارة الطوارئ فتجاور carreggiata وتخصص للتوقف الاضطراري ولمركبات الإنقاذ، ولا يُسمح فيها بحركة المشاة إلا استثنائيًا حيث تجوز.",
+      "example_it": "Continua sulla corsia di marcia; non usare la corsia di emergenza per evitare una coda: è riservata alle funzioni previste, non è una corsia ordinaria.",
+      "example_ar": "تابع في حارة السير؛ لا تستخدم حارة الطوارئ لتجاوز الازدحام، فهي مخصصة لوظائف الطوارئ وليست حارة عادية.",
+      "article": "Codice della strada, art. 3, comma 1, definizioni 15 e 16",
+      "url": "https://aci.gov.it/codice-della-strada/art-3/"
+    },
+    {
+      "term_a_it": "Corsia di accelerazione",
+      "term_a_ar": "حارة التسارع للدخول",
+      "term_b_it": "Corsia di decelerazione",
+      "term_b_ar": "حارة التباطؤ للخروج",
+      "difference_it": "La corsia di accelerazione agevola l'ingresso dei veicoli sulla carreggiata; quella di decelerazione consente di uscire dalla carreggiata senza rallentare i veicoli che proseguono.",
+      "difference_ar": "حارة التسارع تساعد المركبات على الدخول إلى طريق السير؛ وحارة التباطؤ تتيح الخروج منه من دون إبطاء المركبات التي تواصل السير.",
+      "example_it": "Per entrare in autostrada usa la corsia di accelerazione e immettiti solo in sicurezza; per uscire, raggiungi l'uscita attraverso la corsia di decelerazione.",
+      "example_ar": "عند دخول الطريق السريع استخدم حارة التسارع واندَمِج فقط بأمان؛ وعند الخروج اتبع حارة التباطؤ.",
+      "article": "Codice della strada, art. 3, comma 1, definizioni 13-14",
+      "url": "https://aci.gov.it/codice-della-strada/art-3/"
+    },
+    {
+      "term_a_it": "Velocità massima",
+      "term_a_ar": "السرعة القصوى القانونية",
+      "term_b_it": "Velocità adeguata",
+      "term_b_ar": "السرعة الملائمة للظروف",
+      "difference_it": "Il limite massimo è un tetto legale, eventualmente modificato da limiti specifici segnalati. L'art. 141 impone comunque di adeguare la velocità a veicolo, strada, traffico e visibilità e di poter arrestarsi entro il campo visivo: stare sotto il limite non rende automaticamente sicura la velocità.",
+      "difference_ar": "الحد الأقصى سقف قانوني وقد تعدله حدود خاصة معلنة بالإشارات. ومع ذلك تلزم المادة 141 بملاءمة السرعة للمركبة والطريق والمرور والرؤية والقدرة على التوقف ضمن مجال الرؤية؛ فمجرد عدم تجاوز الحد لا يجعل السرعة آمنة تلقائيًا.",
+      "example_it": "Con pioggia e visibilità ridotta, procedi più lentamente del limite indicato se serve per fermarti nello spazio visibile.",
+      "example_ar": "مع المطر وضعف الرؤية، خفف السرعة عن الحد المعلن إذا لزم الأمر لتتمكن من التوقف ضمن المسافة المرئية.",
+      "article": "Codice della strada, artt. 141, commi 1-3, e 142, comma 5",
+      "url": "https://aci.gov.it/codice-della-strada/art-142/"
+    },
+    {
+      "term_a_it": "Dare la precedenza",
+      "term_a_ar": "إعطاء الأولوية",
+      "term_b_it": "Arrestarsi e dare la precedenza",
+      "term_b_ar": "التوقف ثم إعطاء الأولوية",
+      "difference_it": "Dare la precedenza richiede di non impegnare o proseguire se ciò obbliga gli altri aventi diritto a modificare bruscamente direzione o velocità; non significa sempre fermarsi. In casi specifici la legge impone espressamente l'arresto e poi la precedenza, per esempio in determinate uscite su strada.",
+      "difference_ar": "إعطاء الأولوية يعني عدم الدخول أو المتابعة بما يضطر أصحاب الأولوية إلى تغيير اتجاههم أو سرعتهم بشدة؛ ولا يعني التوقف دائمًا. وفي حالات محددة يفرض القانون صراحةً التوقف ثم إعطاء الأولوية، مثل بعض المخارج إلى الطريق.",
+      "example_it": "A un'intersezione con obbligo di precedenza, rallenta e fermati solo se necessario per lasciare passare; all'uscita di un sentiero sulla strada, arrestati e dai la precedenza.",
+      "example_ar": "عند تقاطع يتطلب إعطاء الأولوية، خفف السرعة وتوقف إذا لزم لمرور الآخرين؛ أما عند مخرج ممر ريفي إلى الطريق فتوقف وأعطِ الأولوية.",
+      "article": "Codice della strada, art. 145, commi 2, 6 e 8",
+      "url": "https://aci.gov.it/codice-della-strada/art-145/"
+    },
+    {
+      "term_a_it": "Segnale di pericolo",
+      "term_a_ar": "إشارة تحذير من خطر",
+      "term_b_it": "Segnale di prescrizione",
+      "term_b_ar": "إشارة إلزام/حظر/تقييد",
+      "difference_it": "Il segnale di pericolo preavvisa un rischio e richiama un comportamento prudente. Il segnale di prescrizione comunica invece obblighi, divieti o limitazioni da rispettare; i segnali di precedenza sono una sottocategoria dei segnali di prescrizione, non una categoria indipendente contrapposta.",
+      "difference_ar": "إشارة الخطر تنبه مسبقًا إلى خطر وتدعو للحذر. أما إشارة الوصفة المرورية فتعلن واجبًا أو حظرًا أو قيدًا يجب اتباعه؛ وإشارات الأولوية فئة فرعية من إشارات الوصفة وليست فئة مستقلة مقابلة لها.",
+      "example_it": "Un segnale di curva pericolosa avverte di un rischio; un segnale di STOP impone una prescrizione di arresto e precedenza.",
+      "example_ar": "إشارة المنحنى الخطر تحذر من خطر؛ أما STOP فتفرض حكمًا مروريًا بالتوقف وإعطاء الأولوية.",
+      "article": "Codice della strada, art. 39, comma 1, lettere A-B",
+      "url": "https://aci.gov.it/codice-della-strada/art-39/"
+    },
+    {
+      "term_a_it": "Segnale stradale",
+      "term_a_ar": "إشارة الطريق",
+      "term_b_it": "Segnalazione dell'agente del traffico",
+      "term_b_ar": "إشارة شرطي/منظم المرور",
+      "difference_it": "Entrambi regolano la circolazione, ma le prescrizioni date dagli agenti prevalgono sulle prescrizioni della segnaletica e sulle norme di circolazione. Gli utenti devono ottemperare senza indugio alle segnalazioni dell'agente.",
+      "difference_ar": "كلاهما ينظم السير، لكن أوامر شرطي المرور تتقدم على أوامر الإشارات وعلى قواعد السير. وعلى مستخدمي الطريق الامتثال لإشارة الشرطي فورًا.",
+      "example_it": "Se il semaforo consente il passaggio ma l'agente ti fa segno di fermarti, segui l'agente e arrestati in sicurezza.",
+      "example_ar": "إذا سمحت الإشارة الضوئية بالعبور لكن شرطي المرور أشار إليك بالتوقف، فاتبع إشارته وتوقف بأمان.",
+      "article": "Codice della strada, art. 43, commi 1-2",
+      "url": "https://aci.gov.it/codice-della-strada/art-43/"
+    },
+    {
+      "term_a_it": "Cambio di corsia",
+      "term_a_ar": "تغيير الحارة",
+      "term_b_it": "Sorpasso",
+      "term_b_ar": "التجاوز",
+      "difference_it": "Il cambio di corsia è una manovra laterale: va segnalata in anticipo e compiuta senza pericolo o intralcio. Il sorpasso è la manovra con cui si supera un utente che precede sulla corsia o parte della carreggiata normalmente destinata alla circolazione; richiede ulteriori verifiche di visibilità e spazio. Possono coincidere in alcune situazioni, ma non sono sinonimi.",
+      "difference_ar": "تغيير الحارة مناورة جانبية يجب الإشارة إليها مسبقًا وتنفيذها دون خطر أو إعاقة. أما التجاوز فهو مناورة تخطي مستخدم أمامك في الحارة أو الجزء المخصص عادةً للسير، ويتطلب فحوصًا إضافية للرؤية والمسافة. قد يجتمعان في بعض الحالات لكنهما ليسا مترادفين.",
+      "example_it": "Spostarti nella corsia libera per preparare una svolta è un cambio di corsia, non necessariamente un sorpasso; superare un veicolo che precede è sorpasso e richiede spazio e visibilità sufficienti.",
+      "example_ar": "الانتقال إلى حارة خالية استعدادًا للانعطاف هو تغيير حارة وليس بالضرورة تجاوزًا؛ أما تخطي مركبة أمامك فهو تجاوز ويتطلب رؤية ومسافة كافيتين.",
+      "article": "Codice della strada, artt. 148, commi 1-2, e 154, comma 1",
+      "url": "https://aci.gov.it/codice-della-strada/art-148/"
+    },
+    {
+      "term_a_it": "Veicolo",
+      "term_a_ar": "مركبة بالمعنى القانوني",
+      "term_b_it": "Macchina in movimento non qualificata come veicolo",
+      "term_b_ar": "آلة متحركة لا تُعد مركبة قانونًا",
+      "difference_it": "Ai fini del Codice, veicolo è in generale una macchina di qualsiasi specie che circola sulla strada guidata dall'uomo, ma la definizione esclude le macchine per bambini entro i limiti regolamentari e determinati ausili medici per persone con disabilità. Non tutto ciò che si muove è quindi un veicolo giuridico.",
+      "difference_ar": "لأغراض قانون الطرق، المركبة عمومًا آلة من أي نوع تسير على الطريق ويقودها إنسان، لكن التعريف يستثني آلات الأطفال ضمن الحدود التنظيمية وبعض الوسائل الطبية المساعدة للأشخاص ذوي الإعاقة. لذلك ليست كل آلة متحركة مركبةً بالمعنى القانوني.",
+      "example_it": "Una normale auto è un veicolo; un ausilio medico per la mobilità rientrante nell'eccezione dell'art. 46 non va automaticamente trattato come veicolo ai fini del Codice.",
+      "example_ar": "السيارة العادية مركبة؛ أما وسيلة المساعدة الطبية على الحركة التي تدخل في استثناء المادة 46 فلا تُعامل تلقائيًا كمركبة لأغراض القانون.",
+      "article": "Codice della strada, art. 46, comma 1",
+      "url": "https://www.aci.it/fileadmin/cds/art-46.php"
+    },
+    {
+      "term_a_it": "Autoveicolo",
+      "term_a_ar": "مركبة آلية من فئة autoveicolo",
+      "term_b_it": "Rimorchio",
+      "term_b_ar": "مقطورة",
+      "difference_it": "Sono categorie distinte nell'art. 47: l'autoveicolo è un veicolo a motore, mentre il rimorchio è classificato separatamente. La categoria internazionale O comprende i rimorchi, inclusi i semirimorchi; questi ultimi non costituiscono una categoria autonoma rispetto ai rimorchi.",
+      "difference_ar": "هما فئتان منفصلتان في المادة 47: الـautoveicolo مركبة آلية، بينما تصنف المقطورة في فئة مستقلة. وتشمل الفئة الدولية O المقطورات وشبه المقطورات؛ وشبه المقطورة ليست فئة مستقلة عن المقطورات.",
+      "example_it": "Un'auto che traina un rimorchio è il veicolo a motore più un rimorchio; se il traino riguarda un semirimorchio, questo resta compreso nella categoria dei rimorchi.",
+      "example_ar": "السيارة التي تجر مقطورة تتكون من مركبة آلية ومقطورة؛ وإذا كانت المقطورة نصف مقطورة فهي تظل ضمن فئة المقطورات.",
+      "article": "Codice della strada, art. 47, commi 1-2, lettere g-i e categoria O",
+      "url": "https://www.aci.it/fileadmin/cds/art-47.php"
+    },
+    {
+      "term_a_it": "Cintura di sicurezza",
+      "term_a_ar": "حزام الأمان",
+      "term_b_it": "Sistema di ritenuta per bambini",
+      "term_b_ar": "نظام تثبيت الأطفال",
+      "difference_it": "La cintura è il dispositivo installato e usato dagli occupanti nei veicoli e nelle condizioni previste. Per i bambini sotto 1,50 m, l'art. 172 richiede invece un sistema di ritenuta omologato e adeguato al peso; non è corretto considerare la sola cintura adulta come equivalente in ogni caso.",
+      "difference_ar": "الحزام جهاز يستخدمه الركاب في المركبات والحالات التي تحددها المادة. أما الطفل الذي يقل طوله عن 1.50 م فيلزم له نظام تثبيت معتمد وملائم لوزنه؛ فلا يصح اعتبار حزام البالغ وحده بديلًا مكافئًا في جميع الحالات.",
+      "example_it": "Un adulto allaccia la cintura prevista per il suo posto; per un bambino sotto 1,50 m si usa il sistema omologato adatto al suo peso, secondo le regole applicabili.",
+      "example_ar": "يربط البالغ حزام المقعد المخصص له؛ أما الطفل الأقصر من 1.50 م فيستخدم نظام تثبيت معتمدًا يناسب وزنه وفق القواعد السارية.",
+      "article": "Codice della strada, art. 172, comma 1",
+      "url": "https://aci.gov.it/codice-della-strada/art-172/"
+    },
+    {
+      "term_a_it": "Copertura assicurativa R.C.A.",
+      "term_a_ar": "تغطية تأمين المسؤولية المدنية الإلزامي",
+      "term_b_it": "Certificato di assicurazione",
+      "term_b_ar": "شهادة التأمين",
+      "difference_it": "La copertura è la protezione assicurativa richiesta per la circolazione dei veicoli soggetti all'obbligo; il certificato è il documento che attesta l'assicurazione. Il possesso del documento non crea da solo una copertura valida: deve esistere una polizza efficace.",
+      "difference_ar": "التغطية هي الحماية التأمينية المطلوبة لسير المركبات الخاضعة للالتزام؛ أما الشهادة فهي وثيقة تثبت التأمين. حمل الوثيقة وحده لا ينشئ تغطية سارية، بل يجب أن تكون وثيقة التأمين نافذة.",
+      "example_it": "Tieni disponibile il certificato, ma verifica anche che la polizza RCA sia effettivamente in corso prima di circolare.",
+      "example_ar": "احتفظ بشهادة التأمين، وتحقق أيضًا من أن وثيقة RCA سارية فعليًا قبل السير.",
+      "article": "Codice della strada, artt. 180, comma 1, lettera d, e 193, comma 1",
+      "url": "https://aci.gov.it/codice-della-strada/art-193/"
+    }
+  ]
+}
